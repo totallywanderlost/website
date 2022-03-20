@@ -14,3 +14,17 @@ const map = L.map('map', {
         })
     ]
 });
+
+fetch('assets/data/journey.json').then(function (response) {
+    if (response.status !== 200) {
+        return console.error(`Unable to fetch data, response status: ${response.status}`);
+    }
+
+    response.json().then(function (data) {
+        for (const pin of data.pins) {
+            L.marker(pin.location).addTo(map);
+        }
+    });
+}).catch(function (e) {
+    console.error(e);
+})
