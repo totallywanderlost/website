@@ -24,6 +24,8 @@ fetch('assets/data/journey.json').then(function (response) {
         for (const pin of data.pins) {
             L.marker(pin.location).addTo(map);
         }
+
+        map.getContainer().classList.remove('hide');
     });
 }).catch(function (e) {
     console.error(e);
