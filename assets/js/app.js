@@ -13,12 +13,12 @@ const map = L.map('map', {
     ]
 });
 
-fetch('assets/data/journey.json').then(function (response) {
+fetch('assets/data/journey.json').then(response => {
     if (response.status !== 200) {
         return console.error(`Unable to fetch data, response status: ${response.status}`);
     }
 
-    response.json().then(function (data) {
+    response.json().then(data => {
         const locations = data.pins.map(p => p.location);
         map.fitBounds(locations);
 
@@ -28,6 +28,6 @@ fetch('assets/data/journey.json').then(function (response) {
 
         map.getContainer().classList.remove('hide');
     });
-}).catch(function (e) {
+}).catch(e => {
     console.error(e);
-})
+});
