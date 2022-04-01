@@ -1,9 +1,9 @@
 ---
 layout: blogpost
 author: James
-author_image: /assets/james/l.jpg
+author_image: /assets/img/james/l.jpg
 location: Plague Island, Covidville
-featured_image: /assets/home/bluelagoon.jpeg
+featured_image: /assets/img/home/bluelagoon.jpeg
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Leo integer malesuada nunc vel risus commodo viverra. Nulla facilisi nullam vehicula ipsum a arcu cursus. Velit ut tortor pretium viverra. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Massa vitae tortor condimentum lacinia quis vel. Id neque aliquam vestibulum morbi blandit cursus. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Quis ipsum suspendisse ultrices gravida dictum. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Volutpat ac tincidunt vitae semper quis lectus nulla at. Rhoncus mattis rhoncus urna neque viverra. Eget dolor morbi non arcu risus quis varius quam. Diam volutpat commodo sed egestas. Sit amet consectetur adipiscing elit duis. At elementum eu facilisis sed odio morbi quis.
 ---
 

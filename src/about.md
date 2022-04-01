@@ -1,11 +1,11 @@
 ---
 layout: default
 title: About Us
-image_1: assets/us/us1.jpeg
-image_2: assets/us/us2.jpeg
-image_3: assets/us/us3.jpeg
-image_4: assets/us/us4.jpeg
-image_5: assets/us/us5.jpeg
+image_1: assets/img/us/us1.jpeg
+image_2: assets/img/us/us2.jpeg
+image_3: assets/img/us/us3.jpeg
+image_4: assets/img/us/us4.jpeg
+image_5: assets/img/us/us5.jpeg
 ---
 
 # About Us

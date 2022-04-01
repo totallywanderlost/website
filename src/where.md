@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-![World Map](assets/world-map.gif)
+![World Map](assets/img/world-map.gif)

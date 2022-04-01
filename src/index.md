@@ -1,10 +1,10 @@
 ---
 layout: default
-image_1: "/assets/home/bluelagoon.jpeg"
+image_1: "/assets/img/home/bluelagoon.jpeg"
 image_1_caption: "The Blue Lagoon, Malta - April 2018"
-image_2: "/assets/home/monchique.jpeg"
+image_2: "/assets/img/home/monchique.jpeg"
 image_2_caption: "Monchique, Portugal - September 2020"
-image_3: "/assets/home/brighton.jpeg"
+image_3: "/assets/img/home/brighton.jpeg"
 image_3_caption: "Brighton Beach, Australia - October 2019"
 ---
 
@@ -12,17 +12,17 @@ image_3_caption: "Brighton Beach, Australia - October 2019"
 <div>
   <!-- Full-width images with caption text -->
   <div class="mySlides fade" style="width:100vw; height:100vh;">
-    <img class="photo" src="/assets/home/bluelagoon.jpeg" style="width:100%;height:100%">
+    <img class="photo" src="/assets/img/home/bluelagoon.jpeg" style="width:100%;height:100%">
     <div class="captiontext">{{ page.image_1_caption }}</div>
   </div>
 
   <div class="mySlides fade" style="width:100vw; height:100vh;">
-    <img class="photo" src="/assets/home/monchique.jpeg" style="width:100%;height:100%">
+    <img class="photo" src="/assets/img/home/monchique.jpeg" style="width:100%;height:100%">
     <div class="captiontext">{{ page.image_2_caption }}</div>
   </div>
 
   <div class="mySlides fade" style="width:100vw; height:100vh;">
-    <img class="photo" src="/assets/home/brighton.jpeg" style="width:100%;height:100%">
+    <img class="photo" src="/assets/img/home/brighton.jpeg" style="width:100%;height:100%">
     <div class="captiontext">{{ page.image_3_caption }}</div>
   </div>
 </div>
