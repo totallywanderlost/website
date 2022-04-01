@@ -4,3 +4,4 @@ email: "nicolejkay@gmail.com"
 instagram: "https://instagram.com/totallywanderlost"
 github: "https://github.com/totallywanderlost"
 copyright_name: "Nicole Kay & James White"
+exclude: [Makefile, README.md]
