@@ -1,6 +1,5 @@
 source: src
 destination: build
-exclude: [Makefile, README.md]
 
 title: "Totally Wanderlost"
 description: "Nicole and James travel the world"
