@@ -5,7 +5,7 @@ title: Blog
 
 <h1>Latest Posts</h1>
 
-<ul class="list">
+<ul class="posts">
   {% for post in site.posts %}
     <li>
           <h3 class="contents"><a href="{{ post.url }}">{{ post.title }}</a></h3>
