@@ -1,9 +1,9 @@
 ---
 layout: blogpost
 author: Nicole
-author_image: /assets/nicole/l.jpg
+author_image: /assets/img/nicole/l.jpg
 location: London, England
-featured_image: /assets/posts/sydney2017.jpeg
+featured_image: /assets/img/posts/sydney2017.jpeg
 summary: Here we go! Notices have been handed in, plans are being made, and belongings are being sold. But what are our plans? To be honest, we're not entirely sure, but we'll tell you what we do know! And it's full steam ahead getting ready to head to our first stop - Australia.
 ---
 
