@@ -47,10 +47,15 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 /* container */
-section.container {
+.container {
   height: 100%;
   margin: 0 auto;
   max-width: 960px;
+}
+
+.full-width {
+  width: 100%;
+  max-width: 100%;
 }
 
 /*images*/
@@ -150,4 +155,14 @@ section.container {
   height:200px;
   object-fit:cover;
   float:right;
+}
+
+/* Map */
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.hide {
+  opacity: 0;
 }
