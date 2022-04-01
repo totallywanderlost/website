@@ -1,3 +1,5 @@
+.PHONY: build
+
 port ?= 8080
 
 setup:
