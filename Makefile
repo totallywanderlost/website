@@ -9,4 +9,4 @@ build:
 	@bundle exec jekyll build
 
 run:
-	@python -m http.server --bind 127.0.0.1 $(port)
+	@bundle exec jekyll serve -P $(port)
