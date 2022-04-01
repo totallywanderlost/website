@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 author: Nicole
-author_image: /assets/Nicole.jpeg
+author_image: /assets/nicole.jpeg
 location: London, England
 featured_image: /assets/home/monchique.jpeg
 summary: Welcome to our first blog post. We hope you enjoy it and find it interesting!
