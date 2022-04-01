@@ -2,16 +2,13 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
-<p>{{ page.date | date_to_string }} - {{page.location}}</p>
-<p class="center">
-    {% if page.author_image %}
-    <img src="{{ page.author_image }}" alt="" class="circlephoto">
-    {% endif %}
-    &nbsp&nbsp{{ page.author }}
+<h1>{{ page.title }}</h1>
+
+<p>
+  <img src="{{ page.author_image }}" class="circlephoto">
+  {{ page.author }} on {{ page.date | date_to_string }} in {{ page.location }}
 </p>
 
-{% if page.featured_image %}
-<img src="{{ page.featured_image }}" alt="" class="featuredphoto">
-{% endif %}
+{% if page.featured_image %}<img src="{{ page.featured_image }}" alt="" class="featuredphoto">{% endif %}
+
 {{ content }}

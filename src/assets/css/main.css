@@ -28,6 +28,23 @@ body,h1,h2,h3,h4,h5,h6 {
   padding: 0;
 }
 
+.posts li {
+  margin-bottom: 50px;
+}
+
+.post-list-summary {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-list-summary > img {
+  margin-right: 25px;
+}
+
+.post-list-summary p {
+  margin: 0;
+}
+
 .navigation, .footer {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -155,7 +172,6 @@ body,h1,h2,h3,h4,h5,h6 {
   width:200px;
   height:200px;
   object-fit:cover;
-  float:right;
 }
 
 /* Map */

@@ -8,12 +8,14 @@ title: Blog
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-          <h3 class="contents"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p>{{ post.date | date_to_string }} {{post.author}}</p>
-          <div style="height:300px;">
-            <img src="{{ post.featured_image }}" alt="" class="featuredphoto_sq">
-            <p style="height:300px;">{{post.summary}}</p>
+      <h3 class="contents"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="post-list-summary">
+        <img src="{{ post.featured_image }}" alt="" class="featuredphoto_sq">
+        <div>
+          <img src="{{ post.author_image }}" class="circlephoto">{{ post.author }} on {{ post.date | date_to_string }} in {{ post.location }}
+          <p>{{post.summary}}</p>
         </div>
-      </li>
+      </div>
+    </li>
   {% endfor %}
 </ul>
