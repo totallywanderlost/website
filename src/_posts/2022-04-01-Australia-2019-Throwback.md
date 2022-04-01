@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 author: Nicole
-author_image: /assets/nicole.jpeg
+author_image: /assets/nicole/l.jpg
 location: Brighton Beach, Adelaide, Australia
 featured_image: /assets/home/brighton.jpeg
 summary: This week we have been reminscing on Nicole's trip to Adelaide in 2019.
