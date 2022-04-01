@@ -1,5 +1,6 @@
 ---
 layout: default
+width: full
 image_1: "/assets/img/home/bluelagoon.jpeg"
 image_1_caption: "The Blue Lagoon, Malta - April 2018"
 image_2: "/assets/img/home/monchique.jpeg"

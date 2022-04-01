@@ -17,7 +17,7 @@
 
 <body>
     {% include navigation.html %}
-    <section class="container{% if page.type =="map" %} full-width{% endif %}">
+    <section class="container{% if page.width == "full" %} full-width{% endif %}">
       {{ content }}
     </section>
     {% include footer.html %}
