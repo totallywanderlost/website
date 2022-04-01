@@ -1,9 +1,7 @@
 body {
     background-color: whitesmoke;
-    padding-left: 5px;
-    padding-right: 5px;
     padding-top: 58px;
-    min-height: 100%;
+    min-height: 100vh;
   }
  
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; text-align: center }
@@ -17,6 +15,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; text-align: center }
   box-shadow: 0 2px 4px -4px rgba(0,0,0,.3);
   z-index: 1;
 }
+.list{list-style-type:none;}
 
 .navigation, .footer {
   padding-top: 10px;
@@ -41,6 +40,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; text-align: center }
 .photo {
   object-fit: cover;
 }
+
+.circlephoto{
+  width:30px;
+  height:30px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.featuredphoto{
+  width:50vw;
+  object-fit:cover;
+}
+
+
 /* footer */
 .footer {
     width: 100%;
@@ -70,6 +83,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; text-align: center }
     padding: 6px;
 }
 
+/*blog contents page*/
+.contents{
+  text-align:left
+}
+
 * {box-sizing:border-box}
 
 
@@ -84,8 +102,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; text-align: center }
   color: black;
   font-size: 10px;
   padding: 4px 12px;
-  position: absolute;
-  bottom: -4px;
+  position: static;
+  bottom: -12px;
   width: 100%;
   text-align: center;
 }
@@ -99,4 +117,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; text-align: center }
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*blog index page*/
+
+.featuredphoto_sq{
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  float:right;
 }

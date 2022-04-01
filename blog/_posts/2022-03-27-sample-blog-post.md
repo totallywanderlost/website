@@ -1,10 +1,13 @@
 ---
 layout: blogpost
 author: Nicole
+author_image: /assets/Nicole.jpeg
+location: London, England
+featured_image: /assets/home/monchique.jpeg
+summary: Welcome to our first blog post. We hope you enjoy it and find it interesting!
 ---
 
-## Sample H2
-
+## Test Blog Heading
 
 **Hello world**, this is my first Jekyll blog post.
 
