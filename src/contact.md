@@ -1,7 +1,9 @@
 ---
-layout: mainpage
+layout: default
 title: Contact Us
 ---
+
+# Contact Us
 
 ### We would love to hear from you!
 

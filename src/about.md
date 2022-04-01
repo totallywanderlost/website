@@ -1,5 +1,5 @@
 ---
-layout: mainpage
+layout: default
 title: About Us
 image_1: assets/us/us1.jpeg
 image_2: assets/us/us2.jpeg
@@ -7,6 +7,8 @@ image_3: assets/us/us3.jpeg
 image_4: assets/us/us4.jpeg
 image_5: assets/us/us5.jpeg
 ---
+
+# About Us
 
 {:style="text-align:center;"}
 ![Nicole and James 1]({{page.image_1}}){:height="200px" width="200px" class="photo"}

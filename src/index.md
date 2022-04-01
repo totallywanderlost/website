@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Totally Wanderlost
 image_1: "/assets/home/bluelagoon.jpeg"
 image_1_caption: "The Blue Lagoon, Malta - April 2018"
 image_2: "/assets/home/monchique.jpeg"
