@@ -1,5 +1,17 @@
 # 🗺 Totally Wanderlost
 
+## Requirements
+
+- [asdf](https://asdf-vm.com)
+
+## Setup
+
+    $ make setup
+
+## Build
+
+    $ make build
+
 ## Running Locally
 
     $ make run
