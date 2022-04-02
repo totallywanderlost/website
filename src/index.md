@@ -12,17 +12,17 @@ image_3_caption: "Brighton Beach, Australia - October 2019"
 <!-- Slideshow container -->
 <div>
   <!-- Full-width images with caption text -->
-  <div class="mySlides fade" style="width:100vw; height:100vh;">
+  <div class="mySlides fade">
     <img class="photo" src="/assets/img/home/bluelagoon.jpeg" style="width:100%;height:100%">
     <div class="captiontext">{{ page.image_1_caption }}</div>
   </div>
 
-  <div class="mySlides fade" style="width:100vw; height:100vh;">
+  <div class="mySlides fade">
     <img class="photo" src="/assets/img/home/monchique.jpeg" style="width:100%;height:100%">
     <div class="captiontext">{{ page.image_2_caption }}</div>
   </div>
 
-  <div class="mySlides fade" style="width:100vw; height:100vh;">
+  <div class="mySlides fade">
     <img class="photo" src="/assets/img/home/brighton.jpeg" style="width:100%;height:100%">
     <div class="captiontext">{{ page.image_3_caption }}</div>
   </div>
