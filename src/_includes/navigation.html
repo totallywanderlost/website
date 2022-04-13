@@ -1,0 +1,48 @@
+<!-- Navbar (sit on top) -->
+
+<div class=navigation id="myNavbar">
+  <div class="navcontainer">
+    <a href=/index.html class="logo menubutton">{{ site.title | upcase}}</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-hide-small floatright">
+    <a href=/about.html class="menubutton"><i class="fa fa-question"></i> ABOUT US &nbsp;</a>
+    <a href=/where.html class="menubutton"><i class="fa fa-map-pin"></i> WHERE ARE WE? &nbsp;</a>
+    <a href=/blog.html class="menubutton"><i class="fa fa-pencil"></i> BLOG &nbsp;</a>
+    <a href=/contact.html class="menubutton"><i class="fa fa-envelope"></i> CONTACT US &nbsp;</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="floatright menubutton w3-bar-item w3-hide-large w3-hide-medium" onclick="open_sidebar()">
+    <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-top w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="close_sidebar()" class="menubutton w3-bar-item w3-large w3-padding-16">Close ×</a>
+    <a href=/about.html onclick="close_sidebar()" class="menubutton w3-bar-item"> ABOUT US </a>
+    <a href=/where.html onclick="close_sidebar()" class="menubutton w3-bar-item"> WHERE ARE WE? </a>
+    <a href=/blog.html onclick="close_sidebar()" class="menubutton w3-bar-item"> BLOG </</a>
+    <a href=/contact.html onclick="close_sidebar()" class="menubutton w3-bar-item"> CONTACT US </a>
+  </nav>
+
+  <script>
+    
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function open_sidebar() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+    
+    // Close the sidebar with the close button
+    function close_sidebar() {
+        mySidebar.style.display = "none";
+    }
+    </script>
