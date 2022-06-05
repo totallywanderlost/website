@@ -26,3 +26,6 @@ jobs:
           git add src/assets/data
           git diff-index --quiet HEAD src/assets/data || git commit -m "Updated src/assets/data"
           git push
+      - name: Deploy
+        # TODO: only run if we committed changes
+        run: gh workflow run website.yml
