@@ -184,13 +184,3 @@ h6 {
   height: 200px;
   object-fit: cover;
 }
-
-/* Map */
-#map {
-  height: 100%;
-  width: 100%;
-}
-
-.hide {
-  opacity: 0;
-}
