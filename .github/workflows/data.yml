@@ -31,3 +31,5 @@ jobs:
       - name: Deploy
         # TODO: only run if we committed changes
         run: gh workflow run website.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
