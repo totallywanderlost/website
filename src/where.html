@@ -1,42 +1,43 @@
 ---
 layout: default
 title: Where are we?
-type: map
-width: full
+header: false
+container: false
+footer: false
 ---
 <div id="map" class="hide"></div>
 
 <script defer src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 <script>
-window.addEventListener('DOMContentLoaded', () => {
-    const map = L.map('map', {
-        zoomControl: false,
-        scrollWheelZoom: false,
-        doubleClickZoom: false,
-        layers: [
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            })
-        ]
-    });
+    window.addEventListener('DOMContentLoaded', () => {
+        const map = L.map('map', {
+            zoomControl: false,
+            scrollWheelZoom: false,
+            doubleClickZoom: false,
+            layers: [
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                })
+            ]
+        });
 
-    fetch('/assets/data/journey.json').then(response => {
-        if (response.status !== 200) {
-            return console.error(`Unable to fetch data, response status: ${response.status}`);
-        }
-
-        response.json().then(data => {
-            const locations = data.pins.map(p => p.location);
-            map.fitBounds(locations);
-
-            for (const pin of data.pins) {
-                L.marker(pin.location).addTo(map);
+        fetch('/assets/data/journey.json').then(response => {
+            if (response.status !== 200) {
+                return console.error(`Unable to fetch data, response status: ${response.status}`);
             }
 
-            map.getContainer().classList.remove('hide');
+            response.json().then(data => {
+                const locations = data.pins.map(p => p.location);
+                map.fitBounds(locations);
+
+                for (const pin of data.pins) {
+                    L.marker(pin.location).addTo(map);
+                }
+
+                map.getContainer().classList.remove('hide');
+            });
+        }).catch(e => {
+            console.error(e);
         });
-    }).catch(e => {
-        console.error(e);
     });
-});
 </script>
