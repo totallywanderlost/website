@@ -1,0 +1,16 @@
+name: data
+
+on: [push, pull_request]
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          cache: pipenv
+      - run: pipenv install --deploy
+      - run: make fetch trip=5032179 path=src/assets/data/journey.json
