@@ -6,15 +6,15 @@
 
 ## Setup
 
-    $ make setup
+    make setup
 
 ## Build
 
-    $ make build
+    make build
 
 ## Running Locally
 
-    $ make run
+    make run
 
 The site will be visible at [localhost:8080](http://localhost:8080)
 

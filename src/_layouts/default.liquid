@@ -17,8 +17,8 @@
 </head>
 
 <body>
-  {% unless page.header == false %}{% include navigation.html %}{% endunless %}
+  {% unless page.header == false %}{% include navigation.liquid %}{% endunless %}
     {% unless page.container == false %}<section class="container{% if page.width == "full" %} full-width{% endif %}">{% endunless %}
       {{ content }}
     {% unless page.container == false %}</section>{% endunless %}
-  {% unless page.header == false %}{% include footer.html %}{% endunless %}
+  {% unless page.header == false %}{% include footer.liquid %}{% endunless %}
