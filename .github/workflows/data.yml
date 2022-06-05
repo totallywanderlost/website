@@ -12,5 +12,5 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           cache: pipenv
-      - run: pipenv install --deploy
+      - run: make setup_pipenv
       - run: make fetch trip=5032179 path=src/assets/data/journey.json

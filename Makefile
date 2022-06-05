@@ -4,8 +4,14 @@ port ?= 8080
 
 setup:
 	asdf install
+	$(MAKE) setup_bundle
+	$(MAKE) setup_pipenv
+
+setup_bundle:
 	gem install bundler:2.3.9
 	bundle
+
+setup_pipenv:
 	pip install "pipenv==2022.3.28"
 	pipenv install --deploy
 
