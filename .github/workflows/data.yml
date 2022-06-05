@@ -13,4 +13,4 @@ jobs:
         with:
           cache: pipenv
       - run: make setup_pipenv
-      - run: make fetch trip=5032179 path=src/assets/data/journey.json
+      - run: make fetch trip=5032179 file=src/assets/data/journey.json
