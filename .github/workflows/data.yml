@@ -13,6 +13,8 @@ jobs:
       actions: write
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - uses: actions/setup-python@v3
         with:
           cache: pipenv
@@ -23,12 +25,6 @@ jobs:
       - name: Commit Changes
         run: |
           git config user.name "🤖"
-          git config user.email "dev.jameswhite@gmail.com"
-          git add src/assets/data
-          git diff-index --quiet HEAD src/assets/data || git commit -m "Updated src/assets/data"
+          git add src/assets/data/journey.json
+          git diff-index --quiet HEAD src/assets/data/journey.json || git commit -m "Update journey.json"
           git push
-      - name: Deploy
-        # TODO: only run if we committed changes
-        run: gh workflow run website.yml --ref $GITHUB_REF_NAME
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
