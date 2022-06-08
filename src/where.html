@@ -18,12 +18,8 @@ title: Where are we?
             ]
         });
 
-        fetch('/assets/data/journey.json').then(response => {
-            if (response.status !== 200) {
-                return console.error(`Unable to fetch data, response status: ${response.status}`);
-            }
+        const data = {% include data/journey.json %};
 
-            response.json().then(data => {
                 const locations = data.pins.map(p => p.location);
                 map.fitBounds(locations);
 
@@ -33,8 +29,4 @@ title: Where are we?
 
                 map.getContainer().classList.remove('hide');
             });
-        }).catch(e => {
-            console.error(e);
-        });
-    });
 </script>
