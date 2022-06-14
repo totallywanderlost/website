@@ -2,6 +2,7 @@
 
 ## Requirements
 
+- [brew](https://brew.sh)
 - [asdf](https://asdf-vm.com)
 
 ## Setup
