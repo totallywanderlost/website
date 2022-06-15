@@ -19,7 +19,7 @@ fetch:
 	@pipenv run python data/fetch.py -t $(trip) -f $(file)
 
 build:
-	@bundle exec jekyll build
+	@JEKYLL_ENV=production bundle exec jekyll build
 
 run:
-	@bundle exec jekyll serve -P $(port)
+	@JEKYLL_ENV=production bundle exec jekyll serve -P $(port)
