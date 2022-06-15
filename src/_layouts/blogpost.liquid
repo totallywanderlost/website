@@ -5,10 +5,10 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <p>
-  <img src="{{ page.author_image }}" class="circlephoto">
+  <img src="{{ page.author_image }}" class="author-image">
   {{ page.author }} on {{ page.date | date_to_string }} in {{ page.location }}
 </p>
 
-{% if page.featured_image %}<img src="{{ page.featured_image }}" alt="" class="featuredphoto">{% endif %}
+{% if page.featured_image %}<img src="{{ page.featured_image }}" class="featured-photo">{% endif %}
 
 {{ content }}

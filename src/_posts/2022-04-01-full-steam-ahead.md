@@ -1,4 +1,5 @@
 ---
+title: Full Steam Ahead!
 layout: blogpost
 author: Nicole
 author_image: /assets/img/nicole/l.jpg
