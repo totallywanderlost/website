@@ -1,9 +1,11 @@
 ---
-layout: map
 title: Where are we?
+layout: default
+width: full
 ---
-<div id="map" class="hide"></div>
+<div id="map" class="full hide"></div>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
@@ -11,6 +13,7 @@ title: Where are we?
             zoomControl: false,
             scrollWheelZoom: false,
             doubleClickZoom: false,
+            dragging: false,
             layers: [
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -20,13 +23,13 @@ title: Where are we?
 
         const data = {% include data/journey.json %};
 
-                const locations = data.pins.map(p => p.location);
-                map.fitBounds(locations);
+        const locations = data.pins.map(p => p.location);
+        map.fitBounds(locations);
 
-                for (const pin of data.pins) {
-                    L.marker(pin.location).addTo(map);
-                }
+        for (const pin of data.pins) {
+            L.marker(pin.location).addTo(map);
+        }
 
-                map.getContainer().classList.remove('hide');
-            });
+        map.getContainer().classList.remove('hide');
+    });
 </script>
