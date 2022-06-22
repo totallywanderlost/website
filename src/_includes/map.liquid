@@ -19,7 +19,7 @@
         const data = {% include data/journey.json %};
 
         const locations = data.pins.map(p => p.location);
-        map.fitBounds(locations);
+        map.fitBounds(locations, { maxZoom: 5 });
 
         for (const pin of data.pins) {
             L.marker(pin.location).addTo(map);
