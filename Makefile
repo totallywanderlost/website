@@ -4,6 +4,8 @@ port ?= 8080
 
 setup:
 	asdf install
+	asdf plugin add ruby
+	asdf plugin add python
 	$(MAKE) setup_bundle
 	$(MAKE) setup_pipenv
 
