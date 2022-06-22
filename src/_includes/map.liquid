@@ -5,10 +5,10 @@
 <script>
     window.addEventListener('DOMContentLoaded', () => {
         const map = L.map('map', {
-            zoomControl: false,
-            scrollWheelZoom: false,
-            doubleClickZoom: false,
-            dragging: false,
+            zoomControl: {{ include.interactive }},
+            scrollWheelZoom: {{ include.interactive }},
+            doubleClickZoom: {{ include.interactive }},
+            dragging: {{ include.interactive }},
             layers: [
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
