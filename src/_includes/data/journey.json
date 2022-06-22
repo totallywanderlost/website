@@ -1,12 +1,14 @@
 {
     "pins": [
         {
+            "name": "Adelaide",
             "location": [
                 -34.9281805,
                 138.5999312
             ]
         },
         {
+            "name": "Sydney",
             "location": [
                 -33.8548157,
                 151.2164539

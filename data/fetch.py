@@ -14,7 +14,13 @@ def get_pins(trip_id):
     data = fetch(trip_id)
     steps = data['all_steps']
 
-    return [ { 'location': [s['location']['lat'], s['location']['lon']] } for s in steps]
+    return [ get_pin(step) for step in steps]
+
+def get_pin(step):
+    return {
+        'name': step['location']['name'],
+        'location': [step['location']['lat'], step['location']['lon']]
+    }
 
 def update_data_file(trip_id, path):
     data = {}
