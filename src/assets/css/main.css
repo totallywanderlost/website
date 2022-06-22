@@ -104,6 +104,14 @@ header nav a {
   margin-bottom: 50px;
 }
 
+.posts a:link {
+  color: black;
+}
+
+.posts a:visited {
+  color: dimgray;
+  }
+
 .post-list-summary {
   display: flex;
   flex-direction: row;
