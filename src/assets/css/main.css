@@ -58,11 +58,15 @@ body {
   }
 }
 
-#header a,
+#header a:link,
 #header a:visited {
-  font-weight: 300;
   color: black;
+  font-weight: 300;
   text-decoration: none;
+}
+
+#header a:hover {
+  text-decoration: underline;
 }
 
 #header nav {
