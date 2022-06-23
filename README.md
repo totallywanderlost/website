@@ -20,15 +20,13 @@ This will build the site and store the output in the `build/` directory.
 
 ## Running Locally
 
-This will build and serve the site on <http://localhost:8080>.
+This will build and serve the site on [localhost:8080](http://localhost:8080):
 
     make run
 
 You can override the port if required:
 
     make run port=1337
-
-The site will be visible at [localhost:8080](http://localhost:8080)
 
 ## Deployments
 
