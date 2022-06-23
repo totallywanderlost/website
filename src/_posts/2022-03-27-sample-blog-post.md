@@ -2,7 +2,6 @@
 layout: post
 author: Nicole
 location: London, England
-featured_image: /assets/img/home/monchique.jpeg
 summary: Welcome to our first blog post. We hope you enjoy it and find it interesting!
 ---
 

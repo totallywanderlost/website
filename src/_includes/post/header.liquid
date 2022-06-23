@@ -5,7 +5,9 @@
     <img src="https://ik.imagekit.io/totallywanderlost/tr:w-30,h-30/avatars/{{ include.post.author | downcase }}" class="author-image">By {{ include.post.author }} on {{ include.post.date | date_to_string }}
   </p>
 
+  {% if include.post.featured_image %}
   <a href="{{ include.post.url }}">
     <img class="featured-image" src="{{ include.post.featured_image }}">
   </a>
+  {% endif %}
 </header>
