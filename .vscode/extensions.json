@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "oderwat.indent-rainbow",
+        "sissel.shopify-liquid",
+        "davidanson.vscode-markdownlint",
+        "ms-python.python",
+        "redhat.vscode-yaml"
+    ]
+}
