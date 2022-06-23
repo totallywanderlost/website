@@ -140,6 +140,10 @@ header nav a {
   border-top: 1px solid #eee;
 }
 
+#footer a {
+  color: black;
+}
+
 #footer .container {
   display: flex;
   justify-content: space-between;
