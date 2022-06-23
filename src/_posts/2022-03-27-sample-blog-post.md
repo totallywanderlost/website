@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: post
 author: Nicole
 author_image: /assets/img/nicole/l.jpg
 location: London, England

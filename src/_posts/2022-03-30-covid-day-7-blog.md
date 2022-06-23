@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: post
 author: James
 author_image: /assets/img/james/l.jpg
 location: Plague Island, Covidville
