@@ -1,0 +1,11 @@
+<header>
+  <h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
+
+  <p class="post-author">
+    <img src="{{ include.post.author_image }}" class="author-image">By {{ include.post.author }} on {{ include.post.date | date_to_string }}
+  </p>
+
+  <a href="{{ include.post.url }}">
+    <img class="featured-image" src="{{ include.post.featured_image }}">
+  </a>
+</header>

@@ -21,8 +21,8 @@ body {
 }
 
 /**
-  * Page header and navigation
-  */
+ * Page header and navigation
+ */
 #header {
   background: white;
   position: sticky;
@@ -82,8 +82,13 @@ header nav a {
 }
 
 /**
-  * Content
-  */
+ * Content
+ */
+
+#content a:link {
+  color: black;
+}
+
 #content {
   flex-grow: 1;
 }
@@ -93,9 +98,8 @@ header nav a {
 }
 
 /**
-  * Blog Posts
-  */
-
+ * Blog Posts
+ */
 .posts {
   list-style-type: none;
   padding: 0;
@@ -105,45 +109,27 @@ header nav a {
   margin-bottom: 50px;
 }
 
-.posts a:link {
-  color: black;
+.post header h1 {
+  font-size: 32px;
 }
 
-.posts a:visited {
-  color: dimgray;
-  }
-
-.post-list-summary {
-  display: flex;
-  flex-direction: row;
-}
-
-.post-list-summary>img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin-right: 25px;
-}
-
-.post-list-summary p {
-  margin: 0;
-}
-
-.author-image {
+.post-author img {
+  vertical-align: bottom;
+  margin-right: 10px;
   width: 30px;
   height: 30px;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.featured-photo {
+.featured-image {
   width: 100%;
   object-fit: cover;
 }
 
 /**
-  * Footer
-  */
+ * Footer
+ */
 #footer {
   background-color: white;
   padding: 20px 0;
@@ -156,8 +142,8 @@ header nav a {
 }
 
 /**
-  * Common utility classes
-  */
+ * Common utility classes
+ */
 .container {
   width: 960px;
   max-width: 100%;
