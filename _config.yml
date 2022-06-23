@@ -3,12 +3,15 @@ destination: build
 
 title: "Totally Wanderlost"
 description: "Nicole and James travel the world"
+permalink: /blog/:slug
+
 instagram: "https://instagram.com/totallywanderlost"
 github: "https://github.com/totallywanderlost"
 copyright_name: "Nicole Kay & James White"
 
 plugins:
   - jekyll-minifier
+  - jekyll-sitemap
 
 jekyll-minifier:
   remove_intertag_spaces: true
