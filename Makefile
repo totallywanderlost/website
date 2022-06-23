@@ -3,9 +3,10 @@
 port ?= 8080
 
 setup:
+	brew install asdf
 	asdf install
-	asdf plugin add ruby
-	asdf plugin add python
+	asdf plugin list | grep ruby || asdf plugin add ruby
+	asdf plugin list | grep python || asdf plugin add python
 	$(MAKE) setup_bundle
 	$(MAKE) setup_pipenv
 
