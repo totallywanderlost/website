@@ -26,7 +26,7 @@ body {
   background: white;
   position: sticky;
   top: 0;
-  padding: 15px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  row-gap: 15px;
+  row-gap: 20px;
 }
 
 @media (min-width: 768px) {
@@ -68,7 +68,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 
 header nav a {
@@ -145,7 +145,7 @@ header nav a {
   */
 #footer {
   background-color: white;
-  padding: 15px 0;
+  padding: 20px 0;
   border-top: 1px solid #eee;
 }
 
