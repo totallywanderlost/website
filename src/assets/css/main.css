@@ -36,12 +36,14 @@ h1 {
   }
 }
 
-h2 h3 {
-  font-size: 20px;
+h2, h3 {
+  font-size: 22px;
+  font-weight: normal;
 }
 
 p {
   font-size: 14px;
+  font-weight: normal;
 }
 
 /**
