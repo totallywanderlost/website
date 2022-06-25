@@ -25,4 +25,4 @@ build:
 	@JEKYLL_ENV=production bundle exec jekyll build
 
 run:
-	@JEKYLL_ENV=production bundle exec jekyll serve -P $(port)
+	@JEKYLL_ENV=production bundle exec jekyll serve --livereload -P $(port)
