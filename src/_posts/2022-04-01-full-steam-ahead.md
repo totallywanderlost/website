@@ -3,7 +3,7 @@ title: Full Steam Ahead!
 layout: post
 author: Nicole
 location: London, England
-featured_image: https://ik.imagekit.io/totallywanderlost/blog/full-steam-ahead/featured?tr=w-960,h-300
+featured_image: blog/full-steam-ahead/featured
 summary: Here we go! Notices have been handed in, plans are being made, and belongings are being sold. But what are our plans? To be honest, we're not entirely sure, but we'll tell you what we do know! And it's full steam ahead getting ready to head to our first stop - Australia.
 ---
 
