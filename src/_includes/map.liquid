@@ -21,8 +21,15 @@
         const locations = data.pins.map(p => p.location);
         map.fitBounds(locations, { maxZoom: 5 });
 
-        for (const pin of data.pins) {
-            L.marker(pin.location, { title: pin.name }).addTo(map).bindTooltip(pin.name);
+        for (const [index, pin] of data.pins.entries()) {
+            const marker = L.marker(pin.location, { title: pin.name }).addTo(map);
+
+            marker.bindTooltip(pin.name);
+
+            if (index === data.pins.length - 1) {
+              marker.bindPopup(`<b>Current Location:</b> ${pin.name}`);
+              marker.openPopup();
+            }
         }
 
         map.getContainer().classList.remove('hide');
