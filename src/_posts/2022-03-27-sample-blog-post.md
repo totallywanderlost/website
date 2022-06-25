@@ -2,7 +2,7 @@
 layout: post
 author: Nicole
 location: London, England
-featured_image: https://ik.imagekit.io/totallywanderlost/tr:w-960,h-300,fo-middle/blog/sample-blog-post/pig-hotel-view
+featured_image: https://ik.imagekit.io/totallywanderlost/blog/sample-blog-post/pig-hotel-view?tr=w-960,h-300,fo-middle
 summary: Welcome to our first blog post. We hope you enjoy it and find it interesting!
 ---
 
