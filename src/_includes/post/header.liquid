@@ -2,13 +2,13 @@
   <h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
 
   <p class="post-author">
-    <img src="{{ include.post.author | avatar_url: width:30, height:30 }}" class="author-image">By {{ include.post.author }} on {{ include.post.date | date_to_string }}
+    <img loading="lazy" class="author-image" src="{{ include.post.author | avatar_url: width:30, height:30 }}">By {{ include.post.author }} on {{ include.post.date | date_to_string }}
 
   </p>
 
   {% if include.post.featured_image %}
   <a href="{{ include.post.url }}">
-    <img class="featured-image" src="{{ include.post.featured_image | photo_url: width: 960, height: 300 }}">
+    <img loading="lazy" class="featured-image" src="{{ include.post.featured_image | photo_url: width: 960, height: 300 }}">
   </a>
   {% endif %}
 </header>
