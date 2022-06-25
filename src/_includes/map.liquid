@@ -22,7 +22,7 @@
         map.fitBounds(locations, { maxZoom: 5 });
 
         for (const pin of data.pins) {
-            L.marker(pin.location, { title: pin.name }).addTo(map).bindPopup(pin.name);
+            L.marker(pin.location, { title: pin.name }).addTo(map).bindTooltip(pin.name);
         }
 
         map.getContainer().classList.remove('hide');
