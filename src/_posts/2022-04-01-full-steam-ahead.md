@@ -9,7 +9,7 @@ summary: Here we go! Notices have been handed in, plans are being made, and belo
 
 ## How did we get here?
 
-**So, where to start?** Friends and Family will know that we've been talking about travelling for a long time, we even booked a trip and told everyone we were leaving back in 2020 and then a little worldwide pandemic postponed all our plans. Since then we've both got new jobs, tried to buy a house by the seaside, and spent a lot of time thinking about our pre-covid plans.
+So, where to start? Friends and Family will know that we've been talking about travelling for a long time, we even booked a trip and told everyone we were leaving back in 2020 and then a little worldwide pandemic postponed all our plans. Since then we've both got new jobs, tried to buy a house by the seaside, and spent a lot of time thinking about our pre-covid plans.
 
 Now in 2022 the world is looking a little bit more normal, and we're going to give it another shot. But the plans have changed a bit, partly because of covid, partly because we now have a little bit more cash in the bank to spend!
 
