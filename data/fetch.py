@@ -1,5 +1,6 @@
 import argparse
 import json
+from math import floor
 
 import requests
 
@@ -27,6 +28,7 @@ def fetch(trip_id):
 def get_pin(step):
     return {
         'name': step['location']['name'],
+        'arrived': floor(step['start_time']),
         'location': [step['location']['lat'], step['location']['lon']]
     }
 
