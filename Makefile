@@ -1,6 +1,7 @@
 .PHONY: build
 
 port ?= 8080
+env ?= production
 
 setup:
 	brew install asdf
@@ -26,11 +27,9 @@ setup_npm:
 fetch:
 	@pipenv run python data/fetch.py -t $(trip) -f $(file)
 
-build env=prod:
 build:
 	@JEKYLL_ENV=$(env) bundle exec jekyll build
 
-run env=prod:
 run:
 	@$(MAKE) build
 	@npx concurrently \
