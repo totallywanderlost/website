@@ -3,7 +3,4 @@ layout: default
 ---
 <p><a href="/blog">&larr; Back to Posts</a></p>
 
-<article class="post">
-  {% include post/header.liquid post=page %}
-  {{ content }}
-</article>
+{% include post.liquid post=page %}

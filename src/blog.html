@@ -7,15 +7,7 @@ layout: default
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-      <article class="post">
-        {% include post/header.liquid post=post %}
-
-        <div class="summary">
-          <p>{{ post.summary }}..</p>
-
-          <a href="{{ post.url }}">Read More</a>
-        </div>
-      </article>
+      {% include post.liquid post=post summary=true %}
     </li>
   {% endfor %}
 </ul>
