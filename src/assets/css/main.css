@@ -145,6 +145,13 @@ header nav a {
   object-fit: cover;
 }
 
+.post .summary>a {
+  display: inline-block;
+  background: #333;
+  color: whitesmoke;
+  padding: 12px 16px;
+}
+
 /**
  * Footer
  */

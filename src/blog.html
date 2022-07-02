@@ -11,7 +11,9 @@ layout: default
         {% include post/header.liquid post=post %}
 
         <div class="summary">
-          <p>{{ post.summary }}</p>
+          <p>{{ post.summary }}..</p>
+
+          <a href="{{ post.url }}">Read More</a>
         </div>
       </article>
     </li>
