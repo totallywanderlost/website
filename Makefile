@@ -26,13 +26,15 @@ setup_npm:
 fetch:
 	@pipenv run python data/fetch.py -t $(trip) -f $(file)
 
+build env=prod:
 build:
-	@JEKYLL_ENV=production bundle exec jekyll build
+	@JEKYLL_ENV=$(env) bundle exec jekyll build
 
+run env=prod:
 run:
 	@$(MAKE) build
 	@npx concurrently \
 	-n jekyll,server \
 	-c red,yellow \
-	"JEKYLL_ENV=production bundle exec jekyll build --watch" \
+	"JEKYLL_ENV=$(env) bundle exec jekyll build --watch" \
 	"npx wrangler pages dev --port $(port) --live-reload ./build"
