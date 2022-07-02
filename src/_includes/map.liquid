@@ -26,8 +26,9 @@
     // Extract all location coordinates from the journey
     const locations = journey.pins.map(p => p.location);
 
-    // Fit the map to show the last two locations
-    map.fitBounds(locations.slice(-1), { maxZoom: 5 });
+    // Fit the map to show the requested locations
+    const slice = '{{ include.locations }}' === 'latest' ? -1 : 0;
+    map.fitBounds(locations.slice(slice), { maxZoom: 5 });
 
     // Add each journey pin to the map
     for (const [index, pin] of journey.pins.entries()) {
