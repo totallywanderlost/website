@@ -1,4 +1,5 @@
 source: src
+include: [_headers, _redirects]
 destination: build
 
 title: "Totally Wanderlost"
