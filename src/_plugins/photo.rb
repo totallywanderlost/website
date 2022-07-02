@@ -7,7 +7,7 @@ module Jekyll
     end
 
     def photo_url(path, config)
-      "#{CDN}/#{path}?tr=w-#{config['width']},h-#{config['height']},fo-auto"
+      "#{CDN}/#{path}?tr=w-#{config['width']},h-#{config['height']},fo-center"
     end
   end
 end
