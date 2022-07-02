@@ -83,8 +83,8 @@ a:hover {
 #header nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 20px 30px;
 }
 
 header nav a {
