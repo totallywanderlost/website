@@ -3,40 +3,49 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
 <script>
-    window.addEventListener('DOMContentLoaded', () => {
-        const map = L.map('map', {
-            zoomControl: {{ include.interactive }},
-            scrollWheelZoom: {{ include.interactive }},
-            doubleClickZoom: {{ include.interactive }},
-            dragging: {{ include.interactive }},
-            tap: {{ include.interactive }},
-            touchZoom: {{ include.interactive }},
-            scrollWheelZoom: {{ include.interactive }},
-            layers: [
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                })
-            ]
-        });
-
-        const data = {% include data/journey.json %};
-
-        const locations = data.pins.map(p => p.location);
-        map.fitBounds(locations, { maxZoom: 5 });
-
-        for (const [index, pin] of data.pins.entries()) {
-            const marker = L.marker(pin.location, { title: pin.name }).addTo(map);
-
-            marker.bindTooltip(pin.name);
-
-            if (index === data.pins.length - 1) {
-              marker.bindPopup(`<b>Current Location:</b> ${pin.name}`);
-              marker.openPopup();
-            }
-        }
-
-        L.polyline(locations, {color: 'red', opacity: 0.75, weight: 2, dashArray: '10, 10'}).addTo(map);
-
-        map.getContainer().classList.remove('hide');
+  window.addEventListener('DOMContentLoaded', () => {
+    // Set up the map and allow for controlling interactivity such as zoom, scroll etc
+    const map = L.map('map', {
+      zoomControl: {{ include.interactive }},
+      scrollWheelZoom: {{ include.interactive }},
+      doubleClickZoom: {{ include.interactive }},
+      dragging: {{ include.interactive }},
+      tap: {{ include.interactive }},
+      touchZoom: {{ include.interactive }},
+      scrollWheelZoom: {{ include.interactive }},
+      layers: [
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        })
+      ]
     });
+
+    // Load all the map data for our journey
+    const journey = {% include data/journey.json %};
+
+    // Extract all location coordinates from the journey
+    const locations = journey.pins.map(p => p.location);
+
+    // Fit the map to show the last two locations
+    map.fitBounds(locations.slice(-1), { maxZoom: 5 });
+
+    // Add each journey pin to the map
+    for (const [index, pin] of journey.pins.entries()) {
+      // Add a marker and tooltip for each location
+      const marker = L.marker(pin.location, { title: pin.name }).addTo(map);
+      marker.bindTooltip(pin.name);
+
+      // Show a popup on the last i.e. latest location
+      if (index === journey.pins.length - 1) {
+        marker.bindPopup(`<b>Current Location:</b> ${pin.name}`);
+        marker.openPopup();
+      }
+    }
+
+    // Draw lines showing our joruney between each location
+    L.polyline(locations, {color: 'red', opacity: 0.75, weight: 2, dashArray: '5,5'}).addTo(map);
+
+    // Show the map now it's all configured
+    map.getContainer().classList.remove('hide');
+  });
 </script>
