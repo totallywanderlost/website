@@ -132,11 +132,59 @@ header nav a {
   margin-bottom: 50px;
 }
 
+.posts .post h1 {
+  margin: 10px 0;
+}
+
 .post h1 {
+  margin: 25px 0;
+}
+
+.posts .post {
+  display: grid;
+  grid-template-areas:
+    'title'
+    'author'
+    'image'
+    'content';
+  gap: 20px 15px;
+  grid-template-rows: auto auto 1fr;
+}
+
+@media (min-width: 768px) {
+  .posts .post {
+    display: grid;
+    grid-template-areas:
+      'title title'
+      'image author'
+      'image content';
+    gap: 20px 15px;
+    grid-template-rows: auto auto 1fr;
+  }
+}
+
+.post h1 {
+  grid-area: title;
   font-size: 2em;
 }
 
-.post-author img {
+.post .featured-image {
+  grid-area: image;
+}
+
+.post .author {
+  grid-area: author;
+}
+
+.post .content {
+  grid-area: content;
+}
+
+.posts .author {
+  margin: 0;
+}
+
+.post .author img {
   vertical-align: bottom;
   margin-right: 10px;
   width: 30px;
@@ -145,12 +193,11 @@ header nav a {
   border-radius: 50%;
 }
 
-.featured-image {
-  width: 100%;
+.image {
   object-fit: cover;
 }
 
-.post .summary>a {
+.posts .read-more {
   display: inline-block;
   background: #333;
   color: whitesmoke;
