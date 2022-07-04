@@ -7,7 +7,9 @@ module Jekyll
     end
 
     def photo_url(path, config)
-      "#{CDN}/#{path}?tr=w-#{config['width']},h-#{config['height']},fo-center"
+      focus = config.fetch('focus', 'center')
+
+      "#{CDN}/#{path}?tr=w-#{config['width']},h-#{config['height']},fo-#{focus}"
     end
 
     def photo_tag(path, config)
