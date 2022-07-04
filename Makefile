@@ -5,10 +5,10 @@ env ?= production
 
 setup:
 	brew install asdf
-	asdf install
 	asdf plugin list | grep ruby || asdf plugin add ruby
 	asdf plugin list | grep python || asdf plugin add python
 	asdf plugin list | grep nodejs || asdf plugin add nodejs
+	asdf install
 	$(MAKE) setup_bundle
 	$(MAKE) setup_pipenv
 	$(MAKE) setup_npm
@@ -36,4 +36,4 @@ run:
 	-n jekyll,server \
 	-c red,yellow \
 	"JEKYLL_ENV=$(env) bundle exec jekyll build --watch" \
-	"npx wrangler pages dev --port $(port) --live-reload ./build"
+	"BROWSER=none npx wrangler pages dev --port $(port) --live-reload ./build"
