@@ -8,7 +8,9 @@
 
     {% if include.post.featured_image %}
     <a href="{{ include.post.url }}">
-      <img loading="lazy" class="featured-image" src="{{ include.post.featured_image | photo_url: width: 960, height: 300 }}">
+      {% if include.featured_image %}
+      <img loading="lazy" class="image thumbnail" width=250 height=250 src="{{ include.post.featured_image | photo_url: width: 250, height: 250 }}">
+      {% endif %}
     </a>
     {% endif %}
   </header>
