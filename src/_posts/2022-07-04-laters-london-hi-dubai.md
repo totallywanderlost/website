@@ -5,6 +5,7 @@ author: Nicole
 location: Dubai, UAE
 featured_image: blog/laters-london-hi-dubai/featured
 summary: Off we go! London to Sydney via a 20 hour layover in Dubai, just enough time for a nap and some sightseeing.
+published: false
 ---
 
 Finally, we're off! With a late Wednesday flight from Heathrow to Dubai. Trying to stick to a reasonably tight budget meant we had a 20 hour gap before our connecting flight to Sydney, but in the end it worked out for the best since it gave us a bit of time to recover from the first flight and see a bit of Dubai! Luckily we qualified for a scheme via Emirates called Dubai connect where the airline provide a hotel, meal, and transport to and from the airport all for free for passengers with long layovers. We requested this service about a week before check in, but didn't get much in the way of a confirmation so weren't convinced it was going to happen. But once at Dubai it was pretty straightforward to get our hotel voucher and directions to the right shuttle bus.
