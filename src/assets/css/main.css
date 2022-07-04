@@ -116,6 +116,10 @@ header nav a {
   margin-top: 0;
 }
 
+#content img {
+  max-width: 100%;
+}
+
 /**
  * Blog Posts
  */
