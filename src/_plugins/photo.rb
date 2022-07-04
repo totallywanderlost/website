@@ -11,7 +11,13 @@ module Jekyll
     end
 
     def photo_tag(path, config)
-      "<img loading=lazy src=\"#{photo_url(path, config)}\" width=#{config['width']} height=#{config['height']}>"
+      src = photo_url(path, config)
+
+      config.delete('width')
+      config.delete('height')
+      link = photo_url(path, config)
+
+      "<a href=\"#{link}\"><img loading=\"lazy\" src=\"#{src}\" width=\"#{config['width']}\" height=\"#{config['height']}\"/></a>"
     end
   end
 end
