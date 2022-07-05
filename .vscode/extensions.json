@@ -5,6 +5,10 @@
         "sissel.shopify-liquid",
         "davidanson.vscode-markdownlint",
         "ms-python.python",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "sleistner.vscode-fileutils",
+        "streetsidesoftware.code-spell-checker",
+        "waderyan.gitblame",
+        "npxms.hide-gitignored"
     ]
 }
