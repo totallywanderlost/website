@@ -12,17 +12,23 @@ setup:
 	asdf reshim
 	$(MAKE) setup_bundle
 	$(MAKE) setup_pipenv
-	$(MAKE) setup_npm
+	$(MAKE) deps
 
 setup_bundle:
 	gem install bundler:2.3.9
-	bundle
 
 setup_pipenv:
 	pip install "pipenv==2022.3.28"
+
+deps: bundle pipenv npm
+
+bundle:
+	bundle
+
+pipenv:
 	pipenv install --deploy
 
-setup_npm:
+npm:
 	npm ci
 
 fetch:
@@ -38,3 +44,6 @@ run:
 	-c red,yellow \
 	"JEKYLL_ENV=$(env) bundle exec jekyll build --watch" \
 	"BROWSER=none npx wrangler pages dev --port $(port) --live-reload ./build"
+
+deploy: npm
+	npx wrangler pages publish --project-name totallywanderlost build
