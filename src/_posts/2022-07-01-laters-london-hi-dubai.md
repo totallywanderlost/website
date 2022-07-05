@@ -25,19 +25,17 @@ Like everything there, Dubai mall is massive. And it's not even the largest mall
 
 Once we finally made it to the end of the corridor, the mall looked... well... just like Westfield back in london. Every Western brand you can imagine, including an M&S and a Waitrose! Sadly we didn't have the time, money or baggage room for much shopping, so we just picked up some new socks for James and headed to the food court for a quick pizza and american-sized jugs of Pepsi.
 
-One of the main attractions in the Mall itself is the acquarium. We didn't pay to enter, but there is a large section viewable for free with hundreds of fish including large sharks, manta rays, and a swordfish floating around inside.
+One of the main attractions in the Mall itself is the acquarium. We didn't pay to enter, but there is a large section viewable for free with hundreds of fish including large sharks, manta rays, and a swordfish floating around inside. We also stopped by the ice rink, the waterfall sculpture, and a few other art installations in the mall before heading outside to the lake.
 
-{{ 'blog/laters-london-hi-dubai/aquarium' | photo_tag: width: 960, height: 600 }}
+{{ 'blog/laters-london-hi-dubai/aquarium' | photo_tag: width: 960, height: 500 }}
 
-We also stopped by the ice rink, the waterfall sculpture, and a few other art installations in the mall before heading outside to the lake.
-
-{{ 'blog/laters-london-hi-dubai/mall-fountain' | photo_tag: width: 960, height: 960 }}
+{{ 'blog/laters-london-hi-dubai/mall-fountain' | photo_tag: width: 960, height: 850, focus: 'bottom' }}
 
 ## Burj Khalifa and the fountain show
 
 The world's tallest building was... tall! We didn't get too close, but viewed it from the bridge across the lake outside the mall and waited in the sweltering heat for the next fountain show. The fountain show was very impressive, if a little brief, and appeared to be the same show every 30 minutes. It drew a large crowd despite the sweltering heat, and provided lots of insta-photo opportunities!
 
-{{ 'blog/laters-london-hi-dubai/burj-khalifa' | photo_tag: width: 960, height: 1280 }}
+{{ 'blog/laters-london-hi-dubai/burj-khalifa' | photo_tag: width: 960, height: 900, focus: 'top' }}
 
 ## Onwards, to Australia
 
