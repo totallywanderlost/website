@@ -1,5 +1,7 @@
 # 🗺 Totally Wanderlost
 
+Website and blog showing our travels 🌏
+
 ## Requirements
 
 - [brew](https://brew.sh)
@@ -27,6 +29,10 @@ You can override the port if required:
 
     make run port=1337
 
+To view the site without minifcation:
+
+    make run env=dev
+
 ## Deployments
 
 Commits to the `main` branch are deployed automatically to [totallywanderlost.com](https://totallywanderlost.com) and hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
@@ -34,3 +40,8 @@ Commits to the `main` branch are deployed automatically to [totallywanderlost.co
 Commits to a branch are deployed automatically to `${branch}.totallywanderlost.pages.dev`.
 
 For example a brand named `test` would be available at [test.totallywanderlost.pages.dev](https://test.totallywanderlost.pages.dev).
+
+You can also deploy manually provided you have either `CLOUDFLARE_ACCOUNT_ID` and
+`CLOUDFLARE_API_TOKEN` set or `wrangler` is already logged in.
+
+    make deploy
