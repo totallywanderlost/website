@@ -7,8 +7,7 @@
 ## Setup
 
 This will install `asdf` and use that to install the required versions
-of `ruby` and `python` and the required dependencies for each. It assumes
-you donn't already have `asdf` configured.
+of `ruby`, `python` and 'node and the required dependencies for each.
 
     make setup
 
