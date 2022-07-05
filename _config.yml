@@ -3,12 +3,19 @@ include: [_headers, _redirects]
 destination: build
 
 title: "Totally Wanderlost"
-description: "Nicole and James travel the world"
+description: "Follow along as Nicole and James get lost and travel the world"
 permalink: /blog/:slug
 
 instagram: "https://instagram.com/totallywanderlost"
 github: "https://github.com/totallywanderlost"
 copyright_name: "Nicole Kay & James White"
+
+defaults:
+  - scope:
+      path: "" # empty string for all files
+      type: posts # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
 
 plugins:
   - jekyll-minifier
