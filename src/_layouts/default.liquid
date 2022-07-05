@@ -14,9 +14,20 @@
   {% if page.is_post %}
   <meta name="description" content="{{ page.summary }}">
   <meta name="author" content="{{ page.author }}">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="{{ page.summary }}">
+  <meta property="og:image" content="{{ page.featured_image | photo_url: width: 1200, height:630, focus: 'auto' }}">
+  <meta name="og:image:width" content="1200" />
+  <meta name="og:image:height" content="630" />
   {% else %}
   <meta name="description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
   {%endif%}
+
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@TotallyWanderlost">
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 </head>
