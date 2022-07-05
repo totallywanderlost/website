@@ -9,6 +9,7 @@ setup:
 	asdf plugin list | grep python || asdf plugin add python
 	asdf plugin list | grep nodejs || asdf plugin add nodejs
 	asdf install
+	asdf reshim
 	$(MAKE) setup_bundle
 	$(MAKE) setup_pipenv
 	$(MAKE) setup_npm
