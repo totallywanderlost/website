@@ -204,6 +204,7 @@ header nav a {
 
 .post .author img {
   vertical-align: bottom;
+  margin-bottom: -4px;
   margin-right: 10px;
   width: 30px;
   height: 30px;
