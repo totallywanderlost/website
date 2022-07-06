@@ -148,6 +148,16 @@ header nav a {
   margin: 25px 0;
 }
 
+.post a:link,
+.post a:visited {
+  text-decoration: underline;
+}
+
+.post h1 a:link,
+.post h1 a:visited {
+  text-decoration: none;
+}
+
 .posts .post {
   display: grid;
   grid-template-areas:
