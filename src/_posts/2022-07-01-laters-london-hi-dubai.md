@@ -2,7 +2,7 @@
 title: Laters London, Hi Dubai!
 layout: post
 author: Nicole
-location: Dubai, UAE
+location: Dubai, UAE 🇦🇪
 featured_image: blog/laters-london-hi-dubai/featured
 summary: Off we go! London to Sydney via a 20 hour layover in Dubai, just enough time for a nap and some sightseeing.
 ---
