@@ -1,5 +1,5 @@
 ---
-title: Laters London, Hi Dubai!
+title: Laters London, Hi Dubai! 👋
 layout: post
 author: Nicole
 location: Dubai, UAE 🇦🇪

@@ -1,5 +1,5 @@
 ---
-title: Full Steam Ahead!
+title: Full Steam Ahead! 💨
 layout: post
 author: Nicole
 location: London, UK 🇬🇧
