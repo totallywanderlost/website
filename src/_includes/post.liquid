@@ -2,7 +2,8 @@
   <h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h1>
 
   <p class="author">
-    <img loading="lazy" width=30 height=30 src="{{ include.post.author | avatar_url: width:30, height:30 }}">By {{ include.post.author }} on {{ include.post.date | date_to_string }} in {{ include.post.location }}
+    <img loading="lazy" width=30 height=30 src="{{ include.post.author | avatar_url: width:30, height:30 }}">
+    <span>By {{ include.post.author }} on {{ include.post.date | date_to_string }} <wbr>in {{ include.post.location }}</span>
   </p>
 
   {% if include.featured_image && include.post.featured_image %}

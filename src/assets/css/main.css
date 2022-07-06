@@ -198,6 +198,10 @@ header nav a {
   grid-area: content;
 }
 
+.author {
+  position: relative;
+}
+
 .posts .author {
   margin: 0;
 }
@@ -210,6 +214,14 @@ header nav a {
   height: 30px;
   object-fit: cover;
   border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.post .author span {
+  margin-left: 38px;
+  display: block;
 }
 
 .image {
