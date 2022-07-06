@@ -55,7 +55,7 @@ a:hover {
   row-gap: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 832px) {
   #header .container {
     flex-direction: row;
   }
@@ -69,7 +69,7 @@ a:hover {
   text-align: center;
 }
 
-@media (min-width:768px) {
+@media (min-width:832px) {
   #header h1 {
     text-align: left;
   }
@@ -159,7 +159,7 @@ header nav a {
   grid-template-rows: auto auto 1fr;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 832px) {
   .posts .post {
     display: grid;
     grid-template-areas:
