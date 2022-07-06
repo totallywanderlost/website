@@ -21,10 +21,10 @@ jobs:
       - name: Install Dependencies
         run: make setup_pipenv
       - name: Fetch Data
-        run: make fetch trip=5149612 file=src/_includes/data/journey.json
+        run: make fetch trip=5149612 file=src/_data/journey.json
       - name: Commit Changes
         run: |
           git config user.name "🤖"
-          git add src/_includes/data/journey.json
-          git diff-index --quiet HEAD src/_includes/data/journey.json || git commit -m "Update journey.json"
+          git add src/_data/journey.json
+          git diff-index --quiet HEAD src/_data/journey.json || git commit -m "Update journey.json"
           git push
