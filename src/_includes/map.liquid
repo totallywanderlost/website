@@ -21,7 +21,7 @@
     });
 
     // Load all the map data for our journey
-    const journey = {% include data/journey.json %};
+    const journey = {{ site.data.journey | jsonify }};
 
     // Extract all location coordinates from the journey
     const locations = journey.pins.map(p => p.location);
