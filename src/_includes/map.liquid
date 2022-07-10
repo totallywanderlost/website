@@ -24,20 +24,20 @@
     const journey = {{ site.data.journey | jsonify }};
 
     // Extract all location coordinates from the journey
-    const locations = journey.pins.map(p => p.location);
+    const locations = journey.steps.map(p => p.location);
 
     // Fit the map to show the requested locations
     const slice = '{{ include.locations }}' === 'latest' ? -1 : 0;
     map.fitBounds(locations.slice(slice), { maxZoom: 5 });
 
     // Add each journey pin to the map
-    for (const [index, pin] of journey.pins.entries()) {
+    for (const [index, pin] of journey.steps.entries()) {
       // Add a marker and tooltip for each location
       const marker = L.marker(pin.location, { title: pin.name }).addTo(map);
       marker.bindTooltip(pin.name);
 
       // Show a popup on the last i.e. latest location
-      if (index === journey.pins.length - 1) {
+      if (index === journey.steps.length - 1) {
         marker.bindPopup(`<b>Current Location:</b> ${pin.name}`);
         marker.openPopup();
       }
