@@ -2,7 +2,9 @@
 title: Sydneyside Up 🌦
 layout: post
 author: James
-location: Sydney
+city: Sydney
+country: Australia
+flag: 🇦🇺
 featured_image: blog/sydneyside-up/featured
 summary: We made it, find out how we spent 5 gloriously rainy days in Sydney.
 ---

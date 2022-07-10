@@ -3,7 +3,7 @@
 
   <p class="author">
     <img loading="lazy" width=30 height=30 src="{{ include.post.author | avatar_url: width:30, height:30 }}">
-    <span>By {{ include.post.author }} on {{ include.post.date | date_to_long_string: "ordinal" }} <wbr>in {{ include.post.location }}</span>
+    <span>By {{ include.post.author }} on {{ include.post.date | date_to_long_string: "ordinal" }} <wbr>in {{ include.post.city }}</span>
   </p>
 
   {% if include.featured_image && include.post.featured_image %}
