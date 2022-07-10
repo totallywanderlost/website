@@ -7,17 +7,17 @@ import requests
 
 def update_data_file(trip_id, path):
     data = {}
-    data['pins'] = get_pins(trip_id)
+    data['steps'] = get_steps(trip_id)
 
     with open(path, 'wb') as file:
         contents = json.dumps(data, indent=4)
         file.write(contents.encode())
 
-def get_pins(trip_id):
+def get_steps(trip_id):
     data = fetch(trip_id)
     steps = data['all_steps']
 
-    return [ get_pin(step) for step in steps]
+    return [ get_step(step) for step in steps]
 
 def fetch(trip_id):
     response = requests.get(f'https://api.polarsteps.com/users/byusername/totallywanderlost')
@@ -25,7 +25,7 @@ def fetch(trip_id):
 
     return trips[0]
 
-def get_pin(step):
+def get_step(step):
     return {
         'name': step['location']['name'],
         'arrived': floor(step['start_time']),
