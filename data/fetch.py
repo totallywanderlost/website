@@ -17,13 +17,12 @@ def get_steps(trip_id):
     data = fetch(trip_id)
     steps = data['all_steps']
 
-    return [ get_step(step) for step in steps]
+    return [ get_step(step) for step in steps if step['supertype'] == 'normal' ]
 
 def fetch(trip_id):
-    response = requests.get(f'https://api.polarsteps.com/users/byusername/totallywanderlost')
-    trips = [trip for trip in response.json()['alltrips'] if trip['id'] == trip_id]
+    response = requests.get(f'https://api.polarsteps.com/trips/{trip_id}')
 
-    return trips[0]
+    return response.json()
 
 def get_step(step):
     return {
