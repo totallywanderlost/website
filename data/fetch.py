@@ -28,7 +28,14 @@ def get_step(step):
     return {
         'name': step['location']['name'],
         'arrived': floor(step['start_time']),
-        'location': [step['location']['lat'], step['location']['lon']]
+        'location': [step['location']['lat'], step['location']['lon']],
+        'photos': [ get_photo(item) for item in step['media'] if item['path'] != '' ]
+    }
+
+def get_photo(item):
+    return {
+        'url': item['path'],
+        'location': [item['lat'], item['lon']]
     }
 
 if __name__ == '__main__':
