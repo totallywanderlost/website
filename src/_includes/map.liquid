@@ -1,6 +1,11 @@
 <div id="map" class="full hide"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+<style>
+  .emoji-marker {
+    font-size: 32px;
+  }
+</style>
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
@@ -30,15 +35,22 @@
     const slice = '{{ include.locations }}' === 'latest' ? -1 : 0;
     map.fitBounds(locations.slice(slice), { maxZoom: 5 });
 
-    // Add each journey pin to the map
-    for (const [index, pin] of journey.steps.entries()) {
+    const stepIcon = L.divIcon({
+      iconSize  : [32, 32],
+      iconAnchor: [32/2, 32 + 4],
+      className : 'emoji-marker',
+      html: '📍'
+    });
+
+    // Add each journey step to the map
+    for (const [index, step] of journey.steps.entries()) {
       // Add a marker and tooltip for each location
-      const marker = L.marker(pin.location, { title: pin.name }).addTo(map);
-      marker.bindTooltip(pin.name);
+      const marker = L.marker(step.location, { title: step.name, icon: stepIcon }).addTo(map);
+      marker.bindTooltip(step.name);
 
       // Show a popup on the last i.e. latest location
       if (index === journey.steps.length - 1) {
-        marker.bindPopup(`<b>Current Location:</b> ${pin.name}`);
+        marker.bindPopup(`<b>Current Location:</b> ${step.name}`);
         marker.openPopup();
       }
     }
