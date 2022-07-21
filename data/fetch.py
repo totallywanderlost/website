@@ -15,9 +15,12 @@ def update_data_file(trip_id, path):
 
 def get_steps(trip_id):
     data = fetch(trip_id)
-    steps = data['all_steps']
 
-    return [ get_step(step) for step in steps if step['supertype'] == 'normal' ]
+    visited = [ get_step(step) for step in data['all_steps'] if 'supertype' in step and step['supertype'] == 'normal' ]
+    visited[-1]['state'] = 'current'
+    planned = list(reversed([ get_planned_step(step) for step in data['planned_steps'] if step['visit_time'] == None ]))
+
+    return visited + planned
 
 def fetch(trip_id):
     response = requests.get(f'https://api.polarsteps.com/trips/{trip_id}')
@@ -29,7 +32,17 @@ def get_step(step):
         'name': step['location']['name'],
         'arrived': floor(step['start_time']),
         'location': [step['location']['lat'], step['location']['lon']],
-        'photos': [ get_photo(item) for item in step['media'] if item['path'] != '' ]
+        'photos': [ get_photo(item) for item in step['media'] if 'path' in item and item['path'] != '' ],
+        'state': 'visited'
+    }
+
+def get_planned_step(step):
+    return {
+        'name': step['location']['name'],
+        'arrived': False,
+        'location': [step['location']['lat'], step['location']['lon']],
+        'photos': [],
+        'state': 'planned'
     }
 
 def get_photo(item):

@@ -15,7 +15,8 @@
                         -0.45868333333333333
                     ]
                 }
-            ]
+            ],
+            "state": "visited"
         },
         {
             "name": "Dubai",
@@ -60,7 +61,8 @@
                         55.27900833333333
                     ]
                 }
-            ]
+            ],
+            "state": "visited"
         },
         {
             "name": "Sydney",
@@ -112,7 +114,8 @@
                         151.209075
                     ]
                 }
-            ]
+            ],
+            "state": "visited"
         },
         {
             "name": "Adelaide",
@@ -121,7 +124,88 @@
                 -34.94149616424261,
                 138.5362473285005
             ],
-            "photos": []
+            "photos": [],
+            "state": "current"
+        },
+        {
+            "name": "Port Augusta",
+            "arrived": false,
+            "location": [
+                -32.490881900000005,
+                137.76398740000002
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Coober Pedy",
+            "arrived": false,
+            "location": [
+                -29.01336819999998,
+                134.75361640000006
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Yulara",
+            "arrived": false,
+            "location": [
+                -25.2410108,
+                130.98694049999995
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Stuart",
+            "arrived": false,
+            "location": [
+                -23.698388400000006,
+                133.88128849999998
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Tennant Creek",
+            "arrived": false,
+            "location": [
+                -19.648165200000005,
+                134.18998469999997
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Birdum",
+            "arrived": false,
+            "location": [
+                -16.25415839999999,
+                133.36985119999997
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Katherine",
+            "arrived": false,
+            "location": [
+                -14.464615699999992,
+                132.2635993
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Darwin City",
+            "arrived": false,
+            "location": [
+                -12.460439999999998,
+                130.84104690000004
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
