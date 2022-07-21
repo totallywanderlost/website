@@ -2,7 +2,11 @@
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
 <style>
-  .emoji-marker {
+  .emoji-28 {
+    font-size: 28px;
+  }
+
+  .emoji-32 {
     font-size: 32px;
   }
 </style>
@@ -40,18 +44,30 @@
 
     // Build the icons we'll be plotting for each step
     const icon = {
-      pin: L.divIcon({
+      visited: L.divIcon({
+        iconSize  : [28, 28],
+        iconAnchor: [2, 28 + 4],
+        className : 'emoji-28',
+        html: '📌'
+      }),
+      current: L.divIcon({
+        iconSize  : [28, 28],
+        iconAnchor: [32/2, 28 + 4],
+        className : 'emoji-28',
+        html: '👋'
+      }),
+      planned: L.divIcon({
         iconSize  : [32, 32],
         iconAnchor: [32/2, 32 + 4],
-        className : 'emoji-marker',
-        html: '📍'
-      })
+        className : 'emoji-32',
+        html: '🦘'
+      }),
     };
 
     // Add each journey step to the map
     for (const step of journey.steps) {
       // Add a marker and tooltip for each location
-      const marker = L.marker(step.location, { title: step.name, icon: icon.pin }).addTo(map);
+      const marker = L.marker(step.location, { title: step.name, icon: icon[step.state] }).addTo(map);
       marker.bindTooltip(step.name);
 
       // Show a popup on the last i.e. latest location
