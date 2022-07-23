@@ -27,17 +27,17 @@
             ],
             "photos": [
                 {
-                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/2A216880-1988-407C-A574-4B46C9E4F1BC_8E40D971-7E81-400B-B3BD-027A6B497789.jpg",
-                    "location": [
-                        25.195355,
-                        55.2772
-                    ]
-                },
-                {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/7E4C2650-90A4-46A2-8989-511331D2F35F_52E06BC8-5183-407A-8A77-6898A34E820B.jpg",
                     "location": [
                         25.195428333333332,
                         55.277175
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/2A216880-1988-407C-A574-4B46C9E4F1BC_8E40D971-7E81-400B-B3BD-027A6B497789.jpg",
+                    "location": [
+                        25.195355,
+                        55.2772
                     ]
                 },
                 {
@@ -126,6 +126,86 @@
             ],
             "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Port Augusta",
+            "arrived": false,
+            "location": [
+                -32.490881900000005,
+                137.76398740000002
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Coober Pedy",
+            "arrived": false,
+            "location": [
+                -29.01336819999998,
+                134.75361640000006
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Yulara",
+            "arrived": false,
+            "location": [
+                -25.2410108,
+                130.98694049999995
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Stuart",
+            "arrived": false,
+            "location": [
+                -23.698388400000006,
+                133.88128849999998
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Tennant Creek",
+            "arrived": false,
+            "location": [
+                -19.648165200000005,
+                134.18998469999997
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Katherine",
+            "arrived": false,
+            "location": [
+                -14.464615699999992,
+                132.2635993
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Darwin City",
+            "arrived": false,
+            "location": [
+                -12.460439999999998,
+                130.84104690000004
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Kakadu",
+            "arrived": false,
+            "location": [
+                -12.946999999999978,
+                132.4389999999999
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
