@@ -196,16 +196,6 @@
             ],
             "photos": [],
             "state": "planned"
-        },
-        {
-            "name": "Kakadu",
-            "arrived": false,
-            "location": [
-                -12.946999999999978,
-                132.4389999999999
-            ],
-            "photos": [],
-            "state": "planned"
         }
     ]
 }
