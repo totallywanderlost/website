@@ -125,6 +125,16 @@
                 138.5362473285005
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Wilmington",
+            "arrived": 1658993400,
+            "location": [
+                -32.78140379999997,
+                138.06865064
+            ],
+            "photos": [],
             "state": "current"
         },
         {
