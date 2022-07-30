@@ -135,6 +135,16 @@
                 138.06865064
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Glendambo",
+            "arrived": 1659162600,
+            "location": [
+                -31.255741099999966,
+                136.80379020000004
+            ],
+            "photos": [],
             "state": "current"
         },
         {
