@@ -158,31 +158,11 @@
             "state": "current"
         },
         {
-            "name": "Port Augusta",
-            "arrived": false,
-            "location": [
-                -32.490881900000005,
-                137.76398740000002
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Yulara",
             "arrived": false,
             "location": [
                 -25.2410108,
                 130.98694049999995
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
-            "name": "Coober Pedy",
-            "arrived": false,
-            "location": [
-                -29.01336819999998,
-                134.75361640000006
             ],
             "photos": [],
             "state": "planned"

@@ -1,6 +1,7 @@
 import argparse
 import json
 from math import floor
+from time import time
 
 import requests
 
@@ -39,8 +40,15 @@ def parse_steps(steps):
             }
 
 def parse_planned_steps(steps):
+    now = int(time())
+
     for step in list(reversed(steps)):
-        if step['visit_time'] == None:
+        if step['visit_time'] != None:
+            continue
+
+        if step['start_time'] != None and step['start_time'] < now:
+            continue
+
             yield {
                 'name': step['location']['name'],
                 'arrived': False,
