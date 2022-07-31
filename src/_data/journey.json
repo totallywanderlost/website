@@ -1,7 +1,7 @@
 {
     "steps": [
         {
-            "name": "London",
+            "name": "Home",
             "arrived": 1656528600,
             "location": [
                 51.5073219,
@@ -128,7 +128,7 @@
             "state": "visited"
         },
         {
-            "name": "Wilmington",
+            "name": "Mount Remarkable National Park",
             "arrived": 1658993400,
             "location": [
                 -32.78140379999997,
@@ -138,7 +138,7 @@
             "state": "visited"
         },
         {
-            "name": "Glendambo",
+            "name": "Spud's Roadhouse",
             "arrived": 1659162600,
             "location": [
                 -31.255741099999966,

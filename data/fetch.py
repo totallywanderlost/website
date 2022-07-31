@@ -29,7 +29,7 @@ def fetch(trip_id):
 
 def get_step(step):
     return {
-        'name': step['location']['name'],
+        'name': step['name'] if step['name'] != '' else step['location']['name'],
         'arrived': floor(step['start_time']),
         'location': [step['location']['lat'], step['location']['lon']],
         'photos': [ get_photo(item) for item in step['media'] if 'path' in item and item['path'] != '' ],
