@@ -65,7 +65,7 @@
             "state": "visited"
         },
         {
-            "name": "Sydney",
+            "name": "",
             "arrived": 1656678600,
             "location": [
                 -33.882640278027026,
@@ -118,7 +118,7 @@
             "state": "visited"
         },
         {
-            "name": "Adelaide",
+            "name": "",
             "arrived": 1657013400,
             "location": [
                 -34.94149616424261,

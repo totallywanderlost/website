@@ -32,7 +32,7 @@ def parse_steps(steps):
     for step in steps:
         if 'supertype' in step and step['supertype'] == 'normal':
             yield {
-                'name': step['name'] if step['name'] != '' else step['location']['name'],
+                'name': step['name'] if step['name'] != None else step['location']['name'],
                 'arrived': floor(step['start_time']),
                 'location': [step['location']['lat'], step['location']['lon']],
                 'photos': [ get_photo(item) for item in step['media'] if 'path' in item and item['path'] != '' ],
@@ -49,13 +49,13 @@ def parse_planned_steps(steps):
         if step['start_time'] != None and step['start_time'] < now:
             continue
 
-            yield {
-                'name': step['location']['name'],
-                'arrived': False,
-                'location': [step['location']['lat'], step['location']['lon']],
-                'photos': [],
-                'state': 'planned'
-            }
+        yield {
+            'name': step['location']['name'],
+            'arrived': False,
+            'location': [step['location']['lat'], step['location']['lon']],
+            'photos': [],
+            'state': 'planned'
+        }
 
 def get_photo(item):
     return {
