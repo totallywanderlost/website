@@ -134,7 +134,15 @@
                 -32.78140379999997,
                 138.06865064
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/F11F4F61-1BF1-443B-B196-446D021A45EA_4B58E300-7C31-4857-A774-24003B4A9E5E.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -148,11 +156,29 @@
             "state": "visited"
         },
         {
-            "name": "Coober Pedy",
+            "name": "",
             "arrived": 1659270656,
             "location": [
                 -29.03657530999999,
                 134.80564879999997
+            ],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/ADE79495-61AA-4D86-B299-84EDEFBA344A_FC43C8D8-2E28-4743-BA4C-605BD2ACDDB7.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "name": "Marla",
+            "arrived": 1659411000,
+            "location": [
+                -27.30312000000003,
+                133.62179460000004
             ],
             "photos": [],
             "state": "current"
