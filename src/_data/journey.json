@@ -184,16 +184,6 @@
             "state": "current"
         },
         {
-            "name": "Yulara",
-            "arrived": false,
-            "location": [
-                -25.2410108,
-                130.98694049999995
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Stuart",
             "arrived": false,
             "location": [
