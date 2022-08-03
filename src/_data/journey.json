@@ -181,6 +181,16 @@
                 133.62179460000004
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Yulara",
+            "arrived": 1659508200,
+            "location": [
+                -25.2410108,
+                130.98694049999995
+            ],
+            "photos": [],
             "state": "current"
         },
         {
@@ -189,6 +199,16 @@
             "location": [
                 -23.698388400000006,
                 133.88128849999998
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Yulara",
+            "arrived": false,
+            "location": [
+                -25.2410108,
+                130.98694049999995
             ],
             "photos": [],
             "state": "planned"
