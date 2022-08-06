@@ -191,6 +191,16 @@
                 130.98694049999995
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Ghan",
+            "arrived": 1659759900,
+            "location": [
+                -25.066900000000025,
+                133.945
+            ],
+            "photos": [],
             "state": "current"
         },
         {
