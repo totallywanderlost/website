@@ -204,16 +204,6 @@
             "state": "current"
         },
         {
-            "name": "Stuart",
-            "arrived": false,
-            "location": [
-                -23.698388400000006,
-                133.88128849999998
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Costello",
             "arrived": false,
             "location": [
