@@ -201,6 +201,16 @@
                 133.945
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Alice Springs",
+            "arrived": 1659843000,
+            "location": [
+                -23.698388400000006,
+                133.88128849999998
+            ],
+            "photos": [],
             "state": "current"
         },
         {
