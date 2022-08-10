@@ -19,7 +19,9 @@ jobs:
         with:
           cache: pipenv
       - name: Install Dependencies
-        run: make setup_pipenv
+        run: |
+          make setup_pipenv
+          make pipenv
       - name: Fetch Data
         run: make fetch trip=5149612 file=src/_data/journey.json
       - name: Commit Changes
