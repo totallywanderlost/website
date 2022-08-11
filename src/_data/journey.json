@@ -211,6 +211,16 @@
                 133.88128849999998
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Glen Helen",
+            "arrived": 1660184220,
+            "location": [
+                -23.677705099999997,
+                132.66957330000002
+            ],
+            "photos": [],
             "state": "current"
         },
         {
