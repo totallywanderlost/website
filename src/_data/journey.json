@@ -124,7 +124,15 @@
                 -34.94149616424261,
                 138.5362473285005
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/C81BDFAF-A477-445D-B0F2-A2B812DB145D_ACAAA7D8-4790-4C75-8676-4A7FFED023D5.jpg",
+                    "location": [
+                        -35.01739166666667,
+                        138.514175
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -135,6 +143,20 @@
                 138.06865064
             ],
             "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/C6424FA3-0B05-4047-B0C6-7F1B70FFAF67_A86C3189-E5E0-4330-8226-8105DC229A70.jpg",
+                    "location": [
+                        -32.78140379999997,
+                        138.06865064
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/3E56BED0-1C1B-411A-AF4F-4E65FEC89379_66D69EEC-97E4-4FD0-BCF3-734CE070D35E.jpg",
+                    "location": [
+                        -32.78140379999997,
+                        138.06865064
+                    ]
+                },
                 {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/F11F4F61-1BF1-443B-B196-446D021A45EA_4B58E300-7C31-4857-A774-24003B4A9E5E.jpg",
                     "location": [
@@ -152,7 +174,15 @@
                 -31.255741099999966,
                 136.80379020000004
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/BEA8F5A4-EBEE-405C-BAA0-08AFD79968D1_95AF1D8E-4C51-4A48-8E29-9AC79F1D7B11.jpg",
+                    "location": [
+                        -31.255741099999966,
+                        136.80379020000004
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -165,6 +195,13 @@
             "photos": [
                 {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/ADE79495-61AA-4D86-B299-84EDEFBA344A_FC43C8D8-2E28-4743-BA4C-605BD2ACDDB7.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/45D74B36-8F2B-4365-855F-2296A443391D_715262A1-16D7-49EF-B3E8-992F1C75EF3A.jpg",
                     "location": [
                         0.0,
                         0.0
@@ -190,7 +227,29 @@
                 -25.2410108,
                 130.98694049999995
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/4F00F63F-8CD8-442B-A85B-6D93AF8FAAF0_80DBE0D6-258A-4E5D-88E9-CB8EBC11476B.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/0A7E5557-40AE-4F7C-8F02-CB1C19F1E2BA_E5B50733-CD11-4333-9A12-AACCD4FC9253.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/6322D407-A611-4DB2-ADBE-D04856CAB931_D1AABB08-C3D6-4DB9-A5E8-347ADE58F941.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -210,28 +269,93 @@
                 -23.698388400000006,
                 133.88128849999998
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/2D55D0BF-3DE8-4711-ACB2-15DC094B6840_D55EC2F8-E361-4E37-A602-56A858F71586.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/CF3882AC-B352-46E9-9F79-876DD5D0403C_C6DDD561-4732-4766-BBB2-53E88D385248.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/AD2110EF-FE8F-4072-BEEC-CB32856A587E_A5451DC5-05A8-434D-B74E-1D17A10AAC1F.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/E34C3E48-460B-4A53-B874-9FE645AFFF7E_5B543EA4-8D2D-4412-A8FB-1BE366340C34.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
             "name": "Glen Helen",
-            "arrived": 1660184220,
+            "arrived": 1660190400,
             "location": [
                 -23.677705099999997,
                 132.66957330000002
             ],
-            "photos": [],
-            "state": "current"
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/FD786091-B9A6-4348-92D0-55D73F4354E5_BF3AF6B7-CC75-40CF-B30C-BD2CB3E8BF19.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/C1185F90-AE08-4182-9ED9-1C2C55BE815A_F840DB88-BC12-4669-8D7F-7F60393F4D37.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/7BAEC7DB-CDE2-4F58-BDB0-E668A6A45BA0_3751AC4A-2E23-4392-9DFC-C87DEEF8A8D4.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/247038E0-87C2-428E-AE66-C27F1E406AE5_C1ECAECC-C711-486A-94E9-019339396C3D.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/DA28E316-D1B6-4F8C-8E70-A1E78F3BB94A_A3362969-5699-4B44-92A5-55282B0059A6.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
+            "state": "visited"
         },
         {
-            "name": "Costello",
-            "arrived": false,
+            "name": "Devil\u2019s Marbles",
+            "arrived": 1660447800,
             "location": [
                 -20.56618785,
                 134.29173196
             ],
             "photos": [],
-            "state": "planned"
+            "state": "current"
         },
         {
             "name": "Tennant Creek",
@@ -249,6 +373,16 @@
             "location": [
                 -16.25415839999999,
                 133.36985119999997
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Costello",
+            "arrived": false,
+            "location": [
+                -20.56618785,
+                134.29173196
             ],
             "photos": [],
             "state": "planned"
