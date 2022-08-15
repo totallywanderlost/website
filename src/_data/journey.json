@@ -206,6 +206,13 @@
                         0.0,
                         0.0
                     ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/DBC2DCAC-53E8-4B89-B664-EB1F0F79DF3B_3F5733D4-FC27-4F0C-A6C9-FAF300C16372.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
                 }
             ],
             "state": "visited"
