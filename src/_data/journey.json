@@ -362,6 +362,26 @@
                 134.29173196
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Banka Banka",
+            "arrived": 1660620600,
+            "location": [
+                -18.691893077250697,
+                133.9621905303153
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Daly Waters",
+            "arrived": 1660707000,
+            "location": [
+                -16.25415839999999,
+                133.36985119999997
+            ],
+            "photos": [],
             "state": "current"
         },
         {
