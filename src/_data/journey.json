@@ -382,17 +382,17 @@
                 133.36985119999997
             ],
             "photos": [],
-            "state": "current"
+            "state": "visited"
         },
         {
-            "name": "Tennant Creek",
-            "arrived": false,
+            "name": "Mataranka",
+            "arrived": 1660876200,
             "location": [
-                -19.648165200000005,
-                134.18998469999997
+                -14.927884100000028,
+                133.06905800000004
             ],
             "photos": [],
-            "state": "planned"
+            "state": "current"
         },
         {
             "name": "Birdum",
@@ -405,11 +405,11 @@
             "state": "planned"
         },
         {
-            "name": "Costello",
+            "name": "Katherine",
             "arrived": false,
             "location": [
-                -20.56618785,
-                134.29173196
+                -14.464615699999992,
+                132.2635993
             ],
             "photos": [],
             "state": "planned"
@@ -420,16 +420,6 @@
             "location": [
                 -14.927884100000028,
                 133.06905800000004
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
-            "name": "Katherine",
-            "arrived": false,
-            "location": [
-                -14.464615699999992,
-                132.2635993
             ],
             "photos": [],
             "state": "planned"
