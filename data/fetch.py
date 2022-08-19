@@ -30,6 +30,9 @@ def fetch(trip_id):
 
 def parse_steps(steps):
     for step in steps:
+        if step['is_deleted'] == True:
+            continue
+
         if 'supertype' in step and step['supertype'] == 'normal':
             yield {
                 'name': step['name'] if not empty(step['name']) else step['location']['name'],
@@ -43,6 +46,9 @@ def parse_planned_steps(steps):
     now = int(time())
 
     for step in list(reversed(steps)):
+        if step['is_deleted'] == True:
+            continue
+
         if not empty(step['visit_time']):
             continue
 

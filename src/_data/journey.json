@@ -395,31 +395,11 @@
             "state": "current"
         },
         {
-            "name": "Birdum",
-            "arrived": false,
-            "location": [
-                -16.25415839999999,
-                133.36985119999997
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Katherine",
             "arrived": false,
             "location": [
                 -14.464615699999992,
                 132.2635993
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
-            "name": "Mataranka",
-            "arrived": false,
-            "location": [
-                -14.927884100000028,
-                133.06905800000004
             ],
             "photos": [],
             "state": "planned"
