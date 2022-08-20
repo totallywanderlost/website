@@ -405,16 +405,6 @@
             "state": "planned"
         },
         {
-            "name": "Dundee Beach",
-            "arrived": false,
-            "location": [
-                -13.275525799999999,
-                130.90053654999997
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Darwin City",
             "arrived": false,
             "location": [
