@@ -392,17 +392,17 @@
                 133.06905800000004
             ],
             "photos": [],
-            "state": "current"
+            "state": "visited"
         },
         {
             "name": "Katherine",
-            "arrived": false,
+            "arrived": 1661128200,
             "location": [
                 -14.464615699999992,
                 132.2635993
             ],
             "photos": [],
-            "state": "planned"
+            "state": "current"
         },
         {
             "name": "Darwin City",
