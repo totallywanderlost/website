@@ -402,6 +402,16 @@
                 132.2635993
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Edith Falls",
+            "arrived": 1661394600,
+            "location": [
+                -14.111380000000011,
+                132.46244419000004
+            ],
+            "photos": [],
             "state": "current"
         },
         {
