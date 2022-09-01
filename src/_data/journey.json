@@ -423,16 +423,6 @@
             ],
             "photos": [],
             "state": "current"
-        },
-        {
-            "name": "Darwin City",
-            "arrived": false,
-            "location": [
-                -12.460439999999998,
-                130.84104690000004
-            ],
-            "photos": [],
-            "state": "planned"
         }
     ]
 }
