@@ -405,21 +405,21 @@
             "state": "visited"
         },
         {
-            "name": "Edith Falls",
-            "arrived": 1661394600,
-            "location": [
-                -14.179991226569495,
-                132.188439006581
-            ],
-            "photos": [],
-            "state": "visited"
-        },
-        {
             "name": "Litchfield Park",
             "arrived": 1661574600,
             "location": [
                 -13.275525799999999,
                 130.90053654999997
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Darwin",
+            "arrived": 1662006600,
+            "location": [
+                -12.460439999999998,
+                130.84104690000004
             ],
             "photos": [],
             "state": "current"
