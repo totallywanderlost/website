@@ -1,15 +1,6 @@
 <div id="map" class="full hide"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
-<style>
-  .emoji-28 {
-    font-size: 28px;
-  }
-
-  .emoji-32 {
-    font-size: 32px;
-  }
-</style>
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
@@ -17,15 +8,27 @@
       return s[0].toUpperCase() + s.slice(1);
     }
 
-// Set up the map and allow for controlling interactivity such as zoom, scroll etc
+    function pin(colour) {
+      const fill = colour != undefined ? colour : 'red';
+      const size = 24;
+      const svg = `<svg style="fill: ${fill}" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 9A7 7 0 1 0 5 9c0 1.387.41 2.677 1.105 3.765h-.008C8.457 16.46 12 22 12 22l5.903-9.235h-.007A6.98 6.98 0 0 0 19 9zm-7 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>`;
+      const url = 'data:image/svg+xml;base64,' + btoa(svg);
+
+      return L.icon({
+        iconUrl: url,
+        iconSize: [size, size],
+        iconAnchor: [size / 2, (size / 2) + (size / 3)],
+      });
+    }
+
+    // Set up the map and allow for controlling interactivity such as zoom, scroll etc
     const map = L.map('map', {
-      zoomControl: {{ include.interactive }},
-      scrollWheelZoom: {{ include.interactive }},
-      doubleClickZoom: {{ include.interactive }},
-      dragging: {{ include.interactive }},
-      tap: {{ include.interactive }},
-      touchZoom: {{ include.interactive }},
-      scrollWheelZoom: {{ include.interactive }},
+      zoomControl: {{ include.zoom  | default: true}},
+      scrollWheelZoom: {{ include.zoom | default: true }},
+      doubleClickZoom: {{ include.zoom | default: true }},
+      touchZoom: {{ include.zoom | default: true }},
+      dragging: {{ include.drag | default: true }},
+      tap: {{ include.tap | default: true }},
       layers: [
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -41,31 +44,18 @@
     const visited = journey.steps.filter(s => s['state'] === 'visited').map(s => s.location);
     const planned = journey.steps.filter(s => s['state'] === 'planned').map(s => s.location);
     const current = journey.steps.filter(s => s['state'] === 'current').map(s => s.location);
+    const last = (count) => visited.concat(current).slice(count);
 
-    // Fit the map to show the current or all locations
-    const bounds = '{{ include.locations }}' === 'latest' ? current : all;
+    // Fit the map to show the latest, all or last N locations
+    const locations = '{{ include.locations }}';
+    const bounds = locations === 'latest' ? current : isNaN(locations) ? all : last(locations);
     map.fitBounds(bounds, { maxZoom: 5 });
 
     // Build the icons we'll be plotting for each step
     const icon = {
-      visited: L.divIcon({
-        iconSize  : [28, 28],
-        iconAnchor: [2, 28 + 4],
-        className : 'emoji-28',
-        html: '📌'
-      }),
-      current: L.divIcon({
-        iconSize  : [28, 28],
-        iconAnchor: [32/2, 28 + 4],
-        className : 'emoji-28',
-        html: '👋'
-      }),
-      planned: L.divIcon({
-        iconSize  : [32, 32],
-        iconAnchor: [32/2, 32 + 4],
-        className : 'emoji-32',
-        html: '🦘'
-      }),
+      visited: pin('#FE001D'),
+      current: pin('#0C58FF'),
+      planned: pin('#FF6000'),
     };
 
     // Add each journey step to the map
@@ -81,8 +71,8 @@
     }
 
     // Draw lines showing our joruney between each location
-    L.polyline(visited.concat(current), {color: 'purple', opacity: 1, weight: 2, dashArray: '5,5'}).addTo(map);
-    L.polyline(current.concat(planned), {color: 'purple', opacity: 0.4, weight: 2, dashArray: '7,7'}).addTo(map);
+    L.polyline(visited.concat(current), {color: '#111', opacity: 1, weight: 2, dashArray: '5,5'}).addTo(map);
+    L.polyline(current.concat(planned), {color: '#111', opacity: 0.5, weight: 2, dashArray: '5,5'}).addTo(map);
 
     // Show the map now it's all configured
     map.getContainer().classList.remove('hide');
