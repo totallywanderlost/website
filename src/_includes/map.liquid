@@ -23,6 +23,18 @@
       });
     }
 
+    function stateDescription(state) {
+      if (state === 'current') {
+        return '👋 Currently In';
+      } else if (state === 'visited') {
+        return '✅ Visited';
+      } else if (state === 'planned') {
+        return '📆 Planned';
+      }
+
+      throw `Unsupported state: ${state}`;
+    }
+
     // Set up the map and allow for controlling interactivity such as zoom, scroll etc
     const map = L.map('map', {
       zoomControl: {{ include.zoom  | default: true}},
@@ -67,7 +79,7 @@
     for (const step of journey.steps) {
       // Add a marker and tooltip for each location
       const marker = L.marker(step.location, { title: step.name, icon: icon[step.state] });
-      marker.bindPopup(`<b>${capitalise(step.state)} Location: ${step.name}</b>`);
+      marker.bindPopup(`<b>${stateDescription(step.state)}:</b> ${step.name}`);
 
       // Add the marker to the cluster group
       markers.addLayer(marker);
