@@ -1,7 +1,9 @@
 <div id="map" class="full hide"></div>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha512-mQ77VzAakzdpWdgfL/lM1ksNy89uFgibRQANsNneSTMD/bj0Y/8+94XMwYhnbzx8eki2hrbPpDm0vD0CiT2lcg==" crossorigin="anonymous"><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg==" crossorigin="anonymous"></script>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
     function capitalise(s) {
@@ -58,17 +60,27 @@
       planned: pin('#FF6000'),
     };
 
+    // Create a group for markers to potentially be clustered
+    const markers = L.markerClusterGroup({maxClusterRadius: (zoom) => 100 / (zoom / 2) });
+
     // Add each journey step to the map
     for (const step of journey.steps) {
       // Add a marker and tooltip for each location
-      const marker = L.marker(step.location, { title: step.name, icon: icon[step.state] }).addTo(map);
-      marker.bindTooltip(`${capitalise(step.state)} Location: ${step.name}`);
+      const marker = L.marker(step.location, { title: step.name, icon: icon[step.state] });
+      marker.bindPopup(`<b>${capitalise(step.state)} Location: ${step.name}</b>`);
+
+      // Add the marker to the cluster group
+      markers.addLayer(marker);
 
       // Show a popup on the last i.e. latest location
       if (step['state'] === 'current') {
-        marker.openTooltip();
+        marker.addTo(map);
+        marker.openPopup();
       }
     }
+
+    // Add the cluster group to the map
+    map.addLayer(markers);
 
     // Draw lines showing our joruney between each location
     L.polyline(visited.concat(current), {color: '#111', opacity: 1, weight: 2, dashArray: '5,5'}).addTo(map);
