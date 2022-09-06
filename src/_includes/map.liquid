@@ -44,7 +44,7 @@
     const visited = journey.steps.filter(s => s['state'] === 'visited').map(s => s.location);
     const planned = journey.steps.filter(s => s['state'] === 'planned').map(s => s.location);
     const current = journey.steps.filter(s => s['state'] === 'current').map(s => s.location);
-    const last = (count) => visited.concat(current).slice(count);
+    const last = (count) => visited.concat(current).slice(-count);
 
     // Fit the map to show the latest, all or last N locations
     const locations = '{{ include.locations }}';
