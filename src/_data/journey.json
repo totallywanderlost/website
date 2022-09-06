@@ -1,7 +1,7 @@
 {
     "steps": [
         {
-            "name": "Home",
+            "name": "London",
             "arrived": 1656528600,
             "location": [
                 51.5073219,
@@ -228,6 +228,16 @@
             "state": "visited"
         },
         {
+            "name": "Ghan",
+            "arrived": 1659492000,
+            "location": [
+                -25.066900000000025,
+                133.945
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
             "name": "Yulara",
             "arrived": 1659508200,
             "location": [
@@ -260,7 +270,7 @@
             "state": "visited"
         },
         {
-            "name": "Ghan",
+            "name": "Erldunda Roadhouse",
             "arrived": 1659759900,
             "location": [
                 -25.066900000000025,
@@ -278,7 +288,7 @@
             ],
             "photos": [
                 {
-                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/2D55D0BF-3DE8-4711-ACB2-15DC094B6840_D55EC2F8-E361-4E37-A602-56A858F71586.jpg",
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/AD2110EF-FE8F-4072-BEEC-CB32856A587E_A5451DC5-05A8-434D-B74E-1D17A10AAC1F.jpg",
                     "location": [
                         0.0,
                         0.0
@@ -286,13 +296,6 @@
                 },
                 {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/CF3882AC-B352-46E9-9F79-876DD5D0403C_C6DDD561-4732-4766-BBB2-53E88D385248.jpg",
-                    "location": [
-                        0.0,
-                        0.0
-                    ]
-                },
-                {
-                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/AD2110EF-FE8F-4072-BEEC-CB32856A587E_A5451DC5-05A8-434D-B74E-1D17A10AAC1F.jpg",
                     "location": [
                         0.0,
                         0.0
@@ -355,8 +358,18 @@
             "state": "visited"
         },
         {
+            "name": "Alice Springs",
+            "arrived": 1660444200,
+            "location": [
+                -23.698388400000006,
+                133.88128849999998
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
             "name": "Devil\u2019s Marbles",
-            "arrived": 1660447800,
+            "arrived": 1660458600,
             "location": [
                 -20.56618785,
                 134.29173196
@@ -423,6 +436,26 @@
             ],
             "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Birdum",
+            "arrived": false,
+            "location": [
+                -16.25415839999999,
+                133.36985119999997
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Port Douglas",
+            "arrived": false,
+            "location": [
+                -16.484598300000012,
+                145.46362939999995
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
