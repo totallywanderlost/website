@@ -448,6 +448,36 @@
             "state": "planned"
         },
         {
+            "name": "Nicholson",
+            "arrived": false,
+            "location": [
+                -19.71139599999998,
+                135.82700460000007
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Cloncurry",
+            "arrived": false,
+            "location": [
+                -20.705187300000016,
+                140.5058305
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Normanton",
+            "arrived": false,
+            "location": [
+                -17.670915799999996,
+                141.07804220000003
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
             "name": "Port Douglas",
             "arrived": false,
             "location": [
