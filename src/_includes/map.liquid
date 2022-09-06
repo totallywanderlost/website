@@ -73,7 +73,10 @@
     };
 
     // Create a group for markers to potentially be clustered
-    const markers = L.markerClusterGroup({maxClusterRadius: (zoom) => 100 / (zoom / 2) });
+    const markers = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      maxClusterRadius: 70,
+    });
 
     // Add each journey step to the map
     for (const step of journey.steps) {
