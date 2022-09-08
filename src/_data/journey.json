@@ -438,16 +438,6 @@
             "state": "current"
         },
         {
-            "name": "Birdum",
-            "arrived": false,
-            "location": [
-                -16.25415839999999,
-                133.36985119999997
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Nicholson",
             "arrived": false,
             "location": [
