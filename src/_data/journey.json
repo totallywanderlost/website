@@ -435,6 +435,16 @@
                 130.84104690000004
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Daly Waters",
+            "arrived": 1662611400,
+            "location": [
+                -16.25415839999999,
+                133.36985119999997
+            ],
+            "photos": [],
             "state": "current"
         },
         {
