@@ -39,7 +39,7 @@ def parse_steps(steps):
                 'arrived': floor(step['start_time']),
                 'location': [step['location']['lat'], step['location']['lon']],
                 'photos': [ get_photo(item) for item in step['media'] if 'path' in item and not empty(item['path']) ],
-                'state': 'visited'
+                'state': 'visited' if len(step['media']) > 0 else 'stopped'
             }
 
 def parse_planned_steps(steps):

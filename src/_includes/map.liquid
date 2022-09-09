@@ -55,15 +55,18 @@
 
     // Extract the various states of location coordinates to plot
     const all = journey.steps.map(s => s.location);
-    const visited = journey.steps.filter(s => s['state'] === 'visited').map(s => s.location);
-    const planned = journey.steps.filter(s => s['state'] === 'planned').map(s => s.location);
-    const current = journey.steps.filter(s => s['state'] === 'current').map(s => s.location);
+    const locationsWithState = (state) => journey.steps.filter(s => s['state'] === state).map(s => s.location);
+    const locationsWithoutState = (state) => journey.steps.filter(s => s['state'] !== state).map(s => s.location);
+    const stopped = locationsWithState('stopped');
+    const visited = locationsWithState('visited');
+    const planned = locationsWithState('planned');
+    const current = locationsWithState('current');
     const last = (count) => visited.concat(current).slice(-count);
 
     // Fit the map to show the latest, all or last N locations
     const locations = '{{ include.locations }}';
     const bounds = locations === 'latest' ? current : isNaN(locations) ? all : last(locations);
-    map.fitBounds(bounds, { maxZoom: 8 });
+    map.fitBounds(bounds, { maxZoom: 6 });
 
     // Build the icons we'll be plotting for each step
     const icon = {
@@ -78,8 +81,12 @@
       maxClusterRadius: 70,
     });
 
-    // Add each journey step to the map
+    // Plot each location we visited or plan to visit
     for (const step of journey.steps) {
+      if (step['state'] === 'stopped') {
+        continue;
+      }
+
       // Add a marker and tooltip for each location
       const marker = L.marker(step.location, { title: step.name, icon: icon[step.state] });
       marker.bindPopup(`<b>${stateDescription(step.state)}:</b> ${step.name}`);
@@ -98,7 +105,7 @@
     map.addLayer(markers);
 
     // Draw lines showing our joruney between each location
-    L.polyline(visited.concat(current), {color: '#111', opacity: 1, weight: 2, dashArray: '5,5'}).addTo(map);
+    L.polyline(locationsWithoutState('planned'), {color: '#111', opacity: 1, weight: 2, dashArray: '5,5'}).addTo(map);
     L.polyline(current.concat(planned), {color: '#111', opacity: 0.5, weight: 2, dashArray: '5,5'}).addTo(map);
 
     // Show the map now it's all configured
