@@ -448,16 +448,6 @@
             "state": "current"
         },
         {
-            "name": "Nicholson",
-            "arrived": false,
-            "location": [
-                -19.71139599999998,
-                135.82700460000007
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Cloncurry",
             "arrived": false,
             "location": [
