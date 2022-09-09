@@ -1,8 +1,8 @@
 ---
 title: Sydneyside Up 🌦
 layout: post
-author: James
-city: Sydney
+authors: [James]
+cities: [Sydney]
 country: Australia
 flag: 🇦🇺
 featured_image: blog/sydneyside-up/featured

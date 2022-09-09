@@ -191,7 +191,7 @@ header nav a {
   grid-area: image;
 }
 
-.post .author {
+.post .authors {
   grid-area: author;
 }
 
@@ -199,30 +199,26 @@ header nav a {
   grid-area: content;
 }
 
-.author {
+.authors {
   position: relative;
 }
 
-.posts .author {
+.posts .authors {
   margin: 0;
 }
 
-.post .author img {
+.post .authors img {
   vertical-align: bottom;
   margin-bottom: -4px;
-  margin-right: 10px;
+  margin-left: -15px;
   width: 30px;
   height: 30px;
   object-fit: cover;
   border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  margin-top: -15px;
 }
 
-.post .author span {
-  margin-left: 38px;
-  display: block;
+.post .authors img:first-of-type {
+  margin-left: 0;
 }
 
 .image {

@@ -1,8 +1,8 @@
 ---
 title: Brrrrighton ❄️
 layout: post
-author: Nicole
-city: Adelaide
+authors: [Nicole]
+cities: [Adelaide]
 country: Australia
 flag: 🇦🇺
 featured_image: blog/brrrrighton/featured
@@ -37,7 +37,7 @@ On a couple of the days with nicer weather we headed on some bushwalks. Firstly 
 &nbsp;
 {{ 'blog/brrrrighton/walkies' | photo_tag: width: 450, height: 600 }}
 
-Further afield, we acompanied Jim on a surfing trip down to Middleton, where we pulled in at a whale watching platform and happened to arrive just in time to see a Mother and baby Southern Right whale about 50m out from the beach! We watched them swimming about on the surface and blowing water into the air for about 15 minutes until they started moving back out into the deeper water. We also headed out into the Adelaide hills one afternoon and visited the 'German' village of Hahndorf, which was originally founded by German settlers and still trades on that heritage with lots of Schnitzel, Strudel, and Pretzels on offer alongside local craft shops and lots of wineries.
+Further afield, we accompanied Jim on a surfing trip down to Middleton, where we pulled in at a whale watching platform and happened to arrive just in time to see a Mother and baby Southern Right whale about 50m out from the beach! We watched them swimming about on the surface and blowing water into the air for about 15 minutes until they started moving back out into the deeper water. We also headed out into the Adelaide hills one afternoon and visited the 'German' village of Hahndorf, which was originally founded by German settlers and still trades on that heritage with lots of Schnitzel, Strudel, and Pretzels on offer alongside local craft shops and lots of wineries.
 
 ## Onwards and Upwards (literally)
 

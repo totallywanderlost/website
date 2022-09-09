@@ -1,8 +1,8 @@
 ---
 title: Laters London, Hi Dubai! 👋
 layout: post
-author: Nicole
-city: Dubai
+authors: [Nicole]
+cities: [Dubai]
 country: UAE
 flag: 🇦🇪
 featured_image: blog/laters-london-hi-dubai/featured

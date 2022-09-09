@@ -13,7 +13,7 @@
 
   {% if page.is_post %}
   <meta name="description" content="{{ page.summary }}">
-  <meta name="author" content="{{ page.author }}">
+  <meta name="author" content="{{ page.authors | array_to_sentence_string }}">
   <meta property="og:type" content="article">
   <meta property="og:description" content="{{ page.summary }}">
   <meta property="og:image" content="{{ page.featured_image | photo_url: width: 1200, height:630, focus: 'auto' }}">

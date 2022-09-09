@@ -1,8 +1,8 @@
 ---
 title: Full Steam Ahead!💨
 layout: post
-author: Nicole
-city: London
+authors: [Nicole]
+cities: [London]
 country: UK
 flag: 🇬🇧
 featured_image: blog/full-steam-ahead/featured
