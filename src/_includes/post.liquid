@@ -14,7 +14,7 @@
     </span>
   </p>
 
-  {% if include.featured_image && include.post.featured_image %}
+  {% if include.featured_image and include.post.featured_image %}
     <a class="featured-image" href="{{ include.post.url }}">
       <img loading="lazy" class="image thumbnail" width=250 height=250 src="{{ include.post.featured_image | photo_url: width: 250, height: 250 }}">
     </a>
