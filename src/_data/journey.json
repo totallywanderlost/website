@@ -438,11 +438,51 @@
             "state": "visited"
         },
         {
+            "name": "Katherine",
+            "arrived": 1662597000,
+            "location": [
+                -14.464615699999992,
+                132.2635993
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Mataranka",
+            "arrived": 1662600600,
+            "location": [
+                -14.927884100000028,
+                133.06905800000004
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
             "name": "Daly Waters",
             "arrived": 1662611400,
             "location": [
                 -16.25415839999999,
                 133.36985119999997
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Three Ways",
+            "arrived": 1662697812,
+            "location": [
+                -19.44014686208393,
+                134.20814699676924
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Barkly Homestead",
+            "arrived": 1662706345,
+            "location": [
+                -19.711314118485628,
+                135.82683250320687
             ],
             "photos": [],
             "state": "current"
