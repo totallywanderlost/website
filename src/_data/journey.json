@@ -488,16 +488,6 @@
             "state": "current"
         },
         {
-            "name": "Cloncurry",
-            "arrived": false,
-            "location": [
-                -20.705187300000016,
-                140.5058305
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Normanton",
             "arrived": false,
             "location": [
