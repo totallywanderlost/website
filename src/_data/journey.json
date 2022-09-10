@@ -136,6 +136,16 @@
             "state": "visited"
         },
         {
+            "name": "Port Pirie",
+            "arrived": 1658992800,
+            "location": [
+                -33.17912490000001,
+                138.00586139999996
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Mount Remarkable National Park",
             "arrived": 1659024000,
             "location": [
@@ -166,6 +176,16 @@
                 }
             ],
             "state": "visited"
+        },
+        {
+            "name": "Port Augusta",
+            "arrived": 1659151800,
+            "location": [
+                -32.490881900000005,
+                137.76398740000002
+            ],
+            "photos": [],
+            "state": "stopped"
         },
         {
             "name": "Spud's Roadhouse",
@@ -483,6 +503,36 @@
             "location": [
                 -19.711314118485628,
                 135.82683250320687
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Camooweal",
+            "arrived": 1662775218,
+            "location": [
+                -19.921682000000004,
+                138.12012830000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Mount Isa",
+            "arrived": 1662786012,
+            "location": [
+                -20.728989799999987,
+                139.4931522
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Cloncurry",
+            "arrived": 1662791400,
+            "location": [
+                -20.705187300000016,
+                140.5058305
             ],
             "photos": [],
             "state": "current"
