@@ -535,6 +535,16 @@
                 140.5058305
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Burke and Wills",
+            "arrived": 1662863560,
+            "location": [
+                -19.223719299999953,
+                140.34448380000003
+            ],
+            "photos": [],
             "state": "current"
         },
         {
