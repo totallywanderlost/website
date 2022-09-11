@@ -545,6 +545,26 @@
                 140.34448380000003
             ],
             "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Normanton",
+            "arrived": 1662872171,
+            "location": [
+                -17.674063969193273,
+                141.07464213089509
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Karumba",
+            "arrived": 1662875983,
+            "location": [
+                -17.46391440277683,
+                140.82979210665528
+            ],
+            "photos": [],
             "state": "current"
         },
         {
