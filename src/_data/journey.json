@@ -538,16 +538,6 @@
             "state": "current"
         },
         {
-            "name": "Normanton",
-            "arrived": false,
-            "location": [
-                -17.670915799999996,
-                141.07804220000003
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Port Douglas",
             "arrived": false,
             "location": [
