@@ -518,6 +518,16 @@
             "state": "stopped"
         },
         {
+            "name": "Burke and Wills",
+            "arrived": 1662777160,
+            "location": [
+                -19.223719299999953,
+                140.34448380000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Mount Isa",
             "arrived": 1662786012,
             "location": [
@@ -538,21 +548,11 @@
             "state": "visited"
         },
         {
-            "name": "Burke and Wills",
-            "arrived": 1662863560,
-            "location": [
-                -19.223719299999953,
-                140.34448380000003
-            ],
-            "photos": [],
-            "state": "stopped"
-        },
-        {
             "name": "Normanton",
-            "arrived": 1662872171,
+            "arrived": 1662858053,
             "location": [
-                -17.674063969193273,
-                141.07464213089509
+                -17.670915799999996,
+                141.07804220000003
             ],
             "photos": [],
             "state": "stopped"
@@ -563,6 +563,26 @@
             "location": [
                 -17.46391440277683,
                 140.82979210665528
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Normanton",
+            "arrived": 1662944411,
+            "location": [
+                -17.674063969193273,
+                141.07464213089509
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Mount Surprise",
+            "arrived": 1662969843,
+            "location": [
+                -18.200274075835605,
+                144.57111573846987
             ],
             "photos": [],
             "state": "current"
