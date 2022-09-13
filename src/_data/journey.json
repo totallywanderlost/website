@@ -518,16 +518,6 @@
             "state": "stopped"
         },
         {
-            "name": "Burke and Wills",
-            "arrived": 1662777160,
-            "location": [
-                -19.223719299999953,
-                140.34448380000003
-            ],
-            "photos": [],
-            "state": "stopped"
-        },
-        {
             "name": "Mount Isa",
             "arrived": 1662786012,
             "location": [
@@ -546,6 +536,16 @@
             ],
             "photos": [],
             "state": "visited"
+        },
+        {
+            "name": "Burke and Wills",
+            "arrived": 1662856240,
+            "location": [
+                -19.223719299999953,
+                140.34448380000003
+            ],
+            "photos": [],
+            "state": "stopped"
         },
         {
             "name": "Normanton",
@@ -573,6 +573,26 @@
             "location": [
                 -17.674063969193273,
                 141.07464213089509
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Croydon",
+            "arrived": 1662953407,
+            "location": [
+                -18.204343099999996,
+                142.2447977
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Georgetown",
+            "arrived": 1662962405,
+            "location": [
+                -18.289804900000014,
+                143.54805729999998
             ],
             "photos": [],
             "state": "stopped"
