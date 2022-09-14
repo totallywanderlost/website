@@ -565,7 +565,7 @@
                 140.82979210665528
             ],
             "photos": [],
-            "state": "stopped"
+            "state": "visited"
         },
         {
             "name": "Normanton",
@@ -603,6 +603,26 @@
             "location": [
                 -18.200274075835605,
                 144.57111573846987
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Atherton",
+            "arrived": 1663135217,
+            "location": [
+                -17.26740579999997,
+                145.4761663
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Port Douglas",
+            "arrived": 1663137751,
+            "location": [
+                -16.48453955810496,
+                145.46417309710378
             ],
             "photos": [],
             "state": "current"
