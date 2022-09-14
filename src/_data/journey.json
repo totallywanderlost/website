@@ -606,16 +606,6 @@
             ],
             "photos": [],
             "state": "current"
-        },
-        {
-            "name": "Port Douglas",
-            "arrived": false,
-            "location": [
-                -16.484598300000012,
-                145.46362939999995
-            ],
-            "photos": [],
-            "state": "planned"
         }
     ]
 }
