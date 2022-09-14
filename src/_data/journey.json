@@ -154,6 +154,13 @@
             ],
             "photos": [
                 {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/9250BC1C-91B3-4195-8977-06BB0FCD671C_ECFEA1E2-CA0E-4CC3-A623-14775BE4F5B9.jpg",
+                    "location": [
+                        -32.78140379999997,
+                        138.06865064
+                    ]
+                },
+                {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/C6424FA3-0B05-4047-B0C6-7F1B70FFAF67_A86C3189-E5E0-4330-8226-8105DC229A70.jpg",
                     "location": [
                         -32.78140379999997,
@@ -265,6 +272,13 @@
                 130.98694049999995
             ],
             "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/77B57625-A44B-4CEF-94BE-3A788C04741E_6D57921B-E0A6-422C-8423-CAFD3C992943.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
                 {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/4F00F63F-8CD8-442B-A85B-6D93AF8FAAF0_80DBE0D6-258A-4E5D-88E9-CB8EBC11476B.jpg",
                     "location": [
@@ -404,6 +418,13 @@
             ],
             "photos": [
                 {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/BE507C08-09B9-4CD4-9BC1-597EAF9CCE43_A9B95BFD-C2F3-4C90-9130-8859AF67765A.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/9A62DD57-FF1C-45B6-9035-8426C6B820F2_04E47173-8A12-4063-93F7-E31660A8C558.jpg",
                     "location": [
                         0.0,
@@ -447,6 +468,20 @@
                         0.0,
                         0.0
                     ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/1190120B-A537-4595-9776-259AE4C6FDD0_A90F0529-F10E-400A-842B-46E255A5BCED.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/2413F3F7-1CF3-4D06-9DF0-210AC84F75E5_A8AA840C-B407-4F7D-8773-D972F7F11B92.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
                 }
             ],
             "state": "visited"
@@ -458,7 +493,36 @@
                 -14.464615699999992,
                 132.2635993
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/69168892-F24A-49AE-AD1B-1B67DA1BFB03_084CB2F0-9C75-4EFB-8A7D-E7E356728F9C.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/0FED86AC-41E8-43AD-A58C-5FFB1438DA47_22AAE67E-21E4-469F-AD12-7BBE376C9485.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/AAF48038-487A-44E4-8D01-E9F4D0D83E15_41FB8FA2-F7C8-4BCB-8D9E-730B0D896536.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/4D8A6F34-4A94-48DB-BF15-5B58F7F49714_0C7EC9C7-D1F6-4FEE-9344-BE13FE17F52A.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -468,7 +532,15 @@
                 -13.275525799999999,
                 130.90053654999997
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/8E13E0C7-504A-4F63-BA5B-7640D198567E_A00756A5-1FEF-4FF7-86B8-E0314B980558.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -481,6 +553,20 @@
             "photos": [
                 {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/B86EF75F-A05D-4F32-9B65-687217D060AD_3582D7C2-5ED3-4FC8-B79E-3DFF35C2B4E9.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/40D02363-60E2-462D-AEE6-FA7CBC4C3932_D5B6475A-5591-463A-BD9E-C033563BA062.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/FDB474E2-AC86-4A92-9639-A95BC6DCEB83_A619CF3F-7D39-420F-8B33-3BD4DC935234.jpg",
                     "location": [
                         0.0,
                         0.0
@@ -606,6 +692,13 @@
             ],
             "photos": [
                 {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/A0BF3B24-08FB-4341-8EF8-A0817F3D535C_D35170CA-BD69-4667-B6C7-37CD3B08EB2B.jpg",
+                    "location": [
+                        -17.460141666666665,
+                        140.827195
+                    ]
+                },
+                {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/37FFF788-F6C9-4FF0-B608-81D5EB6ECBE8_F728A93F-E365-49C5-8F4D-A175A5B34CFC.jpg",
                     "location": [
                         -17.460895,
@@ -659,9 +752,33 @@
                         -18.202561666666668,
                         144.572205
                     ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/1A523898-303D-46AD-AE05-0C1B5300AFD3_CAE1C71B-A06E-4A2F-9C50-149BA00371E4.jpg",
+                    "location": [
+                        -18.223716666666668,
+                        144.66821333333334
+                    ]
+                },
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/470E988D-1CE8-4CBA-B41B-2134CBBBC9C9_E944E011-77DE-4A35-B89C-A3C25615F826.jpg",
+                    "location": [
+                        -18.201795,
+                        144.5719
+                    ]
                 }
             ],
             "state": "visited"
+        },
+        {
+            "name": "Mount Carbine",
+            "arrived": 1663118226,
+            "location": [
+                -18.096546049999972,
+                144.85591983
+            ],
+            "photos": [],
+            "state": "stopped"
         },
         {
             "name": "Mount Garnet",
@@ -669,6 +786,16 @@
             "location": [
                 -17.676162900000016,
                 145.1127189
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Ravenshoe",
+            "arrived": 1663126224,
+            "location": [
+                -17.607940399999976,
+                145.4819407
             ],
             "photos": [],
             "state": "stopped"
