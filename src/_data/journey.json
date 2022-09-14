@@ -384,7 +384,15 @@
                 -23.698388400000006,
                 133.88128849999998
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/0834C7C6-CA87-402F-A18F-6974784A3287_CA751FA3-CAEE-4DE5-8904-4D9FAA63F88D.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -394,7 +402,15 @@
                 -20.56618785,
                 134.29173196
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/9A62DD57-FF1C-45B6-9035-8426C6B820F2_04E47173-8A12-4063-93F7-E31660A8C558.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -424,7 +440,15 @@
                 -14.927884100000028,
                 133.06905800000004
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/CCB23F14-86D6-4047-9246-FAB353C720D5_F46B7E56-C61B-4A12-BD10-BD02EF610DE9.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -454,7 +478,15 @@
                 -12.460439999999998,
                 130.84104690000004
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/B86EF75F-A05D-4F32-9B65-687217D060AD_3582D7C2-5ED3-4FC8-B79E-3DFF35C2B4E9.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -484,7 +516,15 @@
                 -16.25415839999999,
                 133.36985119999997
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/EB26C7DB-31BD-49D5-88EB-BE067708D316_1569BE10-F6FC-4452-84AD-700FE0249895.jpg",
+                    "location": [
+                        -16.253795,
+                        133.36973666666665
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -564,7 +604,15 @@
                 -17.46391440277683,
                 140.82979210665528
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/37FFF788-F6C9-4FF0-B608-81D5EB6ECBE8_F728A93F-E365-49C5-8F4D-A175A5B34CFC.jpg",
+                    "location": [
+                        -17.460895,
+                        140.82745333333332
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -604,8 +652,26 @@
                 -18.200274075835605,
                 144.57111573846987
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/9A06D7D4-F253-439C-8F44-8C907C406DB3_A7B099CD-A084-459A-9903-F250BE286B43.jpg",
+                    "location": [
+                        -18.202561666666668,
+                        144.572205
+                    ]
+                }
+            ],
             "state": "visited"
+        },
+        {
+            "name": "Mount Garnet",
+            "arrived": 1663122610,
+            "location": [
+                -17.676162900000016,
+                145.1127189
+            ],
+            "photos": [],
+            "state": "stopped"
         },
         {
             "name": "Atherton",
