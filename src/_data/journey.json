@@ -713,6 +713,13 @@
             ],
             "photos": [
                 {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/359387A4-74A6-4CC7-BA6E-086A42A7F80B_BDC6757D-9B4D-4E96-B10E-6BBD0E6AF5C3.jpg",
+                    "location": [
+                        -17.460091666666667,
+                        140.82733
+                    ]
+                },
+                {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/A0BF3B24-08FB-4341-8EF8-A0817F3D535C_D35170CA-BD69-4667-B6C7-37CD3B08EB2B.jpg",
                     "location": [
                         -17.460141666666665,
@@ -767,6 +774,13 @@
                 144.57111573846987
             ],
             "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/A5FC4CBB-16F2-4882-BC89-FAEFFE4982BA_77775568-C1A0-4783-849E-531E8006B38E.jpg",
+                    "location": [
+                        -18.201633333333334,
+                        144.57183833333335
+                    ]
+                },
                 {
                     "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/9A06D7D4-F253-439C-8F44-8C907C406DB3_A7B099CD-A084-459A-9903-F250BE286B43.jpg",
                     "location": [
@@ -840,6 +854,16 @@
             ],
             "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Cairns City",
+            "arrived": false,
+            "location": [
+                -16.920665700000022,
+                145.7721854
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
