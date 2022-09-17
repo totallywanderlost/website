@@ -853,6 +853,36 @@
                 145.46417309710378
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Mossman",
+            "arrived": 1663376415,
+            "location": [
+                -16.46144550000005,
+                145.37266490000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Daintree",
+            "arrived": 1663383607,
+            "location": [
+                -16.165303200000036,
+                145.41839146999996
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Cape Tribulation",
+            "arrived": 1663387200,
+            "location": [
+                -16.08878449999997,
+                145.46221109999993
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
