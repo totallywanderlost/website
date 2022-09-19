@@ -884,6 +884,56 @@
             ],
             "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Cairns City",
+            "arrived": false,
+            "location": [
+                -16.920665700000022,
+                145.7721854
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Babinda",
+            "arrived": false,
+            "location": [
+                -17.344380700000006,
+                145.9218985
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Mission Beach",
+            "arrived": false,
+            "location": [
+                -17.86698009999996,
+                146.1075583
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Townsville City",
+            "arrived": false,
+            "location": [
+                -19.256939100000004,
+                146.8239537
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Airlie Beach",
+            "arrived": false,
+            "location": [
+                -20.269410899999986,
+                148.71816400000006
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
