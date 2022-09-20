@@ -886,16 +886,6 @@
             "state": "current"
         },
         {
-            "name": "Cairns City",
-            "arrived": false,
-            "location": [
-                -16.920665700000022,
-                145.7721854
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Babinda",
             "arrived": false,
             "location": [
