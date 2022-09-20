@@ -903,6 +903,16 @@
                 145.37266490000002
             ],
             "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Cairns",
+            "arrived": 1663651800,
+            "location": [
+                -16.920665700000022,
+                145.7721854
+            ],
+            "photos": [],
             "state": "current"
         },
         {
