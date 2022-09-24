@@ -913,17 +913,17 @@
                 145.7721854
             ],
             "photos": [],
-            "state": "current"
+            "state": "visited"
         },
         {
             "name": "Babinda",
-            "arrived": false,
+            "arrived": 1663894800,
             "location": [
                 -17.344380700000006,
                 145.9218985
             ],
             "photos": [],
-            "state": "planned"
+            "state": "current"
         },
         {
             "name": "Mission Beach",
