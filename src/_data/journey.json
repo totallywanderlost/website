@@ -926,6 +926,16 @@
             "state": "stopped"
         },
         {
+            "name": "Fishery Falls",
+            "arrived": 1663893900,
+            "location": [
+                -17.223376099999975,
+                145.91582240000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Babinda",
             "arrived": 1663894800,
             "location": [
@@ -934,16 +944,6 @@
             ],
             "photos": [],
             "state": "visited"
-        },
-        {
-            "name": "Fishery Falls",
-            "arrived": 1663894800,
-            "location": [
-                -17.223376099999975,
-                145.91582240000002
-            ],
-            "photos": [],
-            "state": "stopped"
         },
         {
             "name": "Innisfail",
@@ -973,17 +973,57 @@
                 146.1075583
             ],
             "photos": [],
-            "state": "current"
+            "state": "visited"
         },
         {
-            "name": "Townsville City",
-            "arrived": false,
+            "name": "Tully",
+            "arrived": 1664071200,
             "location": [
-                -19.256939100000004,
-                146.8239537
+                -17.93294979999998,
+                145.92726240000002
             ],
             "photos": [],
-            "state": "planned"
+            "state": "stopped"
+        },
+        {
+            "name": "Cardwell",
+            "arrived": 1664074800,
+            "location": [
+                -18.26836809999998,
+                146.03002859999998
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Ingham",
+            "arrived": 1664078400,
+            "location": [
+                -18.647637399999983,
+                146.16034479999996
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Balgal Beach",
+            "arrived": 1664082000,
+            "location": [
+                -19.016340000000007,
+                146.40829999999994
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Townsville",
+            "arrived": 1664144100,
+            "location": [
+                -19.350284499999987,
+                146.80360469
+            ],
+            "photos": [],
+            "state": "current"
         },
         {
             "name": "Airlie Beach",
