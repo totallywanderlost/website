@@ -1026,6 +1026,16 @@
             "state": "visited"
         },
         {
+            "name": "Ayr",
+            "arrived": 1664330445,
+            "location": [
+                -19.575859700000013,
+                147.4044626
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Bowen",
             "arrived": 1664332230,
             "location": [
