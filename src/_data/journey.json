@@ -1023,6 +1023,26 @@
                 146.80360469
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Bowen",
+            "arrived": 1664332230,
+            "location": [
+                -20.012125000000008,
+                148.2462901
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Airlie Beach",
+            "arrived": 1664337600,
+            "location": [
+                -20.269410899999986,
+                148.71816400000006
+            ],
+            "photos": [],
             "state": "current"
         },
         {
