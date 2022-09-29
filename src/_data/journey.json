@@ -1054,16 +1054,6 @@
             ],
             "photos": [],
             "state": "current"
-        },
-        {
-            "name": "Airlie Beach",
-            "arrived": false,
-            "location": [
-                -20.269410899999986,
-                148.71816400000006
-            ],
-            "photos": [],
-            "state": "planned"
         }
     ]
 }
