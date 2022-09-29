@@ -1036,8 +1036,18 @@
             "state": "stopped"
         },
         {
+            "name": "Home hill",
+            "arrived": 1664332237,
+            "location": [
+                -19.664174299999996,
+                147.4139793
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Bowen",
-            "arrived": 1664332230,
+            "arrived": 1664375430,
             "location": [
                 -20.012125000000008,
                 148.2462901
@@ -1047,7 +1057,7 @@
         },
         {
             "name": "Airlie Beach",
-            "arrived": 1664337600,
+            "arrived": 1664377200,
             "location": [
                 -20.269410899999986,
                 148.71816400000006
