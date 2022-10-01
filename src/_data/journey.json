@@ -1064,6 +1064,16 @@
             ],
             "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Mackay",
+            "arrived": false,
+            "location": [
+                -21.14195599999997,
+                149.18651490000002
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
