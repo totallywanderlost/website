@@ -1063,6 +1063,16 @@
                 148.71816400000006
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Mackay",
+            "arrived": 1664686800,
+            "location": [
+                -21.14195599999997,
+                149.18651490000002
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
