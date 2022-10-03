@@ -1066,11 +1066,71 @@
             "state": "visited"
         },
         {
+            "name": "Proserpine",
+            "arrived": 1664586000,
+            "location": [
+                -20.401808499999966,
+                148.5832137
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Bloomsbury",
+            "arrived": 1664589600,
+            "location": [
+                -20.704168500000016,
+                148.5987081
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Calen",
+            "arrived": 1664593200,
+            "location": [
+                -20.900393400000056,
+                148.7722197
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Mackay",
             "arrived": 1664686800,
             "location": [
                 -21.14195599999997,
                 149.18651490000002
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Sarina",
+            "arrived": 1664758800,
+            "location": [
+                -21.425795800000014,
+                149.2198922
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "St Lawrence",
+            "arrived": 1664766000,
+            "location": [
+                -22.348569600000012,
+                149.5324225
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Rockhampton City",
+            "arrived": 1664773200,
+            "location": [
+                -23.378213699999964,
+                150.51342269999998
             ],
             "photos": [],
             "state": "current"
