@@ -1133,6 +1133,26 @@
                 150.51342269999998
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Yeppoon",
+            "arrived": 1664935200,
+            "location": [
+                -23.134803499999972,
+                150.74366250000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "The Keppels",
+            "arrived": 1664946000,
+            "location": [
+                -23.173391649999996,
+                150.95708117999993
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
