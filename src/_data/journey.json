@@ -258,11 +258,11 @@
             "name": "Ghan",
             "arrived": 1659492000,
             "location": [
-                -25.066900000000025,
-                133.945
+                -25.19889590600958,
+                133.20195883065924
             ],
             "photos": [],
-            "state": "visited"
+            "state": "stopped"
         },
         {
             "name": "Yulara",
@@ -307,8 +307,8 @@
             "name": "Erldunda Roadhouse",
             "arrived": 1659759900,
             "location": [
-                -25.066900000000025,
-                133.945
+                -25.19889603985536,
+                133.20196372433043
             ],
             "photos": [],
             "state": "visited"
@@ -1151,6 +1151,76 @@
             "location": [
                 -23.173391649999996,
                 150.95708117999993
+            ],
+            "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Yeppoon",
+            "arrived": 1665104400,
+            "location": [
+                -23.134803499999972,
+                150.74366250000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Rockhampton City",
+            "arrived": 1665108000,
+            "location": [
+                -23.378213699999964,
+                150.51342269999998
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Bajool",
+            "arrived": 1665112500,
+            "location": [
+                -23.63854799999999,
+                150.64572880000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Bororen",
+            "arrived": 1665115230,
+            "location": [
+                -24.242421800000006,
+                151.49535540000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Miriam Vale",
+            "arrived": 1665116115,
+            "location": [
+                -24.329408199999996,
+                151.5623456
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Seventeen Seventy",
+            "arrived": 1665117000,
+            "location": [
+                -24.164274200000012,
+                151.885128
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Agnes Water",
+            "arrived": 1665122400,
+            "location": [
+                -24.212329900000025,
+                151.90301910000005
             ],
             "photos": [],
             "state": "current"
