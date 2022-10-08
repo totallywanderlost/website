@@ -1223,6 +1223,46 @@
                 151.90301910000005
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Rosedale",
+            "arrived": 1665163800,
+            "location": [
+                -24.629427700000004,
+                151.91444460000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Lowmead",
+            "arrived": 1665194400,
+            "location": [
+                -24.52930549999998,
+                151.7529323999999
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Avondale",
+            "arrived": 1665198000,
+            "location": [
+                -24.741636900000014,
+                152.1586474
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Bundaberg Central",
+            "arrived": 1665201600,
+            "location": [
+                -24.865325300000023,
+                152.35167849999996
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
