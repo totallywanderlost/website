@@ -1226,21 +1226,21 @@
             "state": "visited"
         },
         {
-            "name": "Rosedale",
-            "arrived": 1665163800,
+            "name": "Lowmead",
+            "arrived": 1665190800,
             "location": [
-                -24.629427700000004,
-                151.91444460000002
+                -24.52930549999998,
+                151.7529323999999
             ],
             "photos": [],
             "state": "stopped"
         },
         {
-            "name": "Lowmead",
+            "name": "Rosedale",
             "arrived": 1665194400,
             "location": [
-                -24.52930549999998,
-                151.7529323999999
+                -24.629427700000004,
+                151.91444460000002
             ],
             "photos": [],
             "state": "stopped"
@@ -1256,14 +1256,34 @@
             "state": "stopped"
         },
         {
-            "name": "Bundaberg Central",
+            "name": "Bundaberg",
             "arrived": 1665201600,
             "location": [
                 -24.865325300000023,
                 152.35167849999996
             ],
             "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Bargara",
+            "arrived": 1665205200,
+            "location": [
+                -24.8154799,
+                152.4630414
+            ],
+            "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Brisbane",
+            "arrived": false,
+            "location": [
+                -27.468968200000006,
+                153.02349909999998
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
