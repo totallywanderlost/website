@@ -1273,6 +1273,16 @@
                 152.4630414
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Kawungan",
+            "arrived": 1665540000,
+            "location": [
+                -25.298578399999997,
+                152.85352160000002
+            ],
+            "photos": [],
             "state": "current"
         },
         {
