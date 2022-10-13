@@ -1276,7 +1276,17 @@
             "state": "visited"
         },
         {
-            "name": "Kawungan",
+            "name": "Bundaberg",
+            "arrived": 1665536400,
+            "location": [
+                -24.865325300000023,
+                152.35167849999996
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Hervey Bay",
             "arrived": 1665540000,
             "location": [
                 -25.298578399999997,
