@@ -1323,7 +1323,27 @@
                 152.95761130000005
             ],
             "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Brisbane",
+            "arrived": 1665806400,
+            "location": [
+                -27.468968200000006,
+                153.02349909999998
+            ],
+            "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Ubud",
+            "arrived": false,
+            "location": [
+                -8.506897699999985,
+                115.26229309999997
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
