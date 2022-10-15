@@ -1294,16 +1294,6 @@
             ],
             "photos": [],
             "state": "current"
-        },
-        {
-            "name": "Brisbane",
-            "arrived": false,
-            "location": [
-                -27.468968200000006,
-                153.02349909999998
-            ],
-            "photos": [],
-            "state": "planned"
         }
     ]
 }
