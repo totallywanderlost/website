@@ -1293,6 +1293,36 @@
                 152.85352160000002
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Maryborough",
+            "arrived": 1665795600,
+            "location": [
+                -25.537582999999998,
+                152.70191820000005
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Gympie",
+            "arrived": 1665799200,
+            "location": [
+                -26.190044700000005,
+                152.66002560000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Yandina",
+            "arrived": 1665802800,
+            "location": [
+                -26.5612841,
+                152.95761130000005
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
