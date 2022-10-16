@@ -1334,16 +1334,6 @@
             ],
             "photos": [],
             "state": "current"
-        },
-        {
-            "name": "Ubud",
-            "arrived": false,
-            "location": [
-                -8.506897699999985,
-                115.26229309999997
-            ],
-            "photos": [],
-            "state": "planned"
         }
     ]
 }
