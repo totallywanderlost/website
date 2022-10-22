@@ -1022,7 +1022,15 @@
                 -19.350284499999987,
                 146.80360469
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/E1ADD52C-F872-4816-9AEE-6398056C3F1E_F96800A5-0AA1-4478-BF4C-6140BC7A0DD3.jpg",
+                    "location": [
+                        -19.2586,
+                        146.802475
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
@@ -1222,7 +1230,15 @@
                 -24.212329900000025,
                 151.90301910000005
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://polarsteps.s3.amazonaws.com/user_images/steps/full_res/u_4212412/2F9868ED-E290-4D76-9090-85A6F969AA7F_46FE36B5-1934-422E-976D-113BC70631E3.jpg",
+                    "location": [
+                        -24.151333333333334,
+                        151.88658
+                    ]
+                }
+            ],
             "state": "visited"
         },
         {
