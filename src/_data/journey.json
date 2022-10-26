@@ -1499,6 +1499,16 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Nusa Dua",
+            "arrived": 1666774800,
+            "location": [
+                -8.80161219999997,
+                115.22398129999999
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
