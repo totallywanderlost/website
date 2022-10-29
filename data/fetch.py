@@ -68,7 +68,7 @@ def empty(string):
 
 def get_photo(item):
     return {
-        'url': item['path'],
+        'url': item['large_thumbnail_path'],
         'location': [item['lat'], item['lon']]
     }
 
