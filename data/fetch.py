@@ -67,8 +67,12 @@ def empty(string):
     return string == None or string == ''
 
 def get_photo(item):
+    s3_url = item['large_thumbnail_path']
+    s3_path = s3_url.replace('https://polarsteps.s3.amazonaws.com', '')
+    imagekit_url = f'https://ik.imagekit.io/totallywanderlost/{s3_path}'
+
     return {
-        'url': item['large_thumbnail_path'],
+        'url': imagekit_url,
         'location': [item['lat'], item['lon']]
     }
 

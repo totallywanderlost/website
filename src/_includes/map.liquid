@@ -87,7 +87,11 @@
         icon: icon[step.state]
       });
 
-      const image = step.photos.length > 0 ? `<br><br><img src="${step.photos[0].url}" height="120" width="90" style= "object-fit: cover;">` : '';
+      const height = 120;
+      const width = 90;
+      const hasImage = step.photos.length > 0;
+      const url = hasImage ? `${step.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
+      const image = hasImage ? `<br><br><img src="${url}" height="${height}" width="${width}" style= "object-fit: cover;">` : '';
 
       marker.bindPopup(`<b>${stateDescription(step.state)}:</b> ${step.name} ${image}`);
 
