@@ -1,7 +1,8 @@
 <div id="map" class="full hide"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha512-mQ77VzAakzdpWdgfL/lM1ksNy89uFgibRQANsNneSTMD/bj0Y/8+94XMwYhnbzx8eki2hrbPpDm0vD0CiT2lcg==" crossorigin="anonymous"><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha512-mQ77VzAakzdpWdgfL/lM1ksNy89uFgibRQANsNneSTMD/bj0Y/8+94XMwYhnbzx8eki2hrbPpDm0vD0CiT2lcg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg==" crossorigin="anonymous"></script>
 <script>
@@ -19,7 +20,7 @@
       return L.icon({
         iconUrl: url,
         iconSize: [size, size],
-        iconAnchor: [size / 2, (size / 2) + (size / 3)],
+        iconAnchor: [size / 2, (size / 2) + (size / 3)]
       });
     }
 
@@ -37,17 +38,13 @@
 
     // Set up the map and allow for controlling interactivity such as zoom, scroll etc
     const map = L.map('map', {
-      zoomControl: {{ include.zoom  | default: true}},
+      zoomControl: {{ include.zoom | default: true }},
       scrollWheelZoom: {{ include.zoom | default: true }},
       doubleClickZoom: {{ include.zoom | default: true }},
       touchZoom: {{ include.zoom | default: true }},
       dragging: {{ include.drag | default: true }},
       tap: {{ include.tap | default: true }},
-      layers: [
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        })
-      ]
+      layers: [L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' })]
     });
 
     // Load all the map data for our journey
@@ -72,14 +69,11 @@
     const icon = {
       visited: pin('#D1192F'),
       current: pin('#1D4E89'),
-      planned: pin('#E47011'),
+      planned: pin('#E47011')
     };
 
     // Create a group for markers to potentially be clustered
-    const markers = L.markerClusterGroup({
-      showCoverageOnHover: false,
-      maxClusterRadius: 70,
-    });
+    const markers = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 70 });
 
     // Plot each location we visited or plan to visit
     for (const step of journey.steps) {
@@ -88,8 +82,14 @@
       }
 
       // Add a marker and tooltip for each location
-      const marker = L.marker(step.location, { title: step.name, icon: icon[step.state] });
-      marker.bindPopup(`<b>${stateDescription(step.state)}:</b> ${step.name}`);
+      const marker = L.marker(step.location, {
+        title: step.name,
+        icon: icon[step.state]
+      });
+
+      const image = step.photos.length > 0 ? `<br><br><img src="${step.photos[0].url}" height="120" width="90" style= "object-fit: cover;">` : '';
+
+      marker.bindPopup(`<b>${stateDescription(step.state)}:</b> ${step.name} ${image}`);
 
       // Add the marker to the cluster group
       markers.addLayer(marker);
@@ -105,8 +105,8 @@
     map.addLayer(markers);
 
     // Draw lines showing our joruney between each location
-    L.polyline(locationsWithoutState('planned'), {color: '#111', opacity: 1, weight: 2, dashArray: '5,5'}).addTo(map);
-    L.polyline(current.concat(planned), {color: '#111', opacity: 0.5, weight: 2, dashArray: '5,5'}).addTo(map);
+    L.polyline(locationsWithoutState('planned'), { color: '#111', opacity: 1, weight: 2, dashArray: '5,5' }).addTo(map);
+    L.polyline(current.concat(planned), { color: '#111', opacity: 0.5, weight: 2, dashArray: '5,5' }).addTo(map);
 
     // Show the map now it's all configured
     map.getContainer().classList.remove('hide');
