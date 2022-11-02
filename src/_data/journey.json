@@ -1884,6 +1884,13 @@
             ],
             "photos": [
                 {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/8796AE92-11D0-4201-A141-C1888B382BD1_3B35FF25-DE38-4E18-A42B-D052B7DF7B4A.jpg",
+                    "location": [
+                        -8.432728333333333,
+                        115.27895333333333
+                    ]
+                },
+                {
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/4A8FAD1C-28C3-49E9-B6DD-86D504F2E8A3_D8F28C46-69D4-4C3B-9BAA-9B99C6A29D07.jpg",
                     "location": [
                         -8.51865,
@@ -1965,13 +1972,6 @@
                     "location": [
                         -8.432775,
                         115.27867166666667
-                    ]
-                },
-                {
-                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/8796AE92-11D0-4201-A141-C1888B382BD1_3B35FF25-DE38-4E18-A42B-D052B7DF7B4A.jpg",
-                    "location": [
-                        -8.432728333333333,
-                        115.27895333333333
                     ]
                 }
             ],
@@ -2098,6 +2098,13 @@
             ],
             "photos": [
                 {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/FC70C931-C6B9-49C8-8003-16F824CC2592_5B9C17BA-643A-4893-8080-A23BB4CEC676.jpg",
+                    "location": [
+                        -8.66007,
+                        115.13349166666667
+                    ]
+                },
+                {
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/BD9A03D8-2324-41D0-894F-1EA28F3F2EF5_C0C0498E-F4BA-4182-BD64-348ED9C5E36B.jpg",
                     "location": [
                         -8.660946666666666,
@@ -2109,6 +2116,27 @@
                     "location": [
                         -8.660521666666666,
                         115.1334695
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/093BDC58-591D-4212-B0F0-D51D252FD515_37E34D8E-D874-4F36-AC3B-FE9094D1CF8C.jpg",
+                    "location": [
+                        -8.658605,
+                        115.13413883333334
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/8BE4846C-BAA9-4976-9DB6-D256082C2142_F86356FC-0F6A-4878-9400-02EF1338248C.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/6925FCDC-F0F6-473E-BDDB-85053F740810_F8AB4195-8078-4AC1-A254-1D5F3B258BC6.jpg",
+                    "location": [
+                        0.0,
+                        0.0
                     ]
                 }
             ],
