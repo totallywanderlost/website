@@ -5,6 +5,22 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg==" crossorigin="anonymous"></script>
+
+<style>
+.leaflet-popup-content-wrapper {
+  border-radius: 0;
+  background-color: #fefefe;
+}
+
+.leaflet-popup-content {
+  margin: 13px 10px 17px 10px;
+}
+
+.leaflet-popup-content img {
+  margin-bottom: 15px;
+}
+</style>
+
 <script>
   window.addEventListener('DOMContentLoaded', () => {
     function capitalise(s) {
@@ -91,9 +107,9 @@
       const width = 500;
       const hasImage = step.photos.length > 0;
       const url = hasImage ? `${step.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
-      const image = hasImage ? `<br><br><img src="${url}" height="auto" width="100%" style= "object-fit: cover;">` : '';
+      const image = hasImage ? `<img src="${url}" height="auto" width="100%" style= "object-fit: cover;">` : '';
 
-      marker.bindPopup(`<b>${stateDescription(step.state)}:</b> ${step.name} ${image}`);
+      marker.bindPopup(`${image}<b>${stateDescription(step.state)}:</b> ${step.name}`, { closeButton: false });
 
       // Add the marker to the cluster group
       markers.addLayer(marker);
