@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /photos
+---
+<style>
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .photos li {
+    display: inline-block;
+  }
+</style>
+
+<ul class="photos">
+  {% for step in site.data.journey.steps %}
+  {% for photo in step.photos %}
+  <li>
+    <a href="{{ photo.url }}">
+      <img loading="lazy" src="{{ photo.url }}?tr=w-150,h-150,fo-center" height="150" width="150">
+    </a>
+  </li>
+  {% endfor %}
+  {% endfor %}
+</ul>
