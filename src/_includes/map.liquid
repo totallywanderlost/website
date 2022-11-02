@@ -89,7 +89,7 @@
     };
 
     // Create a group for markers to potentially be clustered
-    const markers = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 70 });
+    const markers = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 30 });
 
     // Plot each location we visited or plan to visit
     for (const step of journey.steps) {
