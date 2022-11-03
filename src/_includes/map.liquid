@@ -126,7 +126,6 @@
 
     // Draw lines showing our joruney between each location
     L.polyline(locationsWithoutState('planned'), { color: '#111', opacity: 1, weight: 2, dashArray: '5,5' }).addTo(map);
-    L.polyline(current.concat(planned), { color: '#111', opacity: 0.5, weight: 2, dashArray: '5,5' }).addTo(map);
 
     // Show the map now it's all configured
     map.getContainer().classList.remove('hide');
