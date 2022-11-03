@@ -5,6 +5,7 @@ env ?= production
 
 setup:
 	brew install asdf
+	asdf plugin update --all
 	asdf plugin list | grep ruby || asdf plugin add ruby
 	asdf plugin list | grep python || asdf plugin add python
 	asdf plugin list | grep nodejs || asdf plugin add nodejs
