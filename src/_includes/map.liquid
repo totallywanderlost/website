@@ -79,7 +79,7 @@
     // Fit the map to show the latest, all or last N locations
     const locations = '{{ include.locations }}';
     const bounds = locations === 'latest' ? current : isNaN(locations) ? all : last(locations);
-    map.fitBounds(bounds, { maxZoom: 6 });
+    map.fitBounds(bounds, { maxZoom: 10 });
 
     // Build the icons we'll be plotting for each step
     const icon = {
