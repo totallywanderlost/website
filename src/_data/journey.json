@@ -2151,6 +2151,13 @@
             ],
             "photos": [
                 {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/6D887AB2-D7FB-4631-812A-1A1680FC99C4_0D40DFFC-C87A-4DB8-8194-228A1A2BAB34.jpg",
+                    "location": [
+                        -8.682325,
+                        115.1531
+                    ]
+                },
+                {
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/4C9C2125-C810-471F-928F-859F590B2C8F_0AD9D8E6-3B53-40BB-AE12-FED10F88737A.jpg",
                     "location": [
                         -8.685628333333334,
@@ -2163,8 +2170,39 @@
                         -8.68567,
                         115.15553333333334
                     ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/CE55BBAD-F23A-4501-84A7-FA5D2FD516F7_5C1D9693-CCFE-489E-8FC2-EF7FC922D6AB.jpg",
+                    "location": [
+                        -8.685691666666667,
+                        115.15558616666667
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/D9DB1A7C-7672-47D9-9D93-3EC3B6468E86_D5C31DFC-DD0C-4F33-A60E-0499EE653F62.jpg",
+                    "location": [
+                        -8.683736666666666,
+                        115.15641666666667
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/5D576656-E12C-4474-A796-FB157A1BBBBA_BE31526E-5A5A-4588-80FD-B35C0B7ACAD2.jpg",
+                    "location": [
+                        -8.686238333333334,
+                        115.1556695
+                    ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Uluwatu",
+            "arrived": 1667887445,
+            "location": [
+                -8.817842644647525,
+                115.11518589231662
+            ],
+            "photos": [],
             "state": "current"
         },
         {
