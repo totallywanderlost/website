@@ -2196,13 +2196,55 @@
             "state": "visited"
         },
         {
+            "name": "Kuta",
+            "arrived": 1667885522,
+            "location": [
+                -8.727835399999996,
+                115.17300489999997
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Jimbaran",
+            "arrived": 1667886483,
+            "location": [
+                -8.77249019999997,
+                115.17239440000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Uluwatu",
             "arrived": 1667887445,
             "location": [
                 -8.817842644647525,
                 115.11518589231662
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/0291369E-721E-444D-BE75-7D34C6CE75B9_2EAE47B1-C340-4D0F-8DD6-87359FFFF4A0.jpg",
+                    "location": [
+                        -8.817386666666666,
+                        115.11524166666666
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/09309387-0928-40F3-9078-3FC34ADA5E82_AA28014E-CB64-41A1-A047-87B19C9F15D8.jpg",
+                    "location": [
+                        -8.817375,
+                        115.11403616666666
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/73C14467-D705-4898-8509-C8DC2A4820B9_AF494F37-ED10-4BA9-BD11-D2A5FD592E7B.jpg",
+                    "location": [
+                        -8.812203333333333,
+                        115.103225
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
