@@ -2321,17 +2321,17 @@
                 115.17300489999997
             ],
             "photos": [],
-            "state": "current"
+            "state": "stopped"
         },
         {
             "name": "Brisbane",
-            "arrived": false,
+            "arrived": 1668283200,
             "location": [
                 -27.468968200000006,
                 153.02349909999998
             ],
             "photos": [],
-            "state": "planned"
+            "state": "current"
         },
         {
             "name": "Gold Coast City",
