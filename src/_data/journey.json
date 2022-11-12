@@ -1869,8 +1869,8 @@
             "name": "Kuta",
             "arrived": 1665896166,
             "location": [
-                -8.743112697274123,
-                115.16645430597957
+                -8.727835399999996,
+                115.17300489999997
             ],
             "photos": [],
             "state": "stopped"
@@ -2051,6 +2051,46 @@
             "state": "stopped"
         },
         {
+            "name": "Klungkung",
+            "arrived": 1666761300,
+            "location": [
+                -8.5645022,
+                115.40984830000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Gianyar",
+            "arrived": 1666763550,
+            "location": [
+                -8.589280700000014,
+                115.32747219999993
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Kuta",
+            "arrived": 1666765800,
+            "location": [
+                -8.727835399999996,
+                115.17300489999997
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Jimbaran",
+            "arrived": 1666770300,
+            "location": [
+                -8.77249019999997,
+                115.17239440000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Nusa Dua",
             "arrived": 1666774800,
             "location": [
@@ -2088,6 +2128,36 @@
                 }
             ],
             "state": "visited"
+        },
+        {
+            "name": "Jimbaran",
+            "arrived": 1667016000,
+            "location": [
+                -8.77249019999997,
+                115.17239440000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Kuta",
+            "arrived": 1667017800,
+            "location": [
+                -8.727835399999996,
+                115.17300489999997
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Kuta",
+            "arrived": 1667018700,
+            "location": [
+                -8.690835699999973,
+                115.1641975
+            ],
+            "photos": [],
+            "state": "stopped"
         },
         {
             "name": "Canggu",
@@ -2231,6 +2301,26 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Jimbaran",
+            "arrived": 1668249002,
+            "location": [
+                -8.77249019999997,
+                115.17239440000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Kuta",
+            "arrived": 1668250800,
+            "location": [
+                -8.727835399999996,
+                115.17300489999997
+            ],
+            "photos": [],
             "state": "current"
         },
         {
