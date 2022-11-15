@@ -1854,16 +1854,8 @@
                 -27.468968200000006,
                 153.02349909999998
             ],
-            "photos": [
-                {
-                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/EF7C72F8-746E-43D0-83A4-15EFDEA74BD3_DF1A5700-F871-4429-BC92-A7FCB53405DA.jpg",
-                    "location": [
-                        -27.435096666666666,
-                        153.09565833333335
-                    ]
-                }
-            ],
-            "state": "visited"
+            "photos": [],
+            "state": "stopped"
         },
         {
             "name": "Kuta",
@@ -2344,7 +2336,22 @@
                 -27.468968200000006,
                 153.02349909999998
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/EF7AD3C6-6E9D-4DAF-BCBA-0DECFC8E8EB8_5FFDC809-FF48-4704-86DA-1BE5ACCDAB3C.jpg",
+                    "location": [
+                        -27.467736666666667,
+                        153.015275
+                    ]
+                },
+                {
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/97049D36-AC3C-42BD-BCC1-3D0F0AD15B5E_B9CB7DFF-017D-4291-811C-A9ED57DFF9CC.jpg",
+                    "location": [
+                        -27.482211666666668,
+                        153.02523883333333
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
