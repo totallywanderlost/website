@@ -2352,6 +2352,16 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Killarney",
+            "arrived": 1668747600,
+            "location": [
+                -28.335390199999992,
+                152.29573309999998
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
