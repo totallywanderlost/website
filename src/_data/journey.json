@@ -2353,16 +2353,6 @@
                 }
             ],
             "state": "current"
-        },
-        {
-            "name": "Gold Coast City",
-            "arrived": false,
-            "location": [
-                -28.002373100000007,
-                153.4145987
-            ],
-            "photos": [],
-            "state": "planned"
         }
     ]
 }
