@@ -2362,6 +2362,16 @@
                 152.29573309999998
             ],
             "photos": [],
+            "state": "visited"
+        },
+        {
+            "name": "Gold Coast",
+            "arrived": 1668916800,
+            "location": [
+                -28.002373100000007,
+                153.4145987
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
