@@ -38,7 +38,7 @@ def parse_steps(steps):
                 'name': step['name'] if not empty(step['name']) else step['location']['name'],
                 'arrived': floor(step['start_time']),
                 'location': [step['location']['lat'], step['location']['lon']],
-                'photos': [ get_photo(item) for item in step['media'] if 'path' in item and not empty(item['path']) ],
+                'photos': [ get_photo(item) for item in step['media'] if 'large_thumbnail_path' in item and not empty(item['large_thumbnail_path']) ],
                 'state': 'visited' if len(step['media']) > 0 else 'stopped'
             }
 
