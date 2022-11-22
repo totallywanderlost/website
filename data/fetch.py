@@ -72,6 +72,7 @@ def get_photo(item):
     imagekit_url = f'https://ik.imagekit.io/totallywanderlost/{s3_path}'
 
     return {
+        'source_url': s3_url,
         'url': imagekit_url,
         'location': [item['lat'], item['lon']]
     }
