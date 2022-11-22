@@ -3187,6 +3187,36 @@
                 }
             ],
             "state": "current"
+        },
+        {
+            "name": "Byron Bay",
+            "arrived": false,
+            "location": [
+                -28.64833329999998,
+                153.61777779999994
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Fairy Meadow",
+            "arrived": false,
+            "location": [
+                -34.39343640000003,
+                150.89362670000003
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Melbourne",
+            "arrived": false,
+            "location": [
+                -37.814217600000006,
+                144.96316079999997
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
