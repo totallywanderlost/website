@@ -3186,7 +3186,57 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Byron Bay",
+            "arrived": 1669172400,
+            "location": [
+                -28.64833329999998,
+                153.61777779999994
+            ],
+            "photos": [],
             "state": "current"
+        },
+        {
+            "name": "Coffs Harbour",
+            "arrived": false,
+            "location": [
+                -30.296240699999988,
+                153.11352929999998
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Port Macquarie",
+            "arrived": false,
+            "location": [
+                -31.429889001440166,
+                152.9108877777433
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Newcastle",
+            "arrived": false,
+            "location": [
+                -32.92728810000001,
+                151.7812533999999
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Blue Mountains National Park",
+            "arrived": false,
+            "location": [
+                -33.61906850000002,
+                150.48763399
+            ],
+            "photos": [],
+            "state": "planned"
         },
         {
             "name": "Fairy Meadow",
@@ -3199,11 +3249,61 @@
             "state": "planned"
         },
         {
+            "name": "Jervis Bay",
+            "arrived": false,
+            "location": [
+                -34.95716894999999,
+                150.74270894
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Canberra",
+            "arrived": false,
+            "location": [
+                -35.29759059999999,
+                149.10126759999997
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
             "name": "Melbourne",
             "arrived": false,
             "location": [
                 -37.814217600000006,
                 144.96316079999997
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Hobart",
+            "arrived": false,
+            "location": [
+                -42.882508800000004,
+                147.32812330000002
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Shire of Colac Otway",
+            "arrived": false,
+            "location": [
+                -38.85630432000878,
+                143.51452745741886
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Adelaide",
+            "arrived": false,
+            "location": [
+                -34.92818049999998,
+                138.59993120000001
             ],
             "photos": [],
             "state": "planned"
