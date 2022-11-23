@@ -3189,16 +3189,6 @@
             "state": "current"
         },
         {
-            "name": "Byron Bay",
-            "arrived": false,
-            "location": [
-                -28.64833329999998,
-                153.61777779999994
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Fairy Meadow",
             "arrived": false,
             "location": [
