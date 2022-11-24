@@ -3288,41 +3288,11 @@
             "state": "planned"
         },
         {
-            "name": "Hobart",
+            "name": "Johanna",
             "arrived": false,
             "location": [
-                -42.882508800000004,
-                147.32812330000002
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
-            "name": "Shire of Colac Otway",
-            "arrived": false,
-            "location": [
-                -38.85630432000878,
-                143.51452745741886
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
-            "name": "Adelaide",
-            "arrived": false,
-            "location": [
-                -34.92818049999998,
-                138.59993120000001
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
-            "name": "Perth",
-            "arrived": false,
-            "location": [
-                -31.95271210000003,
-                115.86047960000002
+                -38.81542567380721,
+                143.5383480457699
             ],
             "photos": [],
             "state": "planned"
