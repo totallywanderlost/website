@@ -3195,7 +3195,16 @@
                 -28.64833329999998,
                 153.61777779999994
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/CF374512-7E93-4E29-84A5-52EAFF2112C6_E4A43791-858A-4567-B900-34514AC1C401.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/CF374512-7E93-4E29-84A5-52EAFF2112C6_E4A43791-858A-4567-B900-34514AC1C401.jpg",
+                    "location": [
+                        -28.648175,
+                        153.60977166666666
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
@@ -3304,6 +3313,16 @@
             "location": [
                 -34.92818049999998,
                 138.59993120000001
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "name": "Perth",
+            "arrived": false,
+            "location": [
+                -31.95271210000003,
+                115.86047960000002
             ],
             "photos": [],
             "state": "planned"
