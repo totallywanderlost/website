@@ -3203,6 +3203,54 @@
                         -28.648175,
                         153.60977166666666
                     ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E9F30EAE-F8C0-4E89-AEF4-94199710CE58_ED32F132-6E69-48A1-9109-7045E57BDB15.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/E9F30EAE-F8C0-4E89-AEF4-94199710CE58_ED32F132-6E69-48A1-9109-7045E57BDB15.jpg",
+                    "location": [
+                        -28.636921666666666,
+                        153.63310333333334
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/7852F27B-5A92-4939-A1D9-8EAAF79FB3C2_22D285B7-F896-46B0-96C0-407AAB9BE2FA.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/7852F27B-5A92-4939-A1D9-8EAAF79FB3C2_22D285B7-F896-46B0-96C0-407AAB9BE2FA.jpg",
+                    "location": [
+                        -28.640183333333333,
+                        153.634445
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/185DBB90-17E0-4016-81DF-F50289087BEE_591B3E6D-DC4C-4A0F-B4BF-D1CDE2E5A6BA.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/185DBB90-17E0-4016-81DF-F50289087BEE_591B3E6D-DC4C-4A0F-B4BF-D1CDE2E5A6BA.jpg",
+                    "location": [
+                        -28.640221666666665,
+                        153.6362
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/C9E6BAF0-775E-4C81-8534-DF08D5D73BC0_F22A458A-85A5-4778-96B4-7062675D2431.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/C9E6BAF0-775E-4C81-8534-DF08D5D73BC0_F22A458A-85A5-4778-96B4-7062675D2431.jpg",
+                    "location": [
+                        -28.63632,
+                        153.63778666666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/9493937A-BBE3-438F-BA0D-3CF5721198B5_F479B1D2-A321-4EAA-B305-42B6F079CB55.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/9493937A-BBE3-438F-BA0D-3CF5721198B5_F479B1D2-A321-4EAA-B305-42B6F079CB55.jpg",
+                    "location": [
+                        -28.640158333333332,
+                        153.61203
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/4630BE27-25D0-4AFF-8BF2-53F511C79AD5_CA706898-4907-441C-9E94-12CF13612871.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/4630BE27-25D0-4AFF-8BF2-53F511C79AD5_CA706898-4907-441C-9E94-12CF13612871.jpg",
+                    "location": [
+                        -28.640163333333334,
+                        153.61206166666668
+                    ]
                 }
             ],
             "state": "visited"
@@ -3214,7 +3262,16 @@
                 -30.296240699999988,
                 153.11352929999998
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/64DAC7E2-83E1-484E-8890-AA8C9F46E061_3D626EBB-D6DC-48AC-BC31-50C81A883060.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/64DAC7E2-83E1-484E-8890-AA8C9F46E061_3D626EBB-D6DC-48AC-BC31-50C81A883060.jpg",
+                    "location": [
+                        -30.294978333333333,
+                        153.14041116666667
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
