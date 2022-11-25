@@ -3208,16 +3208,6 @@
             "state": "current"
         },
         {
-            "name": "Coffs Harbour",
-            "arrived": false,
-            "location": [
-                -30.296240699999988,
-                153.11352929999998
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Port Macquarie",
             "arrived": false,
             "location": [
