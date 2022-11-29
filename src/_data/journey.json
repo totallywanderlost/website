@@ -3275,16 +3275,6 @@
             "state": "current"
         },
         {
-            "name": "Port Macquarie",
-            "arrived": false,
-            "location": [
-                -31.429889001440166,
-                152.9108877777433
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Newcastle",
             "arrived": false,
             "location": [
