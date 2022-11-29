@@ -3256,6 +3256,16 @@
             "state": "visited"
         },
         {
+            "name": "Maclean",
+            "arrived": 1669258800,
+            "location": [
+                -29.456666700000007,
+                153.2011111
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "name": "Coffs Harbour",
             "arrived": 1669345200,
             "location": [
@@ -3270,8 +3280,46 @@
                         -30.294978333333333,
                         153.14041116666667
                     ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/40E9ACF4-DAD9-445A-901B-175757FA7355_860F3A80-9D61-44DB-AA99-39AF4DD1D472.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/40E9ACF4-DAD9-445A-901B-175757FA7355_860F3A80-9D61-44DB-AA99-39AF4DD1D472.jpg",
+                    "location": [
+                        -30.266438333333333,
+                        153.1094195
+                    ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Arakoon",
+            "arrived": 1669516200,
+            "location": [
+                -30.886475699999977,
+                153.0709147
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Kempsey",
+            "arrived": 1669687200,
+            "location": [
+                -31.079809200000003,
+                152.84228899999994
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Port Macquarie",
+            "arrived": 1669694400,
+            "location": [
+                -31.429883854318437,
+                152.9100432827721
+            ],
+            "photos": [],
             "state": "current"
         },
         {
