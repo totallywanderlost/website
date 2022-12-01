@@ -3348,16 +3348,6 @@
             "state": "current"
         },
         {
-            "name": "Newcastle",
-            "arrived": false,
-            "location": [
-                -32.92728810000001,
-                151.7812533999999
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Blue Mountains National Park",
             "arrived": false,
             "location": [
