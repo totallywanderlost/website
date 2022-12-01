@@ -3345,6 +3345,16 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Port Stephens",
+            "arrived": 1669869000,
+            "location": [
+                -32.77790609999999,
+                152.08902030000002
+            ],
+            "photos": [],
             "state": "current"
         },
         {
