@@ -2,6 +2,50 @@
 title: Our Journey
 permalink: /journey
 layout: default
-width: full
 ---
-{% include map.liquid locations='all' %}
+<style>
+  .journey,
+  .journey ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .journey ul {
+    font-size: 0;
+  }
+
+  .journey ul li {
+    display: inline-block;
+  }
+</style>
+
+<ul class="journey">
+  {% assign steps = site.data.journey.steps %}
+  {% for step in steps %}
+  {% assign nextIndex = forloop.index0 | plus: 1 %}
+  {% assign next = steps[nextIndex] %}
+  {% assign photos = step.photos | size %}
+
+  {% unless step.state == "planned" or photos < 1 %} <li class="{{ step.state }}">
+    <h2>📌 #{{ forloop.index }} {{ step.name }}, {{ step.country }}</h2>
+    <p>
+      {% if step.arrived %}
+      {{ step.arrived | date_to_string }}{% endif %}
+      -
+      {% if next.arrived %}
+      {{ next.arrived | date_to_string }}{% endif %}
+    </p>
+
+    <ul>
+      {% for photo in step.photos %}
+      <li>
+        <a href="{{ photo.url }}">
+          <img loading="lazy" src="{{ photo.url }}?tr=w-150,h-150,fo-center" height="150" width="150">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    </li>
+    {% endunless %}
+    {% endfor %}
+</ul>
