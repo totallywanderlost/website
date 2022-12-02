@@ -36,6 +36,7 @@ def parse_steps(steps):
         if 'supertype' in step and step['supertype'] == 'normal':
             yield {
                 'name': step['name'] if not empty(step['name']) else step['location']['name'],
+                'country': step['location']['detail'],
                 'arrived': floor(step['start_time']),
                 'location': [step['location']['lat'], step['location']['lon']],
                 'photos': [ get_photo(item) for item in step['media'] if 'large_thumbnail_path' in item and not empty(item['large_thumbnail_path']) ],
@@ -57,6 +58,7 @@ def parse_planned_steps(steps):
 
         yield {
             'name': step['location']['name'],
+            'country': step['location']['detail'],
             'arrived': False,
             'location': [step['location']['lat'], step['location']['lon']],
             'photos': [],
