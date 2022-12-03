@@ -14,6 +14,7 @@
 
 .leaflet-popup-content {
   margin: 13px 10px 17px 10px;
+  text-align: center;
 }
 
 .leaflet-popup-content img {
@@ -42,11 +43,11 @@
 
     function stateDescription(state) {
       if (state === 'current') {
-        return '👋 Currently In';
+        return '👋';
       } else if (state === 'visited') {
-        return '✅ Visited';
+        return '✅';
       } else if (state === 'planned') {
-        return '📆 Planned';
+        return '🔜';
       }
 
       throw `Unsupported state: ${state}`;
@@ -109,7 +110,11 @@
       const url = hasImage ? `${step.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
       const image = hasImage ? `<img src="${url}" height="auto" width="100%" style= "object-fit: cover;">` : '';
 
-      marker.bindPopup(`${image}<b>${stateDescription(step.state)}:</b> ${step.name}`, { closeButton: false });
+      marker.bindPopup(`${image}${stateDescription(step.state)}&nbsp;&nbsp;<b>${step.name}</b>`, {
+        closeButton: false,
+        minWidth: 150,
+        minHeight: 150
+      });
 
       // Add the marker to the cluster group
       markers.addLayer(marker);
