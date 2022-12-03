@@ -2,6 +2,7 @@
     "steps": [
         {
             "name": "London",
+            "country": "United Kingdom",
             "arrived": 1656528600,
             "location": [
                 51.5073219,
@@ -21,6 +22,7 @@
         },
         {
             "name": "Dubai",
+            "country": "United Arab Emirates",
             "arrived": 1656553800,
             "location": [
                 25.265347100000003,
@@ -72,6 +74,7 @@
         },
         {
             "name": "Sydney",
+            "country": "Australia",
             "arrived": 1656678600,
             "location": [
                 -33.882640278027026,
@@ -139,6 +142,7 @@
         },
         {
             "name": "Adelaide",
+            "country": "Australia",
             "arrived": 1657013400,
             "location": [
                 -34.94149616424261,
@@ -214,6 +218,7 @@
         },
         {
             "name": "Port Pirie",
+            "country": "Australia",
             "arrived": 1658992800,
             "location": [
                 -33.17912490000001,
@@ -224,6 +229,7 @@
         },
         {
             "name": "Mount Remarkable National Park",
+            "country": "Australia",
             "arrived": 1659024000,
             "location": [
                 -32.78140379999997,
@@ -299,6 +305,7 @@
         },
         {
             "name": "Port Augusta",
+            "country": "Australia",
             "arrived": 1659151800,
             "location": [
                 -32.490881900000005,
@@ -309,6 +316,7 @@
         },
         {
             "name": "Spud's Roadhouse",
+            "country": "Australia",
             "arrived": 1659191400,
             "location": [
                 -31.255741099999966,
@@ -344,6 +352,7 @@
         },
         {
             "name": "Coober Pedy",
+            "country": "Australia",
             "arrived": 1659270656,
             "location": [
                 -29.03657530999999,
@@ -419,6 +428,7 @@
         },
         {
             "name": "Marla",
+            "country": "Australia",
             "arrived": 1659411000,
             "location": [
                 -27.30312000000003,
@@ -446,6 +456,7 @@
         },
         {
             "name": "Ghan",
+            "country": "Australia",
             "arrived": 1659492000,
             "location": [
                 -25.19889590600958,
@@ -456,6 +467,7 @@
         },
         {
             "name": "Yulara",
+            "country": "Australia",
             "arrived": 1659508200,
             "location": [
                 -25.2410108,
@@ -563,6 +575,7 @@
         },
         {
             "name": "Erldunda Roadhouse",
+            "country": "Australia",
             "arrived": 1659759900,
             "location": [
                 -25.19889603985536,
@@ -590,6 +603,7 @@
         },
         {
             "name": "Alice Springs",
+            "country": "Australia",
             "arrived": 1659843000,
             "location": [
                 -23.698388400000006,
@@ -641,6 +655,7 @@
         },
         {
             "name": "Glen Helen",
+            "country": "Australia",
             "arrived": 1660190400,
             "location": [
                 -23.677705099999997,
@@ -708,6 +723,7 @@
         },
         {
             "name": "Alice Springs",
+            "country": "Australia",
             "arrived": 1660444200,
             "location": [
                 -23.698388400000006,
@@ -727,6 +743,7 @@
         },
         {
             "name": "Devil\u2019s Marbles",
+            "country": "Australia",
             "arrived": 1660458600,
             "location": [
                 -20.56618785,
@@ -794,6 +811,7 @@
         },
         {
             "name": "Banka Banka",
+            "country": "Australia",
             "arrived": 1660620600,
             "location": [
                 -18.691893077250697,
@@ -813,6 +831,7 @@
         },
         {
             "name": "Daly Waters",
+            "country": "Australia",
             "arrived": 1660707000,
             "location": [
                 -16.25415839999999,
@@ -856,6 +875,7 @@
         },
         {
             "name": "Mataranka",
+            "country": "Australia",
             "arrived": 1660876200,
             "location": [
                 -14.927884100000028,
@@ -907,6 +927,7 @@
         },
         {
             "name": "Katherine",
+            "country": "Australia",
             "arrived": 1661128200,
             "location": [
                 -14.464615699999992,
@@ -990,6 +1011,7 @@
         },
         {
             "name": "Litchfield Park",
+            "country": "Australia",
             "arrived": 1661574600,
             "location": [
                 -13.275525799999999,
@@ -1041,6 +1063,7 @@
         },
         {
             "name": "Darwin",
+            "country": "Australia",
             "arrived": 1662006600,
             "location": [
                 -12.460439999999998,
@@ -1140,6 +1163,7 @@
         },
         {
             "name": "Katherine",
+            "country": "Australia",
             "arrived": 1662597000,
             "location": [
                 -14.464615699999992,
@@ -1150,6 +1174,7 @@
         },
         {
             "name": "Mataranka",
+            "country": "Australia",
             "arrived": 1662600600,
             "location": [
                 -14.927884100000028,
@@ -1160,6 +1185,7 @@
         },
         {
             "name": "Daly Waters",
+            "country": "Australia",
             "arrived": 1662611400,
             "location": [
                 -16.25415839999999,
@@ -1179,6 +1205,7 @@
         },
         {
             "name": "Three Ways",
+            "country": "Australia",
             "arrived": 1662697812,
             "location": [
                 -19.44014686208393,
@@ -1189,6 +1216,7 @@
         },
         {
             "name": "Barkly Homestead",
+            "country": "Australia",
             "arrived": 1662706345,
             "location": [
                 -19.711314118485628,
@@ -1208,6 +1236,7 @@
         },
         {
             "name": "Camooweal",
+            "country": "Australia",
             "arrived": 1662775218,
             "location": [
                 -19.921682000000004,
@@ -1218,6 +1247,7 @@
         },
         {
             "name": "Mount Isa",
+            "country": "Australia",
             "arrived": 1662786012,
             "location": [
                 -20.728989799999987,
@@ -1228,6 +1258,7 @@
         },
         {
             "name": "Cloncurry",
+            "country": "Australia",
             "arrived": 1662791400,
             "location": [
                 -20.705187300000016,
@@ -1247,6 +1278,7 @@
         },
         {
             "name": "Burke and Wills",
+            "country": "Australia",
             "arrived": 1662856240,
             "location": [
                 -19.223719299999953,
@@ -1257,6 +1289,7 @@
         },
         {
             "name": "Normanton",
+            "country": "Australia",
             "arrived": 1662858053,
             "location": [
                 -17.670915799999996,
@@ -1267,6 +1300,7 @@
         },
         {
             "name": "Karumba",
+            "country": "Australia",
             "arrived": 1662875983,
             "location": [
                 -17.46391440277683,
@@ -1302,6 +1336,7 @@
         },
         {
             "name": "Normanton",
+            "country": "Australia",
             "arrived": 1662944411,
             "location": [
                 -17.674063969193273,
@@ -1312,6 +1347,7 @@
         },
         {
             "name": "Croydon",
+            "country": "Australia",
             "arrived": 1662953407,
             "location": [
                 -18.204343099999996,
@@ -1322,6 +1358,7 @@
         },
         {
             "name": "Georgetown",
+            "country": "Australia",
             "arrived": 1662962405,
             "location": [
                 -18.289804900000014,
@@ -1332,6 +1369,7 @@
         },
         {
             "name": "Mount Surprise",
+            "country": "Australia",
             "arrived": 1662969843,
             "location": [
                 -18.200274075835605,
@@ -1383,6 +1421,7 @@
         },
         {
             "name": "Mount Carbine",
+            "country": "Australia",
             "arrived": 1663118226,
             "location": [
                 -18.096546049999972,
@@ -1393,6 +1432,7 @@
         },
         {
             "name": "Mount Garnet",
+            "country": "Australia",
             "arrived": 1663122610,
             "location": [
                 -17.676162900000016,
@@ -1403,6 +1443,7 @@
         },
         {
             "name": "Ravenshoe",
+            "country": "Australia",
             "arrived": 1663126224,
             "location": [
                 -17.607940399999976,
@@ -1413,6 +1454,7 @@
         },
         {
             "name": "Atherton",
+            "country": "Australia",
             "arrived": 1663135217,
             "location": [
                 -17.26740579999997,
@@ -1423,6 +1465,7 @@
         },
         {
             "name": "Port Douglas",
+            "country": "Australia",
             "arrived": 1663137751,
             "location": [
                 -16.48453955810496,
@@ -1490,6 +1533,7 @@
         },
         {
             "name": "Mossman",
+            "country": "Australia",
             "arrived": 1663376415,
             "location": [
                 -16.46144550000005,
@@ -1500,6 +1544,7 @@
         },
         {
             "name": "Daintree",
+            "country": "Australia",
             "arrived": 1663383607,
             "location": [
                 -16.165303200000036,
@@ -1510,6 +1555,7 @@
         },
         {
             "name": "Cape Tribulation",
+            "country": "Australia",
             "arrived": 1663387200,
             "location": [
                 -16.08878449999997,
@@ -1569,6 +1615,7 @@
         },
         {
             "name": "Daintree",
+            "country": "Australia",
             "arrived": 1663635600,
             "location": [
                 -16.165303200000036,
@@ -1579,6 +1626,7 @@
         },
         {
             "name": "Mossman",
+            "country": "Australia",
             "arrived": 1663641000,
             "location": [
                 -16.46144550000005,
@@ -1589,6 +1637,7 @@
         },
         {
             "name": "Cairns",
+            "country": "Australia",
             "arrived": 1663651800,
             "location": [
                 -16.920665700000022,
@@ -1632,6 +1681,7 @@
         },
         {
             "name": "Gordonvale",
+            "country": "Australia",
             "arrived": 1663893000,
             "location": [
                 -17.093592099999984,
@@ -1642,6 +1692,7 @@
         },
         {
             "name": "Fishery Falls",
+            "country": "Australia",
             "arrived": 1663893900,
             "location": [
                 -17.223376099999975,
@@ -1652,6 +1703,7 @@
         },
         {
             "name": "Babinda",
+            "country": "Australia",
             "arrived": 1663894800,
             "location": [
                 -17.344380700000006,
@@ -1679,6 +1731,7 @@
         },
         {
             "name": "Innisfail",
+            "country": "Australia",
             "arrived": 1663981200,
             "location": [
                 -17.524172100000023,
@@ -1689,6 +1742,7 @@
         },
         {
             "name": "El Arish",
+            "country": "Australia",
             "arrived": 1663984800,
             "location": [
                 -17.805570500000016,
@@ -1699,6 +1753,7 @@
         },
         {
             "name": "Mission Beach",
+            "country": "Australia",
             "arrived": 1663988400,
             "location": [
                 -17.86698009999996,
@@ -1750,6 +1805,7 @@
         },
         {
             "name": "Tully",
+            "country": "Australia",
             "arrived": 1664071200,
             "location": [
                 -17.93294979999998,
@@ -1760,6 +1816,7 @@
         },
         {
             "name": "Cardwell",
+            "country": "Australia",
             "arrived": 1664074800,
             "location": [
                 -18.26836809999998,
@@ -1770,6 +1827,7 @@
         },
         {
             "name": "Ingham",
+            "country": "Australia",
             "arrived": 1664078400,
             "location": [
                 -18.647637399999983,
@@ -1780,6 +1838,7 @@
         },
         {
             "name": "Balgal Beach",
+            "country": "Australia",
             "arrived": 1664082000,
             "location": [
                 -19.016340000000007,
@@ -1815,6 +1874,7 @@
         },
         {
             "name": "Townsville",
+            "country": "Australia",
             "arrived": 1664144100,
             "location": [
                 -19.350284499999987,
@@ -1866,6 +1926,7 @@
         },
         {
             "name": "Ayr",
+            "country": "Australia",
             "arrived": 1664330445,
             "location": [
                 -19.575859700000013,
@@ -1876,6 +1937,7 @@
         },
         {
             "name": "Home hill",
+            "country": "Australia",
             "arrived": 1664332237,
             "location": [
                 -19.664174299999996,
@@ -1886,6 +1948,7 @@
         },
         {
             "name": "Bowen",
+            "country": "Australia",
             "arrived": 1664375430,
             "location": [
                 -20.012125000000008,
@@ -1896,6 +1959,7 @@
         },
         {
             "name": "Airlie Beach",
+            "country": "Australia",
             "arrived": 1664377200,
             "location": [
                 -20.269410899999986,
@@ -1979,6 +2043,7 @@
         },
         {
             "name": "Proserpine",
+            "country": "Australia",
             "arrived": 1664586000,
             "location": [
                 -20.401808499999966,
@@ -1989,6 +2054,7 @@
         },
         {
             "name": "Bloomsbury",
+            "country": "Australia",
             "arrived": 1664589600,
             "location": [
                 -20.704168500000016,
@@ -1999,6 +2065,7 @@
         },
         {
             "name": "Calen",
+            "country": "Australia",
             "arrived": 1664593200,
             "location": [
                 -20.900393400000056,
@@ -2009,6 +2076,7 @@
         },
         {
             "name": "Mackay",
+            "country": "Australia",
             "arrived": 1664686800,
             "location": [
                 -21.14195599999997,
@@ -2028,6 +2096,7 @@
         },
         {
             "name": "Sarina",
+            "country": "Australia",
             "arrived": 1664758800,
             "location": [
                 -21.425795800000014,
@@ -2038,6 +2107,7 @@
         },
         {
             "name": "St Lawrence",
+            "country": "Australia",
             "arrived": 1664766000,
             "location": [
                 -22.348569600000012,
@@ -2048,6 +2118,7 @@
         },
         {
             "name": "Rockhampton City",
+            "country": "Australia",
             "arrived": 1664773200,
             "location": [
                 -23.378213699999964,
@@ -2115,6 +2186,7 @@
         },
         {
             "name": "Yeppoon",
+            "country": "Australia",
             "arrived": 1664935200,
             "location": [
                 -23.134803499999972,
@@ -2125,6 +2197,7 @@
         },
         {
             "name": "Great Keppel Island",
+            "country": "Australia",
             "arrived": 1664946000,
             "location": [
                 -23.173391649999996,
@@ -2200,6 +2273,7 @@
         },
         {
             "name": "Yeppoon",
+            "country": "Australia",
             "arrived": 1665104400,
             "location": [
                 -23.134803499999972,
@@ -2210,6 +2284,7 @@
         },
         {
             "name": "Rockhampton City",
+            "country": "Australia",
             "arrived": 1665108000,
             "location": [
                 -23.378213699999964,
@@ -2220,6 +2295,7 @@
         },
         {
             "name": "Bajool",
+            "country": "Australia",
             "arrived": 1665112500,
             "location": [
                 -23.63854799999999,
@@ -2230,6 +2306,7 @@
         },
         {
             "name": "Bororen",
+            "country": "Australia",
             "arrived": 1665115230,
             "location": [
                 -24.242421800000006,
@@ -2240,6 +2317,7 @@
         },
         {
             "name": "Miriam Vale",
+            "country": "Australia",
             "arrived": 1665116115,
             "location": [
                 -24.329408199999996,
@@ -2250,6 +2328,7 @@
         },
         {
             "name": "Seventeen Seventy",
+            "country": "Australia",
             "arrived": 1665117000,
             "location": [
                 -24.164274200000012,
@@ -2260,6 +2339,7 @@
         },
         {
             "name": "Agnes Water",
+            "country": "Australia",
             "arrived": 1665122400,
             "location": [
                 -24.212329900000025,
@@ -2303,6 +2383,7 @@
         },
         {
             "name": "Lowmead",
+            "country": "Australia",
             "arrived": 1665190800,
             "location": [
                 -24.52930549999998,
@@ -2313,6 +2394,7 @@
         },
         {
             "name": "Rosedale",
+            "country": "Australia",
             "arrived": 1665194400,
             "location": [
                 -24.629427700000004,
@@ -2323,6 +2405,7 @@
         },
         {
             "name": "Avondale",
+            "country": "Australia",
             "arrived": 1665198000,
             "location": [
                 -24.741636900000014,
@@ -2333,6 +2416,7 @@
         },
         {
             "name": "Bundaberg",
+            "country": "Australia",
             "arrived": 1665201600,
             "location": [
                 -24.865325300000023,
@@ -2343,6 +2427,7 @@
         },
         {
             "name": "Bargara",
+            "country": "Australia",
             "arrived": 1665205200,
             "location": [
                 -24.8154799,
@@ -2402,6 +2487,7 @@
         },
         {
             "name": "Bundaberg",
+            "country": "Australia",
             "arrived": 1665536400,
             "location": [
                 -24.865325300000023,
@@ -2412,6 +2498,7 @@
         },
         {
             "name": "Hervey Bay",
+            "country": "Australia",
             "arrived": 1665540000,
             "location": [
                 -25.298578399999997,
@@ -2431,6 +2518,7 @@
         },
         {
             "name": "Maryborough",
+            "country": "Australia",
             "arrived": 1665795600,
             "location": [
                 -25.537582999999998,
@@ -2441,6 +2529,7 @@
         },
         {
             "name": "Gympie",
+            "country": "Australia",
             "arrived": 1665799200,
             "location": [
                 -26.190044700000005,
@@ -2451,6 +2540,7 @@
         },
         {
             "name": "Yandina",
+            "country": "Australia",
             "arrived": 1665802800,
             "location": [
                 -26.5612841,
@@ -2461,6 +2551,7 @@
         },
         {
             "name": "Brisbane",
+            "country": "Australia",
             "arrived": 1665806400,
             "location": [
                 -27.468968200000006,
@@ -2471,6 +2562,7 @@
         },
         {
             "name": "Kuta",
+            "country": "Indonesia",
             "arrived": 1665896166,
             "location": [
                 -8.727835399999996,
@@ -2481,6 +2573,7 @@
         },
         {
             "name": "Ubud",
+            "country": "Indonesia",
             "arrived": 1665917636,
             "location": [
                 -8.512643929578841,
@@ -2596,6 +2689,7 @@
         },
         {
             "name": "Padangbai",
+            "country": "Indonesia",
             "arrived": 1666483258,
             "location": [
                 -8.530844300000002,
@@ -2606,6 +2700,7 @@
         },
         {
             "name": "Gili Air",
+            "country": "Indonesia",
             "arrived": 1666501200,
             "location": [
                 -8.35760474999999,
@@ -2665,6 +2760,7 @@
         },
         {
             "name": "Padangbai",
+            "country": "Indonesia",
             "arrived": 1666756800,
             "location": [
                 -8.530844300000002,
@@ -2675,6 +2771,7 @@
         },
         {
             "name": "Klungkung",
+            "country": "Indonesia",
             "arrived": 1666761300,
             "location": [
                 -8.5645022,
@@ -2685,6 +2782,7 @@
         },
         {
             "name": "Gianyar",
+            "country": "Indonesia",
             "arrived": 1666763550,
             "location": [
                 -8.589280700000014,
@@ -2695,6 +2793,7 @@
         },
         {
             "name": "Kuta",
+            "country": "Indonesia",
             "arrived": 1666765800,
             "location": [
                 -8.727835399999996,
@@ -2705,6 +2804,7 @@
         },
         {
             "name": "Jimbaran",
+            "country": "Indonesia",
             "arrived": 1666770300,
             "location": [
                 -8.77249019999997,
@@ -2715,6 +2815,7 @@
         },
         {
             "name": "Nusa Dua",
+            "country": "Indonesia",
             "arrived": 1666774800,
             "location": [
                 -8.80161219999997,
@@ -2758,6 +2859,7 @@
         },
         {
             "name": "Jimbaran",
+            "country": "Indonesia",
             "arrived": 1667016000,
             "location": [
                 -8.77249019999997,
@@ -2768,6 +2870,7 @@
         },
         {
             "name": "Kuta",
+            "country": "Indonesia",
             "arrived": 1667017800,
             "location": [
                 -8.727835399999996,
@@ -2778,6 +2881,7 @@
         },
         {
             "name": "Kuta",
+            "country": "Indonesia",
             "arrived": 1667018700,
             "location": [
                 -8.690835699999973,
@@ -2788,6 +2892,7 @@
         },
         {
             "name": "Canggu",
+            "country": "Indonesia",
             "arrived": 1667019600,
             "location": [
                 -8.650617999999998,
@@ -2847,6 +2952,7 @@
         },
         {
             "name": "Seminyak",
+            "country": "Indonesia",
             "arrived": 1667458800,
             "location": [
                 -8.690835699999973,
@@ -2906,6 +3012,7 @@
         },
         {
             "name": "Kuta",
+            "country": "Indonesia",
             "arrived": 1667885522,
             "location": [
                 -8.727835399999996,
@@ -2916,6 +3023,7 @@
         },
         {
             "name": "Jimbaran",
+            "country": "Indonesia",
             "arrived": 1667886483,
             "location": [
                 -8.77249019999997,
@@ -2926,6 +3034,7 @@
         },
         {
             "name": "Uluwatu",
+            "country": "Indonesia",
             "arrived": 1667887445,
             "location": [
                 -8.817842644647525,
@@ -3009,6 +3118,7 @@
         },
         {
             "name": "Jimbaran",
+            "country": "Indonesia",
             "arrived": 1668249002,
             "location": [
                 -8.77249019999997,
@@ -3019,6 +3129,7 @@
         },
         {
             "name": "Kuta",
+            "country": "Indonesia",
             "arrived": 1668250800,
             "location": [
                 -8.727835399999996,
@@ -3029,6 +3140,7 @@
         },
         {
             "name": "Brisbane",
+            "country": "Australia",
             "arrived": 1668283200,
             "location": [
                 -27.468968200000006,
@@ -3088,6 +3200,7 @@
         },
         {
             "name": "Killarney",
+            "country": "Australia",
             "arrived": 1668747600,
             "location": [
                 -28.335390199999992,
@@ -3139,6 +3252,7 @@
         },
         {
             "name": "Gold Coast",
+            "country": "Australia",
             "arrived": 1668916800,
             "location": [
                 -28.002373100000007,
@@ -3190,6 +3304,7 @@
         },
         {
             "name": "Byron Bay",
+            "country": "Australia",
             "arrived": 1669172400,
             "location": [
                 -28.64833329999998,
@@ -3257,6 +3372,7 @@
         },
         {
             "name": "Maclean",
+            "country": "Australia",
             "arrived": 1669258800,
             "location": [
                 -29.456666700000007,
@@ -3267,6 +3383,7 @@
         },
         {
             "name": "Coffs Harbour",
+            "country": "Australia",
             "arrived": 1669345200,
             "location": [
                 -30.296240699999988,
@@ -3294,6 +3411,7 @@
         },
         {
             "name": "Arakoon",
+            "country": "Australia",
             "arrived": 1669516200,
             "location": [
                 -30.886475699999977,
@@ -3304,6 +3422,7 @@
         },
         {
             "name": "Kempsey",
+            "country": "Australia",
             "arrived": 1669687200,
             "location": [
                 -31.079809200000003,
@@ -3314,6 +3433,7 @@
         },
         {
             "name": "Port Macquarie",
+            "country": "Australia",
             "arrived": 1669694400,
             "location": [
                 -31.429883854318437,
@@ -3349,6 +3469,7 @@
         },
         {
             "name": "Port Stephens",
+            "country": "Australia",
             "arrived": 1669869000,
             "location": [
                 -32.77790609999999,
@@ -3368,6 +3489,7 @@
         },
         {
             "name": "Blue Mountains National Park",
+            "country": "Australia",
             "arrived": false,
             "location": [
                 -33.61906850000002,
@@ -3378,6 +3500,7 @@
         },
         {
             "name": "Fairy Meadow",
+            "country": "Australia",
             "arrived": false,
             "location": [
                 -34.39343640000003,
@@ -3388,6 +3511,7 @@
         },
         {
             "name": "Jervis Bay",
+            "country": "Australia",
             "arrived": false,
             "location": [
                 -34.95716894999999,
@@ -3398,6 +3522,7 @@
         },
         {
             "name": "Canberra",
+            "country": "Australia",
             "arrived": false,
             "location": [
                 -35.29759059999999,
@@ -3408,6 +3533,7 @@
         },
         {
             "name": "Melbourne",
+            "country": "Australia",
             "arrived": false,
             "location": [
                 -37.814217600000006,
@@ -3418,6 +3544,7 @@
         },
         {
             "name": "Johanna",
+            "country": "Australia",
             "arrived": false,
             "location": [
                 -38.81542567380721,
