@@ -77,8 +77,8 @@
             "country": "Australia",
             "arrived": 1656678600,
             "location": [
-                -33.882640278027026,
-                151.2044985519873
+                -33.854815699999975,
+                151.21645390000003
             ],
             "photos": [
                 {
@@ -3525,6 +3525,17 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Sydney",
+            "country": "Australia",
+            "arrived": 1670122800,
+            "location": [
+                -33.854815699999975,
+                151.21645390000003
+            ],
+            "photos": [],
             "state": "current"
         },
         {
