@@ -3548,17 +3548,6 @@
             "state": "current"
         },
         {
-            "name": "Blue Mountains National Park",
-            "country": "Australia",
-            "arrived": false,
-            "location": [
-                -33.61906850000002,
-                150.48763399
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Fairy Meadow",
             "country": "Australia",
             "arrived": false,
