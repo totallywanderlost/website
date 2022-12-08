@@ -3545,6 +3545,26 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Katoomba",
+            "country": "Australia",
+            "arrived": 1670468400,
+            "location": [
+                -33.713758999999996,
+                150.31216330000004
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/33C51C4A-A3AF-4B11-8987-FA19C1A5A99C_41B4DEAD-36A7-4C9B-8ED7-F6B20D7EC138.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/33C51C4A-A3AF-4B11-8987-FA19C1A5A99C_41B4DEAD-36A7-4C9B-8ED7-F6B20D7EC138.jpg",
+                    "location": [
+                        -33.732746666666664,
+                        150.311905
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
