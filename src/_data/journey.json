@@ -3565,6 +3565,89 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Oberon",
+            "country": "Australia",
+            "arrived": 1670727600,
+            "location": [
+                -33.704149999999984,
+                149.85879999999997
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/38DA3E22-CD3A-4A10-8F58-C56358998F2C_014D2CF1-798C-4ABC-B5AF-F69A35AF76EF.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/38DA3E22-CD3A-4A10-8F58-C56358998F2C_014D2CF1-798C-4ABC-B5AF-F69A35AF76EF.jpg",
+                    "location": [
+                        -33.716945,
+                        149.829025
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/46FC54DE-0A84-4636-9900-A6765CC4D3A4_CFDF0173-9A42-4185-8670-A7251A48007B.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/46FC54DE-0A84-4636-9900-A6765CC4D3A4_CFDF0173-9A42-4185-8670-A7251A48007B.jpg",
+                    "location": [
+                        -33.717258333333334,
+                        149.82908666666665
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/85CAB0CD-24DC-4631-AADC-D2735A34757F_CAD72638-AEEC-4FA0-80CF-E1ECAAC8727A.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/85CAB0CD-24DC-4631-AADC-D2735A34757F_CAD72638-AEEC-4FA0-80CF-E1ECAAC8727A.jpg",
+                    "location": [
+                        -33.71727,
+                        149.82908666666665
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/14FCC503-480F-4BA7-AE32-6ACD15423BF7_7AAE8A0F-86FA-4FFA-B98C-27FCB09C4D61.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/14FCC503-480F-4BA7-AE32-6ACD15423BF7_7AAE8A0F-86FA-4FFA-B98C-27FCB09C4D61.jpg",
+                    "location": [
+                        -33.71718666666666,
+                        149.82916333333333
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "name": "Goulburn",
+            "country": "Australia",
+            "arrived": 1670770800,
+            "location": [
+                -34.75238710000001,
+                149.71980089999997
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Bundanoon",
+            "country": "Australia",
+            "arrived": 1670814000,
+            "location": [
+                -34.6562168,
+                150.29970709999998
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/38ADA665-3C20-4F80-96B1-47A5D4EF628A_97346FAF-04AC-4A09-B927-C1D6593ABB74.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/38ADA665-3C20-4F80-96B1-47A5D4EF628A_97346FAF-04AC-4A09-B927-C1D6593ABB74.jpg",
+                    "location": [
+                        -34.65602166666667,
+                        150.29942166666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/C9818C45-AE44-4162-A4D8-EF9B9F2D8075_14BD8D99-EEDB-46D2-A2C2-3BDE26DB600B.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/C9818C45-AE44-4162-A4D8-EF9B9F2D8075_14BD8D99-EEDB-46D2-A2C2-3BDE26DB600B.jpg",
+                    "location": [
+                        -34.655766666666665,
+                        150.29968333333332
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
