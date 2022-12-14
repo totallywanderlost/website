@@ -3648,18 +3648,35 @@
                     ]
                 }
             ],
-            "state": "current"
+            "state": "visited"
         },
         {
-            "name": "Fairy Meadow",
+            "name": "Carrington Falls",
             "country": "Australia",
-            "arrived": false,
+            "arrived": 1670900400,
             "location": [
-                -34.39343640000003,
-                150.89362670000003
+                -34.639467749221254,
+                150.65200958689832
             ],
-            "photos": [],
-            "state": "planned"
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/9260078C-0C1B-435F-BD0E-CEFF601D844C_9F75E338-33DC-4981-94B0-5708A91623A9.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/9260078C-0C1B-435F-BD0E-CEFF601D844C_9F75E338-33DC-4981-94B0-5708A91623A9.jpg",
+                    "location": [
+                        -34.62492833333334,
+                        150.65403666666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/65665329-D992-4F01-B507-92F9FFF37D24_70B7E68A-CF7F-4C52-8C14-B6B323CBAD9B.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/65665329-D992-4F01-B507-92F9FFF37D24_70B7E68A-CF7F-4C52-8C14-B6B323CBAD9B.jpg",
+                    "location": [
+                        -34.62419166666667,
+                        150.65501333333333
+                    ]
+                }
+            ],
+            "state": "current"
         },
         {
             "name": "Jervis Bay",
