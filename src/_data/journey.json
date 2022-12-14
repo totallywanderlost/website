@@ -3676,6 +3676,17 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Fairy Meadow",
+            "country": "Australia",
+            "arrived": 1670986800,
+            "location": [
+                -34.39343640000003,
+                150.89362670000003
+            ],
+            "photos": [],
             "state": "current"
         },
         {
