@@ -13,12 +13,12 @@
 }
 
 .leaflet-popup-content {
-  margin: 13px 10px 17px 10px;
+  margin: 13px 10px 10px 10px;
   text-align: center;
 }
 
 .leaflet-popup-content img {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 </style>
 
@@ -39,18 +39,6 @@
         iconSize: [size, size],
         iconAnchor: [size / 2, (size / 2) + (size / 3)]
       });
-    }
-
-    function stateDescription(state) {
-      if (state === 'current') {
-        return '👋';
-      } else if (state === 'visited') {
-        return '✅';
-      } else if (state === 'planned') {
-        return '🔜';
-      }
-
-      throw `Unsupported state: ${state}`;
     }
 
     // Set up the map and allow for controlling interactivity such as zoom, scroll etc
@@ -108,9 +96,10 @@
       const width = 500;
       const hasImage = step.photos.length > 0;
       const url = hasImage ? `${step.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
-      const image = hasImage ? `<img src="${url}" height="auto" width="100%" style= "object-fit: cover;">` : '';
+      const image = hasImage ? `<img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;">` : '';
+      const date = new Date(step.arrived*1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
 
-      marker.bindPopup(`${image}${stateDescription(step.state)}&nbsp;&nbsp;<b>${step.name}</b>`, {
+      marker.bindPopup(`${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px"><b>${step.name}</b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`, {
         closeButton: false,
         minWidth: 150,
         minHeight: 150
