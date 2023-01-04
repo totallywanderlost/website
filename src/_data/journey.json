@@ -3896,18 +3896,18 @@
                     ]
                 }
             ],
-            "state": "current"
+            "state": "visited"
         },
         {
-            "name": "Jervis Bay",
+            "name": "Goulburn",
             "country": "Australia",
-            "arrived": false,
+            "arrived": 1672812000,
             "location": [
-                -34.95716894999999,
-                150.74270894
+                -34.75238710000001,
+                149.71980089999997
             ],
             "photos": [],
-            "state": "planned"
+            "state": "current"
         },
         {
             "name": "Canberra",
