@@ -3916,6 +3916,26 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Canberra",
+            "country": "Australia",
+            "arrived": 1672875000,
+            "location": [
+                -35.29759059999999,
+                149.10126759999997
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A3DFC2CF-0776-4C0F-9EF2-45E8F857752F_37DBFEFC-CFC7-46B8-9600-0F64EBC742DB.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/A3DFC2CF-0776-4C0F-9EF2-45E8F857752F_37DBFEFC-CFC7-46B8-9600-0F64EBC742DB.jpg",
+                    "location": [
+                        -35.24171333333334,
+                        149.128175
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
