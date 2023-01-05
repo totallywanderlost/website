@@ -3919,17 +3919,6 @@
             "state": "current"
         },
         {
-            "name": "Canberra",
-            "country": "Australia",
-            "arrived": false,
-            "location": [
-                -35.29759059999999,
-                149.10126759999997
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "name": "Melbourne",
             "country": "Australia",
             "arrived": false,
