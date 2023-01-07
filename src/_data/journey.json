@@ -3936,6 +3936,34 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Jindabyne",
+            "country": "Australia",
+            "arrived": 1673060400,
+            "location": [
+                -36.41708989999998,
+                148.61995999999994
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/2069BF4B-5929-451F-B39C-C959F8B5A131_2743E9A8-3773-4A8F-B11C-15A5E15F68B4.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/2069BF4B-5929-451F-B39C-C959F8B5A131_2743E9A8-3773-4A8F-B11C-15A5E15F68B4.jpg",
+                    "location": [
+                        -36.414325,
+                        148.617355
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/73E50462-ADC6-4AD3-98DE-2E9F1A9B18CA_43FDBB93-15B9-43DB-AA9C-64D460D6F662.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/73E50462-ADC6-4AD3-98DE-2E9F1A9B18CA_43FDBB93-15B9-43DB-AA9C-64D460D6F662.jpg",
+                    "location": [
+                        -36.41528,
+                        148.6232
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
