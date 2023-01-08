@@ -3928,6 +3928,70 @@
             ],
             "photos": [
                 {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E96EA8FB-54E7-4F41-BC40-D00AB82E17FC_25EE26C0-971F-40DC-8FEC-BD3C7FED79D8.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/E96EA8FB-54E7-4F41-BC40-D00AB82E17FC_25EE26C0-971F-40DC-8FEC-BD3C7FED79D8.jpg",
+                    "location": [
+                        -35.306605,
+                        149.125825
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/B46E47FD-1F4F-4353-B494-97E943D01ABF_1613AEDE-74B7-4D03-A95F-2C1FAA3D1E3C.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/B46E47FD-1F4F-4353-B494-97E943D01ABF_1613AEDE-74B7-4D03-A95F-2C1FAA3D1E3C.jpg",
+                    "location": [
+                        -35.308005,
+                        149.12384166666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5A249BAD-636B-4EA7-A8E3-1C2871E6A775_4D5A34A1-11C5-436E-A749-C03228FFCF45.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/5A249BAD-636B-4EA7-A8E3-1C2871E6A775_4D5A34A1-11C5-436E-A749-C03228FFCF45.jpg",
+                    "location": [
+                        -35.30827,
+                        149.12512216666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/EECBD465-BDFC-45B2-AF85-DE191AB6614F_BCC5C12D-5678-4491-8F0C-EADC2A4BDFDD.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/EECBD465-BDFC-45B2-AF85-DE191AB6614F_BCC5C12D-5678-4491-8F0C-EADC2A4BDFDD.jpg",
+                    "location": [
+                        -35.30818,
+                        149.12454166666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/CF536556-2795-4073-B020-C491B8FD6004_2C5B4142-A7CB-478D-82F9-995B556A86A3.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/CF536556-2795-4073-B020-C491B8FD6004_2C5B4142-A7CB-478D-82F9-995B556A86A3.jpg",
+                    "location": [
+                        -35.307653333333334,
+                        149.12490833333334
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/C28794D3-F4AC-452B-9A8B-BF81877EE175_0A2D7385-2C90-4664-B5ED-5700BA566074.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/C28794D3-F4AC-452B-9A8B-BF81877EE175_0A2D7385-2C90-4664-B5ED-5700BA566074.jpg",
+                    "location": [
+                        -35.29855333333333,
+                        149.11692783333334
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A6191173-BCB0-4F95-8748-908E76578AA3_D8733797-38CC-4FEE-9D3A-B2F1F20A4873.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/A6191173-BCB0-4F95-8748-908E76578AA3_D8733797-38CC-4FEE-9D3A-B2F1F20A4873.jpg",
+                    "location": [
+                        -35.270316666666666,
+                        149.1580055
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/9D69D191-F7E8-40A9-A9C1-EB068BC2C0CF_150A4DB1-9489-45D1-AB4F-88E6EE7F231B.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/9D69D191-F7E8-40A9-A9C1-EB068BC2C0CF_150A4DB1-9489-45D1-AB4F-88E6EE7F231B.jpg",
+                    "location": [
+                        -35.24196666666667,
+                        149.1279445
+                    ]
+                },
+                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A3DFC2CF-0776-4C0F-9EF2-45E8F857752F_37DBFEFC-CFC7-46B8-9600-0F64EBC742DB.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/A3DFC2CF-0776-4C0F-9EF2-45E8F857752F_37DBFEFC-CFC7-46B8-9600-0F64EBC742DB.jpg",
                     "location": [
@@ -3964,6 +4028,17 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Buckenderra",
+            "country": "Australia",
+            "arrived": 1673154000,
+            "location": [
+                -36.164999999999964,
+                148.7511111
+            ],
+            "photos": [],
             "state": "current"
         },
         {
