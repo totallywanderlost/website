@@ -4038,6 +4038,83 @@
                 -36.164999999999964,
                 148.7511111
             ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/19071F81-C280-4372-AE52-DBB0598B232C_528478C6-DD10-4C73-98EA-24E95F3E9B51.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/19071F81-C280-4372-AE52-DBB0598B232C_528478C6-DD10-4C73-98EA-24E95F3E9B51.jpg",
+                    "location": [
+                        -36.17888333333333,
+                        148.76971333333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A9130843-D5DF-4A7E-9AFF-811CC05A8FE3_B99B2E17-5CF6-4718-90B0-17D519983D26.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/A9130843-D5DF-4A7E-9AFF-811CC05A8FE3_B99B2E17-5CF6-4718-90B0-17D519983D26.jpg",
+                    "location": [
+                        -36.17888666666666,
+                        148.76973
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/3C45A9CD-C960-45DE-B072-343BEB025619_F53D2E15-DF65-4AB6-9E9A-84A2F01BAF88.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/3C45A9CD-C960-45DE-B072-343BEB025619_F53D2E15-DF65-4AB6-9E9A-84A2F01BAF88.jpg",
+                    "location": [
+                        -36.17868333333333,
+                        148.76850833333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5FB599D7-3610-43B9-8075-2B0C509A3690_30B314C9-3C62-48B4-B71F-4C9077A51891.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/5FB599D7-3610-43B9-8075-2B0C509A3690_30B314C9-3C62-48B4-B71F-4C9077A51891.jpg",
+                    "location": [
+                        -36.17943833333333,
+                        148.76913333333334
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "name": "Cooma",
+            "country": "Australia",
+            "arrived": 1673309708,
+            "location": [
+                -36.23563000000002,
+                149.1264221
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Merimbula",
+            "country": "Australia",
+            "arrived": 1673314216,
+            "location": [
+                -36.888202700000015,
+                149.90984600000007
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Eden",
+            "country": "Australia",
+            "arrived": 1673323233,
+            "location": [
+                -37.06404940000002,
+                149.9035118
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Genoa",
+            "country": "Australia",
+            "arrived": 1673333586,
+            "location": [
+                -37.471857410890486,
+                149.5900863224171
+            ],
             "photos": [],
             "state": "current"
         },
