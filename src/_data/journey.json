@@ -4125,6 +4125,39 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Orbost",
+            "country": "Australia",
+            "arrived": 1673401309,
+            "location": [
+                -37.70370610000002,
+                148.45547120000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Lakes Entrance",
+            "country": "Australia",
+            "arrived": 1673411432,
+            "location": [
+                -37.879458200000016,
+                147.9943828000001
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Bairnsdale",
+            "country": "Australia",
+            "arrived": 1673415119,
+            "location": [
+                -37.824999690091076,
+                147.63783571324092
+            ],
+            "photos": [],
             "state": "current"
         },
         {
