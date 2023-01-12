@@ -4157,7 +4157,16 @@
                 -37.824999690091076,
                 147.63783571324092
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/7AFD2DA3-0C9E-496B-B08F-66BD6CCE545A_45FD5F56-0B30-4D94-B24D-D4448383153D.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/7AFD2DA3-0C9E-496B-B08F-66BD6CCE545A_45FD5F56-0B30-4D94-B24D-D4448383153D.jpg",
+                    "location": [
+                        -37.87945333333333,
+                        147.96144166666667
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
