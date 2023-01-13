@@ -4181,8 +4181,27 @@
                         -37.919583333333335,
                         147.72888
                     ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E35A5330-8AEC-4F7A-8194-A1AE35DAE451_9BA5EFD6-5B8D-4651-ADB2-8BFDD3CFDCAB.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/E35A5330-8AEC-4F7A-8194-A1AE35DAE451_9BA5EFD6-5B8D-4651-ADB2-8BFDD3CFDCAB.jpg",
+                    "location": [
+                        -37.9198,
+                        147.72796666666667
+                    ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "name": "Walkerville",
+            "country": "Australia",
+            "arrived": 1673599563,
+            "location": [
+                -38.83764180846644,
+                146.0027427442169
+            ],
+            "photos": [],
             "state": "current"
         },
         {
