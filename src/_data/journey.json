@@ -4201,6 +4201,37 @@
                 -38.83764180846644,
                 146.0027427442169
             ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/D3908785-AD99-4CAB-A7F1-C1172085B46E_CE5228B6-BFCD-498E-BB07-F0BD76254855.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/D3908785-AD99-4CAB-A7F1-C1172085B46E_CE5228B6-BFCD-498E-BB07-F0BD76254855.jpg",
+                    "location": [
+                        -38.8363595,
+                        146.003663
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "name": "Inverloch",
+            "country": "Australia",
+            "arrived": 1673657158,
+            "location": [
+                -38.633158200000004,
+                145.7279504
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "name": "Corinella",
+            "country": "Australia",
+            "arrived": 1673671553,
+            "location": [
+                -38.4088723780945,
+                145.42096867239607
+            ],
             "photos": [],
             "state": "current"
         },
