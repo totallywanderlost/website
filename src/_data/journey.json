@@ -4232,19 +4232,36 @@
                 -38.4088723780945,
                 145.42096867239607
             ],
-            "photos": [],
-            "state": "current"
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/BC755AC4-75D9-4FC6-AE2E-1BF3F2E03D51_A64AA516-8162-4434-AF38-AB6C2ED20BB6.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/BC755AC4-75D9-4FC6-AE2E-1BF3F2E03D51_A64AA516-8162-4434-AF38-AB6C2ED20BB6.jpg",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5FE0B036-B15B-448D-9DDB-AFA8A5B2AEDE_EFBFC12F-DE31-45C1-81FD-CE2DB77637BC.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/5FE0B036-B15B-448D-9DDB-AFA8A5B2AEDE_EFBFC12F-DE31-45C1-81FD-CE2DB77637BC.jpg",
+                    "location": [
+                        -38.50852166666667,
+                        145.14880283333332
+                    ]
+                }
+            ],
+            "state": "visited"
         },
         {
-            "name": "Johanna",
+            "name": "Melbourne",
             "country": "Australia",
-            "arrived": false,
+            "arrived": 1673751600,
             "location": [
-                -38.81542567380721,
-                143.5383480457699
+                -37.812382500000005,
+                144.94826487
             ],
             "photos": [],
-            "state": "planned"
+            "state": "current"
         }
     ]
 }
