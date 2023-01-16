@@ -35,6 +35,7 @@ def parse_steps(steps):
 
         if 'supertype' in step and step['supertype'] == 'normal':
             yield {
+                'id': step['uuid'],
                 'name': step['name'] if not empty(step['name']) else step['location']['name'],
                 'country': step['location']['detail'],
                 'arrived': floor(step['start_time']),
@@ -57,6 +58,7 @@ def parse_planned_steps(steps):
             continue
 
         yield {
+            'id': step['uuid'],
             'name': step['location']['name'],
             'country': step['location']['detail'],
             'arrived': False,
