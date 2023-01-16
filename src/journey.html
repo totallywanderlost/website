@@ -20,21 +20,13 @@ layout: default
 </style>
 
 <ul class="journey">
-  {% assign steps = site.data.journey.steps %}
+  {% assign steps = site.data.journey.steps | where_exp:"step", "step.state != 'planned' and step.photos.size > 0" | reverse %}
   {% for step in steps %}
-  {% assign nextIndex = forloop.index0 | plus: 1 %}
-  {% assign next = steps[nextIndex] %}
   {% assign photos = step.photos | size %}
 
-  {% unless step.state == "planned" or photos < 1 %} <li class="{{ step.state }}">
-    <h2>📌 #{{ forloop.index }} {{ step.name }}, {{ step.country }}</h2>
-    <p>
-      {% if step.arrived %}
-      {{ step.arrived | date_to_string }}{% endif %}
-      -
-      {% if next.arrived %}
-      {{ next.arrived | date_to_string }}{% endif %}
-    </p>
+  <li class="{{ step.state }}">
+    <h2>📌 {{ step.name }}, {{ step.country }}</h2>
+    {% if step.arrived %}<p>{{ step.arrived | date_to_string }}</p>{% endif %}
 
     <ul>
       {% for photo in step.photos %}
@@ -45,7 +37,6 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-    </li>
-    {% endunless %}
-    {% endfor %}
+  </li>
+  {% endfor %}
 </ul>
