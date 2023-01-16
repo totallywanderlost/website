@@ -21,7 +21,7 @@ permalink: /photos
   {% for photo in step.photos %}
   <li>
     <a href="{{ photo.url }}">
-      <img loading="lazy" src="{{ photo.url }}?tr=w-150,h-150,fo-center" height="150" width="150">
+      <img loading="lazy" src="{{ photo.url }}?tr=w-150,h-150,fo-center" height="150" width="150" title="Photo #{{ forloop.index}} from {{ step.name }}, {{ step.country }}">
     </a>
   </li>
   {% endfor %}
