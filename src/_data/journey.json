@@ -3976,14 +3976,6 @@
                     ]
                 },
                 {
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/9C746A6A-79EC-48A4-8763-92CAE4B4627F_8B3C109F-114E-402F-A793-8627F56D6222.jpg",
-                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/9C746A6A-79EC-48A4-8763-92CAE4B4627F_8B3C109F-114E-402F-A793-8627F56D6222.jpg",
-                    "location": [
-                        -34.490903333333335,
-                        150.91586333333333
-                    ]
-                },
-                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/EBF43708-CF18-44C0-9D8A-0C231F075A7F_4D46C9BA-6F40-41AC-A32D-A0649504E102.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/EBF43708-CF18-44C0-9D8A-0C231F075A7F_4D46C9BA-6F40-41AC-A32D-A0649504E102.jpg",
                     "location": [
@@ -4021,6 +4013,14 @@
                     "location": [
                         -34.397055,
                         150.88719166666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/AD792011-2BF0-4931-A53C-8B0C29E0A159_294E2151-F082-4D9D-833E-F2FE4D48383D.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/AD792011-2BF0-4931-A53C-8B0C29E0A159_294E2151-F082-4D9D-833E-F2FE4D48383D.jpg",
+                    "location": [
+                        -34.398005,
+                        150.88133333333334
                     ]
                 }
             ],
@@ -4405,19 +4405,51 @@
             ],
             "photos": [
                 {
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/6D4564FC-85EF-4237-80E3-92143014CC67_0D245CE5-8475-4F96-9E9D-C9D6F67F3010.jpg",
-                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/6D4564FC-85EF-4237-80E3-92143014CC67_0D245CE5-8475-4F96-9E9D-C9D6F67F3010.jpg",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/20C703D4-D661-44A6-B72E-242838F0BB5F_E96D7E72-CA19-4E9B-996E-638CA344A9EF.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/20C703D4-D661-44A6-B72E-242838F0BB5F_E96D7E72-CA19-4E9B-996E-638CA344A9EF.jpg",
                     "location": [
-                        -37.81775,
-                        144.96736166666668
+                        -37.81351333333333,
+                        144.94123833333333
                     ]
                 },
                 {
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/C2F779BD-DDFB-4887-AAB7-9876D5D3A4DF_971BC8ED-156C-41ED-A097-4A8EAE51C0D0.jpg",
-                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/C2F779BD-DDFB-4887-AAB7-9876D5D3A4DF_971BC8ED-156C-41ED-A097-4A8EAE51C0D0.jpg",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/84E51982-0A6A-4D24-A233-3781D2D1B343_8CB18C1E-B161-448B-9E97-FB108E003919.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/84E51982-0A6A-4D24-A233-3781D2D1B343_8CB18C1E-B161-448B-9E97-FB108E003919.jpg",
                     "location": [
-                        -37.81801166666666,
-                        144.968645
+                        -37.81791666666667,
+                        144.96499666666668
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/93B1122F-3AA5-4DE0-BC92-EFFDD916476D_0B237150-D336-4A3D-92ED-D55222CB2EBF.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/93B1122F-3AA5-4DE0-BC92-EFFDD916476D_0B237150-D336-4A3D-92ED-D55222CB2EBF.jpg",
+                    "location": [
+                        -37.817455,
+                        144.96476666666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/6C2CFFF6-8C4E-4FDD-998B-DDD8739F564A_89CE1734-3860-4822-98FA-84C3EAFCECD4.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/6C2CFFF6-8C4E-4FDD-998B-DDD8739F564A_89CE1734-3860-4822-98FA-84C3EAFCECD4.jpg",
+                    "location": [
+                        -37.81890833333333,
+                        144.97354166666668
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/7299CAC3-1CA7-4C4E-8C7E-31240CE453FA_1C799C1F-9E7D-4760-A05C-F4A73BA70B98.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/7299CAC3-1CA7-4C4E-8C7E-31240CE453FA_1C799C1F-9E7D-4760-A05C-F4A73BA70B98.jpg",
+                    "location": [
+                        -37.82308333333334,
+                        144.98239166666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/F93A073F-38B9-42F7-883D-FCE2586BEF7C_12917ECE-6898-498C-A68F-75D1D7667EDE.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/F93A073F-38B9-42F7-883D-FCE2586BEF7C_12917ECE-6898-498C-A68F-75D1D7667EDE.jpg",
+                    "location": [
+                        -37.821955,
+                        144.98056166666666
                     ]
                 }
             ],
