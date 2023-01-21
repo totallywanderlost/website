@@ -1,6 +1,6 @@
 # 🗺 Totally Wanderlost
 
-Website and blog showing our travels 🌏
+Website and blog showing our travels on [totallywanderlost.com](https://totallywanderlost.com).
 
 ## Requirements
 
