@@ -3649,6 +3649,30 @@
             "state": "visited"
         },
         {
+            "id": "245C35AE-13DA-4E8E-9512-01E3AC49C7F9",
+            "name": "Newcastle",
+            "country": "Australia",
+            "arrived": 1669995900,
+            "location": [
+                -32.927288099999984,
+                151.78125339999997
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "2464A3B0-6B67-4761-AB12-BAC1C54EFED9",
+            "name": "Gosford",
+            "country": "Australia",
+            "arrived": 1670059350,
+            "location": [
+                -33.42501750000001,
+                151.3417318
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "id": "3A66D9F7-C3F3-4A75-BB43-9AB930226C42",
             "name": "Sydney",
             "country": "Australia",
@@ -4450,6 +4474,54 @@
                     "location": [
                         -37.821955,
                         144.98056166666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/86C2FAB6-13BD-4E45-AB09-1EBE74058989_C2471818-95BF-46D1-9970-E5792C568B92.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/86C2FAB6-13BD-4E45-AB09-1EBE74058989_C2471818-95BF-46D1-9970-E5792C568B92.jpg",
+                    "location": [
+                        -37.82168333333333,
+                        144.97853
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/58B6768D-93CD-4E55-8A30-A1BB2F782A4E_ECEE40A5-559F-40A1-AF1C-CC991B9B7B06.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/58B6768D-93CD-4E55-8A30-A1BB2F782A4E_ECEE40A5-559F-40A1-AF1C-CC991B9B7B06.jpg",
+                    "location": [
+                        -37.80655333333333,
+                        144.95800833333334
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/D27CC9F9-0565-41B8-A245-23C66F235C96_49E1C583-F607-4EA6-AB75-008688FF7281.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/D27CC9F9-0565-41B8-A245-23C66F235C96_49E1C583-F607-4EA6-AB75-008688FF7281.jpg",
+                    "location": [
+                        -37.68691333333334,
+                        144.86689666666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/11718B29-9572-4D7C-BBE6-CAE208C4792F_CFADC0AE-8166-49E4-B5FC-73542A5B6D28.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/11718B29-9572-4D7C-BBE6-CAE208C4792F_CFADC0AE-8166-49E4-B5FC-73542A5B6D28.jpg",
+                    "location": [
+                        -37.88757833333333,
+                        144.99116333333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/DDE18FA6-2ED6-4DE5-8DCD-9682228BB642_325DA800-F53C-4A49-8366-57E1BE6058CA.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/DDE18FA6-2ED6-4DE5-8DCD-9682228BB642_325DA800-F53C-4A49-8366-57E1BE6058CA.jpg",
+                    "location": [
+                        -37.8876,
+                        144.99102833333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5CEAEEEE-BD84-4826-AB3C-98D1D2F49EA0_8AA61E12-8E7D-420C-9094-001D01F2D4A7.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/5CEAEEEE-BD84-4826-AB3C-98D1D2F49EA0_8AA61E12-8E7D-420C-9094-001D01F2D4A7.jpg",
+                    "location": [
+                        -37.786445,
+                        145.135375
                     ]
                 }
             ],
