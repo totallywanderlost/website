@@ -28,6 +28,8 @@ layout: default
     <h2>📌 <a id="{{ step.id }}" href="#{{ step.id }}">{{ step.name }}, {{ step.country }}</a></h2>
     {% if step.arrived %}<p>{{ step.arrived | date_to_string }}</p>{% endif %}
 
+    {% if step.description %}<p>{{ step.description | markdownify }}</p>{% endif %}
+
     <ul>
       {% for photo in step.photos %}
       <li>
