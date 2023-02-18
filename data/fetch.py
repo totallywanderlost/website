@@ -37,6 +37,7 @@ def parse_steps(steps):
             yield {
                 'id': step['uuid'],
                 'name': step['name'] if not empty(step['name']) else step['location']['name'],
+                'description': step['description'] if not empty(step['description']) else None,
                 'country': step['location']['detail'],
                 'arrived': floor(step['start_time']),
                 'location': [step['location']['lat'], step['location']['lon']],
