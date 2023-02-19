@@ -4816,6 +4816,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d",
+            "name": "Lynbrook",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1676779200,
+            "location": [
+                -38.047984,
+                145.254089
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
