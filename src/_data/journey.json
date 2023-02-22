@@ -4862,6 +4862,28 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "BBCEE589-7F29-4693-AD08-B3E670A470BA",
+            "name": "Black Rock",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1676925000,
+            "location": [
+                -37.97926765672478,
+                145.01797012623769
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/89782DB3-08FB-41E5-967A-BF30F3BB1C54_C51758C5-FAD2-45E0-9C96-9583767985C1.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/89782DB3-08FB-41E5-967A-BF30F3BB1C54_C51758C5-FAD2-45E0-9C96-9583767985C1.jpg",
+                    "location": [
+                        -37.97650333333333,
+                        145.01539721666666
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
