@@ -1,6 +1,7 @@
 source: src
 include: [_headers, _redirects]
 destination: build
+timezone: Australia/Sydney
 
 title: "Totally Wanderlost"
 description: "Follow along as Nicole and James get lost and travel the world"
