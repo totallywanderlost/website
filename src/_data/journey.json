@@ -4897,6 +4897,28 @@
                 145.25408855478128
             ],
             "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "2EA4600E-03EF-4CE7-A551-47D068BDE281",
+            "name": "Halls Gap",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1677574144,
+            "location": [
+                -37.17216028369713,
+                142.54358000135286
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/949E5065-806F-451A-A2B4-9F7C0720B2AE_68C27903-D2FD-4440-9FC7-1A8571D1D284.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/949E5065-806F-451A-A2B4-9F7C0720B2AE_68C27903-D2FD-4440-9FC7-1A8571D1D284.jpg",
+                    "location": [
+                        -37.17165,
+                        142.54432833333334
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
