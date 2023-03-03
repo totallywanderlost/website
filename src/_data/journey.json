@@ -4909,6 +4909,19 @@
             "state": "visited"
         },
         {
+            "id": "2B7C86BC-2442-4E75-A1CA-43BB591B4D09",
+            "name": "Ararat",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1677543872,
+            "location": [
+                -37.28434430000001,
+                142.93062099999997
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "id": "2EA4600E-03EF-4CE7-A551-47D068BDE281",
             "name": "Halls Gap",
             "description": null,
@@ -4984,6 +4997,32 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "267E519F-457D-4A68-99C4-B07BD5CBDBF6",
+            "name": "Stawell",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1677801600,
+            "location": [
+                -37.05868689999998,
+                142.7745476
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "E3A0D88A-58A6-4BF0-9C31-84E8708C78BD",
+            "name": "Ararat",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1677810875,
+            "location": [
+                -37.28010151073096,
+                142.92877597747642
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
