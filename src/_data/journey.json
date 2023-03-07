@@ -5022,6 +5022,90 @@
                 -37.28010151073096,
                 142.92877597747642
             ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/BC7F217C-7A1F-4134-9693-1F7E8FB2628A_0055817F-7E25-4267-9B58-C5BB0ACEA994.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/BC7F217C-7A1F-4134-9693-1F7E8FB2628A_0055817F-7E25-4267-9B58-C5BB0ACEA994.jpg",
+                    "location": [
+                        -37.28022833333333,
+                        142.92956666666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/C60189A1-9390-4ECF-AD10-308666A3C5FF_72E783F7-F5DA-4F12-9643-9C30A099D238.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/C60189A1-9390-4ECF-AD10-308666A3C5FF_72E783F7-F5DA-4F12-9643-9C30A099D238.jpg",
+                    "location": [
+                        -37.157152833333335,
+                        142.85598833333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/BAA47AE7-82B6-4D5B-BA19-05372507B2B1_DEEADFA4-D1C7-4701-A877-15DDE6B7DE4B.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/BAA47AE7-82B6-4D5B-BA19-05372507B2B1_DEEADFA4-D1C7-4701-A877-15DDE6B7DE4B.jpg",
+                    "location": [
+                        -37.1509555,
+                        142.84870833333332
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "B27941B5-A173-4D71-BABB-1FF415DB1E57",
+            "name": "St Kilda",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1677982108,
+            "location": [
+                -37.860389148493844,
+                144.97799309229742
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/01F0870F-C76B-468E-9146-25C3BAFF7C7C_CD9E8E43-C39C-4236-864D-B06BBCD25708.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/01F0870F-C76B-468E-9146-25C3BAFF7C7C_CD9E8E43-C39C-4236-864D-B06BBCD25708.jpg",
+                    "location": [
+                        -37.861891666666665,
+                        144.97418333333334
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/7E22F6AC-7372-40B3-B31E-8CFD3262B3F3_0C75EA87-C8D9-4AC4-BB20-9C48D69214F3.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/7E22F6AC-7372-40B3-B31E-8CFD3262B3F3_0C75EA87-C8D9-4AC4-BB20-9C48D69214F3.jpg",
+                    "location": [
+                        -37.85756666666666,
+                        144.979875
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/C2E6884C-A646-4165-863F-573EDD8DE106_7BB1518A-CC08-4800-A90C-E4970D227A34.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/C2E6884C-A646-4165-863F-573EDD8DE106_7BB1518A-CC08-4800-A90C-E4970D227A34.jpg",
+                    "location": [
+                        -37.848755,
+                        144.96727
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5CD6EE53-5895-4C3A-8D6F-874096A585A5_F738F471-CA4F-405D-8A6F-28787D8676FF.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/5CD6EE53-5895-4C3A-8D6F-874096A585A5_F738F471-CA4F-405D-8A6F-28787D8676FF.jpg",
+                    "location": [
+                        -37.85270333333333,
+                        144.97322
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "AF398BC0-0A87-49DB-8FE4-20BDE668C4CE",
+            "name": "Torquay",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678153341,
+            "location": [
+                -38.33797698378408,
+                144.32051908238262
+            ],
             "photos": [],
             "state": "current"
         }
