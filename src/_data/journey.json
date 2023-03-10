@@ -5097,6 +5097,32 @@
             "state": "visited"
         },
         {
+            "id": "A26EF680-CBE7-492D-A81E-4890414EFFA3",
+            "name": "Lara",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678060856,
+            "location": [
+                -38.02353459999999,
+                144.40882940000006
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "3DFF9910-CF9E-484C-B906-43DD1ED41C7F",
+            "name": "Geelong",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678064424,
+            "location": [
+                -38.14928129999999,
+                144.35982690000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "id": "AF398BC0-0A87-49DB-8FE4-20BDE668C4CE",
             "name": "Torquay",
             "description": null,
@@ -5108,11 +5134,129 @@
             ],
             "photos": [
                 {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/8B119577-F35C-47CA-996E-460017A18C49_33547F2B-8B2F-4D89-811D-B594A672392E.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/8B119577-F35C-47CA-996E-460017A18C49_33547F2B-8B2F-4D89-811D-B594A672392E.jpg",
+                    "location": [
+                        -38.336105,
+                        144.324325
+                    ]
+                },
+                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/0975F6F5-60E1-4CE1-9F8B-9896A76D36F4_DB721BA1-7753-4BF5-AA76-6A7BB5DCA9A9.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/0975F6F5-60E1-4CE1-9F8B-9896A76D36F4_DB721BA1-7753-4BF5-AA76-6A7BB5DCA9A9.jpg",
                     "location": [
                         -38.341233333333335,
                         144.32109166666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/3CD09E56-36D6-4C2A-9D95-1F65E0138DF2_2D096684-2639-44AF-AD15-ECE228497F44.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/3CD09E56-36D6-4C2A-9D95-1F65E0138DF2_2D096684-2639-44AF-AD15-ECE228497F44.jpg",
+                    "location": [
+                        -38.32673666666667,
+                        144.31588666666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/F00FAB90-B0B7-438B-83EA-59B000C34E53_8A290939-B8D2-4412-9AB1-CFCB04E14135.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/F00FAB90-B0B7-438B-83EA-59B000C34E53_8A290939-B8D2-4412-9AB1-CFCB04E14135.jpg",
+                    "location": [
+                        -38.251105,
+                        144.34654166666667
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "7E01EDD3-2011-4A90-A5B2-177B051289E2",
+            "name": "Lorne",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678323600,
+            "location": [
+                -38.54116910000002,
+                143.9748166
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "BA7AD762-08A3-41E3-A0B4-0E1D66173110",
+            "name": "Jamieson Creek",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678334400,
+            "location": [
+                -38.60010220369506,
+                143.91895230372205
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/6F911E31-A5A4-43D2-AD32-C25E8F745EA7_CBD5FCEB-2257-472F-A00B-EEC3685CAA11.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/6F911E31-A5A4-43D2-AD32-C25E8F745EA7_CBD5FCEB-2257-472F-A00B-EEC3685CAA11.jpg",
+                    "location": [
+                        -38.59874666666666,
+                        143.91943333333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/FA9BDC86-8937-4C79-81B2-63A196F51F3C_EB22B0C7-7B85-4798-89EA-96EEE33E8ED7.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/FA9BDC86-8937-4C79-81B2-63A196F51F3C_EB22B0C7-7B85-4798-89EA-96EEE33E8ED7.jpg",
+                    "location": [
+                        -38.59851166666667,
+                        143.91905333333332
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/83567174-1EB6-4470-9BE5-8DFAD7B3A3FD_FBCA5560-EAD6-4792-8DA0-C591C2F408AE.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/83567174-1EB6-4470-9BE5-8DFAD7B3A3FD_FBCA5560-EAD6-4792-8DA0-C591C2F408AE.jpg",
+                    "location": [
+                        -38.598836666666664,
+                        143.91937166666668
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "6CA793A3-F0B3-4D3D-A2F3-C3B40FEE528B",
+            "name": "Kennett River",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678408200,
+            "location": [
+                -38.667695600000016,
+                143.85892
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "B2F58E03-104F-4C0A-8004-37F7C79DE4F6",
+            "name": "Apollo Bay",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678417200,
+            "location": [
+                -38.75474419999998,
+                143.6691462999999
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/DD8992C7-86D8-409B-A6A7-DDAEE2F403ED_2F9CA362-10F4-4570-ADF1-473FC0C8DE7D.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/DD8992C7-86D8-409B-A6A7-DDAEE2F403ED_2F9CA362-10F4-4570-ADF1-473FC0C8DE7D.jpg",
+                    "location": [
+                        -38.75701333333333,
+                        143.66918833333332
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
+                    "location": [
+                        -38.73697166666667,
+                        143.667495
                     ]
                 }
             ],
