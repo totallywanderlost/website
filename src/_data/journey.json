@@ -5252,19 +5252,19 @@
                     ]
                 },
                 {
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/59A8C534-ED3C-4E74-9E24-E7E6E484A8E7_C5AF3539-F57B-4DF1-8E36-20C50A9268D9.jpg",
-                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/59A8C534-ED3C-4E74-9E24-E7E6E484A8E7_C5AF3539-F57B-4DF1-8E36-20C50A9268D9.jpg",
-                    "location": [
-                        -38.75701333333333,
-                        143.66918833333332
-                    ]
-                },
-                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
                     "location": [
                         -38.73697166666667,
                         143.667495
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/70EB8A8C-BCB8-4E18-9617-70A44C597D58_239BB950-7D36-43EF-AAC4-E9BE0421FCBC.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/70EB8A8C-BCB8-4E18-9617-70A44C597D58_239BB950-7D36-43EF-AAC4-E9BE0421FCBC.jpg",
+                    "location": [
+                        -38.75565,
+                        143.67057833333334
                     ]
                 }
             ],
@@ -5293,7 +5293,16 @@
                 -38.33919157068676,
                 143.58145290843532
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/F459E720-A43D-4AAF-96BA-70C1EA15A1D5_6E115F29-BF67-410B-903A-CEE4959F6828.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/F459E720-A43D-4AAF-96BA-70C1EA15A1D5_6E115F29-BF67-410B-903A-CEE4959F6828.jpg",
+                    "location": [
+                        -38.33133333333333,
+                        143.58957
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
