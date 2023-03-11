@@ -5252,6 +5252,14 @@
                     ]
                 },
                 {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/59A8C534-ED3C-4E74-9E24-E7E6E484A8E7_C5AF3539-F57B-4DF1-8E36-20C50A9268D9.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/59A8C534-ED3C-4E74-9E24-E7E6E484A8E7_C5AF3539-F57B-4DF1-8E36-20C50A9268D9.jpg",
+                    "location": [
+                        -38.75701333333333,
+                        143.66918833333332
+                    ]
+                },
+                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
                     "location": [
@@ -5260,6 +5268,32 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "880C2768-813B-4385-B2D3-22C7DD90E1E6",
+            "name": "Forrest",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678494963,
+            "location": [
+                -38.518642399999976,
+                143.71646320000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "FE900E4D-D971-418E-9736-3D8DD9919AFE",
+            "name": "Colac",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678500727,
+            "location": [
+                -38.33919157068676,
+                143.58145290843532
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
