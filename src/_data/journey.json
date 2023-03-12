@@ -5244,14 +5244,6 @@
             ],
             "photos": [
                 {
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/DD8992C7-86D8-409B-A6A7-DDAEE2F403ED_2F9CA362-10F4-4570-ADF1-473FC0C8DE7D.jpg",
-                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/DD8992C7-86D8-409B-A6A7-DDAEE2F403ED_2F9CA362-10F4-4570-ADF1-473FC0C8DE7D.jpg",
-                    "location": [
-                        -38.75701333333333,
-                        143.66918833333332
-                    ]
-                },
-                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/91463869-0E8C-417B-9F63-482473638E86_99727A01-86A5-46DA-9382-606B0D4A4E90.jpg",
                     "location": [
@@ -5300,6 +5292,41 @@
                     "location": [
                         -38.33133333333333,
                         143.58957
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "65E35D05-2F2B-4EFF-BB1B-5BE698229C2A",
+            "name": "Kawarren",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678579240,
+            "location": [
+                -38.480374092272015,
+                143.58337296837982
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "AD19DA6C-7AFA-4E93-A1A2-1131D455B21E",
+            "name": "Gellibrand",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678600273,
+            "location": [
+                -38.52336654383712,
+                143.54095900928576
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/8DEA265D-F2CD-4A6C-8EA5-9E211C1B9533_96600DBD-5E93-47DF-982E-D1E582CE17A8.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/8DEA265D-F2CD-4A6C-8EA5-9E211C1B9533_96600DBD-5E93-47DF-982E-D1E582CE17A8.jpg",
+                    "location": [
+                        -38.48029666666667,
+                        143.584595
                     ]
                 }
             ],
