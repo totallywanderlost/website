@@ -5330,6 +5330,49 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "D4091BF3-01FF-4F09-AF19-7347AEC1AAD0",
+            "name": "Beech Forest",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678676411,
+            "location": [
+                -38.636952596752565,
+                143.5718413723107
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "AD092222-F930-4184-B142-3E16DB61A691",
+            "name": "Cape Otway",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678684295,
+            "location": [
+                -38.83442432623248,
+                143.51223816177202
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/883B78E2-CD97-44D7-BC75-DCD530346F10_8E48CEA7-73ED-474E-A1F1-5FCF944DB2E5.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/883B78E2-CD97-44D7-BC75-DCD530346F10_8E48CEA7-73ED-474E-A1F1-5FCF944DB2E5.jpg",
+                    "location": [
+                        -38.83442432623248,
+                        143.51223816177202
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/4CE4C242-BAE6-4BB1-A16D-166E9E43A444_D44BAD0F-31B5-4F35-B448-786423047707.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/4CE4C242-BAE6-4BB1-A16D-166E9E43A444_D44BAD0F-31B5-4F35-B448-786423047707.jpg",
+                    "location": [
+                        -38.66843,
+                        143.56910833333333
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
