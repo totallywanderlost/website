@@ -5360,8 +5360,8 @@
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/883B78E2-CD97-44D7-BC75-DCD530346F10_8E48CEA7-73ED-474E-A1F1-5FCF944DB2E5.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/883B78E2-CD97-44D7-BC75-DCD530346F10_8E48CEA7-73ED-474E-A1F1-5FCF944DB2E5.jpg",
                     "location": [
-                        -38.83442432623248,
-                        143.51223816177202
+                        0.0,
+                        0.0
                     ]
                 },
                 {
@@ -5370,6 +5370,128 @@
                     "location": [
                         -38.66843,
                         143.56910833333333
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "E1F81D86-7324-4C30-A9F8-D3F4A3291763",
+            "name": "Lavers Hill",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678838411,
+            "location": [
+                -38.67928610000002,
+                143.3913114
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "E8B200E7-F848-4B6F-91FE-24F59DFBDD88",
+            "name": "Port Campbell",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678849247,
+            "location": [
+                -38.619629300000014,
+                142.995366
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "56B9B71B-BDD9-491B-A937-9B29A52B0068",
+            "name": "Peterborough",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678852823,
+            "location": [
+                -38.60611760000001,
+                142.8770204
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "D00452CF-98DD-4988-8B73-094C16E5361E",
+            "name": "Allansford",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678854611,
+            "location": [
+                -38.38620279999999,
+                142.6001551
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "ED1E3525-62D9-4A48-B95E-ABF569069B31",
+            "name": "Warrnambool",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1678856400,
+            "location": [
+                -38.39398497043985,
+                142.47358677259632
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/0506D3A4-294B-4D67-9639-2CF61CA0FA90_3BC909DF-A421-43A2-B59D-536DA02C78DC.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/0506D3A4-294B-4D67-9639-2CF61CA0FA90_3BC909DF-A421-43A2-B59D-536DA02C78DC.jpg",
+                    "location": [
+                        -38.669003333333336,
+                        143.11248883333334
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/0814A750-DEEA-4174-8F11-E4B22A3AE2C8_54B5E539-339D-4F23-B1EA-0287E0EEF746.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/0814A750-DEEA-4174-8F11-E4B22A3AE2C8_54B5E539-339D-4F23-B1EA-0287E0EEF746.jpg",
+                    "location": [
+                        -38.66907833333333,
+                        143.11225833333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/D417A5CA-841A-43DE-B17A-ADC3DA79F5E6_E80DE232-CDAF-460B-BC39-C72E65DAB4DD.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/D417A5CA-841A-43DE-B17A-ADC3DA79F5E6_E80DE232-CDAF-460B-BC39-C72E65DAB4DD.jpg",
+                    "location": [
+                        -38.66923833333333,
+                        143.1119695
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/D7A0D354-C4D1-4F98-80FF-8462B7A6E0F4_469F8075-712C-4CD1-9E84-18AABDD02EBB.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/D7A0D354-C4D1-4F98-80FF-8462B7A6E0F4_469F8075-712C-4CD1-9E84-18AABDD02EBB.jpg",
+                    "location": [
+                        -38.664091666666664,
+                        143.1040195
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/EAE8EC49-41FD-4F76-9D43-22869FA3FAB5_E3F1E7B0-25FA-4C28-80BA-154E3094CF4D.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/EAE8EC49-41FD-4F76-9D43-22869FA3FAB5_E3F1E7B0-25FA-4C28-80BA-154E3094CF4D.jpg",
+                    "location": [
+                        -38.664575,
+                        143.1046
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/B2BDFF93-9836-45BE-9FB7-8F2DB313946C_70DC21A0-CB75-40E1-9D11-6021F978B419.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/B2BDFF93-9836-45BE-9FB7-8F2DB313946C_70DC21A0-CB75-40E1-9D11-6021F978B419.jpg",
+                    "location": [
+                        -38.64835333333333,
+                        143.06884716666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A8C9515B-8430-46BF-9167-5B820E4FF6DB_5ADC7F4F-DFE7-4BDB-941B-71312DA8C3DB.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/A8C9515B-8430-46BF-9167-5B820E4FF6DB_5ADC7F4F-DFE7-4BDB-941B-71312DA8C3DB.jpg",
+                    "location": [
+                        -38.61837,
+                        142.91458
                     ]
                 }
             ],
