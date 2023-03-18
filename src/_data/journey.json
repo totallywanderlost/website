@@ -5538,6 +5538,19 @@
             "state": "visited"
         },
         {
+            "id": "918601D1-522A-48E6-A673-F63851BBADE8",
+            "name": "Port Fairy",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679101222,
+            "location": [
+                -38.385511699999995,
+                142.2366722
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "id": "FC00303C-F0C4-4949-B6F7-018D5441AFD2",
             "name": "Dartmoor",
             "description": null,
