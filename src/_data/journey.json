@@ -5348,7 +5348,7 @@
         {
             "id": "AD092222-F930-4184-B142-3E16DB61A691",
             "name": "Cape Otway",
-            "description": "Bimbi Park advertises \u201ccamping under the Koalas\u201d and didn\u2019t disappoint. We saw (and heard) loads of koalas running around and up in the trees around the park.",
+            "description": null,
             "country": "Australia",
             "arrived": 1678684295,
             "location": [
@@ -5365,11 +5365,51 @@
                     ]
                 },
                 {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/580199AF-8971-4090-B592-5B259D24175E_3A717479-46B1-42BA-8264-FDE5301938AA.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/580199AF-8971-4090-B592-5B259D24175E_3A717479-46B1-42BA-8264-FDE5301938AA.jpg",
+                    "location": [
+                        -38.83466333333333,
+                        143.51132166666667
+                    ]
+                },
+                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/4CE4C242-BAE6-4BB1-A16D-166E9E43A444_D44BAD0F-31B5-4F35-B448-786423047707.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/4CE4C242-BAE6-4BB1-A16D-166E9E43A444_D44BAD0F-31B5-4F35-B448-786423047707.jpg",
                     "location": [
                         -38.66843,
                         143.56910833333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/C55E522B-6EC3-48FE-A4D0-3A97E5F06B2A_FFC338A0-5BB2-44A9-B240-936F33797255.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/C55E522B-6EC3-48FE-A4D0-3A97E5F06B2A_FFC338A0-5BB2-44A9-B240-936F33797255.jpg",
+                    "location": [
+                        -38.83439666666666,
+                        143.51229666666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/F43EA6EC-0FCB-498A-B44E-8225FB6E1E48_C2FF0284-09BC-426C-B694-19F32022CC17.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/F43EA6EC-0FCB-498A-B44E-8225FB6E1E48_C2FF0284-09BC-426C-B694-19F32022CC17.jpg",
+                    "location": [
+                        -38.83288833333334,
+                        143.51278666666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/4B581E92-72B0-449A-A182-CFB1D1243BEE_96A19759-1BF9-4300-AB46-82FF64A8613C.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/4B581E92-72B0-449A-A182-CFB1D1243BEE_96A19759-1BF9-4300-AB46-82FF64A8613C.jpg",
+                    "location": [
+                        -38.856188333333336,
+                        143.51220833333332
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/85201C81-7DBC-45FD-8659-57471EC5B746_C881940E-95BA-4058-8626-A976E3051CFA.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/85201C81-7DBC-45FD-8659-57471EC5B746_C881940E-95BA-4058-8626-A976E3051CFA.jpg",
+                    "location": [
+                        -38.85681666666667,
+                        143.51184166666667
                     ]
                 }
             ],
@@ -5495,6 +5535,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "FC00303C-F0C4-4949-B6F7-018D5441AFD2",
+            "name": "Dartmoor",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679117205,
+            "location": [
+                -37.92540160476968,
+                141.2835764420603
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
