@@ -5411,6 +5411,14 @@
                         -38.85681666666667,
                         143.51184166666667
                     ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/88FC7E30-E187-4CAB-AF24-EBA44327548C_AF37F27F-50F3-4E2E-8DE6-AB59CD653EF1.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/88FC7E30-E187-4CAB-AF24-EBA44327548C_AF37F27F-50F3-4E2E-8DE6-AB59CD653EF1.jpg",
+                    "location": [
+                        -38.834446666666665,
+                        143.51249666666666
+                    ]
                 }
             ],
             "state": "visited"
@@ -5560,7 +5568,54 @@
                 -37.92540160476968,
                 141.2835764420603
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/FFC54B2F-B550-42B1-A0F0-6A26B00AD4BD_C7A737D1-C2A9-4712-BCF0-DD03073971E9.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/FFC54B2F-B550-42B1-A0F0-6A26B00AD4BD_C7A737D1-C2A9-4712-BCF0-DD03073971E9.jpg",
+                    "location": [
+                        -37.92523666666666,
+                        141.28350833333334
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "8772DA3F-D5C8-4D93-9F09-5AE26C937E8C",
+            "name": "Mount Gambier",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679196600,
+            "location": [
+                -37.830138600000026,
+                140.78426269999994
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/7E86B50F-F5D5-48A1-BC36-81CAD5FF6742_148D4BE7-2A08-48BC-B93E-4F8E87617682.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/7E86B50F-F5D5-48A1-BC36-81CAD5FF6742_148D4BE7-2A08-48BC-B93E-4F8E87617682.jpg",
+                    "location": [
+                        -37.8465,
+                        140.77127
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/46F07DD9-33C5-461D-B360-E40A02BB09DD_10C0FA1D-CA6E-4E7E-9477-0B0177F72B6D.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/46F07DD9-33C5-461D-B360-E40A02BB09DD_10C0FA1D-CA6E-4E7E-9477-0B0177F72B6D.jpg",
+                    "location": [
+                        -37.838755,
+                        140.808595
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/65DA99E3-6097-49F0-AEA0-F84EFC101FE3_A85143E3-9CE5-4153-ACF3-D7302805FECC.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/65DA99E3-6097-49F0-AEA0-F84EFC101FE3_A85143E3-9CE5-4153-ACF3-D7302805FECC.jpg",
+                    "location": [
+                        -37.838975,
+                        140.80871666666667
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
