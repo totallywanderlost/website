@@ -5546,6 +5546,19 @@
             "state": "visited"
         },
         {
+            "id": "2B3223E9-9B09-4B1D-A425-3B69762C5273",
+            "name": "Koroit",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679011211,
+            "location": [
+                -38.328231699999996,
+                142.4021826
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "id": "918601D1-522A-48E6-A673-F63851BBADE8",
             "name": "Port Fairy",
             "description": null,
@@ -5616,6 +5629,45 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "C16D3760-DD99-4855-90E5-2AC0AEEB3260",
+            "name": "Millicent",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679362233,
+            "location": [
+                -37.59493789999998,
+                140.35265119999997
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "805317BF-C4A1-4C25-BF28-F8973B16054B",
+            "name": "Beachport",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679365822,
+            "location": [
+                -37.481851099999986,
+                140.01067890000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "E41DA375-81EF-4D5E-AB47-63B1543E93F1",
+            "name": "Robe",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679371005,
+            "location": [
+                -37.166390139644314,
+                139.77024125879612
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
