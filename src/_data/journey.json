@@ -5667,7 +5667,24 @@
                 -37.166390139644314,
                 139.77024125879612
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/34BB29AF-DB38-4319-9C22-4B7638BA33D9_4DBA8896-B375-428C-887E-19B854DAF1FD.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/34BB29AF-DB38-4319-9C22-4B7638BA33D9_4DBA8896-B375-428C-887E-19B854DAF1FD.jpg",
+                    "location": [
+                        -37.160891666666664,
+                        139.78608666666668
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/D457D877-79C8-4C19-BC85-CFE599C9A01E_F2C2ADF0-ACC1-4E63-9B83-80203BDE2375.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/D457D877-79C8-4C19-BC85-CFE599C9A01E_F2C2ADF0-ACC1-4E63-9B83-80203BDE2375.jpg",
+                    "location": [
+                        -37.1553805,
+                        139.78967166666666
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
