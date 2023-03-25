@@ -5701,6 +5701,54 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "4BEB5B42-2F78-49BF-87EC-69875C03F5C2",
+            "name": "Penola",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679533233,
+            "location": [
+                -37.3761655,
+                140.8404168
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "1AAA5D97-CA70-41E0-9B57-EB145C879B9F",
+            "name": "Hamilton",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679716821,
+            "location": [
+                -37.74357439999998,
+                142.0243127
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "731D14B0-86EB-4100-B829-A9683EA62C41",
+            "name": "Haddon",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679729638,
+            "location": [
+                -37.588543854688844,
+                143.71489933705303
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/333923C5-76DE-4AD6-9D89-6046E5A29BB5_9971DFF2-1EBD-483C-A000-073ACE7DC39E.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/333923C5-76DE-4AD6-9D89-6046E5A29BB5_9971DFF2-1EBD-483C-A000-073ACE7DC39E.jpg",
+                    "location": [
+                        -37.58891666666667,
+                        143.71426333333332
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
