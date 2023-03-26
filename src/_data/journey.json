@@ -5749,6 +5749,32 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "EC652C3A-93F5-447E-A9A1-DB9A1AD8ECAA",
+            "name": "Ballarat",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679788814,
+            "location": [
+                -37.562302499999994,
+                143.86056489999999
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "A8191740-C53C-4F8B-828E-1498F9D2EC73",
+            "name": "St Kilda",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1679817029,
+            "location": [
+                -37.86399209409753,
+                144.98308983644935
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
