@@ -240,7 +240,7 @@
         {
             "id": "D06BC772-A9F9-4145-8C95-8DF087BFB55F",
             "name": "Mount Remarkable National Park",
-            "description": "Camping and walking in the park",
+            "description": "Stop number 1 of our great Australian road trip! A few hours out of Adelaide, we spent a couple of nights camping in a national park. We were greeted with Kangaroos, Emus and Kookaburras wandering around camp, and so many stars in the sky at night!\n\nWe did a nice walk through the park, up to a viewpoint, and enjoyed the peace and quiet after a month or so in cities.",
             "country": "Australia",
             "arrived": 1659022200,
             "location": [
@@ -447,7 +447,7 @@
         {
             "id": "B223AE28-B4CF-4510-84D4-B7C17AE43E3C",
             "name": "Marla",
-            "description": null,
+            "description": "Another night on the road, another roadhouse stopover.",
             "country": "Australia",
             "arrived": 1659409200,
             "location": [
@@ -846,7 +846,7 @@
         {
             "id": "386D7D63-8F35-4BDA-9CAE-080C674DE01B",
             "name": "Banka Banka",
-            "description": null,
+            "description": "A great little camp at a farm homestead. They had an Indian food truck which did a great paneer curry and roti, and music around the camp fire.",
             "country": "Australia",
             "arrived": 1660615200,
             "location": [
@@ -868,7 +868,7 @@
         {
             "id": "21EAFD9C-F129-4236-9678-E2911BDC4EE6",
             "name": "Daly Waters",
-            "description": null,
+            "description": "The Famous Daly Waters pub. We spend 2 night here in one of the motel rooms to refresh and get a chance to wash off some of the red dust that's accumulating.\n\nLots of interesting things around town, great garlic bread in the pub, and some great happy hour deals.",
             "country": "Australia",
             "arrived": 1660701600,
             "location": [
@@ -1236,7 +1236,7 @@
         {
             "id": "7F72E85D-86C4-4BF5-A149-3BAB31302691",
             "name": "Daly Waters",
-            "description": null,
+            "description": "Since we were passing Daly Waters again on our way back down we decided to stop in for more garlic bread and $5 wines. This time we were treated to the eccentric owner on his mobility scooter telling us the history of the pub accompanied by his menagerie of animals.\n\nIt was up to 35 degrees during the day which made for a sweaty night's sleep. We went to bed to news of the Queen's deteriorating health and woke up to news of her death. A very strange place to be hearing the news.",
             "country": "Australia",
             "arrived": 1662606000,
             "location": [
@@ -1367,7 +1367,7 @@
         {
             "id": "8A2DE032-273D-4F46-96C6-9CB19F41B166",
             "name": "Karumba",
-            "description": null,
+            "description": "We started the day with no plans as to where to spend the night. On the drive James found a holiday park with  a caravan to rent available for the night, so we booked it and headed there. Turned out to be a very picturesque spot. We grabbed some fish and chips and watched the sunset before stopping in for a quick drink at the pub.",
             "country": "Australia",
             "arrived": 1662872383,
             "location": [
@@ -5660,7 +5660,7 @@
         {
             "id": "E41DA375-81EF-4D5E-AB47-63B1543E93F1",
             "name": "Robe",
-            "description": null,
+            "description": "Beautiful little beach town on the limestone coast in south SA. Spent a few days relaxing and recharging after the great ocean road. The highlight of Robe was probably long beach (aptly named at around 12km long) where you can drive right along the sand and bag yourself a quiet spot with no one else around. Sunset over the water was spectacular.",
             "country": "Australia",
             "arrived": 1679371005,
             "location": [
@@ -5732,7 +5732,7 @@
         {
             "id": "731D14B0-86EB-4100-B829-A9683EA62C41",
             "name": "Haddon",
-            "description": null,
+            "description": "Just a quick overnighter on the way back to Melbourne. Free camping in a park in a tiny town. Windy and Cold, but we got a nice sunset, cooked up a curry and did I mention it was FREE?!",
             "country": "Australia",
             "arrived": 1679729638,
             "location": [
@@ -5767,7 +5767,7 @@
         {
             "id": "A8191740-C53C-4F8B-828E-1498F9D2EC73",
             "name": "St Kilda",
-            "description": null,
+            "description": "Back in the city! 2 weeks house sitting, Grand Prix, James' family visiting, then we'll say goodbye to Melbourne for good (for this trip anyway!)",
             "country": "Australia",
             "arrived": 1679817029,
             "location": [
