@@ -5574,7 +5574,7 @@
         {
             "id": "FC00303C-F0C4-4949-B6F7-018D5441AFD2",
             "name": "Dartmoor",
-            "description": null,
+            "description": "Just a quick overnight stop in Dartmoor in a free camping spot. The town is very small but had a nice pub and some interesting tree sculptures.",
             "country": "Australia",
             "arrived": 1679117205,
             "location": [
@@ -5781,6 +5781,54 @@
                     "location": [
                         -37.838346666666666,
                         144.95767166666667
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/4F5CA698-1441-42AC-8B82-775D3329B36D_0EC6D622-0DF3-4A34-A2EA-0DB1A35074D4.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/4F5CA698-1441-42AC-8B82-775D3329B36D_0EC6D622-0DF3-4A34-A2EA-0DB1A35074D4.jpg",
+                    "location": [
+                        -37.851295,
+                        144.97258
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/58A81F19-9F4C-4DF3-BF92-2D70C1797526_F6389703-C0D1-4E18-8B6A-DD6083D7CA71.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/58A81F19-9F4C-4DF3-BF92-2D70C1797526_F6389703-C0D1-4E18-8B6A-DD6083D7CA71.jpg",
+                    "location": [
+                        -37.83824166666667,
+                        144.966995
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/B0319E3B-4F74-426A-A97F-42B7BCF7BD9A_BC5D530D-E9BC-4CB1-BD41-F290806F2AD9.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/B0319E3B-4F74-426A-A97F-42B7BCF7BD9A_BC5D530D-E9BC-4CB1-BD41-F290806F2AD9.jpg",
+                    "location": [
+                        -37.83823833333334,
+                        144.96884166666666
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E7D50E43-CCC0-4060-AC73-814F4FF50A16_C3ADAA0E-58AC-4C65-84A1-79080158DB5D.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/E7D50E43-CCC0-4060-AC73-814F4FF50A16_C3ADAA0E-58AC-4C65-84A1-79080158DB5D.jpg",
+                    "location": [
+                        -37.84243333333333,
+                        144.96205333333333
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/F38DEDE7-ECC4-403A-BB1F-28540D01AE55_86E42936-9115-4DD8-94B5-1ED2B9D915E3.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/F38DEDE7-ECC4-403A-BB1F-28540D01AE55_86E42936-9115-4DD8-94B5-1ED2B9D915E3.jpg",
+                    "location": [
+                        -37.84587166666667,
+                        144.96582
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/885BF567-6B48-49FF-89C3-B47B3B869FA4_C3F42A80-CC51-49E6-BA35-52998FA3CC4B.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/885BF567-6B48-49FF-89C3-B47B3B869FA4_C3F42A80-CC51-49E6-BA35-52998FA3CC4B.jpg",
+                    "location": [
+                        -37.85078333333333,
+                        144.94998
                     ]
                 }
             ],
