@@ -5824,11 +5824,49 @@
                     ]
                 },
                 {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/CED6088D-39D1-4D96-9346-B2597B4FAAB1_046DEF70-BEB6-417F-B536-20A582CD4AD1.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/CED6088D-39D1-4D96-9346-B2597B4FAAB1_046DEF70-BEB6-417F-B536-20A582CD4AD1.jpg",
+                    "location": [
+                        -37.845845,
+                        144.96551333333332
+                    ]
+                },
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/CC97FA98-FB7F-4A8C-AD16-09E9026F77FC_2C189EFA-9622-42F8-94D8-E2FBD84B8D07.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/CC97FA98-FB7F-4A8C-AD16-09E9026F77FC_2C189EFA-9622-42F8-94D8-E2FBD84B8D07.jpg",
+                    "location": [
+                        -37.85004166666667,
+                        144.96911666666668
+                    ]
+                },
+                {
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/885BF567-6B48-49FF-89C3-B47B3B869FA4_C3F42A80-CC51-49E6-BA35-52998FA3CC4B.jpg",
                     "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/885BF567-6B48-49FF-89C3-B47B3B869FA4_C3F42A80-CC51-49E6-BA35-52998FA3CC4B.jpg",
                     "location": [
                         -37.85078333333333,
                         144.94998
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "64072926-6359-482A-90A1-EC516F3F0328",
+            "name": "Glen Iris",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1681283709,
+            "location": [
+                -37.8553080870467,
+                145.05231132026384
+            ],
+            "photos": [
+                {
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/34A348B1-3E54-4792-926E-A20EB546A6B1_506C575E-7567-4B98-8CB7-C39B9DE2C16E.jpg",
+                    "url": "https://ik.imagekit.io/totallywanderlost//user_images/steps/large_thumb/u_4212412/34A348B1-3E54-4792-926E-A20EB546A6B1_506C575E-7567-4B98-8CB7-C39B9DE2C16E.jpg",
+                    "location": [
+                        -37.88488,
+                        144.97969166666667
                     ]
                 }
             ],
