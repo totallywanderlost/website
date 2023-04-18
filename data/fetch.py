@@ -52,7 +52,7 @@ def parse_steps(steps):
                 'country': step['location']['detail'],
                 'arrived': floor(step['start_time']),
                 'location': [step['location']['lat'], step['location']['lon']],
-                'photos': [ get_photo(item) for item in step['media'] if 'large_thumbnail_path' in item and not empty(item['large_thumbnail_path']) ],
+                'photos': [ get_photo(step, item) for item in step['media'] if 'large_thumbnail_path' in item and not empty(item['large_thumbnail_path']) ],
                 'state': 'visited' if len(step['media']) > 0 else 'stopped'
             }
 
@@ -82,23 +82,26 @@ def parse_planned_steps(steps):
 def empty(string):
     return string == None or string == ''
 
-def get_photo(item):
-    s3_url = item['large_thumbnail_path']
-    s3_path = s3_url.replace('https://polarsteps.s3.amazonaws.com', '')
-    imagekit_url = f'https://ik.imagekit.io/totallywanderlost/{s3_path}'
+def get_photo(step, photo):
+    source_url = photo['large_thumbnail_path']
+    imagekit_url = f'https://ik.imagekit.io/totallywanderlost/r2/{r2_key_for_photo(step, photo)}'
 
     return {
-        'id': item['uuid'],
-        'source_url': s3_url,
+        'id': photo['uuid'],
+        'source_url': source_url,
+        'r2_url': r2_url_for_photo(step, photo),
         'url': imagekit_url,
-        'location': [item['lat'], item['lon']]
+        'location': [photo['lat'], photo['lon']]
     }
 
-def key_for_step_photo(step, photo):
-    return f"images/journey/step/{step['id']}/{photo['id']}"
+def r2_key_for_photo(step, photo):
+    return f"images/journey/step/{step['uuid']}/{photo['uuid']}"
 
-def upload_step_photo(step, photo):
-    key = key_for_step_photo(step, photo)
+def r2_url_for_photo(step, photo):
+    return f"https://r2.totallywanderlost.com/{r2_key_for_photo(step, photo)}"
+
+def upload_photo(step, photo):
+    key = r2_key_for_photo(step, photo)
 
     print(f"Downloading source photo={photo['source_url']} for step={step['id']}")
     source = requests.get(photo['source_url'])
@@ -106,12 +109,8 @@ def upload_step_photo(step, photo):
     print(f"Uploading photo with key={key} to r2 for step={step['id']}")
     bucket.Object(key).put(Body=source.content)
 
-    r2_url = f'https://r2.totallywanderlost.com/{key}'
-
-    return r2_url
-
-def delete_step_photo(step, photo):
-    key = key_for_step_photo(step, photo)
+def delete_photo(step, photo):
+    key = r2_key_for_photo(step, photo)
 
     print(f"Deleting photo with key={key} from r2 for step={step['id']}")
     bucket.Object(key).delete()
@@ -125,17 +124,10 @@ def sync_images_to_r2(existing, latest):
         existing_step = existing_by_id[id] if id in existing_by_id else None
         existing_photos_by_id = {photo['id']: photo for photo in existing_step['photos']} if existing_step else dict()
 
-        for index, photo in enumerate(step['photos']):
-            existing_photo = existing_photos_by_id[photo['id']] if photo['id'] in existing_photos_by_id else None
-
-            if not existing_photo:
+        for photo in step['photos']:
+            if photo['id'] not in existing_photos_by_id:
                 print(f"Uploading new photo with id={photo['id']} for step={step['id']}")
-                r2_url = upload_step_photo(step, photo)
-                photo['r2_url'] = r2_url
-            else:
-                photo = existing_photo
-
-            step['photos'][index] = photo
+                upload_photo(step, photo)
 
         synced.append(step)
 
@@ -146,7 +138,7 @@ def sync_images_to_r2(existing, latest):
         for photo in step['photos']:
             if photo['id'] not in latest_photos_by_id:
                 print(f"Deleting photo with id={photo['id']} for step={step['id']}")
-                delete_step_photo(step, photo)
+                delete_photo(step, photo)
 
     return {
         'steps': synced
