@@ -25,6 +25,10 @@ jobs:
           make pipenv
       - name: Fetch Data
         run: make fetch trip=5149612 file=src/_data/journey.json
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
+          CLOUDFLARE_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
       - name: Commit Changes
         run: |
           git config user.name "🤖"
