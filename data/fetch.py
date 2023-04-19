@@ -84,35 +84,33 @@ def empty(string):
 
 def get_photo(step, photo):
     source_url = photo['large_thumbnail_path']
-    imagekit_url = f'https://ik.imagekit.io/totallywanderlost/r2/{r2_key_for_photo(step, photo)}'
+    imagekit_url = f"https://ik.imagekit.io/totallywanderlost/r2/{r2_key_for_photo(step['uuid'], photo['uuid'])}"
 
     return {
         'id': photo['uuid'],
         'source_url': source_url,
-        'r2_url': r2_url_for_photo(step, photo),
+        'r2_url': r2_url_for_photo(step['uuid'], photo['uuid']),
         'url': imagekit_url,
         'location': [photo['lat'], photo['lon']]
     }
 
-def r2_key_for_photo(step, photo):
-    return f"images/journey/step/{step['uuid']}/{photo['uuid']}"
+def r2_key_for_photo(step_id, photo_id):
+    return f"images/journey/step/{step_id}/{photo_id}"
 
-def r2_url_for_photo(step, photo):
-    return f"https://r2.totallywanderlost.com/{r2_key_for_photo(step, photo)}"
+def r2_url_for_photo(step_id, photo_id):
+    return f"https://r2.totallywanderlost.com/{r2_key_for_photo(step_id, photo_id)}"
 
-def upload_photo(step, photo):
-    key = r2_key_for_photo(step, photo)
+def upload_photo(source_url, key, step_id):
+    print(f"Downloading source photo={source_url} for step={step_id}")
+    source = requests.get(source_url)
 
-    print(f"Downloading source photo={photo['source_url']} for step={step['id']}")
-    source = requests.get(photo['source_url'])
-
-    print(f"Uploading photo with key={key} to r2 for step={step['id']}")
+    print(f"Uploading photo with key={key} to r2 for step={step_id}")
     bucket.Object(key).put(Body=source.content)
 
-def delete_photo(step, photo):
-    key = r2_key_for_photo(step, photo)
+def delete_photo(step_id, photo_id):
+    key = r2_key_for_photo(step_id, photo_id)
 
-    print(f"Deleting photo with key={key} from r2 for step={step['id']}")
+    print(f"Deleting photo with key={key} from r2 for step={step_id}")
     bucket.Object(key).delete()
 
 def sync_images_to_r2(existing, latest):
@@ -127,7 +125,8 @@ def sync_images_to_r2(existing, latest):
         for photo in step['photos']:
             if photo['id'] not in existing_photos_by_id:
                 print(f"Uploading new photo with id={photo['id']} for step={step['id']}")
-                upload_photo(step, photo)
+                key = r2_key_for_photo(step['id'], photo['id'])
+                upload_photo(photo['source_url'], key, step['id'])
 
         synced.append(step)
 
@@ -138,7 +137,7 @@ def sync_images_to_r2(existing, latest):
         for photo in step['photos']:
             if photo['id'] not in latest_photos_by_id:
                 print(f"Deleting photo with id={photo['id']} for step={step['id']}")
-                delete_photo(step, photo)
+                delete_photo(step['id'], photo['id'])
 
     return {
         'steps': synced
