@@ -6734,6 +6734,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "9B8662F1-4DFA-48E8-904C-DE6DDBEE0DFA",
+            "name": "Queenscliff",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1681887311,
+            "location": [
+                -38.270447719877836,
+                144.6231487022197
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
