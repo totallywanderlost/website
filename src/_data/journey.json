@@ -6813,10 +6813,20 @@
             "country": "Australia",
             "arrived": 1682218800,
             "location": [
-                -41.113417499999976,
-                146.65544969
+                -41.16048571268037,
+                146.5642087871841
             ],
             "photos": [
+                {
+                    "id": "1C7208BC-D689-490F-AB11-1BD85C0D0A0C",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/1C7208BC-D689-490F-AB11-1BD85C0D0A0C_36E92614-5D76-4D1B-B440-A12DA7541954.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/1C7208BC-D689-490F-AB11-1BD85C0D0A0C",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/1C7208BC-D689-490F-AB11-1BD85C0D0A0C",
+                    "location": [
+                        0.0,
+                        0.0
+                    ]
+                },
                 {
                     "id": "E481A107-3A2B-47FC-8C58-EAF8A06227F6",
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E481A107-3A2B-47FC-8C58-EAF8A06227F6_D212AB6F-C639-484D-9B4C-EF3132C2DD42.jpg",
@@ -6858,6 +6868,123 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "A9D1B513-3ED5-47A2-82EE-F210314A776D",
+            "name": "Bakers Beach",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682290800,
+            "location": [
+                -41.14765961296135,
+                146.56476395282436
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "D236369E-D86F-4914-A006-D98A939B29F5",
+            "name": "Frankford",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682294400,
+            "location": [
+                -41.339661999999976,
+                146.77322479999992
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "02AB4C54-DEF3-4BCC-824F-27FC12116B30",
+            "name": "Batman Bridge",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682296200,
+            "location": [
+                -41.21552464023297,
+                146.91537716958578
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "716DB616-23E3-4BB4-A8FF-32417AE90DF0",
+            "name": "Beaconsfield",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682298000,
+            "location": [
+                -41.198107799999995,
+                146.81454689999993
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "BAB594B4-6108-41FB-996F-B8DCEB692EEE",
+            "name": "Deviot",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682301600,
+            "location": [
+                -41.23692999999997,
+                146.93286700000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "1384D5CC-8A57-4DFD-8436-BD0199995750",
+            "name": "Gravelly Beach",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682305200,
+            "location": [
+                -41.293061382652404,
+                146.97454464562287
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "41D1D82A-1445-4DCB-9D4D-B70C30BFD31D",
+            "name": "Grindelwald",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682308800,
+            "location": [
+                -41.351963997026246,
+                147.00156144815043
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "3A87B46C-D41D-4483-9AE6-EE8415B3C64F",
+            "name": "Launceston",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682317800,
+            "location": [
+                -41.43408130000002,
+                147.1373496
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "AEE1AC71-ED2F-4E76-AEF2-42D51B4A2523",
+            "name": "Hadspen",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682319600,
+            "location": [
+                -41.5037389398669,
+                147.0702958128407
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
