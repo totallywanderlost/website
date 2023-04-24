@@ -6818,23 +6818,23 @@
             ],
             "photos": [
                 {
-                    "id": "B25598C9-12D8-412B-8B28-4EE0C2EAC44A",
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/B25598C9-12D8-412B-8B28-4EE0C2EAC44A_A331C6C6-0C3E-4B8D-9689-DDF19073017E.jpg",
-                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/B25598C9-12D8-412B-8B28-4EE0C2EAC44A",
-                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/B25598C9-12D8-412B-8B28-4EE0C2EAC44A",
-                    "location": [
-                        -41.113417499999976,
-                        146.65544969
-                    ]
-                },
-                {
                     "id": "E481A107-3A2B-47FC-8C58-EAF8A06227F6",
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E481A107-3A2B-47FC-8C58-EAF8A06227F6_D212AB6F-C639-484D-9B4C-EF3132C2DD42.jpg",
                     "r2_url": "https://r2.totallywanderlost.com/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/E481A107-3A2B-47FC-8C58-EAF8A06227F6",
                     "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/E481A107-3A2B-47FC-8C58-EAF8A06227F6",
                     "location": [
-                        -41.113417499999976,
-                        146.65544969
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "id": "5A9D5319-3D8C-497C-8CAF-CEFBBCA6FCD6",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5A9D5319-3D8C-497C-8CAF-CEFBBCA6FCD6_BA034BC4-0ADA-4B11-8098-326FB6FE4B04.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/5A9D5319-3D8C-497C-8CAF-CEFBBCA6FCD6",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/5A9D5319-3D8C-497C-8CAF-CEFBBCA6FCD6",
+                    "location": [
+                        -41.146227833333334,
+                        146.56501666666668
                     ]
                 },
                 {
@@ -6843,8 +6843,8 @@
                     "r2_url": "https://r2.totallywanderlost.com/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/21733139-C95F-4390-9B99-1DA1BB9E2960",
                     "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/21733139-C95F-4390-9B99-1DA1BB9E2960",
                     "location": [
-                        -41.113417499999976,
-                        146.65544969
+                        0.0,
+                        0.0
                     ]
                 },
                 {
@@ -6853,8 +6853,8 @@
                     "r2_url": "https://r2.totallywanderlost.com/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/0A5DF315-A814-4CDE-B6E3-1E0155AE25FA",
                     "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/87DE03FF-8D87-47E2-B75F-5DA5E6DC710C/0A5DF315-A814-4CDE-B6E3-1E0155AE25FA",
                     "location": [
-                        -41.113417499999976,
-                        146.65544969
+                        0.0,
+                        0.0
                     ]
                 }
             ],
