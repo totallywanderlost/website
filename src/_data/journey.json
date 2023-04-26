@@ -7199,6 +7199,30 @@
                 147.39251920000004
             ],
             "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "CDD45099-D41B-41B9-BD0D-D0E20FFFE5E3",
+            "name": "Binalong Bay",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682492400,
+            "location": [
+                -41.248989999999985,
+                148.31214999999997
+            ],
+            "photos": [
+                {
+                    "id": "2107531A-BCA5-4E6F-9922-B96A8BCFF457",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/2107531A-BCA5-4E6F-9922-B96A8BCFF457_15ED3991-33C2-45B9-B348-F62888B7CA91.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/CDD45099-D41B-41B9-BD0D-D0E20FFFE5E3/2107531A-BCA5-4E6F-9922-B96A8BCFF457",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/CDD45099-D41B-41B9-BD0D-D0E20FFFE5E3/2107531A-BCA5-4E6F-9922-B96A8BCFF457",
+                    "location": [
+                        -41.225941666666664,
+                        148.28306666666666
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
