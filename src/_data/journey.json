@@ -7173,6 +7173,32 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "0E71990B-DF47-49E5-ABCD-F9F61473F7BB",
+            "name": "Launceston",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682467200,
+            "location": [
+                -41.43408130000002,
+                147.1373496
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "AA012649-864A-4AA7-9473-805D1DC1663A",
+            "name": "Bridport",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682478000,
+            "location": [
+                -41.00227670000002,
+                147.39251920000004
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
