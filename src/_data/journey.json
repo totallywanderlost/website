@@ -7203,13 +7203,13 @@
         },
         {
             "id": "CDD45099-D41B-41B9-BD0D-D0E20FFFE5E3",
-            "name": "Binalong Bay",
+            "name": "Bay of Fires",
             "description": null,
             "country": "Australia",
             "arrived": 1682492400,
             "location": [
-                -41.248989999999985,
-                148.31214999999997
+                -41.19744886266422,
+                148.2710704283475
             ],
             "photos": [
                 {
@@ -7220,6 +7220,30 @@
                     "location": [
                         -41.225941666666664,
                         148.28306666666666
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "0D6FD94E-E8CE-4E21-9074-9A7BFA68A5A4",
+            "name": "Bicheno",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682572637,
+            "location": [
+                -41.86091502666647,
+                148.2793870010863
+            ],
+            "photos": [
+                {
+                    "id": "2ABEA775-5A59-490B-9629-C8C9A6CD9E0D",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/2ABEA775-5A59-490B-9629-C8C9A6CD9E0D_2DDD17C5-948B-45B4-8B07-B99CD8614B69.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/0D6FD94E-E8CE-4E21-9074-9A7BFA68A5A4/2ABEA775-5A59-490B-9629-C8C9A6CD9E0D",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/0D6FD94E-E8CE-4E21-9074-9A7BFA68A5A4/2ABEA775-5A59-490B-9629-C8C9A6CD9E0D",
+                    "location": [
+                        -41.86098666666667,
+                        148.27929666666665
                     ]
                 }
             ],
