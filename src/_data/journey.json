@@ -7189,6 +7189,19 @@
             "state": "stopped"
         },
         {
+            "id": "37DA9BF0-93BC-4C9C-8C8F-98DED8F5C958",
+            "name": "Hillwood",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682472600,
+            "location": [
+                -41.241807599999994,
+                146.97787770000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "id": "AA012649-864A-4AA7-9473-805D1DC1663A",
             "name": "Bridport",
             "description": null,
@@ -7197,6 +7210,32 @@
             "location": [
                 -41.00227670000002,
                 147.39251920000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "E9504B1F-7BC0-4D49-A12B-B57A3B0875C6",
+            "name": "Tomahawk",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682485200,
+            "location": [
+                -40.92779695504255,
+                147.81499318841801
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "92110ECF-571D-45A0-9EC7-425042DCCEA6",
+            "name": "St Helens",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682488800,
+            "location": [
+                -41.32363060000003,
+                148.24938580000003
             ],
             "photos": [],
             "state": "stopped"
@@ -7264,6 +7303,19 @@
                 }
             ],
             "state": "visited"
+        },
+        {
+            "id": "4A835543-5073-48F6-8F14-50BC3E802D6C",
+            "name": "St Helens",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682557238,
+            "location": [
+                -41.32363060000003,
+                148.24938580000003
+            ],
+            "photos": [],
+            "state": "stopped"
         },
         {
             "id": "0D6FD94E-E8CE-4E21-9074-9A7BFA68A5A4",
@@ -7412,6 +7464,82 @@
                     "location": [
                         -42.122475,
                         148.28257833333333
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "DDAF1BBA-A1E4-4984-8DA8-FBAE27DC3B06",
+            "name": "Dolphin Sands",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682985600,
+            "location": [
+                -42.0895623,
+                148.13159769999993
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "371DB7CA-A153-4050-B25F-223300BB0A29",
+            "name": "Swansea",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682987400,
+            "location": [
+                -42.124933000000006,
+                148.07573260000004
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "9DD7B2E0-25C0-4DE0-AFE7-9446A82C6BB7",
+            "name": "Rocky Hills",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682990100,
+            "location": [
+                -42.23304199999998,
+                148.01789569999994
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "B90734E4-D3B3-4BB6-A375-6BB2D560B072",
+            "name": "Orford",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1682992830,
+            "location": [
+                -42.56065979999999,
+                147.87198569999993
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "C03D7DE6-9CD3-4CA8-994D-20FC70E1CF47",
+            "name": "Spring Beach",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1683000000,
+            "location": [
+                -42.58981323242188,
+                147.9086461198962
+            ],
+            "photos": [
+                {
+                    "id": "21ABD726-17EE-4EE8-863A-835C3F6A281A",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/21ABD726-17EE-4EE8-863A-835C3F6A281A_10AEDF54-1C28-4A13-A1D6-E9CC3EEF24DD.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/C03D7DE6-9CD3-4CA8-994D-20FC70E1CF47/21ABD726-17EE-4EE8-863A-835C3F6A281A",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/C03D7DE6-9CD3-4CA8-994D-20FC70E1CF47/21ABD726-17EE-4EE8-863A-835C3F6A281A",
+                    "location": [
+                        -42.589796666666665,
+                        147.90852166666667
                     ]
                 }
             ],
