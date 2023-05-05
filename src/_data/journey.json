@@ -91,7 +91,7 @@
         {
             "id": "76790699-D615-4E93-8A68-F738F96C3687",
             "name": "Sydney",
-            "description": null,
+            "description": "Our first stop in Oz in s\u0336u\u0336n\u0336n\u0336y\u0336 Sydney. It\u2019s not an exaggeration to say that it rained pretty much non-stop during our stay, so much so that we ran out of dry clothes. Between the rain and the jet lag we probably didn\u2019t quite get the start to our trip we were expecting but we got out there and saw the main sights, safe in the knowledge we planned to return later in the year.",
             "country": "Australia",
             "arrived": 1656678600,
             "location": [
@@ -389,7 +389,7 @@
         {
             "id": "DB34578B-953B-477F-943A-F65573D98C0C",
             "name": "Spud's Roadhouse",
-            "description": null,
+            "description": "Our first roadhouse and our first experience of quite how empty parts of the outback are. We met an interesting guy in the van parked next to us who showed us his opal collection, made some dinner on our stove and then had a few drinks inside to stay warm.",
             "country": "Australia",
             "arrived": 1659189600,
             "location": [
@@ -425,6 +425,16 @@
                     "location": [
                         -31.255741099999966,
                         136.80379020000004
+                    ]
+                },
+                {
+                    "id": "E0CAF87E-4C2F-4EA9-B56D-025A6E9A1EB5",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E0CAF87E-4C2F-4EA9-B56D-025A6E9A1EB5_7F12BF4B-E249-46F0-A651-1DB6B8AEF827.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/DB34578B-953B-477F-943A-F65573D98C0C/E0CAF87E-4C2F-4EA9-B56D-025A6E9A1EB5",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/DB34578B-953B-477F-943A-F65573D98C0C/E0CAF87E-4C2F-4EA9-B56D-025A6E9A1EB5",
+                    "location": [
+                        -31.255611666666667,
+                        136.80328333333333
                     ]
                 }
             ],
@@ -527,7 +537,7 @@
         {
             "id": "B223AE28-B4CF-4510-84D4-B7C17AE43E3C",
             "name": "Marla",
-            "description": "Another night on the road, another roadhouse stopover.",
+            "description": "Another night on the road, another roadhouse stopover. To keep these balanced and not only containing the good stuff there we were besieged by flies here and learnt to perfect the Aussie wave.",
             "country": "Australia",
             "arrived": 1659409200,
             "location": [
@@ -553,6 +563,16 @@
                     "location": [
                         0.0,
                         0.0
+                    ]
+                },
+                {
+                    "id": "85E88597-68A3-4320-860D-43D58AA11AF3",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/85E88597-68A3-4320-860D-43D58AA11AF3_29FDE7C5-B087-41E1-BC05-C1AB098E1D9E.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/B223AE28-B4CF-4510-84D4-B7C17AE43E3C/85E88597-68A3-4320-860D-43D58AA11AF3",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/B223AE28-B4CF-4510-84D4-B7C17AE43E3C/85E88597-68A3-4320-860D-43D58AA11AF3",
+                    "location": [
+                        -27.30502,
+                        133.62458833333332
                     ]
                 }
             ],
@@ -708,7 +728,7 @@
         {
             "id": "62BFF6B6-FE52-413B-83A9-333946ED70C0",
             "name": "Erldunda Roadhouse",
-            "description": null,
+            "description": "Not too much to say about this, it was an overnight stop on our way to Alice Springs. They had a camel.",
             "country": "Australia",
             "arrived": 1659754500,
             "location": [
@@ -750,6 +770,16 @@
                 133.88128849999998
             ],
             "photos": [
+                {
+                    "id": "A54578EC-05F9-449E-B6DA-FFB147188026",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A54578EC-05F9-449E-B6DA-FFB147188026_73D04FDE-2017-4E2A-B956-B45B303A520F.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/E12051F5-04C2-4061-9C58-5084944A7CAD/A54578EC-05F9-449E-B6DA-FFB147188026",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/E12051F5-04C2-4061-9C58-5084944A7CAD/A54578EC-05F9-449E-B6DA-FFB147188026",
+                    "location": [
+                        -23.785941666666666,
+                        133.87776166666666
+                    ]
+                },
                 {
                     "id": "AD2110EF-FE8F-4072-BEEC-CB32856A587E",
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/AD2110EF-FE8F-4072-BEEC-CB32856A587E_9B57D28E-94B7-4846-A5F7-E5EEFF5A7CFE.jpg",
@@ -897,19 +927,8 @@
                 -23.698388400000006,
                 133.88128849999998
             ],
-            "photos": [
-                {
-                    "id": "0834C7C6-CA87-402F-A18F-6974784A3287",
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/0834C7C6-CA87-402F-A18F-6974784A3287_18CEC567-8308-4141-8C41-CDB2FB2E949F.jpg",
-                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/B34266AD-1B89-4D33-AB79-129BEF375EB9/0834C7C6-CA87-402F-A18F-6974784A3287",
-                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/B34266AD-1B89-4D33-AB79-129BEF375EB9/0834C7C6-CA87-402F-A18F-6974784A3287",
-                    "location": [
-                        0.0,
-                        0.0
-                    ]
-                }
-            ],
-            "state": "visited"
+            "photos": [],
+            "state": "stopped"
         },
         {
             "id": "B2EDEC67-90E8-4336-8C67-EEC4C206A723",
@@ -2537,7 +2556,7 @@
         {
             "id": "87E72225-887D-4F22-B4B3-75573521A9A9",
             "name": "Mackay",
-            "description": null,
+            "description": "Not much to say about this one, we arrived in town fairly late and stayed in a motel.",
             "country": "Australia",
             "arrived": 1664683200,
             "location": [
@@ -3049,7 +3068,7 @@
         {
             "id": "C20F5149-EC35-44C2-A833-8D02100911FB",
             "name": "Hervey Bay",
-            "description": null,
+            "description": "There was a jetty apparently, can\u2019t remember much else. I\u2019m writing this 6 months on, cut me some slack.",
             "country": "Australia",
             "arrived": 1665536400,
             "location": [
@@ -3112,7 +3131,7 @@
         {
             "id": "C4A27798-62ED-44EE-AA73-99351F5BD66A",
             "name": "Brisbane",
-            "description": null,
+            "description": "Overnight stay in a hotel (pub) before we flew out to Bali early the next morning.",
             "country": "Australia",
             "arrived": 1665802800,
             "location": [
@@ -7584,7 +7603,7 @@
         {
             "id": "C03D7DE6-9CD3-4CA8-994D-20FC70E1CF47",
             "name": "Spring Beach",
-            "description": null,
+            "description": "We splashed out an Airbnb with a tennis court for James\u2019 birthday, no regrets, it was amazing.",
             "country": "Australia",
             "arrived": 1683000000,
             "location": [
