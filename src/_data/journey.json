@@ -7793,8 +7793,41 @@
                         -43.043963833333336,
                         147.94998
                     ]
+                },
+                {
+                    "id": "F6A2F545-0953-40A8-ADE5-FFCC9CB9E96D",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/F6A2F545-0953-40A8-ADE5-FFCC9CB9E96D_AEC287A0-AA48-411D-9F12-2B39FC4DDD30.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/F6A2F545-0953-40A8-ADE5-FFCC9CB9E96D",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/F6A2F545-0953-40A8-ADE5-FFCC9CB9E96D",
+                    "location": [
+                        -43.13155833333333,
+                        147.86007833333332
+                    ]
+                },
+                {
+                    "id": "3150D07E-9B9D-4BE1-990C-7292E0A32320",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/3150D07E-9B9D-4BE1-990C-7292E0A32320_989E9743-954F-4435-909F-4AD72D2981CA.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/3150D07E-9B9D-4BE1-990C-7292E0A32320",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/3150D07E-9B9D-4BE1-990C-7292E0A32320",
+                    "location": [
+                        -43.175488333333334,
+                        147.85478333333333
+                    ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "5981065C-D71B-492D-B1AC-6C44D7F944A8",
+            "name": "Hobart",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1683348122,
+            "location": [
+                -42.88206150293618,
+                147.33083057231022
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
