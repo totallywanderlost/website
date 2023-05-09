@@ -7745,6 +7745,16 @@
             ],
             "photos": [
                 {
+                    "id": "4D6266FE-2F6C-4561-81AC-D765A6FD2E7A",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/4D6266FE-2F6C-4561-81AC-D765A6FD2E7A_F9059D43-0321-4566-A29C-30799BDE12A3.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/4D6266FE-2F6C-4561-81AC-D765A6FD2E7A",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/4D6266FE-2F6C-4561-81AC-D765A6FD2E7A",
+                    "location": [
+                        -43.009177783333335,
+                        147.93180833333332
+                    ]
+                },
+                {
                     "id": "DAD70E24-218C-4F18-919F-E5499B063C95",
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/DAD70E24-218C-4F18-919F-E5499B063C95_CC7B1DD8-A87C-4D62-9682-B05F81DE488A.jpg",
                     "r2_url": "https://r2.totallywanderlost.com/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/DAD70E24-218C-4F18-919F-E5499B063C95",
@@ -7762,16 +7772,6 @@
                     "location": [
                         -42.997245,
                         147.93463
-                    ]
-                },
-                {
-                    "id": "4D6266FE-2F6C-4561-81AC-D765A6FD2E7A",
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/4D6266FE-2F6C-4561-81AC-D765A6FD2E7A_F9059D43-0321-4566-A29C-30799BDE12A3.jpg",
-                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/4D6266FE-2F6C-4561-81AC-D765A6FD2E7A",
-                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/50A79BD9-3C8D-414A-9EDD-22B8F53C71EA/4D6266FE-2F6C-4561-81AC-D765A6FD2E7A",
-                    "location": [
-                        -43.009177783333335,
-                        147.93180833333332
                     ]
                 },
                 {
@@ -7846,6 +7846,30 @@
                     "location": [
                         -42.881011666666666,
                         147.33261166666668
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "BA07128D-6F98-44E3-8DE5-78B11E92C16F",
+            "name": "Ouse",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1683617763,
+            "location": [
+                -42.536371029021716,
+                146.72977720400945
+            ],
+            "photos": [
+                {
+                    "id": "F8A66B14-EBD4-49AC-9C58-52A306146D9F",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/F8A66B14-EBD4-49AC-9C58-52A306146D9F_F206FC7A-36B2-45B8-A8B7-D545F988B6E3.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/BA07128D-6F98-44E3-8DE5-78B11E92C16F/F8A66B14-EBD4-49AC-9C58-52A306146D9F",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/BA07128D-6F98-44E3-8DE5-78B11E92C16F/F8A66B14-EBD4-49AC-9C58-52A306146D9F",
+                    "location": [
+                        -42.53623833333333,
+                        146.72978333333333
                     ]
                 }
             ],
