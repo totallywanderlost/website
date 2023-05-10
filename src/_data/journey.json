@@ -7873,6 +7873,56 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "6CFB77FB-CD2B-42D3-9FAF-D6E1C552F2AA",
+            "name": "Ouse",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1683684011,
+            "location": [
+                -42.484714200000006,
+                146.71095830000002
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "ED94AEC7-BD46-4444-B310-51FA83FBA604",
+            "name": "Tarraleah",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1683687614,
+            "location": [
+                -42.30095539999999,
+                146.44976570000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "5F81D829-715D-4182-B497-22A363E56099",
+            "name": "Queenstown",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1683698418,
+            "location": [
+                -42.08060382869288,
+                145.5535258726641
+            ],
+            "photos": [
+                {
+                    "id": "97A7B157-518E-4DD2-9BF2-97A3A4620914",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/97A7B157-518E-4DD2-9BF2-97A3A4620914_C69D51EA-2DCF-4AED-807B-D1A72AFA6E40.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/5F81D829-715D-4182-B497-22A363E56099/97A7B157-518E-4DD2-9BF2-97A3A4620914",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/5F81D829-715D-4182-B497-22A363E56099/97A7B157-518E-4DD2-9BF2-97A3A4620914",
+                    "location": [
+                        -42.0793945,
+                        145.58480833333334
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
