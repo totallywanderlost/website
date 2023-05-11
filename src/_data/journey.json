@@ -7923,6 +7923,30 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "D80F9B3C-B8DB-44B9-9D04-B78B0D11173E",
+            "name": "Cradle Mountain",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1683790149,
+            "location": [
+                -41.579229936084666,
+                145.9350397146033
+            ],
+            "photos": [
+                {
+                    "id": "6350FB60-C52B-4A20-8A7D-E926DA040C14",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/6350FB60-C52B-4A20-8A7D-E926DA040C14_AC5B11CC-6FAF-43DC-B618-9A9AF12DC7BF.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/D80F9B3C-B8DB-44B9-9D04-B78B0D11173E/6350FB60-C52B-4A20-8A7D-E926DA040C14",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/D80F9B3C-B8DB-44B9-9D04-B78B0D11173E/6350FB60-C52B-4A20-8A7D-E926DA040C14",
+                    "location": [
+                        -41.5951,
+                        145.927125
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
