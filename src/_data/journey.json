@@ -7603,7 +7603,7 @@
         {
             "id": "C03D7DE6-9CD3-4CA8-994D-20FC70E1CF47",
             "name": "Spring Beach",
-            "description": "We splashed out an Airbnb with a tennis court for James\u2019 birthday, no regrets, it was amazing.",
+            "description": "We splashed out on an Airbnb with a tennis court for James\u2019 birthday, no regrets, it was amazing.",
             "country": "Australia",
             "arrived": 1683000000,
             "location": [
@@ -7964,7 +7964,7 @@
         {
             "id": "BA07128D-6F98-44E3-8DE5-78B11E92C16F",
             "name": "Ouse",
-            "description": null,
+            "description": "An overnight stop in a free camp by a lake, it was just us and one other van.. and the local feral kitties \ud83d\udc31 ",
             "country": "Australia",
             "arrived": 1683617763,
             "location": [
@@ -8014,7 +8014,7 @@
         {
             "id": "5F81D829-715D-4182-B497-22A363E56099",
             "name": "Queenstown",
-            "description": null,
+            "description": "An unscheduled but very picturesque overnight stop. Nigel gave us a bit of a scare during the day so we got him a check up and a few new spark plugs. ",
             "country": "Australia",
             "arrived": 1683698418,
             "location": [
@@ -8264,14 +8264,25 @@
         {
             "id": "7CC4C7B3-C607-45E1-8CF7-BA4255F7109C",
             "name": "Ulverstone",
-            "description": null,
+            "description": "Not the most exciting stop, we caught up on some life admin and had a wander around the town and along the beach.",
             "country": "Australia",
             "arrived": 1684036800,
             "location": [
                 -41.15718180000001,
                 146.17050570000004
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "id": "507861EA-ABA3-4C09-B0F4-D3998763CD9A",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/507861EA-ABA3-4C09-B0F4-D3998763CD9A_0ADE95B4-C67A-4EEA-AA9B-F834B4593DBC.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7CC4C7B3-C607-45E1-8CF7-BA4255F7109C/507861EA-ABA3-4C09-B0F4-D3998763CD9A",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7CC4C7B3-C607-45E1-8CF7-BA4255F7109C/507861EA-ABA3-4C09-B0F4-D3998763CD9A",
+                    "location": [
+                        -41.15255283333333,
+                        146.18115333333333
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
