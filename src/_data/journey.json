@@ -8283,6 +8283,32 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "70001E90-ABEB-405E-B1A7-79A023903B35",
+            "name": "Devonport",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684215000,
+            "location": [
+                -41.17975609999999,
+                146.36130110000005
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "B8B73F43-4DD3-4607-9289-57C6D02D19BE",
+            "name": "Bass Strait",
+            "description": null,
+            "country": "",
+            "arrived": 1684220400,
+            "location": [
+                -39.88108017745184,
+                145.31050800421184
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
