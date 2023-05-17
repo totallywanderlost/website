@@ -441,6 +441,19 @@
             "state": "visited"
         },
         {
+            "id": "8995F795-1D6F-4BFF-A310-1A382BF965D8",
+            "name": "Glendambo",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1659229228,
+            "location": [
+                -30.837725705781537,
+                135.56580168408124
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
             "id": "60A730D1-AEA0-4254-A1CB-8DDB30FAC27A",
             "name": "Coober Pedy",
             "description": null,
@@ -8331,6 +8344,58 @@
             "location": [
                 -38.14928129999999,
                 144.35982690000003
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "839A2BB4-F4A7-4E01-9722-7FC29791ED1B",
+            "name": "Hamilton",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684288800,
+            "location": [
+                -37.74357439999998,
+                142.0243127
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "FB3116EB-BC79-4D45-BA7E-B08AE0EF6A2A",
+            "name": "Penola",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684294200,
+            "location": [
+                -37.3761655,
+                140.8404168
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "2A2B347C-B1E3-49D3-B90F-0E6D853E999C",
+            "name": "Robe",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684297800,
+            "location": [
+                -37.16440850000003,
+                139.7623557
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "164DC39A-1E6B-439B-A650-5392D12443DB",
+            "name": "Kingston SE",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684301400,
+            "location": [
+                -36.83916989999999,
+                139.84710329999996
             ],
             "photos": [],
             "state": "current"
