@@ -8308,6 +8308,30 @@
                 -39.88108017745184,
                 145.31050800421184
             ],
+            "photos": [
+                {
+                    "id": "6749AFC8-FC08-4CAB-8605-A3BA36669804",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/6749AFC8-FC08-4CAB-8605-A3BA36669804_9DD7790C-E257-43DC-B5B3-36DAB94C0F4E.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/B8B73F43-4DD3-4607-9289-57C6D02D19BE/6749AFC8-FC08-4CAB-8605-A3BA36669804",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/B8B73F43-4DD3-4607-9289-57C6D02D19BE/6749AFC8-FC08-4CAB-8605-A3BA36669804",
+                    "location": [
+                        -38.10671116666666,
+                        144.36148
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "898F60A1-44DC-4FA4-84E5-348D53AA4DE1",
+            "name": "Geelong",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684269000,
+            "location": [
+                -38.14928129999999,
+                144.35982690000003
+            ],
             "photos": [],
             "state": "current"
         }
