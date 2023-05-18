@@ -8397,7 +8397,52 @@
                 -36.83916989999999,
                 139.84710329999996
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "id": "025664FD-577E-4DB6-8173-B9047ACD92A1",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/025664FD-577E-4DB6-8173-B9047ACD92A1_08010028-8EA0-43CF-982B-7C88FA455A09.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/164DC39A-1E6B-439B-A650-5392D12443DB/025664FD-577E-4DB6-8173-B9047ACD92A1",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/164DC39A-1E6B-439B-A650-5392D12443DB/025664FD-577E-4DB6-8173-B9047ACD92A1",
+                    "location": [
+                        -36.83672166666667,
+                        139.84533666666667
+                    ]
+                },
+                {
+                    "id": "547E2A8B-D499-45CE-9484-2B1D03B34740",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/547E2A8B-D499-45CE-9484-2B1D03B34740_CC210060-1934-49BA-9BD4-1BEA4ED74E49.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/164DC39A-1E6B-439B-A650-5392D12443DB/547E2A8B-D499-45CE-9484-2B1D03B34740",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/164DC39A-1E6B-439B-A650-5392D12443DB/547E2A8B-D499-45CE-9484-2B1D03B34740",
+                    "location": [
+                        -36.823655,
+                        139.86299166666666
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "A567EB65-B03B-4D8B-9567-8127C97E46CC",
+            "name": "Coorong",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684397441,
+            "location": [
+                -35.89733806442087,
+                139.40130592336823
+            ],
+            "photos": [
+                {
+                    "id": "469727A7-C55A-4AB0-A81D-FEA8B026A826",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/469727A7-C55A-4AB0-A81D-FEA8B026A826_5ABE2B0C-7EBF-4513-84FF-B3101AA47299.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/A567EB65-B03B-4D8B-9567-8127C97E46CC/469727A7-C55A-4AB0-A81D-FEA8B026A826",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/A567EB65-B03B-4D8B-9567-8127C97E46CC/469727A7-C55A-4AB0-A81D-FEA8B026A826",
+                    "location": [
+                        -35.611211898612815,
+                        139.0526308095308
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
