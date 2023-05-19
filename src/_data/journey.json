@@ -179,8 +179,8 @@
             "country": "Australia",
             "arrived": 1657011600,
             "location": [
-                -34.94149616424261,
-                138.5362473285005
+                -34.92818049999998,
+                138.59993120000001
             ],
             "photos": [
                 {
@@ -8443,6 +8443,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "631C306E-5894-418C-961D-D1E6A778DA3F",
+            "name": "Adelaide",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1684470600,
+            "location": [
+                -34.9281805,
+                138.59993120000001
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
