@@ -7977,7 +7977,7 @@
         {
             "id": "BA07128D-6F98-44E3-8DE5-78B11E92C16F",
             "name": "Ouse",
-            "description": "An overnight stop in a free camp by a lake, it was just us and one other van.. and the local feral kitties \ud83d\udc31 ",
+            "description": "An overnight stop in a free camp by a lake, it was just us, one other van.. and the local feral kitties \ud83d\udc31 ",
             "country": "Australia",
             "arrived": 1683617763,
             "location": [
@@ -8424,7 +8424,7 @@
         {
             "id": "A567EB65-B03B-4D8B-9567-8127C97E46CC",
             "name": "Coorong",
-            "description": null,
+            "description": "One final night bush camping in Nigel, we had the entire camp site to ourselves and got to see a lovely sunset while we cooked dinner.",
             "country": "Australia",
             "arrived": 1684397441,
             "location": [
@@ -8455,7 +8455,28 @@
                 -34.9281805,
                 138.59993120000001
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "id": "A5362C9F-5E63-4F1B-BAE4-6E20F98974EA",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A5362C9F-5E63-4F1B-BAE4-6E20F98974EA_B5005316-2B55-4C93-83D6-2B7461B051AB.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/A5362C9F-5E63-4F1B-BAE4-6E20F98974EA",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/A5362C9F-5E63-4F1B-BAE4-6E20F98974EA",
+                    "location": [
+                        -34.94991666666667,
+                        138.50419666666667
+                    ]
+                },
+                {
+                    "id": "8C47FDC3-EB9F-4F00-B19F-0F3728D6E434",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/8C47FDC3-EB9F-4F00-B19F-0F3728D6E434_D009A459-75E5-4128-961B-4AB49DF84AD4.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/8C47FDC3-EB9F-4F00-B19F-0F3728D6E434",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/8C47FDC3-EB9F-4F00-B19F-0F3728D6E434",
+                    "location": [
+                        -34.937758333333335,
+                        138.50163333333333
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
