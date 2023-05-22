@@ -456,7 +456,7 @@
         {
             "id": "60A730D1-AEA0-4254-A1CB-8DDB30FAC27A",
             "name": "Coober Pedy",
-            "description": null,
+            "description": "One of the places we were most looking forward to visiting. It was once a busy opal mining town and can get so hot that many locals live in caves to stay cool. We got to have a look around some of the old mines and stayed underground!",
             "country": "Australia",
             "arrived": 1659268856,
             "location": [
@@ -550,7 +550,7 @@
         {
             "id": "B223AE28-B4CF-4510-84D4-B7C17AE43E3C",
             "name": "Marla",
-            "description": "Another night on the road, another roadhouse stopover. To keep these balanced and not only containing the good stuff there we were besieged by flies here and learnt to perfect the Aussie wave.",
+            "description": "Another night on the road, another roadhouse stopover. To keep these balanced and not only containing the good stuff we were besieged by flies here and learnt to perfect the Aussie wave.",
             "country": "Australia",
             "arrived": 1659409200,
             "location": [
@@ -7977,7 +7977,7 @@
         {
             "id": "BA07128D-6F98-44E3-8DE5-78B11E92C16F",
             "name": "Ouse",
-            "description": "An overnight stop in a free camp by a lake, it was just us, one others van.. and the local feral kitties.",
+            "description": "An overnight stop in a lakeside free camp as we made our way to Western Tas. It was just us, one other van.. and the local feral kitties.",
             "country": "Australia",
             "arrived": 1683617763,
             "location": [
@@ -8027,7 +8027,7 @@
         {
             "id": "5F81D829-715D-4182-B497-22A363E56099",
             "name": "Queenstown",
-            "description": "An unscheduled but very picturesque overnight stop. Nigel gave us a bit of a scare during the day so we got him a check up and a few new spark plugs. ",
+            "description": "An unscheduled but very picturesque overnight stop. Nigel gave us a bit of a scare during the day so we got him a check up and a few new spark plugs. At first we were sceptical when parts of Australia were referred to as being \u201calpine\u201d but this really did feel like a mountain town.",
             "country": "Australia",
             "arrived": 1683698418,
             "location": [
