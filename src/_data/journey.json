@@ -8314,7 +8314,7 @@
         {
             "id": "B8B73F43-4DD3-4607-9289-57C6D02D19BE",
             "name": "Bass Strait",
-            "description": null,
+            "description": "After an amazing couple of weeks in Tasmania we set sail back to the mainland.",
             "country": "",
             "arrived": 1684220400,
             "location": [
@@ -8424,7 +8424,7 @@
         {
             "id": "A567EB65-B03B-4D8B-9567-8127C97E46CC",
             "name": "Coorong",
-            "description": "One final night bush camping in Nigel, we had the entire camp site to ourselves and got to see a lovely sunset while we cooked dinner.",
+            "description": "One final night bush camping in Nigel. We had the entire camp site to ourselves, got to see a lovely sunset while we cooked dinner and in the morning it poured with rain, a fitting send off.",
             "country": "Australia",
             "arrived": 1684397441,
             "location": [
@@ -8457,6 +8457,16 @@
             ],
             "photos": [
                 {
+                    "id": "E7B317EB-386A-4EE9-ABE7-B3F1A0411913",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/E7B317EB-386A-4EE9-ABE7-B3F1A0411913_6728D81A-AC01-4AAC-9344-B4F5DB61443A.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/E7B317EB-386A-4EE9-ABE7-B3F1A0411913",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/E7B317EB-386A-4EE9-ABE7-B3F1A0411913",
+                    "location": [
+                        -34.937783333333336,
+                        138.50157166666668
+                    ]
+                },
+                {
                     "id": "A5362C9F-5E63-4F1B-BAE4-6E20F98974EA",
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A5362C9F-5E63-4F1B-BAE4-6E20F98974EA_B5005316-2B55-4C93-83D6-2B7461B051AB.jpg",
                     "r2_url": "https://r2.totallywanderlost.com/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/A5362C9F-5E63-4F1B-BAE4-6E20F98974EA",
@@ -8464,16 +8474,6 @@
                     "location": [
                         -34.94991666666667,
                         138.50419666666667
-                    ]
-                },
-                {
-                    "id": "8C47FDC3-EB9F-4F00-B19F-0F3728D6E434",
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/8C47FDC3-EB9F-4F00-B19F-0F3728D6E434_D009A459-75E5-4128-961B-4AB49DF84AD4.jpg",
-                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/8C47FDC3-EB9F-4F00-B19F-0F3728D6E434",
-                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/631C306E-5894-418C-961D-D1E6A778DA3F/8C47FDC3-EB9F-4F00-B19F-0F3728D6E434",
-                    "location": [
-                        -34.937758333333335,
-                        138.50163333333333
                     ]
                 }
             ],
