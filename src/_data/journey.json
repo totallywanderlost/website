@@ -8477,6 +8477,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "1B05EEE0-04C7-4F13-A2D9-190FB3C7AE7C",
+            "name": "Perth",
+            "description": null,
+            "country": "Australia",
+            "arrived": 1685263500,
+            "location": [
+                -31.955896399999983,
+                115.86058009999999
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
