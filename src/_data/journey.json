@@ -8641,6 +8641,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "FB9855E0-A216-428C-A17C-373BD7B33921",
+            "name": "Singapore",
+            "description": null,
+            "country": "Singapore",
+            "arrived": 1685561400,
+            "location": [
+                1.3571069999999774,
+                103.8194992
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
