@@ -8857,6 +8857,36 @@
                         3.089513833333333,
                         101.6958
                     ]
+                },
+                {
+                    "id": "175376AA-1F86-4B1B-A74D-4ACCA83A366A",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/175376AA-1F86-4B1B-A74D-4ACCA83A366A_00E28413-FC8E-4074-8E1C-5DD79C1D4E16.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/175376AA-1F86-4B1B-A74D-4ACCA83A366A",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/175376AA-1F86-4B1B-A74D-4ACCA83A366A",
+                    "location": [
+                        3.1589055,
+                        101.71088333333333
+                    ]
+                },
+                {
+                    "id": "19161423-C3B4-45DD-A49E-3C87AFB43D81",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/19161423-C3B4-45DD-A49E-3C87AFB43D81_4B9D4AFB-8AD9-4646-BFB6-F110B34A9402.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/19161423-C3B4-45DD-A49E-3C87AFB43D81",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/19161423-C3B4-45DD-A49E-3C87AFB43D81",
+                    "location": [
+                        3.1556971666666667,
+                        101.71388333333333
+                    ]
+                },
+                {
+                    "id": "A6CF702E-A144-4362-9F80-7439FB4507C1",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A6CF702E-A144-4362-9F80-7439FB4507C1_B4B84F36-A4F1-454F-95E5-D2CF237CF280.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/A6CF702E-A144-4362-9F80-7439FB4507C1",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/A6CF702E-A144-4362-9F80-7439FB4507C1",
+                    "location": [
+                        3.1325666666666665,
+                        101.68827
+                    ]
                 }
             ],
             "state": "current"
