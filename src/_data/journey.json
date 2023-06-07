@@ -8448,7 +8448,7 @@
         {
             "id": "631C306E-5894-418C-961D-D1E6A778DA3F",
             "name": "Adelaide",
-            "description": null,
+            "description": "Just under a year later and we\u2019re back to where our road trip began. We had one final stay in a holiday park before a short flat share / pet sit with Alfie the cat. We sold or donated as much of our stuff as we could, including Nigel and did our best to prepare for living out of backpacks again.",
             "country": "Australia",
             "arrived": 1684470600,
             "location": [
@@ -8502,7 +8502,7 @@
         {
             "id": "1B05EEE0-04C7-4F13-A2D9-190FB3C7AE7C",
             "name": "Perth",
-            "description": null,
+            "description": "Our final stop in Australia. We weren\u2019t planning to visit WA initially and this definitely wasn\u2019t enough time but it was nice to see some of it. Freemantle seemed like it would be a nice place to live with the convenience of a big city nearby but a more laid back feel.",
             "country": "Australia",
             "arrived": 1685263500,
             "location": [
@@ -8840,7 +8840,7 @@
         {
             "id": "4589FF45-233A-414E-9004-D611DF03DDA5",
             "name": "Kuala Lumpur",
-            "description": null,
+            "description": "A very hot and sweaty 3 nights in KL. We did our best to get out and explore but it did feel a bit like we were mostly filling time between trips one of the many shopping centres to cool down \ud83e\udd75",
             "country": "Malaysia",
             "arrived": 1685865600,
             "location": [
@@ -8849,16 +8849,6 @@
             ],
             "photos": [
                 {
-                    "id": "A0037D97-0578-49C3-8B94-019DF9E0A316",
-                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A0037D97-0578-49C3-8B94-019DF9E0A316_C078CCAB-0D3D-4FA1-A058-62EBA2ED358C.jpg",
-                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/A0037D97-0578-49C3-8B94-019DF9E0A316",
-                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/A0037D97-0578-49C3-8B94-019DF9E0A316",
-                    "location": [
-                        3.089513833333333,
-                        101.6958
-                    ]
-                },
-                {
                     "id": "175376AA-1F86-4B1B-A74D-4ACCA83A366A",
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/175376AA-1F86-4B1B-A74D-4ACCA83A366A_00E28413-FC8E-4074-8E1C-5DD79C1D4E16.jpg",
                     "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/175376AA-1F86-4B1B-A74D-4ACCA83A366A",
@@ -8866,6 +8856,16 @@
                     "location": [
                         3.1589055,
                         101.71088333333333
+                    ]
+                },
+                {
+                    "id": "A0037D97-0578-49C3-8B94-019DF9E0A316",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A0037D97-0578-49C3-8B94-019DF9E0A316_C078CCAB-0D3D-4FA1-A058-62EBA2ED358C.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/A0037D97-0578-49C3-8B94-019DF9E0A316",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4589FF45-233A-414E-9004-D611DF03DDA5/A0037D97-0578-49C3-8B94-019DF9E0A316",
+                    "location": [
+                        3.089513833333333,
+                        101.6958
                     ]
                 },
                 {
@@ -8889,6 +8889,45 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "C30B88CE-238F-44A2-BFD7-2AD83832F7AE",
+            "name": "Ipoh",
+            "description": null,
+            "country": "Malaysia",
+            "arrived": 1686115800,
+            "location": [
+                4.59868169999998,
+                101.0900236
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "2F9C6257-4755-4A3A-B38E-7F98CC79132C",
+            "name": "Butterworth",
+            "description": null,
+            "country": "Malaysia",
+            "arrived": 1686121200,
+            "location": [
+                5.408201499999994,
+                100.36972079999998
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "F6CE5E27-B3D8-4F9B-9F40-7FBC167F66AD",
+            "name": "George Town",
+            "description": null,
+            "country": "Malaysia",
+            "arrived": 1686124800,
+            "location": [
+                5.414161899999978,
+                100.32873519999998
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
