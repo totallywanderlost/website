@@ -47,8 +47,8 @@ def parse_steps(steps):
         if 'supertype' in step and step['supertype'] == 'normal':
             yield {
                 'id': step['uuid'],
-                'name': step['name'] if not empty(step['name']) else step['location']['name'],
-                'description': step['description'] if not empty(step['description']) else None,
+                'name': encode(step['name']) if not empty(step['name']) else step['location']['name'],
+                'description': encode(step['description']) if not empty(step['description']) else None,
                 'country': step['location']['detail'],
                 'arrived': floor(step['start_time']),
                 'location': [step['location']['lat'], step['location']['lon']],
@@ -71,7 +71,7 @@ def parse_planned_steps(steps):
 
         yield {
             'id': step['uuid'],
-            'name': step['location']['name'],
+            'name': encode(step['location']['name']),
             'country': step['location']['detail'],
             'arrived': False,
             'location': [step['location']['lat'], step['location']['lon']],
@@ -81,6 +81,9 @@ def parse_planned_steps(steps):
 
 def empty(string):
     return string == None or string == ''
+
+def encode(unicode):
+    return unicode.encode('ascii', 'xmlcharrefreplace').decode('utf8')
 
 def get_photo(step, photo):
     source_url = photo['large_thumbnail_path']
