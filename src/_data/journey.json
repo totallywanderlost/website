@@ -8969,6 +8969,16 @@
                     ]
                 },
                 {
+                    "id": "7C0E78D0-E7EF-41DC-A012-030C2DB36838",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/7C0E78D0-E7EF-41DC-A012-030C2DB36838_B2D267D2-7304-4E9A-9225-ECD172DD6B81.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/F6CE5E27-B3D8-4F9B-9F40-7FBC167F66AD/7C0E78D0-E7EF-41DC-A012-030C2DB36838",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/F6CE5E27-B3D8-4F9B-9F40-7FBC167F66AD/7C0E78D0-E7EF-41DC-A012-030C2DB36838",
+                    "location": [
+                        5.415403333333333,
+                        100.33725
+                    ]
+                },
+                {
                     "id": "B5F9C489-5419-4585-95D2-21A2F25BD1F0",
                     "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/B5F9C489-5419-4585-95D2-21A2F25BD1F0_D760568C-1471-4BD9-B772-9415B3D8F8A7.jpg",
                     "r2_url": "https://r2.totallywanderlost.com/images/journey/step/F6CE5E27-B3D8-4F9B-9F40-7FBC167F66AD/B5F9C489-5419-4585-95D2-21A2F25BD1F0",
@@ -8979,6 +8989,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "4650DB4E-E1D7-49A3-84EC-68AB9157B887",
+            "name": "Phuket",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1686553200,
+            "location": [
+                7.847520000000011,
+                98.29811409999996
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
