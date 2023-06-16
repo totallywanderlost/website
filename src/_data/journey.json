@@ -8993,7 +8993,7 @@
         },
         {
             "id": "4650DB4E-E1D7-49A3-84EC-68AB9157B887",
-            "name": "Phuket",
+            "name": "Karon",
             "description": null,
             "country": "Thailand",
             "arrived": 1686553200,
@@ -9020,6 +9020,63 @@
                     "location": [
                         7.84892,
                         98.293725
+                    ]
+                },
+                {
+                    "id": "2F8EDF16-97F7-43F0-A9C5-41CF4645D21F",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/2F8EDF16-97F7-43F0-A9C5-41CF4645D21F_3D59A0AA-1FEC-4F4C-98E8-8D09CD9A39EC.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4650DB4E-E1D7-49A3-84EC-68AB9157B887/2F8EDF16-97F7-43F0-A9C5-41CF4645D21F",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4650DB4E-E1D7-49A3-84EC-68AB9157B887/2F8EDF16-97F7-43F0-A9C5-41CF4645D21F",
+                    "location": [
+                        7.77833,
+                        98.30373333333333
+                    ]
+                },
+                {
+                    "id": "B7471A55-B068-4380-B6A3-65700AF86D4F",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/B7471A55-B068-4380-B6A3-65700AF86D4F_3343C5C2-1549-4ED5-976F-93F8CFF101B3.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4650DB4E-E1D7-49A3-84EC-68AB9157B887/B7471A55-B068-4380-B6A3-65700AF86D4F",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4650DB4E-E1D7-49A3-84EC-68AB9157B887/B7471A55-B068-4380-B6A3-65700AF86D4F",
+                    "location": [
+                        7.843078333333334,
+                        98.29512833333334
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "ADAA053F-F470-4C00-866E-746D28478913",
+            "name": "Phuket",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1686898842,
+            "location": [
+                7.884790100000026,
+                98.38915029999993
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E",
+            "name": "Ko Phi Phi",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1686913524,
+            "location": [
+                7.736454610122961,
+                98.77853418298291
+            ],
+            "photos": [
+                {
+                    "id": "496CF2E7-E07F-48AF-8520-92F3BBABD1A7",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/496CF2E7-E07F-48AF-8520-92F3BBABD1A7_C926E6BC-DAC0-4ADE-AE42-9573193D4271.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/496CF2E7-E07F-48AF-8520-92F3BBABD1A7",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/496CF2E7-E07F-48AF-8520-92F3BBABD1A7",
+                    "location": [
+                        7.73953,
+                        98.7706
                     ]
                 }
             ],
