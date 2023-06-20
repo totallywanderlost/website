@@ -9078,6 +9078,36 @@
                         7.73953,
                         98.7706
                     ]
+                },
+                {
+                    "id": "38111E5D-3C0B-45B4-98C8-7FE05CE65307",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/38111E5D-3C0B-45B4-98C8-7FE05CE65307_FC9E3CE0-2772-4EC0-85E3-B339CF76FD51.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/38111E5D-3C0B-45B4-98C8-7FE05CE65307",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/38111E5D-3C0B-45B4-98C8-7FE05CE65307",
+                    "location": [
+                        7.735988333333333,
+                        98.77835833333333
+                    ]
+                },
+                {
+                    "id": "540FC9E8-946C-4213-9A87-6848243F4505",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/540FC9E8-946C-4213-9A87-6848243F4505_FD668E0E-4DA4-4FC1-A3C9-5BD8AEB32CC8.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/540FC9E8-946C-4213-9A87-6848243F4505",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/540FC9E8-946C-4213-9A87-6848243F4505",
+                    "location": [
+                        7.735745,
+                        98.77835833333333
+                    ]
+                },
+                {
+                    "id": "45B97987-183B-4BEA-BF62-CB2D1297AAB9",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/45B97987-183B-4BEA-BF62-CB2D1297AAB9_3DD00188-CA05-4E27-9651-9308E401F7BC.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/45B97987-183B-4BEA-BF62-CB2D1297AAB9",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E/45B97987-183B-4BEA-BF62-CB2D1297AAB9",
+                    "location": [
+                        7.7358416666666665,
+                        98.778045
+                    ]
                 }
             ],
             "state": "current"
