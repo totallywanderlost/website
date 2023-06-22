@@ -9110,6 +9110,32 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "EAD61D81-082E-4A1B-AF91-74439DB6E3D8",
+            "name": "Phuket",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1687428008,
+            "location": [
+                7.884790100000026,
+                98.38915029999998
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "A40138BC-6DD1-4EBD-AEA4-BFE526465A1B",
+            "name": "Rawai",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1687440531,
+            "location": [
+                7.782604704281433,
+                98.31270291212495
+            ],
+            "photos": [],
             "state": "current"
         }
     ]
