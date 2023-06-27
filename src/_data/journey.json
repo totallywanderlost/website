@@ -9130,12 +9130,23 @@
             "name": "Rawai",
             "description": null,
             "country": "Thailand",
-            "arrived": 1687440531,
+            "arrived": 1687431651,
             "location": [
                 7.782604704281433,
                 98.31270291212495
             ],
-            "photos": [],
+            "photos": [
+                {
+                    "id": "5EAD302C-1151-401E-AECE-073FA7F9FF96",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5EAD302C-1151-401E-AECE-073FA7F9FF96_A7C350BD-2782-48D9-90EE-36509673A7B6.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/A40138BC-6DD1-4EBD-AEA4-BFE526465A1B/5EAD302C-1151-401E-AECE-073FA7F9FF96",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/A40138BC-6DD1-4EBD-AEA4-BFE526465A1B/5EAD302C-1151-401E-AECE-073FA7F9FF96",
+                    "location": [
+                        7.780616666666667,
+                        98.31137833333334
+                    ]
+                }
+            ],
             "state": "current"
         }
     ]
