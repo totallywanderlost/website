@@ -9147,7 +9147,106 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "459C1A11-018E-4EAD-B194-7FC804A862CC",
+            "name": "Surat Thani",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1688292048,
+            "location": [
+                9.140413599999995,
+                99.3241347
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "18AC07AE-6AD6-46AB-AA46-F12F563E7736",
+            "name": "Chumphon",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1688313646,
+            "location": [
+                10.496135500000008,
+                99.1778731
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "A87C89FC-05AF-4E40-A90C-102E8ADC8F83",
+            "name": "Ratchaburi",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1688335245,
+            "location": [
+                13.53906700000001,
+                99.8197035
+            ],
+            "photos": [],
+            "state": "stopped"
+        },
+        {
+            "id": "3AC270D7-95E0-4840-9ADB-3991B05ED4ED",
+            "name": "Bangkok",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1688351445,
+            "location": [
+                13.752493799999991,
+                100.4935089
+            ],
+            "photos": [
+                {
+                    "id": "3F35CC01-BB8A-4BFE-863F-BBE79B2EA3A7",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/3F35CC01-BB8A-4BFE-863F-BBE79B2EA3A7_8EC81468-9DE9-4C54-83EB-080E96D988FB.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/3AC270D7-95E0-4840-9ADB-3991B05ED4ED/3F35CC01-BB8A-4BFE-863F-BBE79B2EA3A7",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/3AC270D7-95E0-4840-9ADB-3991B05ED4ED/3F35CC01-BB8A-4BFE-863F-BBE79B2EA3A7",
+                    "location": [
+                        13.923463333333334,
+                        100.60071666666667
+                    ]
+                }
+            ],
             "state": "current"
+        },
+        {
+            "id": "F45531F7-0088-4E3A-830A-6CE1E4BFFE10",
+            "name": "Hong Kong",
+            "country": "Hong Kong S.A.R.",
+            "arrived": false,
+            "location": [
+                22.279327800000008,
+                114.16281310000005
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "id": "9CB3333A-665D-4517-BE44-9B14E28BD40F",
+            "name": "Bangkok",
+            "country": "Thailand",
+            "arrived": false,
+            "location": [
+                13.752493799999991,
+                100.4935089
+            ],
+            "photos": [],
+            "state": "planned"
+        },
+        {
+            "id": "1AE989DA-1257-4BEA-A11C-A0828F9D58C9",
+            "name": "City of Westminster",
+            "country": "United Kingdom",
+            "arrived": false,
+            "location": [
+                51.50733590000003,
+                -0.1276499999999885
+            ],
+            "photos": [],
+            "state": "planned"
         }
     ]
 }
