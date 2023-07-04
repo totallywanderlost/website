@@ -9253,18 +9253,6 @@
             "state": "current"
         },
         {
-            "id": "F45531F7-0088-4E3A-830A-6CE1E4BFFE10",
-            "name": "Hong Kong",
-            "country": "Hong Kong S.A.R.",
-            "arrived": false,
-            "location": [
-                22.279327800000008,
-                114.16281310000005
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "id": "9CB3333A-665D-4517-BE44-9B14E28BD40F",
             "name": "Bangkok",
             "country": "Thailand",
