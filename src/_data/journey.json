@@ -9250,6 +9250,30 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "7426702B-FEAC-471E-90E8-ED9D88338041",
+            "name": "Hong Kong",
+            "description": null,
+            "country": "Hong Kong S.A.R.",
+            "arrived": 1688436000,
+            "location": [
+                22.279327800000008,
+                114.16281310000005
+            ],
+            "photos": [
+                {
+                    "id": "D70D3592-63B5-423B-82A6-DA504095F021",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/D70D3592-63B5-423B-82A6-DA504095F021_61AC2DB2-0F14-4537-A15F-C712818D9DDF.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7426702B-FEAC-471E-90E8-ED9D88338041/D70D3592-63B5-423B-82A6-DA504095F021",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7426702B-FEAC-471E-90E8-ED9D88338041/D70D3592-63B5-423B-82A6-DA504095F021",
+                    "location": [
+                        22.292928333333332,
+                        114.16953333333333
+                    ]
+                }
+            ],
             "state": "current"
         },
         {
