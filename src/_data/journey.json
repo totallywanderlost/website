@@ -9274,6 +9274,19 @@
                     ]
                 }
             ],
+            "state": "visited"
+        },
+        {
+            "id": "C84BB248-B5E5-4382-A119-A16AE2779320",
+            "name": "Bangkok",
+            "description": null,
+            "country": "Thailand",
+            "arrived": 1688745600,
+            "location": [
+                13.752493799999991,
+                100.4935089
+            ],
+            "photos": [],
             "state": "current"
         },
         {
