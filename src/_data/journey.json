@@ -9277,18 +9277,6 @@
             "state": "current"
         },
         {
-            "id": "9CB3333A-665D-4517-BE44-9B14E28BD40F",
-            "name": "Bangkok",
-            "country": "Thailand",
-            "arrived": false,
-            "location": [
-                13.752493799999991,
-                100.4935089
-            ],
-            "photos": [],
-            "state": "planned"
-        },
-        {
             "id": "1AE989DA-1257-4BEA-A11C-A0828F9D58C9",
             "name": "City of Westminster",
             "country": "United Kingdom",
