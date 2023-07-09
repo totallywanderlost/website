@@ -1527,7 +1527,7 @@
         {
             "id": "F6DC3755-43B8-47E6-9BA2-CA11E1AC93BA",
             "name": "Barkly Homestead",
-            "description": null,
+            "description": "A roadhouse in the middle of the outback. Happy hour wasn&#8217;t as good as Daly Waters but we enjoyed a few stubbies whilst watching the news coverage about the Queen.",
             "country": "Australia",
             "arrived": 1662700945,
             "location": [
@@ -1577,7 +1577,7 @@
         {
             "id": "F78861EC-09E9-4DF4-89A2-8241B7452A9C",
             "name": "Cloncurry",
-            "description": null,
+            "description": "Another night on the road. We pulled up in town with no booking and managed to get an unpowered patch of dirt at a caravan park. It had a pool and a decent kitchen though so we swam, showered, ate, and got an early night ready for more driving in the morning.",
             "country": "Australia",
             "arrived": 1662787800,
             "location": [
@@ -1710,7 +1710,7 @@
         {
             "id": "604CAE71-F096-4DD7-9A5E-5E78C124940C",
             "name": "Mount Surprise",
-            "description": null,
+            "description": "SURPRISE! We spent a couple of nights in the forest here. The park had a nice train-themed bar/restaurant and a pool surrounded by the local resident kangaroos. We hiked around an old volcanic crater and spotted our first snake of the year! A little red-bellied black snake crossed the path right in front of us.",
             "country": "Australia",
             "arrived": 1662966243,
             "location": [
@@ -1826,7 +1826,7 @@
         {
             "id": "F4B15E97-DC1A-45DC-9589-CD4395097DFD",
             "name": "Port Douglas",
-            "description": null,
+            "description": "After a full on week of driving we finally hit the east coast and now have a few days chilling in port Douglas. It&#8217;s much more of a holiday resort type town than the places we&#8217;ve been recently, lots of fancy hotels and restaurants we can&#8217;t afford!\n\nWe went on a few walks to viewpoints, ate pizza watching the sunset, visited the wildlife park, and Nicole did yoga on the beach one morning.",
             "country": "Australia",
             "arrived": 1663134151,
             "location": [
@@ -8390,7 +8390,7 @@
         {
             "id": "164DC39A-1E6B-439B-A650-5392D12443DB",
             "name": "Kingston SE",
-            "description": null,
+            "description": "One of our longest days of driving, all the way from Geelong after getting off the boat at 7am across to Kingston in SA to stay in the cheapest cabin around, straight from the 1970&#8217;s. The beach was covered in a 30cm thick carpet of seaweed, but the sunset was still pretty good. Visited Larry the big lobster on our way out the next morning.",
             "country": "Australia",
             "arrived": 1684301400,
             "location": [
@@ -9141,7 +9141,7 @@
         {
             "id": "4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E",
             "name": "Ko Phi Phi",
-            "description": null,
+            "description": "We didn&#8217;t know how much time we&#8217;d end up spending on Phi Phi since we&#8217;d heard it was a bit of a party Island. But in the end we spent a week and didn&#8217;t party at all! It was nice being somewhere you could walk everywhere, no taxis or mopeds, and relaxed Island life.",
             "country": "Thailand",
             "arrived": 1686913524,
             "location": [
