@@ -9526,20 +9526,39 @@
                 13.752493799999991,
                 100.4935089
             ],
-            "photos": [],
-            "state": "current"
-        },
-        {
-            "id": "1AE989DA-1257-4BEA-A11C-A0828F9D58C9",
-            "name": "City of Westminster",
-            "country": "United Kingdom",
-            "arrived": false,
-            "location": [
-                51.50733590000003,
-                -0.1276499999999885
+            "photos": [
+                {
+                    "id": "A4DE4119-523D-4263-82C9-22E3EF3BD19E",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A4DE4119-523D-4263-82C9-22E3EF3BD19E_292F0C48-959F-41F1-89A9-F25A026609B0.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/C84BB248-B5E5-4382-A119-A16AE2779320/A4DE4119-523D-4263-82C9-22E3EF3BD19E",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/C84BB248-B5E5-4382-A119-A16AE2779320/A4DE4119-523D-4263-82C9-22E3EF3BD19E",
+                    "location": [
+                        13.738875,
+                        100.55588666666667
+                    ]
+                },
+                {
+                    "id": "B5302943-24A4-4796-8E31-28B8DD2F14E8",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/B5302943-24A4-4796-8E31-28B8DD2F14E8_8B11DDB7-DB02-494D-AD63-CE561EDE4662.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/C84BB248-B5E5-4382-A119-A16AE2779320/B5302943-24A4-4796-8E31-28B8DD2F14E8",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/C84BB248-B5E5-4382-A119-A16AE2779320/B5302943-24A4-4796-8E31-28B8DD2F14E8",
+                    "location": [
+                        13.739341666666666,
+                        100.55783
+                    ]
+                },
+                {
+                    "id": "5AB135C2-3D9C-40F1-8214-4FA95041470A",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5AB135C2-3D9C-40F1-8214-4FA95041470A_FCFD73E3-D4F2-4158-A2C8-0A1A59CAD887.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/C84BB248-B5E5-4382-A119-A16AE2779320/5AB135C2-3D9C-40F1-8214-4FA95041470A",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/C84BB248-B5E5-4382-A119-A16AE2779320/5AB135C2-3D9C-40F1-8214-4FA95041470A",
+                    "location": [
+                        13.739355,
+                        100.5579
+                    ]
+                }
             ],
-            "photos": [],
-            "state": "planned"
+            "state": "current"
         }
     ]
 }
