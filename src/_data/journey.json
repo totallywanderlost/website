@@ -1054,7 +1054,7 @@
         {
             "id": "21EAFD9C-F129-4236-9678-E2911BDC4EE6",
             "name": "Daly Waters",
-            "description": "The Famous Daly Waters pub. We spend 2 night here in one of the motel rooms to refresh and get a chance to wash off some of the red dust that's accumulating.\n\nLots of interesting things around town, great garlic bread in the pub, and some great happy hour deals.",
+            "description": "The Famous Daly Waters pub. We spent 2 nights here in one of the motel rooms to refresh and get a chance to wash off some of the red dust that's accumulating.\n\nLots of interesting things around town, great garlic bread in the pub, and some great happy hour deals.",
             "country": "Australia",
             "arrived": 1660701600,
             "location": [
@@ -2116,7 +2116,7 @@
         {
             "id": "9F8C6644-7037-40A1-8722-8DD51BD1D38A",
             "name": "Babinda",
-            "description": null,
+            "description": "As boulders go these are right up there.",
             "country": "Australia",
             "arrived": 1663891200,
             "location": [
@@ -9555,6 +9555,30 @@
                     "location": [
                         13.739355,
                         100.5579
+                    ]
+                }
+            ],
+            "state": "visited"
+        },
+        {
+            "id": "037097F2-5B6E-4563-90B4-F130BB50453F",
+            "name": "London",
+            "description": "378 days later and we&#8217;re back &#128517;",
+            "country": "United Kingdom",
+            "arrived": 1689098400,
+            "location": [
+                51.50733590000003,
+                -0.1276499999999885
+            ],
+            "photos": [
+                {
+                    "id": "5E3A9FE9-CC63-4EBA-8F48-4F0FA680CA30",
+                    "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/5E3A9FE9-CC63-4EBA-8F48-4F0FA680CA30_91B81111-E135-4A43-A732-160A395AFFDE.jpg",
+                    "r2_url": "https://r2.totallywanderlost.com/images/journey/step/037097F2-5B6E-4563-90B4-F130BB50453F/5E3A9FE9-CC63-4EBA-8F48-4F0FA680CA30",
+                    "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/037097F2-5B6E-4563-90B4-F130BB50453F/5E3A9FE9-CC63-4EBA-8F48-4F0FA680CA30",
+                    "location": [
+                        51.504288333333335,
+                        -0.33223
                     ]
                 }
             ],
