@@ -19,7 +19,7 @@ width: full
 </style>
 
 <ul class="photos">
-  {% for step in site.data.journey.steps reversed %}
+  {% for step in site.data.journey.steps %}
   {% for photo in step.photos %}
   <li>
     <a href="{{ photo.url }}">
