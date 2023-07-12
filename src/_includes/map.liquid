@@ -107,12 +107,6 @@
 
       // Add the marker to the cluster group
       markers.addLayer(marker);
-
-      // Show a popup on the last i.e. latest location
-      if (step['state'] === 'current') {
-        marker.addTo(map);
-        marker.openPopup();
-      }
     }
 
     // Add the cluster group to the map
