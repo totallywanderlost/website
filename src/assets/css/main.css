@@ -42,7 +42,6 @@ a:hover {
  */
 #header {
   background: white;
-  position: sticky;
   top: 0;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
