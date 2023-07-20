@@ -45,6 +45,7 @@ def parse_steps(steps):
         if 'supertype' in step and step['supertype'] == 'normal':
             yield {
                 'id': step['uuid'],
+                'key': step['uuid'].lower(),
                 'name': encode(step['name']) if not empty(step['name']) else step['location']['name'],
                 'description': encode(step['description']) if not empty(step['description']) else None,
                 'country': step['location']['detail'],
@@ -69,6 +70,7 @@ def parse_planned_steps(steps):
 
         yield {
             'id': step['uuid'],
+            'key': step['uuid'].lower(),
             'name': encode(step['location']['name']),
             'country': step['location']['detail'],
             'arrived': False,

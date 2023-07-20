@@ -31,7 +31,7 @@ page_gen-dirs: false
 page_gen:
   - data: journey
     template: journey
-    name: id
+    name: key
     title: name
     dir: journey
     filter_condition: 'record["state"] != "planned" && record["photos"].size > 0'

@@ -25,7 +25,7 @@ layout: default
   {% assign photos = step.photos | size %}
 
   <li class="{{ step.state }}">
-    <a id="{{ step.id }}" href="/journey/{{ step.id }}">
+    <a id="{{ step.id }}" href="/journey/{{ step.key }}">
       <h2>📌 {{ step.name }}, {{ step.country }}</h2>
     </a>
     {% if step.arrived %}<p>{{ step.arrived | date_to_string }}</p>{% endif %}
