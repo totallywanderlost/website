@@ -26,3 +26,12 @@ jekyll-minifier:
   remove_intertag_spaces: true
   uglifier_args:
     harmony: true
+
+page_gen-dirs: false
+page_gen:
+  - data: journey
+    template: journey
+    name: id
+    title: name
+    dir: journey
+    filter_condition: 'record["state"] != "planned" && record["photos"].size > 0'

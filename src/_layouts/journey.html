@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<style>
+  .photos {
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .photos li {
+    display: inline-block;
+  }
+</style>
+
+<h1>{{ page.title }}, {{ page.country }}</h1>
+<p>{{ page.arrived | date_to_string }}</p>
+
+{% if page.description %}<p>{{ page.description | markdownify }}</p>{% endif %}
+
+<ul class="photos">
+  {% for photo in page.photos %}
+  <li>
+    <a href="{{ photo.url }}">
+      <img loading="lazy" src="{{ photo.url }}?tr=w-186,h-186,fo-center" height="186" width="186" title="Photo #{{ forloop.index}} from {{ page.title }}, {{ page.country }}">
+    </a>
+  </li>
+  {% endfor %}
+</ul>

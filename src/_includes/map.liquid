@@ -104,7 +104,7 @@
       const width = 500;
       const hasImage = step.photos.length > 0;
       const url = hasImage ? `${step.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
-      const image = hasImage ? `<a href="/journey#${step['id']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
+      const image = hasImage ? `<a href="/journey/${step['id']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
       const date = new Date(step.arrived*1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
 
       marker.bindPopup(`${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px"><b>${step.name}</b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`, {
