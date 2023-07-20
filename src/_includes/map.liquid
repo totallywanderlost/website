@@ -64,9 +64,9 @@
     const journey = {{ site.data.journey | jsonify }};
 
     // Extract the various states of location coordinates to plot
-    const all = journey.steps.map(s => s.location);
-    const locationsWithState = (state) => journey.steps.filter(s => s['state'] === state).map(s => s.location);
-    const locationsWithoutState = (state) => journey.steps.filter(s => s['state'] !== state).map(s => s.location);
+    const all = journey.map(s => s.location);
+    const locationsWithState = (state) => journey.filter(s => s['state'] === state).map(s => s.location);
+    const locationsWithoutState = (state) => journey.filter(s => s['state'] !== state).map(s => s.location);
     const stopped = locationsWithState('stopped');
     const visited = locationsWithState('visited');
     const planned = locationsWithState('planned');
@@ -89,7 +89,7 @@
     const markers = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 30 });
 
     // Plot each location we visited or plan to visit
-    for (const step of journey.steps) {
+    for (const step of journey) {
       if (step['state'] === 'stopped') {
         continue;
       }

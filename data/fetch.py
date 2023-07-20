@@ -30,9 +30,7 @@ def fetch_latest_data(trip_id):
     visited[-1]['state'] = 'current'
     planned = [ step for step in parse_planned_steps(data['planned_steps']) ]
 
-    return {
-        'steps': visited + planned
-    }
+    return visited + planned
 
 def fetch(trip_id):
     response = requests.get(f'https://api.polarsteps.com/trips/{trip_id}')
@@ -117,8 +115,8 @@ def delete_photo(step_id, photo_id):
     bucket.Object(key).delete()
 
 def sync_images_to_r2(existing, latest):
-    existing_by_id = {step['id']: step for step in existing['steps']}
-    latest_by_id = {step['id']: step for step in latest['steps']}
+    existing_by_id = {step['id']: step for step in existing}
+    latest_by_id = {step['id']: step for step in latest}
 
     synced = []
     for id, step in latest_by_id.items():
@@ -142,9 +140,7 @@ def sync_images_to_r2(existing, latest):
                 print(f"Deleting photo with id={photo['id']} for step={step['id']}")
                 delete_photo(step['id'], photo['id'])
 
-    return {
-        'steps': synced
-    }
+    return synced
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Fetch data from Polarsteps')

@@ -20,7 +20,7 @@ layout: default
 </style>
 
 <ul class="journey">
-  {% assign steps = site.data.journey.steps | where_exp:"step", "step.state != 'planned' and step.photos.size > 0" %}
+  {% assign steps = site.data.journey | where_exp:"step", "step.state != 'planned' and step.photos.size > 0" %}
   {% for step in steps %}
   {% assign photos = step.photos | size %}
 
