@@ -113,7 +113,7 @@
         const image = hasImage ? `<a href="/journey/${point['key']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
         const date = new Date(point.arrived*1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
 
-        marker.bindPopup(`${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px"><b>${point.name}</b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`, {
+        marker.bindPopup(`${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px;"><b><a style="color: #000" href="/journey/${point['key']}">${point.name}</a></b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`, {
           closeButton: false,
           minWidth: 150,
           minHeight: 150
