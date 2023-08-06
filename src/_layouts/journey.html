@@ -22,7 +22,7 @@ layout: default
   {% for photo in page.photos %}
   <li>
     <a href="{{ photo.url }}">
-      <img loading="lazy" src="{{ photo.url }}?tr=w-186,h-186,fo-center" height="186" width="186" title="Photo #{{ forloop.index}} from {{ page.title }}, {{ page.country }}">
+      <img loading="lazy" src="{{ photo.url }}?tr=w-372,h-372,fo-center" height="186" width="186" title="Photo #{{ forloop.index}} from {{ page.title }}, {{ page.country }}">
     </a>
   </li>
   {% endfor %}
