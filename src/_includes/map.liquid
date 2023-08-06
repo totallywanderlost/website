@@ -1,4 +1,4 @@
-<div id="map" class="full hide"></div>
+<div id="map" class="full hide" style="height: {{ include.height }}"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha512-mQ77VzAakzdpWdgfL/lM1ksNy89uFgibRQANsNneSTMD/bj0Y/8+94XMwYhnbzx8eki2hrbPpDm0vD0CiT2lcg==" crossorigin="anonymous">
@@ -20,6 +20,10 @@
 .leaflet-popup-content img {
   margin-bottom: 10px;
 }
+
+.marker {
+  font-size: 24px;
+}
 </style>
 
 <script>
@@ -28,7 +32,7 @@
       return s[0].toUpperCase() + s.slice(1);
     }
 
-    function pin(colour) {
+    function pinIcon(colour) {
       const fill = colour != undefined ? colour : 'red';
       const size = 24;
       const svg = `<svg style="fill: ${fill}" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 9A7 7 0 1 0 5 9c0 1.387.41 2.677 1.105 3.765h-.008C8.457 16.46 12 22 12 22l5.903-9.235h-.007A6.98 6.98 0 0 0 19 9zm-7 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>`;
@@ -60,58 +64,70 @@
       ]
     });
 
-    // Load all the map data for our journey
+    // Load all the data for our journey
     const journey = {{ site.data.journey | jsonify }};
 
-    // Extract the various states of location coordinates to plot
-    const all = journey.map(s => s.location);
-    const locationsWithState = (state) => journey.filter(s => s['state'] === state).map(s => s.location);
-    const locationsWithoutState = (state) => journey.filter(s => s['state'] !== state).map(s => s.location);
-    const stopped = locationsWithState('stopped');
-    const visited = locationsWithState('visited');
-    const planned = locationsWithState('planned');
-    const current = locationsWithState('current');
-    const last = (count) => visited.concat(current).slice(-count);
+    // If requested filter to the given step
+    const step = '{{ include.step }}';
+    const steps = step ? journey.filter(s => s.id === step) : journey;
+
+    // Determine what data we are plotting
+    const mode = '{{ include.mode }}' ? '{{ include.mode }}' : 'steps';
+    const points = mode === 'photos' ? steps.flatMap(step => step.photos.map(p => {
+      if (p.location[0] == 0 || p.location[1] == 0) {
+        console.warn('Defaulting missing location of photo to use step location');
+        p.location = step.location;
+      }
+
+      return p;
+    })) : steps;
+    console.info(`Plotting ${points.length} ${mode}`);
+
+    // Extract the locations to plot
+    const locations = points.map(s => s.location);
 
     // Fit the map to show the latest, all or last N locations
-    const locations = '{{ include.locations }}';
-    const bounds = locations === 'latest' ? current : isNaN(locations) ? all : last(locations);
-    map.fitBounds(bounds, { maxZoom: 10 });
+    map.fitBounds(locations, { maxZoom: mode === 'photos' ? 15 : 10 });
 
-    // Build the icons we'll be plotting for each step
-    const icon = {
-      visited: pin('#D1192F'),
-      current: pin('#1D4E89'),
-      planned: pin('#E47011')
-    };
+    // Build the icon we'll be plotting for each point
+    const icon = pinIcon('#D1192F');
 
     // Create a group for markers to potentially be clustered
-    const markers = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 30 });
+    const markers = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 5 });
 
     // Plot each location we visited or plan to visit
-    for (const step of journey) {
-      if (step['state'] === 'stopped') {
+    for (const point of points) {
+      if (point['state'] === 'stopped') {
         continue;
       }
 
       // Add a marker and tooltip for each location
-      const marker = L.marker(step.location, {
-        title: step.name,
-        icon: icon[step.state]
-      });
+      const marker = L.marker(point.location, { icon: icon });
 
       const height = 500;
       const width = 500;
-      const hasImage = step.photos.length > 0;
-      const url = hasImage ? `${step.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
-      const image = hasImage ? `<a href="/journey/${step['key']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
-      const date = new Date(step.arrived*1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
 
-      marker.bindPopup(`${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px"><b>${step.name}</b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`, {
-        closeButton: false,
-        minWidth: 150,
-        minHeight: 150
-      });
+      if (mode === 'steps') {
+        const hasImage = point.photos.length > 0;
+        const url = hasImage ? `${point.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
+        const image = hasImage ? `<a href="/journey/${point['key']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
+        const date = new Date(point.arrived*1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
+
+        marker.bindPopup(`${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px"><b>${point.name}</b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`, {
+          closeButton: false,
+          minWidth: 150,
+          minHeight: 150
+        });
+      } else if (mode === 'photos') {
+        const url = `${point.url}?tr=w-${width},h-${height},fo-center`;
+        const image = `<img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;">`;
+
+        marker.bindPopup(image, {
+          closeButton: false,
+          minWidth: 150,
+          minHeight: 150
+        });
+      }
 
       // Add the marker to the cluster group
       markers.addLayer(marker);
@@ -121,7 +137,9 @@
     map.addLayer(markers);
 
     // Draw lines showing our joruney between each location
-    L.polyline(locationsWithoutState('planned'), { color: '#111', opacity: 1, weight: 2, dashArray: '5,5' }).addTo(map);
+    if (mode === 'steps') {
+      L.polyline(locations, { color: '#111', opacity: 1, weight: 2, dashArray: '5,5' }).addTo(map);
+    }
 
     // Show the map now it's all configured
     map.getContainer().classList.remove('hide');
