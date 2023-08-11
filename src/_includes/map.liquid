@@ -86,8 +86,10 @@
     // Extract the locations to plot
     const locations = points.map(s => s.location);
 
-    // Fit the map to show the latest, all or last N locations
-    map.fitBounds(locations, { maxZoom: mode === 'photos' ? 15 : 10 });
+    // Fit the map to show all the locations, trimming some if requested
+    const trim = parseInt('{% if include.trim %}{{ include.trim }}{% else %}0{% endif %}');
+    const bounds = trim ? locations.slice(trim, -trim) : locations;
+    map.fitBounds(bounds, { maxZoom: mode === 'photos' ? 15 : 10 });
 
     // Build the icon we'll be plotting for each point
     const icon = pinIcon('#D1192F');
