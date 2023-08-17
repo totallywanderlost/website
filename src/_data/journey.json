@@ -1738,7 +1738,7 @@
         "id": "26753D83-135D-4017-BE9B-ECD81656B020",
         "key": "26753d83-135d-4017-be9b-ecd81656b020",
         "name": "Tumbling Waters",
-        "description": null,
+        "description": "Bit of an emergency stop, it was so hot the night before at the camp site we both had a literal meltdown and decided we needed somewhere with air conditioning for the night so we could get some sleep!",
         "country": "Australia",
         "arrived": 1661923800,
         "location": [
@@ -2378,6 +2378,16 @@
                 ]
             },
             {
+                "id": "7F846ADA-F45E-4818-8230-E1A3D2AA81CA",
+                "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/7F846ADA-F45E-4818-8230-E1A3D2AA81CA_10AC5D59-F1C9-4B52-884F-29979C90D8B7.jpg",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/F4B15E97-DC1A-45DC-9589-CD4395097DFD/7F846ADA-F45E-4818-8230-E1A3D2AA81CA",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/F4B15E97-DC1A-45DC-9589-CD4395097DFD/7F846ADA-F45E-4818-8230-E1A3D2AA81CA",
+                "location": [
+                    -16.5262,
+                    145.46347
+                ]
+            },
+            {
                 "id": "BE8B811F-9F39-4799-AD70-7F5405E13FA3",
                 "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/BE8B811F-9F39-4799-AD70-7F5405E13FA3_9D629F72-CE44-456F-B4AC-CCE043A326F8.jpg",
                 "r2_url": "https://r2.totallywanderlost.com/images/journey/step/F4B15E97-DC1A-45DC-9589-CD4395097DFD/BE8B811F-9F39-4799-AD70-7F5405E13FA3",
@@ -2564,12 +2574,12 @@
                 ]
             },
             {
-                "id": "57BDEDC4-92B4-4DE3-A2F6-174478676F8B",
-                "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/57BDEDC4-92B4-4DE3-A2F6-174478676F8B_D5DC31BF-2B17-4EDD-9B0C-A2718C36994F.jpg",
-                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/E248F298-95EC-46B0-98BA-9FBA0BFA671C/57BDEDC4-92B4-4DE3-A2F6-174478676F8B",
-                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/E248F298-95EC-46B0-98BA-9FBA0BFA671C/57BDEDC4-92B4-4DE3-A2F6-174478676F8B",
+                "id": "CB01B7D1-AD06-4F9C-A11C-E1C743FA7BBA",
+                "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/CB01B7D1-AD06-4F9C-A11C-E1C743FA7BBA_6C6C670A-B956-4924-98D7-B02F26062AF7.jpg",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/E248F298-95EC-46B0-98BA-9FBA0BFA671C/CB01B7D1-AD06-4F9C-A11C-E1C743FA7BBA",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/E248F298-95EC-46B0-98BA-9FBA0BFA671C/CB01B7D1-AD06-4F9C-A11C-E1C743FA7BBA",
                 "location": [
-                    -16.848686666666666,
+                    -16.84868833333333,
                     145.71302833333334
                 ]
             }
@@ -2634,6 +2644,46 @@
                 "location": [
                     -17.344616666666667,
                     145.87222166666666
+                ]
+            },
+            {
+                "id": "CD1459AD-20C6-446A-BCF0-71BA89B3BB5D",
+                "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/CD1459AD-20C6-446A-BCF0-71BA89B3BB5D_96AD8763-0940-4712-8F06-BB37490CA4D6.jpg",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/CD1459AD-20C6-446A-BCF0-71BA89B3BB5D",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/CD1459AD-20C6-446A-BCF0-71BA89B3BB5D",
+                "location": [
+                    -17.344291666666667,
+                    145.87290833333333
+                ]
+            },
+            {
+                "id": "6A551FD7-2084-4AC3-A0DF-85D0FD4E1FC3",
+                "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/6A551FD7-2084-4AC3-A0DF-85D0FD4E1FC3_CD90C159-445D-4B06-A4D5-90D5863D88DD.jpg",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/6A551FD7-2084-4AC3-A0DF-85D0FD4E1FC3",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/6A551FD7-2084-4AC3-A0DF-85D0FD4E1FC3",
+                "location": [
+                    -17.342166666666667,
+                    145.86905
+                ]
+            },
+            {
+                "id": "6A5B1F6A-1DB4-4415-9034-87804832740B",
+                "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/6A5B1F6A-1DB4-4415-9034-87804832740B_E42603D3-89B2-40DC-A113-3AC0BC8E9508.jpg",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/6A5B1F6A-1DB4-4415-9034-87804832740B",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/6A5B1F6A-1DB4-4415-9034-87804832740B",
+                "location": [
+                    -17.339896666666668,
+                    145.87104666666667
+                ]
+            },
+            {
+                "id": "CDF62760-8503-49CA-8C12-DC9C51AC90EB",
+                "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/CDF62760-8503-49CA-8C12-DC9C51AC90EB_DCB66040-4DC5-4B37-B5B2-9BFD8FA8ECDD.jpg",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/CDF62760-8503-49CA-8C12-DC9C51AC90EB",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/9F8C6644-7037-40A1-8722-8DD51BD1D38A/CDF62760-8503-49CA-8C12-DC9C51AC90EB",
+                "location": [
+                    -17.339921666666665,
+                    145.87104666666667
                 ]
             }
         ],
@@ -3077,7 +3127,7 @@
         "id": "87E72225-887D-4F22-B4B3-75573521A9A9",
         "key": "87e72225-887d-4f22-b4b3-75573521a9a9",
         "name": "Mackay",
-        "description": "Not much to say about this one, we arrived in town fairly late and stayed in a motel.",
+        "description": "Not too much to say about this one, we arrived in town fairly late and stayed in a motel then hit the road early the next morning.",
         "country": "Australia",
         "arrived": 1664683200,
         "location": [
