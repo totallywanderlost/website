@@ -5,10 +5,11 @@ Website and blog showing our travels on [totallywanderlost.com](https://totallyw
 ## Requirements
 
 - [brew](https://brew.sh)
+- [rtx](https://github.com/jdx/rtx)
 
 ## Setup
 
-This will install `asdf` and use that to install the required versions
+This will install `rtx` and use that to install the required versions
 of `ruby`, `python` and 'node and the required dependencies for each.
 
     make setup
