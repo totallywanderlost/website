@@ -4,8 +4,8 @@ port ?= 8080
 env ?= production
 
 setup:
-	brew install rtx
-	rtx install
+	brew install mise
+	mise install
 	$(MAKE) setup_bundle
 	$(MAKE) setup_pipenv
 	$(MAKE) deps
