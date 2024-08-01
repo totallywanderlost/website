@@ -1,6 +1,6 @@
 [
     {
-        "id": "917f5cb2-afb0-497f-8885-9cb90cd2d305",
+        "id": "917F5CB2-AFB0-497F-8885-9CB90CD2D305",
         "key": "917f5cb2-afb0-497f-8885-9cb90cd2d305",
         "name": "London",
         "description": "It's lights out and away we go, we're on our way to Sydney with a quick pit stop in Dubai.",
@@ -14,8 +14,8 @@
             {
                 "id": "968DBB23-5D06-4AD6-8A04-1FBD9103676A",
                 "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/968DBB23-5D06-4AD6-8A04-1FBD9103676A_B03878FB-E528-4D0A-B75A-BA601A571831.jpg",
-                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/917f5cb2-afb0-497f-8885-9cb90cd2d305/968DBB23-5D06-4AD6-8A04-1FBD9103676A",
-                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/917f5cb2-afb0-497f-8885-9cb90cd2d305/968DBB23-5D06-4AD6-8A04-1FBD9103676A",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/917F5CB2-AFB0-497F-8885-9CB90CD2D305/968DBB23-5D06-4AD6-8A04-1FBD9103676A",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/917F5CB2-AFB0-497F-8885-9CB90CD2D305/968DBB23-5D06-4AD6-8A04-1FBD9103676A",
                 "location": [
                     51.47029166666667,
                     -0.45868333333333333
@@ -158,7 +158,7 @@
         "id": "5FB07848-F7E2-48A4-9C02-EE73B1A703B1",
         "key": "5fb07848-f7e2-48a4-9c02-ee73b1a703b1",
         "name": "Adelaide",
-        "description": null,
+        "description": "Before we could get started on our real adventures we had quite a few things to sort out first. We flew into Adelaide and spent just over 3 weeks staying with Nicole's brother, Jim. \n\nWhile we were there which purchased some of vital things you need for a trip, like a car, and of course, two tennis rackets.Our trusty Nissan X-Trail was christened as Nigel (after Nigel Mansell due to his moustache) and we kitted him out to be our home for the next few months including putting up a very make shift bed in the back.\n\nEven though it was technically Winter the weather was still really nice most of the time we were there so we got to explore the city, did lots of walks along the beach, a few hikes and even saw our first Kangaroos of the trip &#129432;\n\nJames passed his upside down driving theory test and was let loose on the Adelaide suburbs to get some practice in for the long trip ahead.",
         "country": "Australia",
         "arrived": 1657011600,
         "location": [
@@ -590,7 +590,7 @@
         "id": "B223AE28-B4CF-4510-84D4-B7C17AE43E3C",
         "key": "b223ae28-b4cf-4510-84d4-b7c17ae43e3c",
         "name": "Marla",
-        "description": "Another night on the road, another roadhouse stopover. To keep these balanced and not only containing the good stuff we were besieged by flies here and learnt to perfect the Aussie wave.",
+        "description": "Another night on the road, another roadhouse stopover. To keep these balanced and not only containing the good stuff we were besieged by flies here and learnt to perfect the Aussie wave &#128075;&#127995;",
         "country": "Australia",
         "arrived": 1659409200,
         "location": [
@@ -884,7 +884,7 @@
         "id": "62BFF6B6-FE52-413B-83A9-333946ED70C0",
         "key": "62bff6b6-fe52-413b-83a9-333946ed70c0",
         "name": "Erldunda Roadhouse",
-        "description": "Not too much to say about this, it was an overnight stop on our way to Alice Springs. They had a camel.",
+        "description": "Not too much to say about this, it was an overnight stop in Nigel on our way to Alice Springs. They had a camel.",
         "country": "Australia",
         "arrived": 1659754500,
         "location": [
@@ -1313,7 +1313,7 @@
         "id": "21EAFD9C-F129-4236-9678-E2911BDC4EE6",
         "key": "21eafd9c-f129-4236-9678-e2911bdc4ee6",
         "name": "Daly Waters",
-        "description": "The Famous Daly Waters pub. We spent 2 nights here in one of the motel rooms to refresh and get a chance to wash off some of the red dust that's accumulating.\n\nLots of interesting things around town, great garlic bread in the pub, and some great happy hour deals.",
+        "description": "The Famous Daly Waters pub. We spent 2 nights here in one of the motel rooms to refresh and get a chance to wash off some of the red dust that's accumulating.\n\nIt's a small but fascinating little town with the main attraction being the pub which had some great garlic bread and happy hour deals &#127866;",
         "country": "Australia",
         "arrived": 1660701600,
         "location": [
@@ -6195,7 +6195,7 @@
         "state": "visited"
     },
     {
-        "id": "7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d",
+        "id": "7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D",
         "key": "7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d",
         "name": "Lynbrook",
         "description": "We had a couple of days to fill in-between house sits and managed to find a very reasonably priced BnB south east of Melbourne, it even came with two cats which was a nice bonus.\n\nThe main thing we did was visit the royal botanic gardens in Cranbourne which were very impressive.",
@@ -6209,8 +6209,8 @@
             {
                 "id": "A348E593-342D-4AA2-B938-DE2F8B9B02C0",
                 "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/A348E593-342D-4AA2-B938-DE2F8B9B02C0_911479B5-681B-4256-981F-400F072219B5.jpg",
-                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d/A348E593-342D-4AA2-B938-DE2F8B9B02C0",
-                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d/A348E593-342D-4AA2-B938-DE2F8B9B02C0",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D/A348E593-342D-4AA2-B938-DE2F8B9B02C0",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D/A348E593-342D-4AA2-B938-DE2F8B9B02C0",
                 "location": [
                     -38.127547166666666,
                     145.27014166666666
@@ -6219,8 +6219,8 @@
             {
                 "id": "460C168A-26A6-4E16-B32A-7887B96F364C",
                 "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/460C168A-26A6-4E16-B32A-7887B96F364C_D2991A9D-DDE6-4EDF-B775-1129266DF80B.jpg",
-                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d/460C168A-26A6-4E16-B32A-7887B96F364C",
-                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d/460C168A-26A6-4E16-B32A-7887B96F364C",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D/460C168A-26A6-4E16-B32A-7887B96F364C",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D/460C168A-26A6-4E16-B32A-7887B96F364C",
                 "location": [
                     -38.12970283333333,
                     145.27058333333332
@@ -6229,8 +6229,8 @@
             {
                 "id": "BBDF9852-76EB-4404-A024-04DFF37D9A2E",
                 "source_url": "https://polarsteps.s3.amazonaws.com/user_images/steps/large_thumb/u_4212412/BBDF9852-76EB-4404-A024-04DFF37D9A2E_B55BFCE6-BB4A-4337-BFC9-5F9B434E6B4A.jpg",
-                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d/BBDF9852-76EB-4404-A024-04DFF37D9A2E",
-                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7e0b65c4-5b6f-43d0-b0ea-70d54f36b27d/BBDF9852-76EB-4404-A024-04DFF37D9A2E",
+                "r2_url": "https://r2.totallywanderlost.com/images/journey/step/7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D/BBDF9852-76EB-4404-A024-04DFF37D9A2E",
+                "url": "https://ik.imagekit.io/totallywanderlost/r2/images/journey/step/7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D/BBDF9852-76EB-4404-A024-04DFF37D9A2E",
                 "location": [
                     -38.13025,
                     145.26951666666668

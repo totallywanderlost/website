@@ -44,7 +44,7 @@ def parse_steps(steps):
 
         if 'supertype' in step and step['supertype'] == 'normal':
             yield {
-                'id': step['uuid'],
+                'id': step['uuid'].upper(),
                 'key': step['uuid'].lower(),
                 'name': encode(step['name']) if not empty(step['name']) else step['location']['name'],
                 'description': encode(step['description']) if not empty(step['description']) else None,
@@ -69,7 +69,7 @@ def parse_planned_steps(steps):
             continue
 
         yield {
-            'id': step['uuid'],
+            'id': step['uuid'].upper(),
             'key': step['uuid'].lower(),
             'name': encode(step['location']['name']),
             'country': step['location']['detail'],
@@ -87,12 +87,12 @@ def encode(unicode):
 
 def get_photo(step, photo):
     source_url = photo['large_thumbnail_path']
-    imagekit_url = f"https://ik.imagekit.io/totallywanderlost/r2/{r2_key_for_photo(step['uuid'], photo['uuid'])}"
+    imagekit_url = f"https://ik.imagekit.io/totallywanderlost/r2/{r2_key_for_photo(step['uuid'].upper(), photo['uuid'].upper())}"
 
     return {
-        'id': photo['uuid'],
+        'id': photo['uuid'].upper(),
         'source_url': source_url,
-        'r2_url': r2_url_for_photo(step['uuid'], photo['uuid']),
+        'r2_url': r2_url_for_photo(step['uuid'].upper(), photo['uuid'].upper()),
         'url': imagekit_url,
         'location': [photo['lat'], photo['lon']]
     }
