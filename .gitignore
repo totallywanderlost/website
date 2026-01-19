@@ -424,3 +424,6 @@ build-iPhoneSimulator/
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/node,ruby,macos,python,jekyll,visualstudiocode
+
+.wrangler
+
