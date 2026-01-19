@@ -1,6 +1,6 @@
 {
     "devDependencies": {
         "concurrently": "^8.2.0",
-        "wrangler": "^3.4.0"
+        "wrangler": "^4.59.2"
     }
 }
