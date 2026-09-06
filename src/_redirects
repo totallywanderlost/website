@@ -1,3 +1,4 @@
 /where /trips 301
 /journey /trips 301
 /journey/* /trips 301
+/contact /about 301
