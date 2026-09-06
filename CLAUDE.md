@@ -57,11 +57,12 @@ Each **trip** is one Polarsteps trip. Data is split into:
   `slug`, `polarsteps_id`, `title`, `summary`, `hero` (optional ImageKit path; else the
   first step photo is used), `published` (false → fetched but not built).
 - **`src/_data/journeys/<slug>.json`** — one flat array of step objects per trip, written by
-  `data/fetch.py`. Auto-loaded by Jekyll as `site.data.journeys.<slug>`. Every step carries
-  `trip_slug`.
+  `data/fetch.py`. Auto-loaded by Jekyll as `site.data.journeys.<slug>`. The trip is implied
+  by the filename; `trip_pages.rb` stamps `trip_slug`/`trip_title` onto each step page, and
+  `map.liquid` stamps `trip_slug` from the manifest when it flattens trips together.
 
 Step object shape (produced by `data/fetch.py`):
-`id` (UPPER uuid), `key` (lower uuid — the URL segment), `trip_slug`, `name`, `description`,
+`id` (UPPER uuid), `key` (lower uuid — the URL segment), `name`, `description`,
 `country`, `arrived` (unix seconds, or `false` for planned), `location` `[lat, lon]`,
 `photos[]`, `state` (`visited` | `stopped` | `current` | `planned`).
 Photo: `id`, `source_url` (Polarsteps S3), `r2_url`, `url` (ImageKit base), `location`.
@@ -100,7 +101,7 @@ globally unique). All display goes through **ImageKit** transforms
 `make fetch` → `python data/fetch.py --manifest src/_data/trips.yml --out-dir src/_data/journeys`.
 For each manifest entry it:
 1. `GET https://api.polarsteps.com/trips/<polarsteps_id>` (public, unauthenticated).
-2. Parses visited + planned steps, stamps `trip_slug`, marks the last visited step `current`.
+2. Parses visited + planned steps, marks the last visited step `current`.
 3. Diffs against the existing `journeys/<slug>.json` and uploads new / deletes removed photos
    in R2 (`sync_images_to_r2`, boto3 S3 API, creds from `CLOUDFLARE_*` env vars).
 4. Rewrites `journeys/<slug>.json`.
@@ -128,8 +129,8 @@ Adding a trip: append an entry to `src/_data/trips.yml` (start with `published: 
 **Multi-trip support** (Sept 2026). The site was previously hard-wired to a single Polarsteps
 trip (`src/_data/journey.json`, one `page_gen` block, `/journey/<key>` pages). Changed to:
 
-- Per-trip data (`src/_data/trips.yml` manifest + `src/_data/journeys/<slug>.json`), step
-  data carries `trip_slug`.
+- Per-trip data (`src/_data/trips.yml` manifest + `src/_data/journeys/<slug>.json`); a step's
+  trip is implied by the filename, not stored on the step.
 - `data/fetch.py` loops the manifest; `make fetch` / `data.yml` take no trip args.
 - New `src/_plugins/trip_pages.rb` generator replaces `jekyll-datapage-generator`
   (removed from `Gemfile` / `_config.yml`).

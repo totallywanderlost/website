@@ -278,7 +278,10 @@
     // `trip` limits the map to one trip (its page); otherwise every trip is shown.
     const tripFilter = '{{ include.trip }}';
     const activeGroups = tripFilter ? tripGroups.filter(g => g.slug === tripFilter) : tripGroups;
-    const journey = activeGroups.flatMap(g => g.steps);
+    // Stamp each step with its trip's slug (from the manifest, the single source
+    // of truth) so popups can link to /trips/<slug>/<key> once steps from
+    // several trips are flattened into one list.
+    const journey = activeGroups.flatMap(g => g.steps.map(s => ({ ...s, trip_slug: g.slug })));
 
     // If requested filter to the given step
     const step = '{{ include.step }}';

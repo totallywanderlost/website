@@ -49,18 +49,14 @@ def update_data_file(path, data):
         encoded = json.dumps(data, indent=4).encode()
         file.write(encoded)
 
-def fetch_latest_data(trip_id, trip_slug):
+def fetch_latest_data(trip_id):
     data = fetch(trip_id)
 
     visited = [ step for step in parse_steps(data['all_steps']) ]
     visited[-1]['state'] = 'current'
     planned = [ step for step in parse_planned_steps(data['planned_steps']) ]
 
-    steps = visited + planned
-    for step in steps:
-        step['trip_slug'] = trip_slug
-
-    return steps
+    return visited + planned
 
 def fetch(trip_id):
     response = requests.get(f'https://api.polarsteps.com/trips/{trip_id}')
@@ -190,7 +186,7 @@ if __name__ == '__main__':
         print(f"Fetching trip slug={slug} id={trip['polarsteps_id']} -> {path}")
 
         existing = load_existing_data(path)
-        latest = fetch_latest_data(trip['polarsteps_id'], slug)
+        latest = fetch_latest_data(trip['polarsteps_id'])
         synced = sync_images_to_r2(existing, latest)
 
         update_data_file(path, synced)
