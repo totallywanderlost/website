@@ -1,1 +1,3 @@
-/where /journey 301
+/where /trips 301
+/journey /trips 301
+/journey/* /trips 301

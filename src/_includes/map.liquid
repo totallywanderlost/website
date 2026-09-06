@@ -265,8 +265,20 @@
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
     }
 
-    // Load all the data for our journey
-    const journey = {{ site.data.journey | jsonify }};
+    // Load every published trip as its own ordered group of steps, in the order
+    // they appear in the manifest (src/_data/trips.yml).
+    const tripGroups = [
+      {%- for trip in site.data.trips -%}
+        {%- if trip.published -%}
+      { slug: {{ trip.slug | jsonify }}, steps: {{ site.data.journeys[trip.slug] | jsonify }} },
+        {%- endif -%}
+      {%- endfor -%}
+    ];
+
+    // `trip` limits the map to one trip (its page); otherwise every trip is shown.
+    const tripFilter = '{{ include.trip }}';
+    const activeGroups = tripFilter ? tripGroups.filter(g => g.slug === tripFilter) : tripGroups;
+    const journey = activeGroups.flatMap(g => g.steps);
 
     // If requested filter to the given step
     const step = '{{ include.step }}';
@@ -288,9 +300,14 @@
     const locations = points.map(s => s.location);
     const routeCoords = locations.map(lngLat);
 
-    // Smooth great-circle arc through every step; also drives the zoomed-out
-    // "wandering" line below.
-    const routeArc = mode === 'steps' && routeCoords.length > 1 ? arcThrough(routeCoords) : [];
+    // Smooth great-circle arc through every step, built per trip so bounds
+    // fitting covers each route's curve without joining one trip to the next.
+    const routeArc = mode === 'steps'
+      ? activeGroups.flatMap(g => {
+          const c = g.steps.map(s => s.location).map(lngLat);
+          return c.length > 1 ? arcThrough(c) : c;
+        })
+      : [];
 
     // Fit the map to show the whole trip. For steps we fit to the arc itself so
     // the full route (curve and all) is in view from the start; the optional
@@ -330,10 +347,11 @@
 
       const hasImage = point.photos.length > 0;
       const url = hasImage ? `${point.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
-      const image = hasImage ? popupImage(url, `/journey/${point['key']}`) : '';
+      const href = `/trips/${point['trip_slug']}/${point['key']}`;
+      const image = hasImage ? popupImage(url, href) : '';
       const date = new Date(point.arrived * 1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
 
-      return `${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px;"><b><a href="/journey/${point['key']}">${point.name}</a></b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`;
+      return `${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px;"><b><a href="${href}">${point.name}</a></b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`;
     }
 
     // Turn the points into GeoJSON features, merging any that sit on the same
@@ -388,14 +406,15 @@
       };
       arrow.src = arrowIcon(prefersDark ? '#cbd0d6' : '#333333');
 
-      // Draw the route as two line layers: a faint "wandering" line through every
-      // step, and a bold "trunk" through only the big hops so the shape of the
-      // trip reads at a glance. Each leg is its own feature carrying `t` (0 at the
-      // start of the trip, 1 at the end) so the green -> amber -> red colour
+      // Draw one trip's route as two line layers: a faint "wandering" line through
+      // every step, and a bold "trunk" through only the big hops so the shape of
+      // the trip reads at a glance. Each leg is its own feature carrying `t` (0 at
+      // the start of the trip, 1 at the end) so the green -> amber -> red colour
       // advances one step at a time rather than by raw distance. Arrowheads show
       // direction of travel; the trunk hands off to the wandering line as you
-      // zoom in so long-hop chords don't cut across a street-level view.
-      if (mode === 'steps' && routeCoords.length > 1) {
+      // zoom in so long-hop chords don't cut across a street-level view. `suffix`
+      // namespaces the sources/layers so several trips can be drawn side by side.
+      function addTripRoute(routeCoords, suffix) {
         const lastStep = routeCoords.length - 1;
         const ZOOM_TIGHTEN = 4.5;
 
@@ -500,11 +519,11 @@
           }
         });
 
-        map.addSource('route', { type: 'geojson', data: legFeatures(allSteps, true) });
+        map.addSource(`route-${suffix}`, { type: 'geojson', data: legFeatures(allSteps, true) });
         map.addLayer({
-          id: 'route',
+          id: `route-${suffix}`,
           type: 'line',
-          source: 'route',
+          source: `route-${suffix}`,
           layout: { 'line-cap': 'round', 'line-join': 'round' },
           paint: {
             'line-color': colourByStep,
@@ -515,9 +534,9 @@
           }
         });
         map.addLayer({
-          id: 'route-arrows',
+          id: `route-arrows-${suffix}`,
           type: 'symbol',
-          source: 'route',
+          source: `route-${suffix}`,
           layout: {
             'symbol-placement': 'line',
             'symbol-spacing': 150,
@@ -538,7 +557,7 @@
           if (overview && routeMode === 'overview') return;
           routeMode = overview ? 'overview' : 'local';
 
-          map.getSource('route').setData(
+          map.getSource(`route-${suffix}`).setData(
             overview ? legFeatures(allSteps, true) : localLegs(map.getBounds())
           );
         }
@@ -546,11 +565,11 @@
         syncRouteDetail();
 
         if (trunkIdx.length > 1) {
-          map.addSource('trunk', { type: 'geojson', data: legFeatures(trunkIdx, true) });
+          map.addSource(`trunk-${suffix}`, { type: 'geojson', data: legFeatures(trunkIdx, true) });
           map.addLayer({
-            id: 'trunk',
+            id: `trunk-${suffix}`,
             type: 'line',
-            source: 'trunk',
+            source: `trunk-${suffix}`,
             layout: { 'line-cap': 'round', 'line-join': 'round' },
             paint: {
               'line-color': colourByStep,
@@ -559,9 +578,9 @@
             }
           });
           map.addLayer({
-            id: 'trunk-arrows',
+            id: `trunk-arrows-${suffix}`,
             type: 'symbol',
-            source: 'trunk',
+            source: `trunk-${suffix}`,
             layout: {
               'symbol-placement': 'line',
               'symbol-spacing': 150,
@@ -573,6 +592,16 @@
             paint: { 'icon-opacity': ['interpolate', ['linear'], ['zoom'], 4.4, 0.85, 4.7, 0] }
           });
         }
+      }
+
+      // Draw each visible trip's route with its own namespaced sources/layers.
+      if (mode === 'steps') {
+        activeGroups.forEach((g, gi) => {
+          const groupCoords = g.steps.map(s => s.location).map(lngLat);
+          if (groupCoords.length > 1) {
+            addTripRoute(groupCoords, g.slug || String(gi));
+          }
+        });
       }
 
       map.addSource('journey', {

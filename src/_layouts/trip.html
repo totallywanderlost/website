@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<style>
+  .trip-hero { margin-bottom: 1.5em; }
+  .trip-hero h1 { margin-bottom: 0.2em; }
+  .trip-summary { margin: 0.4em 0 0.6em; }
+
+  .trip-meta {
+    color: var(--text);
+    opacity: 0.7;
+    font-size: 0.95em !important;
+    letter-spacing: 0.04em;
+    margin: 0 !important;
+  }
+
+  .trip-map { margin: 1.5em 0 2em; }
+
+  .journey {
+    list-style: none;
+    padding: 0;
+  }
+
+  .journey > li {
+    margin-bottom: 3em;
+  }
+</style>
+
+{%- assign steps = site.data.journeys[page.slug] | where_exp: "step", "step.state != 'planned' and step.photos.size > 0" -%}
+{%- assign first = steps | first -%}
+{%- assign last = steps | last -%}
+{%- assign photo_count = 0 -%}
+{%- for step in steps -%}{%- assign photo_count = photo_count | plus: step.photos.size -%}{%- endfor -%}
+
+<div class="trip-hero">
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}<p class="trip-summary">{{ page.summary }}</p>{% endif %}
+  <p class="trip-meta">
+    {{ first.arrived | date: "%-d %B %Y" }} &ndash; {{ last.arrived | date: "%-d %B %Y" }}
+    &middot; {{ steps | size }} stop{% if steps.size != 1 %}s{% endif %}
+    &middot; {{ photo_count }} photo{% if photo_count != 1 %}s{% endif %}
+  </p>
+</div>
+
+<div class="trip-map">
+  {% include map.liquid mode='steps' trip=page.slug height='clamp(320px, 55vh, 560px)' %}
+</div>
+
+<ul class="journey">
+  {% for step in steps %}
+  <li class="{{ step.state }}">
+    <a id="{{ step.id }}" href="/trips/{{ page.slug }}/{{ step.key }}">
+      <h2>📌 {{ step.name }}, {{ step.country }}</h2>
+    </a>
+    {% if step.arrived %}<p>{{ step.arrived | date_to_string }}</p>{% endif %}
+
+    {% if step.description %}<p>{{ step.description | markdownify }}</p>{% endif %}
+
+    {% capture stepLabel %}{{ step.name }}, {{ step.country }}{% endcapture %}
+    {% include photo_grid.liquid photos=step.photos label=stepLabel %}
+  </li>
+  {% endfor %}
+</ul>
+
+{% include photo_lightbox.liquid %}

@@ -1,0 +1,78 @@
+---
+title: Trips
+permalink: /trips
+layout: default
+---
+<style>
+  .trips-map { margin-bottom: 2em; }
+
+  .trip-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  .trip-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .trip-card a { text-decoration: none !important; color: inherit; }
+
+  .trip-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+  }
+
+  .trip-card-body { padding: 1em 1.1em 1.2em; }
+  .trip-card-body h2 { margin: 0 0 0.3em; }
+  .trip-card-body p { margin: 0.3em 0 0; }
+
+  .trip-card-meta {
+    color: var(--text);
+    opacity: 0.7;
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
+  }
+</style>
+
+<div class="trips-map">
+  {% include map.liquid mode='steps' height='55vh' %}
+</div>
+
+<ul class="trip-list">
+  {% for trip in site.data.trips %}
+  {% unless trip.published %}{% continue %}{% endunless %}
+
+  {%- assign steps = site.data.journeys[trip.slug] | where_exp: "step", "step.state != 'planned' and step.photos.size > 0" -%}
+  {%- assign first = steps | first -%}
+  {%- assign last = steps | last -%}
+  {%- assign photo_count = 0 -%}
+  {%- for step in steps -%}{%- assign photo_count = photo_count | plus: step.photos.size -%}{%- endfor -%}
+  {%- if trip.hero -%}
+    {%- assign hero = trip.hero | photo_url: width: 800, height: 450, focus: 'auto' -%}
+  {%- else -%}
+    {%- capture hero -%}{{ first.photos.first.url }}?tr=w-800,h-450,fo-center{%- endcapture -%}
+  {%- endif -%}
+
+  <li class="trip-card">
+    <a href="/trips/{{ trip.slug }}">
+      <img loading="lazy" decoding="async" src="{{ hero }}" width="800" height="450" alt="{{ trip.title }}">
+      <div class="trip-card-body">
+        <h2>{{ trip.title }}</h2>
+        <p class="trip-card-meta">
+          {{ first.arrived | date: "%b %Y" }} &ndash; {{ last.arrived | date: "%b %Y" }}
+          &middot; {{ steps | size }} stops &middot; {{ photo_count }} photos
+        </p>
+        {% if trip.summary %}<p>{{ trip.summary }}</p>{% endif %}
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

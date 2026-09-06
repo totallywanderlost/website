@@ -35,7 +35,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-datapage-generator (1.4.0)
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
       htmlcompressor (~> 0.4)
@@ -88,7 +87,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-datapage-generator
   jekyll-minifier
   jekyll-sitemap
   webrick

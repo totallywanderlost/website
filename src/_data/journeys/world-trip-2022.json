@@ -22,7 +22,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B0FFFC28-9BA5-4E86-877C-07E38F9793B0",
@@ -87,7 +88,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "76790699-D615-4E93-8A68-F738F96C3687",
@@ -152,7 +154,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5FB07848-F7E2-48A4-9C02-EE73B1A703B1",
@@ -247,7 +250,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DCC113D0-E3A8-497D-A742-73C8CD6056AE",
@@ -261,7 +265,8 @@
             138.00586139999996
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "D06BC772-A9F9-4145-8C95-8DF087BFB55F",
@@ -366,7 +371,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1C5A594E-554E-484C-B180-B6F79FC40DB9",
@@ -380,7 +386,8 @@
             137.76398740000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DB34578B-953B-477F-943A-F65573D98C0C",
@@ -435,7 +442,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "8995F795-1D6F-4BFF-A310-1A382BF965D8",
@@ -449,7 +457,8 @@
             135.56580168408124
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "60A730D1-AEA0-4254-A1CB-8DDB30FAC27A",
@@ -584,7 +593,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B223AE28-B4CF-4510-84D4-B7C17AE43E3C",
@@ -629,7 +639,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5AAB9117-FC0D-44AB-8A77-E737B76EB49A",
@@ -643,7 +654,8 @@
             133.20195883065924
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "EA0F6BE0-5FCD-4FF7-83B0-F3FB5CF2352C",
@@ -878,7 +890,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "62BFF6B6-FE52-413B-83A9-333946ED70C0",
@@ -913,7 +926,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E12051F5-04C2-4061-9C58-5084944A7CAD",
@@ -1008,7 +1022,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A1204842-32C3-42D3-A996-31F2A875E3DA",
@@ -1133,7 +1148,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B34266AD-1B89-4D33-AB79-129BEF375EB9",
@@ -1147,7 +1163,8 @@
             133.88128849999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B2EDEC67-90E8-4336-8C67-EEC4C206A723",
@@ -1282,7 +1299,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "386D7D63-8F35-4BDA-9CAE-080C674DE01B",
@@ -1307,7 +1325,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "21EAFD9C-F129-4236-9678-E2911BDC4EE6",
@@ -1372,7 +1391,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "505B9F80-3C78-4B82-87E3-E827CBB01B78",
@@ -1447,7 +1467,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "FC87D894-8A12-467F-BA92-568311B5F68F",
@@ -1592,7 +1613,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "19873FC0-7702-4349-BDF5-8B85F624FDAE",
@@ -1687,7 +1709,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A94472DB-D302-4E07-BDD5-DA3DBD4E4B6F",
@@ -1732,7 +1755,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "26753D83-135D-4017-BE9B-ECD81656B020",
@@ -1767,7 +1791,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1D89B645-6AE5-4CAE-B426-8455B2B67160",
@@ -1922,7 +1947,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "093D2055-032A-4731-A358-E3FDF666D02E",
@@ -1936,7 +1962,8 @@
             132.2635993
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4ECF77DD-A9BF-4813-92C2-2C22A4F7B1B3",
@@ -1950,7 +1977,8 @@
             133.06905800000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7F72E85D-86C4-4BF5-A149-3BAB31302691",
@@ -1975,7 +2003,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "12127498-AD7A-485F-A801-A2255636E7D1",
@@ -1989,7 +2018,8 @@
             134.20814699676924
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F6DC3755-43B8-47E6-9BA2-CA11E1AC93BA",
@@ -2014,7 +2044,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7B9BAFDC-C654-40CF-82A5-134012EA81A3",
@@ -2028,7 +2059,8 @@
             138.12012830000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A448AE8B-E245-414C-9002-AD8705829CE0",
@@ -2042,7 +2074,8 @@
             139.4931522
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F78861EC-09E9-4DF4-89A2-8241B7452A9C",
@@ -2067,7 +2100,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B2A41C92-F47E-46E7-A76D-E4BFD45EF10D",
@@ -2081,7 +2115,8 @@
             140.34448380000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4B891225-633E-4239-8603-653158762ABF",
@@ -2095,7 +2130,8 @@
             141.07804220000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "8A2DE032-273D-4F46-96C6-9CB19F41B166",
@@ -2140,7 +2176,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "744FFD82-1101-493F-B3BD-B94CE323CBEA",
@@ -2154,7 +2191,8 @@
             141.07464213089509
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5E2FCF86-D867-4CD7-A806-FB8DB55206D7",
@@ -2168,7 +2206,8 @@
             142.2447977
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "423E3E4E-A7F6-4E28-9F1B-630B74ECEC0A",
@@ -2182,7 +2221,8 @@
             143.54805729999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "604CAE71-F096-4DD7-9A5E-5E78C124940C",
@@ -2247,7 +2287,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "79E93D94-3D11-4E49-AD1E-0FC4E51A08A8",
@@ -2261,7 +2302,8 @@
             144.85591983
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4F8F878D-D842-4A5A-8BE7-45407BB4DB76",
@@ -2275,7 +2317,8 @@
             145.1127189
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E6D8841C-AA1A-49C2-820C-465E777F5F4E",
@@ -2289,7 +2332,8 @@
             145.4819407
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A5663934-6166-4DB3-A6F6-1D2A1B39D17F",
@@ -2303,7 +2347,8 @@
             145.4761663
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F4B15E97-DC1A-45DC-9589-CD4395097DFD",
@@ -2398,7 +2443,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E3E4E2F8-8BC5-44ED-8E6F-A3FF5FC61C20",
@@ -2412,7 +2458,8 @@
             145.37266490000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C5B17632-A3EC-49F9-8FEF-E372A8E9E030",
@@ -2426,7 +2473,8 @@
             145.41839146999996
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "0AD47D62-AEF7-4A82-BCCE-0D7B49CDCFD0",
@@ -2501,7 +2549,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "216DAA5E-F240-43B3-8679-704E40815A1E",
@@ -2515,7 +2564,8 @@
             145.41839146999996
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5850444B-6255-49A4-B4E3-0BD8670AFF0C",
@@ -2529,7 +2579,8 @@
             145.37266490000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E248F298-95EC-46B0-98BA-9FBA0BFA671C",
@@ -2584,7 +2635,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "526EE46D-A91E-4EDE-B16D-6820779E36F1",
@@ -2598,7 +2650,8 @@
             145.78418290000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "9D8527C3-E59D-4DBD-91B5-8292F57695A3",
@@ -2612,7 +2665,8 @@
             145.91582240000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "9F8C6644-7037-40A1-8722-8DD51BD1D38A",
@@ -2687,7 +2741,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "981CC80C-E892-416A-BFC8-C37F03BD37E3",
@@ -2701,7 +2756,8 @@
             146.0311418
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E4B385C7-2397-4DCB-A1F3-8E294B801320",
@@ -2715,7 +2771,8 @@
             146.00534400000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3594D042-5331-448F-B889-CF04DD1E7781",
@@ -2780,7 +2837,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F71FEEA2-90C2-48E7-A0ED-5CD8C89535CB",
@@ -2794,7 +2852,8 @@
             145.92726240000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1CEC3FE8-E471-4366-9AD1-954BA97844AF",
@@ -2808,7 +2867,8 @@
             146.03002859999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5062C2E6-AE58-4421-AE1D-4E41DA5D3C5A",
@@ -2822,7 +2882,8 @@
             146.16034479999996
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "8013B0A2-8E1C-4802-BF09-075043E3E532",
@@ -2867,7 +2928,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7FDAC1B6-18F2-4C6A-BB3B-550AF298DBCC",
@@ -2932,7 +2994,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A9523795-E6E1-4DA9-BD57-15BD07DAE0A8",
@@ -2946,7 +3009,8 @@
             147.4044626
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B8ACF20F-8CB1-468F-93D0-6EA62C56BE25",
@@ -2960,7 +3024,8 @@
             147.4139793
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "ABFB6A05-4906-4C9C-828A-0E65C319E9F9",
@@ -2974,7 +3039,8 @@
             148.2462901
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3E4F79CD-FBA2-4CF4-A523-D165AA23AC27",
@@ -3079,7 +3145,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "16754B48-72BC-4EB0-93E1-2CA8A5AB5ACE",
@@ -3093,7 +3160,8 @@
             148.5832137
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "CCDD4A62-C952-44CB-9081-A9B7F0B41F27",
@@ -3107,7 +3175,8 @@
             148.5987081
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "043B55DA-D2A1-4400-B3C5-2B362936FF0F",
@@ -3121,7 +3190,8 @@
             148.7722197
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "87E72225-887D-4F22-B4B3-75573521A9A9",
@@ -3146,7 +3216,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C3AD2CDC-E56A-44EB-B970-8824EC54C87C",
@@ -3160,7 +3231,8 @@
             149.2198922
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F558DCE7-E85F-4186-A0B7-A927485039D8",
@@ -3174,7 +3246,8 @@
             149.5324225
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7A84F1D1-6EF0-4FD0-A831-90CB95A47EF3",
@@ -3259,7 +3332,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5855F668-FE55-4F56-8B15-3C4C5B2DC987",
@@ -3273,7 +3347,8 @@
             150.74366250000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "8DF84F19-FFE2-4CD9-A82C-1CB44356797D",
@@ -3368,7 +3443,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B4BAF4AC-5FBF-4DBF-931D-854FE4C6FC4C",
@@ -3382,7 +3458,8 @@
             150.74366250000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E6DF4C76-08B5-45F2-BA0E-00A430CDD813",
@@ -3396,7 +3473,8 @@
             150.51342269999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "439EBF84-73B5-4D22-B75D-E25C38BAF0E9",
@@ -3410,7 +3488,8 @@
             150.64572880000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "D3BC3FEA-D125-436E-A435-A3485FE8F243",
@@ -3424,7 +3503,8 @@
             151.49535540000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "46D1CCFF-C2C8-4EE2-B65F-72C65915F84C",
@@ -3438,7 +3518,8 @@
             151.5623456
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7B32557F-D08F-4B24-A760-29613B41F495",
@@ -3452,7 +3533,8 @@
             151.885128
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "48E4B567-77F8-4B93-A881-EBA4943F219F",
@@ -3507,7 +3589,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3337B6C8-EE6E-4B0A-BC68-E3B4DBF29EE2",
@@ -3521,7 +3604,8 @@
             151.7529323999999
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "6F001FD8-1224-4A04-B35E-5576BC6D00F0",
@@ -3535,7 +3619,8 @@
             151.91444460000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "98899493-1915-4D0D-AD37-E1840AF5AD90",
@@ -3549,7 +3634,8 @@
             152.1586474
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1BB1900E-5528-4670-B862-E59C94BD3D69",
@@ -3563,7 +3649,8 @@
             152.35167849999996
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F1AC3DB2-4838-4766-A5EF-A253666FBAE4",
@@ -3638,7 +3725,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DFE2FBBC-CF81-45F9-9339-9987CDFB869F",
@@ -3652,7 +3740,8 @@
             152.35167849999996
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C20F5149-EC35-44C2-A833-8D02100911FB",
@@ -3677,7 +3766,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1CF0EB37-5D37-487B-A731-65162383143D",
@@ -3691,7 +3781,8 @@
             152.70191820000005
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5115A96E-FF19-4C67-949C-393236B9D9B8",
@@ -3705,7 +3796,8 @@
             152.66002560000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "57CE6E3E-6FD2-4707-B390-DA017BF6E636",
@@ -3719,7 +3811,8 @@
             152.95761130000005
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C4A27798-62ED-44EE-AA73-99351F5BD66A",
@@ -3733,7 +3826,8 @@
             153.02349909999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5ABFC3DE-3343-4A43-AB58-B9A1B786B090",
@@ -3747,7 +3841,8 @@
             115.17300489999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B8A95C52-3FA7-4A1F-975A-3144DFCACDEA",
@@ -3892,7 +3987,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "D74D740B-A1CF-432F-B8F8-F49CF4B50F35",
@@ -3906,7 +4002,8 @@
             115.50747310000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "38C1E66C-518C-4565-B61A-1D0A6EA5E3AD",
@@ -3981,7 +4078,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "0C393184-16A8-41D6-B491-7A20EE198B83",
@@ -3995,7 +4093,8 @@
             115.50747310000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E647CCDE-319A-45A4-8512-D433CE793403",
@@ -4009,7 +4108,8 @@
             115.40984830000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "88CA05AD-9AF0-4886-817A-39836A86BDC1",
@@ -4023,7 +4123,8 @@
             115.32747219999993
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7EF04004-5306-4E28-94CF-768AFE9BC48A",
@@ -4037,7 +4138,8 @@
             115.17300489999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "9BD8D877-3250-4244-9DF2-929DBF7D2F22",
@@ -4051,7 +4153,8 @@
             115.17239440000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E9B94269-ABE1-4974-99CF-AB9FCFED40D6",
@@ -4106,7 +4209,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "10DEAD48-C1C9-46A3-8152-D3CD9DD979C9",
@@ -4120,7 +4224,8 @@
             115.17239440000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1F72F83F-D7A5-49E4-9C11-B84CC61C5FE9",
@@ -4134,7 +4239,8 @@
             115.17300489999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2331B882-8843-46C9-8BD5-3EF9823A54B1",
@@ -4148,7 +4254,8 @@
             115.1641975
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DD55B0A3-4349-4031-9572-4485EDE2A3E3",
@@ -4223,7 +4330,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7B2C6027-8937-4C1D-BE54-49B3EBCBE292",
@@ -4298,7 +4406,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E4189B9D-1020-40B9-8EC0-AE17C18D3682",
@@ -4312,7 +4421,8 @@
             115.17300489999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "22C044D8-7EE6-414E-B360-8710F60DA3FC",
@@ -4326,7 +4436,8 @@
             115.17239440000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DA0D7441-4EF6-4803-984F-BD53C1BB3162",
@@ -4431,7 +4542,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DD3F0D13-D7B4-41E8-9B6E-C191A1DFFE56",
@@ -4445,7 +4557,8 @@
             115.17239440000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "25EA1D98-B1F4-4872-A288-2FBAE43B2EAD",
@@ -4459,7 +4572,8 @@
             115.17300489999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "8C804FA9-F15E-4045-935E-5B15E21C0225",
@@ -4534,7 +4648,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "88D2C4CC-0335-4F40-9678-1AE55E358EB2",
@@ -4599,7 +4714,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A8B2F7E7-B5B5-457D-9BDE-EC71C0BE3972",
@@ -4664,7 +4780,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5649C3AC-A5E1-461B-B9B2-01E58D58DC53",
@@ -4749,7 +4866,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "50A78A47-F476-4E98-B402-64ABA696E57B",
@@ -4763,7 +4881,8 @@
             153.2011111
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DDD605FF-54CF-4C1C-B98F-3473FAFB363E",
@@ -4798,7 +4917,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "0B0403E1-D661-4CCE-AF66-1E26132C2EDB",
@@ -4812,7 +4932,8 @@
             153.0709147
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "93B4EA1D-EF71-417E-8A92-AF8D768E6A11",
@@ -4826,7 +4947,8 @@
             152.84228899999994
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A4D09188-7E6A-4908-8133-5112DCFA0FE8",
@@ -4871,7 +4993,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2C00BB95-467B-4313-8EEA-E627CA8B91E7",
@@ -4946,7 +5069,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "245C35AE-13DA-4E8E-9512-01E3AC49C7F9",
@@ -4960,7 +5084,8 @@
             151.78125339999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2464A3B0-6B67-4761-AB12-BAC1C54EFED9",
@@ -4974,7 +5099,8 @@
             151.3417318
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3A66D9F7-C3F3-4A75-BB43-9AB930226C42",
@@ -5109,7 +5235,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "ACA3EC64-9137-49B8-AACA-13823BC65D47",
@@ -5214,7 +5341,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A97B6049-4B38-4229-8684-98240A94A732",
@@ -5269,7 +5397,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "62915775-E384-47F9-93B0-DEFD9CCA0D36",
@@ -5283,7 +5412,8 @@
             149.71980089999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B4D784B4-653A-4C1C-BC44-04DAA7C024D8",
@@ -5318,7 +5448,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "57A2A61C-4AFD-462D-82D5-82A167426347",
@@ -5353,7 +5484,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2446B794-90CE-4B86-B1E8-AF0905097F06",
@@ -5438,7 +5570,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1F668C2C-F79C-4E40-A3EB-2E11A2B5A13D",
@@ -5463,7 +5596,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "AE2F0893-ABD0-404F-BAEF-ED74958373C8",
@@ -5568,7 +5702,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F8F5DF42-0AE4-4189-9256-6AF323DF8A88",
@@ -5603,7 +5738,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5CD431A2-4F8C-4E4C-8615-8D4EAA960F48",
@@ -5658,7 +5794,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "EB7D6080-F41B-49CB-B918-E4785DAABA18",
@@ -5672,7 +5809,8 @@
             149.1264221
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "6C688062-7FC5-4817-BC3B-8BDB34AF3E58",
@@ -5686,7 +5824,8 @@
             149.90984600000007
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1B779709-F55E-435E-A557-FC501428940D",
@@ -5700,7 +5839,8 @@
             149.9035118
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "23C82D55-10F4-4717-8769-97E1C058C7A6",
@@ -5725,7 +5865,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "10E11F6C-52CF-45C0-819A-91B5DBBCDA27",
@@ -5739,7 +5880,8 @@
             148.45547120000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "69E8C013-D91F-406D-ABA1-06EC68B4A381",
@@ -5753,7 +5895,8 @@
             147.9943828000001
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1AAF4A84-BD20-429A-8D5D-820B021BFEC6",
@@ -5808,7 +5951,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "343EABA2-1ACE-40C9-925F-2B1F0A6464CD",
@@ -5833,7 +5977,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1683AEB6-916D-46E0-924E-A683E3D162CD",
@@ -5847,7 +5992,8 @@
             145.7279504
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "379163B7-168B-46CF-8CAA-353BD112E1DC",
@@ -5882,7 +6028,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "74063C71-25C3-4091-99FC-F0EA95313B64",
@@ -5967,7 +6114,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7C89E112-F239-46F6-82CE-42D5D9B30E5E",
@@ -5992,7 +6140,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "6BF00334-8F84-4E7A-A7DF-653039F02A73",
@@ -6017,7 +6166,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "946AD40A-3BAD-48DB-B8E9-B727F276E361",
@@ -6062,7 +6212,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E82D97C0-A192-40BF-A782-15780A13386D",
@@ -6087,7 +6238,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "BD3F34B7-766F-4ACB-A72B-808D6793ECEE",
@@ -6112,7 +6264,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "39D41CA3-429E-418A-9337-F1769EEEFF9F",
@@ -6157,7 +6310,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "41E61196-9BF5-4035-A3EC-8E09A0D75793",
@@ -6192,7 +6346,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D",
@@ -6237,7 +6392,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "BBCEE589-7F29-4693-AD08-B3E670A470BA",
@@ -6262,7 +6418,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "8118D14F-34D6-4759-8539-DC90DFA90733",
@@ -6287,7 +6444,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2B7C86BC-2442-4E75-A1CA-43BB591B4D09",
@@ -6301,7 +6459,8 @@
             142.93062099999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2EA4600E-03EF-4CE7-A551-47D068BDE281",
@@ -6436,7 +6595,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "267E519F-457D-4A68-99C4-B07BD5CBDBF6",
@@ -6450,7 +6610,8 @@
             142.7745476
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E3A0D88A-58A6-4BF0-9C31-84E8708C78BD",
@@ -6495,7 +6656,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B27941B5-A173-4D71-BABB-1FF415DB1E57",
@@ -6550,7 +6712,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A26EF680-CBE7-492D-A81E-4890414EFFA3",
@@ -6564,7 +6727,8 @@
             144.40882940000006
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3DFF9910-CF9E-484C-B906-43DD1ED41C7F",
@@ -6578,7 +6742,8 @@
             144.35982690000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "AF398BC0-0A87-49DB-8FE4-20BDE668C4CE",
@@ -6633,7 +6798,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7E01EDD3-2011-4A90-A5B2-177B051289E2",
@@ -6647,7 +6813,8 @@
             143.9748166
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "BA7AD762-08A3-41E3-A0B4-0E1D66173110",
@@ -6692,7 +6859,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "6CA793A3-F0B3-4D3D-A2F3-C3B40FEE528B",
@@ -6706,7 +6874,8 @@
             143.85892
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B2F58E03-104F-4C0A-8004-37F7C79DE4F6",
@@ -6741,7 +6910,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "880C2768-813B-4385-B2D3-22C7DD90E1E6",
@@ -6755,7 +6925,8 @@
             143.71646320000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "FE900E4D-D971-418E-9736-3D8DD9919AFE",
@@ -6780,7 +6951,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "65E35D05-2F2B-4EFF-BB1B-5BE698229C2A",
@@ -6794,7 +6966,8 @@
             143.58337296837982
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "AD19DA6C-7AFA-4E93-A1A2-1131D455B21E",
@@ -6819,7 +6992,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "D4091BF3-01FF-4F09-AF19-7347AEC1AAD0",
@@ -6833,7 +7007,8 @@
             143.5718413723107
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "AD092222-F930-4184-B142-3E16DB61A691",
@@ -6928,7 +7103,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E1F81D86-7324-4C30-A9F8-D3F4A3291763",
@@ -6942,7 +7118,8 @@
             143.3913114
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E8B200E7-F848-4B6F-91FE-24F59DFBDD88",
@@ -6956,7 +7133,8 @@
             142.995366
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "56B9B71B-BDD9-491B-A937-9B29A52B0068",
@@ -6970,7 +7148,8 @@
             142.8770204
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "D00452CF-98DD-4988-8B73-094C16E5361E",
@@ -6984,7 +7163,8 @@
             142.6001551
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "ED1E3525-62D9-4A48-B95E-ABF569069B31",
@@ -7069,7 +7249,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2B3223E9-9B09-4B1D-A425-3B69762C5273",
@@ -7083,7 +7264,8 @@
             142.4021826
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "918601D1-522A-48E6-A673-F63851BBADE8",
@@ -7097,7 +7279,8 @@
             142.2366722
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "FC00303C-F0C4-4949-B6F7-018D5441AFD2",
@@ -7122,7 +7305,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "8772DA3F-D5C8-4D93-9F09-5AE26C937E8C",
@@ -7167,7 +7351,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C16D3760-DD99-4855-90E5-2AC0AEEB3260",
@@ -7181,7 +7366,8 @@
             140.35265119999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "805317BF-C4A1-4C25-BF28-F8973B16054B",
@@ -7195,7 +7381,8 @@
             140.01067890000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E41DA375-81EF-4D5E-AB47-63B1543E93F1",
@@ -7250,7 +7437,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4BEB5B42-2F78-49BF-87EC-69875C03F5C2",
@@ -7264,7 +7452,8 @@
             140.8404168
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1AAA5D97-CA70-41E0-9B57-EB145C879B9F",
@@ -7278,7 +7467,8 @@
             142.0243127
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "731D14B0-86EB-4100-B829-A9683EA62C41",
@@ -7303,7 +7493,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "EC652C3A-93F5-447E-A9A1-DB9A1AD8ECAA",
@@ -7317,7 +7508,8 @@
             143.86056489999999
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A8191740-C53C-4F8B-828E-1498F9D2EC73",
@@ -7422,7 +7614,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "64072926-6359-482A-90A1-EC516F3F0328",
@@ -7487,7 +7680,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "9B8662F1-4DFA-48E8-904C-DE6DDBEE0DFA",
@@ -7532,7 +7726,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "67126C7F-8547-47B6-8A0B-CB3CDC1A4E57",
@@ -7546,7 +7741,8 @@
             144.35982690000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "76C6557F-3865-42D5-A95F-8BCE3976151A",
@@ -7591,7 +7787,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F8C4F7B8-31B3-492B-AF1F-47783FF917F9",
@@ -7605,7 +7802,8 @@
             146.36130110000005
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7DAC59C5-9499-4BBB-8E76-BCBAD9C81BF9",
@@ -7619,7 +7817,8 @@
             146.54177507999992
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "87DE03FF-8D87-47E2-B75F-5DA5E6DC710C",
@@ -7754,7 +7953,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A9D1B513-3ED5-47A2-82EE-F210314A776D",
@@ -7768,7 +7968,8 @@
             146.56476395282436
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "D236369E-D86F-4914-A006-D98A939B29F5",
@@ -7782,7 +7983,8 @@
             146.77322479999992
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "02AB4C54-DEF3-4BCC-824F-27FC12116B30",
@@ -7796,7 +7998,8 @@
             146.91537716958578
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "716DB616-23E3-4BB4-A8FF-32417AE90DF0",
@@ -7810,7 +8013,8 @@
             146.81454689999993
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "BAB594B4-6108-41FB-996F-B8DCEB692EEE",
@@ -7824,7 +8028,8 @@
             146.93286700000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1384D5CC-8A57-4DFD-8436-BD0199995750",
@@ -7838,7 +8043,8 @@
             146.97454464562287
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "41D1D82A-1445-4DCB-9D4D-B70C30BFD31D",
@@ -7852,7 +8058,8 @@
             147.00156144815043
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3A87B46C-D41D-4483-9AE6-EE8415B3C64F",
@@ -7866,7 +8073,8 @@
             147.1373496
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "AEE1AC71-ED2F-4E76-AEF2-42D51B4A2523",
@@ -7941,7 +8149,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "0E71990B-DF47-49E5-ABCD-F9F61473F7BB",
@@ -7955,7 +8164,8 @@
             147.1373496
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "37DA9BF0-93BC-4C9C-8C8F-98DED8F5C958",
@@ -7969,7 +8179,8 @@
             146.97787770000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "AA012649-864A-4AA7-9473-805D1DC1663A",
@@ -7983,7 +8194,8 @@
             147.39251920000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "E9504B1F-7BC0-4D49-A12B-B57A3B0875C6",
@@ -7997,7 +8209,8 @@
             147.81499318841801
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "92110ECF-571D-45A0-9EC7-425042DCCEA6",
@@ -8011,7 +8224,8 @@
             148.24938580000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "CDD45099-D41B-41B9-BD0D-D0E20FFFE5E3",
@@ -8076,7 +8290,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4A835543-5073-48F6-8F14-50BC3E802D6C",
@@ -8090,7 +8305,8 @@
             148.24938580000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "0D6FD94E-E8CE-4E21-9074-9A7BFA68A5A4",
@@ -8155,7 +8371,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "CE5E841D-1F4D-4CFB-86FF-742EDDC0B3AD",
@@ -8230,7 +8447,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "BFA85F1D-5AED-42D4-A092-3A3A461EA584",
@@ -8305,7 +8523,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "DDAF1BBA-A1E4-4984-8DA8-FBAE27DC3B06",
@@ -8319,7 +8538,8 @@
             148.13159769999993
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "371DB7CA-A153-4050-B25F-223300BB0A29",
@@ -8333,7 +8553,8 @@
             148.07573260000004
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "9DD7B2E0-25C0-4DE0-AFE7-9446A82C6BB7",
@@ -8347,7 +8568,8 @@
             148.01789569999994
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B90734E4-D3B3-4BB6-A375-6BB2D560B072",
@@ -8361,7 +8583,8 @@
             147.87198569999993
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C03D7DE6-9CD3-4CA8-994D-20FC70E1CF47",
@@ -8456,7 +8679,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C687EFC8-3705-447B-A1BF-BE46B3951491",
@@ -8470,7 +8694,8 @@
             147.81038978086644
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "BE397254-F936-4518-BEF3-4985DE39CC7A",
@@ -8484,7 +8709,8 @@
             147.80452630000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F9F7F5AD-56FD-45DD-A398-1870EB042C77",
@@ -8498,7 +8724,8 @@
             147.9254449
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "50A79BD9-3C8D-414A-9EDD-22B8F53C71EA",
@@ -8583,7 +8810,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5981065C-D71B-492D-B1AC-6C44D7F944A8",
@@ -8728,7 +8956,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "BA07128D-6F98-44E3-8DE5-78B11E92C16F",
@@ -8753,7 +8982,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "6CFB77FB-CD2B-42D3-9FAF-D6E1C552F2AA",
@@ -8767,7 +8997,8 @@
             146.71095830000002
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "ED94AEC7-BD46-4444-B310-51FA83FBA604",
@@ -8781,7 +9012,8 @@
             146.44976570000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5F81D829-715D-4182-B497-22A363E56099",
@@ -8836,7 +9068,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "D80F9B3C-B8DB-44B9-9D04-B78B0D11173E",
@@ -8891,7 +9124,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "796F4413-F151-4172-B7A6-E1067C5FFCB6",
@@ -8905,7 +9139,8 @@
             145.72822229999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "CB16D471-2D2F-4E89-8060-D136C6889710",
@@ -8919,7 +9154,8 @@
             145.25685306021842
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "22808F74-EE3D-47F0-9D6B-7AEBD400D48C",
@@ -8984,7 +9220,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B46CA68E-6F73-4613-AFB8-52AF70BEA9F0",
@@ -8998,7 +9235,8 @@
             145.25685308865366
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "5B20FBB8-F8BB-46AD-BED7-408696C4A736",
@@ -9012,7 +9250,8 @@
             145.72822229999997
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3C27EF7C-3FE0-41BB-A0EC-98B9C7D62D06",
@@ -9026,7 +9265,8 @@
             145.82657319999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "33A27689-1513-432B-A3C8-298346E71D86",
@@ -9040,7 +9280,8 @@
             146.0724803
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7CC4C7B3-C607-45E1-8CF7-BA4255F7109C",
@@ -9065,7 +9306,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "70001E90-ABEB-405E-B1A7-79A023903B35",
@@ -9079,7 +9321,8 @@
             146.36130110000005
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "B8B73F43-4DD3-4607-9289-57C6D02D19BE",
@@ -9104,7 +9347,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "898F60A1-44DC-4FA4-84E5-348D53AA4DE1",
@@ -9118,7 +9362,8 @@
             144.35982690000003
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "839A2BB4-F4A7-4E01-9722-7FC29791ED1B",
@@ -9132,7 +9377,8 @@
             142.0243127
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "FB3116EB-BC79-4D45-BA7E-B08AE0EF6A2A",
@@ -9146,7 +9392,8 @@
             140.8404168
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2A2B347C-B1E3-49D3-B90F-0E6D853E999C",
@@ -9160,7 +9407,8 @@
             139.7623557
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "164DC39A-1E6B-439B-A650-5392D12443DB",
@@ -9195,7 +9443,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A567EB65-B03B-4D8B-9567-8127C97E46CC",
@@ -9220,7 +9469,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "631C306E-5894-418C-961D-D1E6A778DA3F",
@@ -9275,7 +9525,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "1B05EEE0-04C7-4F13-A2D9-190FB3C7AE7C",
@@ -9420,7 +9671,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "FB9855E0-A216-428C-A17C-373BD7B33921",
@@ -9615,7 +9867,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4589FF45-233A-414E-9004-D611DF03DDA5",
@@ -9750,7 +10003,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C30B88CE-238F-44A2-BFD7-2AD83832F7AE",
@@ -9764,7 +10018,8 @@
             101.0900236
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "2F9C6257-4755-4A3A-B38E-7F98CC79132C",
@@ -9778,7 +10033,8 @@
             100.36972079999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "F6CE5E27-B3D8-4F9B-9F40-7FBC167F66AD",
@@ -9853,7 +10109,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4650DB4E-E1D7-49A3-84EC-68AB9157B887",
@@ -9908,7 +10165,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "ADAA053F-F470-4C00-866E-746D28478913",
@@ -9922,7 +10180,8 @@
             98.38915029999993
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E",
@@ -9977,7 +10236,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "EAD61D81-082E-4A1B-AF91-74439DB6E3D8",
@@ -9991,7 +10251,8 @@
             98.38915029999998
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A40138BC-6DD1-4EBD-AEA4-BFE526465A1B",
@@ -10026,7 +10287,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "459C1A11-018E-4EAD-B194-7FC804A862CC",
@@ -10040,7 +10302,8 @@
             99.3241347
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "18AC07AE-6AD6-46AB-AA46-F12F563E7736",
@@ -10054,7 +10317,8 @@
             99.1778731
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "A87C89FC-05AF-4E40-A90C-102E8ADC8F83",
@@ -10068,7 +10332,8 @@
             99.8197035
         ],
         "photos": [],
-        "state": "stopped"
+        "state": "stopped",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "3AC270D7-95E0-4840-9ADB-3991B05ED4ED",
@@ -10133,7 +10398,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "7426702B-FEAC-471E-90E8-ED9D88338041",
@@ -10328,7 +10594,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "C84BB248-B5E5-4382-A119-A16AE2779320",
@@ -10373,7 +10640,8 @@
                 ]
             }
         ],
-        "state": "visited"
+        "state": "visited",
+        "trip_slug": "world-trip-2022"
     },
     {
         "id": "037097F2-5B6E-4563-90B4-F130BB50453F",
@@ -10398,6 +10666,7 @@
                 ]
             }
         ],
-        "state": "current"
+        "state": "current",
+        "trip_slug": "world-trip-2022"
     }
 ]

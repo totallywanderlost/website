@@ -5,8 +5,11 @@ layout: default
 width: full
 ---
 {% assign all_photos = "" | split: "" %}
-{% for step in site.data.journey %}
-  {% if step.photos %}{% assign all_photos = all_photos | concat: step.photos %}{% endif %}
+{% for trip in site.data.trips %}
+  {% unless trip.published %}{% continue %}{% endunless %}
+  {% for step in site.data.journeys[trip.slug] %}
+    {% if step.photos %}{% assign all_photos = all_photos | concat: step.photos %}{% endif %}
+  {% endfor %}
 {% endfor %}
 
 {% include photo_grid.liquid photos=all_photos %}

@@ -6,6 +6,17 @@ layout: default
     margin-bottom: 1.5em;
   }
 
+  .step-trip {
+    margin: 0 0 0.4em !important;
+    font-size: 0.9em !important;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+  }
+
+  .step-trip a { text-decoration: none !important; }
+  .step-trip a:hover b { text-decoration: underline; }
+
   .step-header h1 {
     margin-bottom: 0.2em;
   }
@@ -85,11 +96,11 @@ layout: default
 </style>
 
 {%- comment -%}
-  Work out where this step sits in the journey so we can show trip-day,
-  length of stay and prev/next links. `rendered` matches the same filter
-  page-gen uses to decide which steps get their own page.
+  Work out where this step sits in its trip so we can show trip-day, length of
+  stay and prev/next links. `rendered` matches the same filter
+  src/_plugins/trip_pages.rb uses to decide which steps get their own page.
 {%- endcomment -%}
-{%- assign all = site.data.journey -%}
+{%- assign all = site.data.journeys[page.trip_slug] -%}
 {%- assign rendered = all | where_exp: "s", "s.state != 'planned' and s.photos.size > 0" -%}
 {%- assign firstStep = rendered | first -%}
 
@@ -119,7 +130,7 @@ layout: default
 <nav class="step-nav" aria-label="Journey steps">
   {% if curIndex > 0 %}
   {% assign prevStep = rendered[prevIndex] %}
-  <a class="step-nav-prev" href="/journey/{{ prevStep.key }}" rel="prev">
+  <a class="step-nav-prev" href="/trips/{{ page.trip_slug }}/{{ prevStep.key }}" rel="prev">
     <span class="step-nav-dir">&larr; Previous</span>
     <span class="step-nav-label">{{ site.data.flags[prevStep.country] }} {{ prevStep.name }}</span>
   </a>
@@ -131,7 +142,7 @@ layout: default
 
   {% if nextIndex < totalSteps %}
   {% assign nextStep = rendered[nextIndex] %}
-  <a class="step-nav-next" href="/journey/{{ nextStep.key }}" rel="next">
+  <a class="step-nav-next" href="/trips/{{ page.trip_slug }}/{{ nextStep.key }}" rel="next">
     <span class="step-nav-dir">Next &rarr;</span>
     <span class="step-nav-label">{{ site.data.flags[nextStep.country] }} {{ nextStep.name }}</span>
   </a>
@@ -142,6 +153,7 @@ layout: default
 {%- endcapture -%}
 
 <div class="step-header">
+  <p class="step-trip"><a href="/trips/{{ page.trip_slug }}">&larr; Part of <b>{{ page.trip_title }}</b></a></p>
   <h1>{% if flag %}<i class="step-flag" aria-hidden="true">{{ flag }}</i> {% endif %}{{ page.title }}{% if showCountry %}, {{ page.country }}{% endif %}</h1>
   <p class="step-meta">
     {{ page.arrived | date: "%-d %B %Y" }}
@@ -166,6 +178,6 @@ layout: default
 
 {{ stepNav }}
 
-<p class="step-back"><a href="/journey#{{ page.id }}">&uarr; Back to the full journey</a></p>
+<p class="step-back"><a href="/trips/{{ page.trip_slug }}#{{ page.id }}">&uarr; Back to {{ page.trip_title }}</a></p>
 
 {% include photo_lightbox.liquid %}
