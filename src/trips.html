@@ -11,7 +11,7 @@ layout: default
     padding: 0;
     display: grid;
     gap: 1.5em;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   }
 
   .trip-card {
@@ -25,7 +25,7 @@ layout: default
 
   .trip-card img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     display: block;
   }
@@ -39,6 +39,24 @@ layout: default
     opacity: 0.7;
     font-size: 0.9em;
     letter-spacing: 0.04em;
+  }
+
+  .trip-card-stats {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em 1.1em;
+    margin: 0.5em 0 0.9em;
+    padding: 0;
+    color: var(--text);
+    opacity: 0.7;
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
+  }
+
+  .trip-card-stats .fa {
+    margin-right: 0.4em;
+    opacity: 0.8;
   }
 </style>
 
@@ -56,20 +74,21 @@ layout: default
   {%- assign photo_count = 0 -%}
   {%- for step in steps -%}{%- assign photo_count = photo_count | plus: step.photos.size -%}{%- endfor -%}
   {%- if trip.hero -%}
-    {%- assign hero = trip.hero | photo_url: width: 800, height: 450, focus: 'auto' -%}
+    {%- assign hero = trip.hero | photo_url: width: 600, height: 600, focus: 'center' -%}
   {%- else -%}
-    {%- capture hero -%}{{ first.photos.first.url }}?tr=w-800,h-450,fo-center{%- endcapture -%}
+    {%- capture hero -%}{{ first.photos.first.url }}?tr=w-600,h-600,fo-center{%- endcapture -%}
   {%- endif -%}
 
   <li class="trip-card">
     <a href="/trips/{{ trip.slug }}">
-      <img loading="lazy" decoding="async" src="{{ hero }}" width="800" height="450" alt="{{ trip.title }}">
+      <img loading="lazy" decoding="async" src="{{ hero }}" width="600" height="600" alt="{{ trip.title }}">
       <div class="trip-card-body">
         <h2>{{ trip.title }}</h2>
-        <p class="trip-card-meta">
-          {{ first.arrived | date: "%b %Y" }} &ndash; {{ last.arrived | date: "%b %Y" }}
-          &middot; {{ steps | size }} stops &middot; {{ photo_count }} photos
-        </p>
+        <p class="trip-card-meta">{{ first.arrived | plus: first.tz_offset | date: "%b %Y" }} &ndash; {{ last.arrived | plus: last.tz_offset | date: "%b %Y" }}</p>
+        <ul class="trip-card-stats">
+          <li><i class="fa fa-map-pin" aria-hidden="true"></i>{{ steps | size }} stop{% if steps.size != 1 %}s{% endif %}</li>
+          <li><i class="fa fa-camera" aria-hidden="true"></i>{{ photo_count }} photo{% if photo_count != 1 %}s{% endif %}</li>
+        </ul>
         {% if trip.summary %}<p>{{ trip.summary }}</p>{% endif %}
       </div>
     </a>
