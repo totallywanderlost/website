@@ -1,28 +1,23 @@
 <div id="map" class="full hide" style="height: {{ include.height }}"></div>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha512-mQ77VzAakzdpWdgfL/lM1ksNy89uFgibRQANsNneSTMD/bj0Y/8+94XMwYhnbzx8eki2hrbPpDm0vD0CiT2lcg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
-<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" integrity="sha384-uTttxo/aOKbdE5RlD/SPzSDoDmNvGlUYPjONi2MN/b7c9HPSvW07OIuyP7uL6jxK" crossorigin="anonymous">
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js" integrity="sha384-5+cfbwT0iiub6VsQAdn6yz16nr6sDiQoHx6tm4O8OVYXHYOxcffFmCJBL0dgdvGp" crossorigin="anonymous"></script>
 
 <style>
-.leaflet-popup-content-wrapper {
+.maplibregl-popup-content {
   border-radius: 0;
   background-color: #fefefe;
-}
-
-.leaflet-popup-content {
-  margin: 13px 10px 10px 10px;
+  padding: 13px 10px 10px 10px;
   text-align: center;
 }
 
-.leaflet-popup-content img {
-  margin-bottom: 10px;
+.maplibregl-popup-tip {
+  border-top-color: #fefefe;
+  border-bottom-color: #fefefe;
 }
 
-.marker {
-  font-size: 24px;
+.maplibregl-popup-content img {
+  margin-bottom: 10px;
 }
 </style>
 
@@ -32,37 +27,93 @@
       return s[0].toUpperCase() + s.slice(1);
     }
 
+    // MapLibre wants [lng, lat]; our journey data stores location as [lat, lon].
+    const lngLat = ([lat, lon]) => [lon, lat];
+
+    const toRad = (d) => d * Math.PI / 180;
+    const toDeg = (r) => r * 180 / Math.PI;
+
+    // Great-circle distance in km between two [lon, lat] points.
+    function haversineKm(a, b) {
+      const lat1 = toRad(a[1]), lat2 = toRad(b[1]);
+      const dLat = lat2 - lat1, dLon = toRad(b[0] - a[0]);
+      const h = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
+      return 2 * 6371 * Math.asin(Math.min(1, Math.sqrt(h)));
+    }
+
+    // Points along the great circle between two [lon, lat] points, so long legs
+    // curve like real travel instead of cutting straight chords across Mercator.
+    function greatCircle(a, b, segments) {
+      const lon1 = toRad(a[0]), lat1 = toRad(a[1]);
+      const lon2 = toRad(b[0]), lat2 = toRad(b[1]);
+      const d = 2 * Math.asin(Math.min(1, Math.sqrt(
+        Math.sin((lat2 - lat1) / 2) ** 2 +
+        Math.cos(lat1) * Math.cos(lat2) * Math.sin((lon2 - lon1) / 2) ** 2
+      )));
+      if (!d) return [a.slice(), b.slice()];
+      const pts = [];
+      for (let i = 0; i <= segments; i++) {
+        const f = i / segments;
+        const A = Math.sin((1 - f) * d) / Math.sin(d);
+        const B = Math.sin(f * d) / Math.sin(d);
+        const x = A * Math.cos(lat1) * Math.cos(lon1) + B * Math.cos(lat2) * Math.cos(lon2);
+        const y = A * Math.cos(lat1) * Math.sin(lon1) + B * Math.cos(lat2) * Math.sin(lon2);
+        const z = A * Math.sin(lat1) + B * Math.sin(lat2);
+        pts.push([toDeg(Math.atan2(y, x)), toDeg(Math.atan2(z, Math.hypot(x, y)))]);
+      }
+      return pts;
+    }
+
+    // One continuous great-circle arc through a list of [lon, lat] points, with
+    // longitudes unwrapped so legs crossing the antimeridian don't streak across.
+    function arcThrough(coords) {
+      const line = [];
+      for (let i = 0; i < coords.length - 1; i++) {
+        const km = haversineKm(coords[i], coords[i + 1]);
+        const seg = greatCircle(coords[i], coords[i + 1], Math.max(6, Math.min(128, Math.round(km / 40))));
+        line.push(...(i === 0 ? seg : seg.slice(1)));
+      }
+      const out = line.map((c) => c.slice());
+      for (let i = 1; i < out.length; i++) {
+        while (out[i][0] - out[i - 1][0] > 180) out[i][0] -= 360;
+        while (out[i][0] - out[i - 1][0] < -180) out[i][0] += 360;
+      }
+      return out;
+    }
+
+    const PIN_SIZE = 24;
+
     function pinIcon(colour) {
       const fill = colour != undefined ? colour : 'red';
-      const size = 24;
-      const svg = `<svg style="fill: ${fill}" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 9A7 7 0 1 0 5 9c0 1.387.41 2.677 1.105 3.765h-.008C8.457 16.46 12 22 12 22l5.903-9.235h-.007A6.98 6.98 0 0 0 19 9zm-7 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>`;
-      const url = 'data:image/svg+xml;base64,' + btoa(svg);
+      const svg = `<svg style="fill: ${fill}" width="${PIN_SIZE}" height="${PIN_SIZE}" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 9A7 7 0 1 0 5 9c0 1.387.41 2.677 1.105 3.765h-.008C8.457 16.46 12 22 12 22l5.903-9.235h-.007A6.98 6.98 0 0 0 19 9zm-7 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>`;
+      return 'data:image/svg+xml;base64,' + btoa(svg);
+    }
 
-      return L.icon({
-        iconUrl: url,
-        iconSize: [size, size],
-        iconAnchor: [size / 2, (size / 2) + (size / 3)]
-      });
+    // A small right-pointing chevron; symbol layers rotate it to follow the route.
+    function arrowIcon(colour) {
+      const svg = `<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="${colour}" d="M4 1l9 7-9 7 3-7z"/></svg>`;
+      return 'data:image/svg+xml;base64,' + btoa(svg);
     }
 
     // Set up the map and allow for controlling interactivity such as zoom, scroll etc
-    const map = L.map('map', {
-      zoomControl: {{ include.zoom | default: true }},
-      scrollWheelZoom: {{ include.zoom | default: true }},
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: 'https://api.jawg.io/styles/jawg-sunny.json?access-token=L72TIZSbpN96TpWalLwyaqI1hy1zmrVukmXtLocvpVUN8EWBNqHfI9rTHLAGNE07',
+      center: [0, 20],
+      zoom: 1,
+      attributionControl: { compact: true },
+      dragRotate: false,
+      pitchWithRotate: false,
+      scrollZoom: {{ include.zoom | default: true }},
       doubleClickZoom: {{ include.zoom | default: true }},
-      touchZoom: {{ include.zoom | default: true }},
-      dragging: {{ include.drag | default: true }},
-      tap: {{ include.tap | default: true }},
-      layers: [
-        L.tileLayer('https://{s}.tile.jawg.io/jawg-sunny/{z}/{x}/{y}{r}.png?access-token={accessToken}', {
-          attribution: '<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          minZoom: 0,
-          maxZoom: 22,
-          subdomains: 'abcd',
-          accessToken: 'L72TIZSbpN96TpWalLwyaqI1hy1zmrVukmXtLocvpVUN8EWBNqHfI9rTHLAGNE07'
-        })
-      ]
+      touchZoomRotate: {{ include.zoom | default: true }},
+      boxZoom: {{ include.zoom | default: true }},
+      dragPan: {{ include.drag | default: true }}
     });
+
+    if ({{ include.zoom | default: true }}) {
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+    }
 
     // Load all the data for our journey
     const journey = {{ site.data.journey | jsonify }};
@@ -88,62 +139,221 @@
 
     // Fit the map to show all the locations, trimming some if requested
     const trim = parseInt('{% if include.trim %}{{ include.trim }}{% else %}0{% endif %}');
-    const bounds = trim ? locations.slice(trim, -trim) : locations;
-    map.fitBounds(bounds, { maxZoom: mode === 'photos' ? 15 : 10 });
+    const boundsLocations = trim ? locations.slice(trim, -trim) : locations;
+    const maxZoom = mode === 'photos' ? 15 : 10;
 
-    // Build the icon we'll be plotting for each point
-    const icon = pinIcon('#D1192F');
+    if (boundsLocations.length === 1) {
+      map.jumpTo({ center: lngLat(boundsLocations[0]), zoom: maxZoom });
+    } else if (boundsLocations.length > 1) {
+      const bounds = new maplibregl.LngLatBounds();
+      for (const location of boundsLocations) {
+        bounds.extend(lngLat(location));
+      }
+      map.fitBounds(bounds, { maxZoom: maxZoom, padding: 40, animate: false });
+    }
 
-    // Create a group for markers to potentially be clustered
-    const markers = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 5 });
+    const width = 500;
+    const height = 500;
 
-    // Plot each location we visited or plan to visit
+    // Build the popup markup for a single point
+    function popupHtml(point) {
+      if (mode === 'photos') {
+        const url = `${point.url}?tr=w-${width},h-${height},fo-center`;
+        return `<img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;">`;
+      }
+
+      const hasImage = point.photos.length > 0;
+      const url = hasImage ? `${point.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
+      const image = hasImage ? `<a href="/journey/${point['key']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
+      const date = new Date(point.arrived * 1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
+
+      return `${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px;"><b><a style="color: #000" href="/journey/${point['key']}">${point.name}</a></b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`;
+    }
+
+    // Turn each point we visited or plan to visit into a GeoJSON feature
+    const features = [];
     for (const point of points) {
       if (point['state'] === 'stopped') {
         continue;
       }
 
-      // Add a marker and tooltip for each location
-      const marker = L.marker(point.location, { icon: icon });
+      features.push({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: lngLat(point.location) },
+        properties: { html: popupHtml(point), order: features.length }
+      });
+    }
 
-      const height = 500;
-      const width = 500;
+    map.on('load', () => {
+      // Register the pin marker as a map image so it can be used by a symbol layer
+      const pin = new Image(PIN_SIZE, PIN_SIZE);
+      pin.onload = () => {
+        if (!map.hasImage('pin')) {
+          map.addImage('pin', pin);
+        }
+      };
+      pin.src = pinIcon('#D1192F');
 
-      if (mode === 'steps') {
-        const hasImage = point.photos.length > 0;
-        const url = hasImage ? `${point.photos[0].url}?tr=w-${width},h-${height},fo-center` : '';
-        const image = hasImage ? `<a href="/journey/${point['key']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
-        const date = new Date(point.arrived*1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
+      const arrow = new Image(16, 16);
+      arrow.onload = () => {
+        if (!map.hasImage('arrow')) {
+          map.addImage('arrow', arrow);
+        }
+      };
+      arrow.src = arrowIcon('#1B2A4A');
 
-        marker.bindPopup(`${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px;"><b><a style="color: #000" href="/journey/${point['key']}">${point.name}</a></b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`, {
-          closeButton: false,
-          minWidth: 150,
-          minHeight: 150
+      // Draw the route between locations as two layers: a faint dashed "wandering"
+      // line through every step, and a bold gradient "trunk" through only the big
+      // hops so the shape of the trip reads at a glance. Both follow great-circle
+      // arcs; the gradient (pale -> deep) and arrowheads show direction of travel.
+      if (mode === 'steps' && locations.length > 1) {
+        const routeCoords = locations.map(lngLat);
+
+        // Trunk: keep a step only when it's a long way from the last kept one, so
+        // local pottering around a city collapses to a single node.
+        const TRUNK_MIN_KM = 200;
+        const trunkCoords = [];
+        routeCoords.forEach((c, i) => {
+          const last = trunkCoords[trunkCoords.length - 1];
+          if (!last || i === routeCoords.length - 1 || haversineKm(last, c) >= TRUNK_MIN_KM) {
+            trunkCoords.push(c);
+          }
         });
-      } else if (mode === 'photos') {
-        const url = `${point.url}?tr=w-${width},h-${height},fo-center`;
-        const image = `<img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;">`;
 
-        marker.bindPopup(image, {
-          closeButton: false,
-          minWidth: 150,
-          minHeight: 150
+        map.addSource('route', {
+          type: 'geojson',
+          data: { type: 'Feature', geometry: { type: 'LineString', coordinates: arcThrough(routeCoords) } }
         });
+        map.addLayer({
+          id: 'route',
+          type: 'line',
+          source: 'route',
+          layout: { 'line-cap': 'round', 'line-join': 'round' },
+          paint: {
+            'line-color': '#42547D',
+            'line-width': 1,
+            'line-opacity': 0.4,
+            'line-dasharray': [1, 2]
+          }
+        });
+
+        if (trunkCoords.length > 1) {
+          map.addSource('trunk', {
+            type: 'geojson',
+            lineMetrics: true,
+            data: { type: 'Feature', geometry: { type: 'LineString', coordinates: arcThrough(trunkCoords) } }
+          });
+          map.addLayer({
+            id: 'trunk',
+            type: 'line',
+            source: 'trunk',
+            layout: { 'line-cap': 'round', 'line-join': 'round' },
+            paint: {
+              'line-width': ['interpolate', ['linear'], ['zoom'], 1, 2, 8, 3.5],
+              'line-gradient': ['interpolate', ['linear'], ['line-progress'], 0, '#9DB2D6', 1, '#1B2A4A']
+            }
+          });
+          map.addLayer({
+            id: 'trunk-arrows',
+            type: 'symbol',
+            source: 'trunk',
+            layout: {
+              'symbol-placement': 'line',
+              'symbol-spacing': 90,
+              'icon-image': 'arrow',
+              'icon-size': 0.75,
+              'icon-allow-overlap': true,
+              'icon-ignore-placement': true
+            },
+            paint: { 'icon-opacity': 0.85 }
+          });
+        }
       }
 
-      // Add the marker to the cluster group
-      markers.addLayer(marker);
-    }
+      // Cluster near-identical points, matching the old maxClusterRadius: 5 behaviour
+      map.addSource('journey', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: features },
+        cluster: false,
+        clusterRadius: 5,
+        clusterMaxZoom: 22
+      });
 
-    // Add the cluster group to the map
-    map.addLayer(markers);
+      map.addLayer({
+        id: 'clusters',
+        type: 'circle',
+        source: 'journey',
+        filter: ['has', 'point_count'],
+        paint: {
+          'circle-color': '#D1192F',
+          'circle-radius': 12,
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#fefefe'
+        }
+      });
 
-    // Draw lines showing our joruney between each location
-    if (mode === 'steps') {
-      L.polyline(locations, { color: '#111', opacity: 1, weight: 2, dashArray: '5,5' }).addTo(map);
-    }
+      map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'journey',
+        filter: ['has', 'point_count'],
+        layout: {
+          'text-field': ['get', 'point_count_abbreviated'],
+          'text-font': ['Open Sans Bold', 'Noto Bold'],
+          'text-size': 12,
+          // Clusters sit almost on top of each other (clusterRadius: 5), so let the
+          // counts draw regardless of collisions - otherwise most get dropped.
+          'text-allow-overlap': true,
+          'text-ignore-placement': true
+        },
+        paint: { 'text-color': '#fefefe' }
+      });
 
-    // Show the map now it's all configured
-    map.getContainer().classList.remove('hide');
+      map.addLayer({
+        id: 'points',
+        type: 'symbol',
+        source: 'journey',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+          'icon-image': 'pin',
+          'icon-anchor': 'bottom',
+          // Let MapLibre's collision detection thin out overlapping pins; as you
+          // zoom in and they spread apart, the hidden ones reappear. The most
+          // recent step wins placement where several pile up.
+          'icon-allow-overlap': false,
+          'icon-padding': 2,
+          'symbol-sort-key': ['-', 0, ['get', 'order']]
+        }
+      });
+
+      // Open a popup for the clicked point
+      map.on('click', 'points', (e) => {
+        const feature = e.features[0];
+        new maplibregl.Popup({ closeButton: false, maxWidth: '250px', offset: PIN_SIZE })
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(feature.properties.html)
+          .addTo(map);
+      });
+
+      // Zoom into a cluster when it is clicked
+      map.on('click', 'clusters', (e) => {
+        const feature = map.queryRenderedFeatures(e.point, { layers: ['clusters'] })[0];
+        map.getSource('journey').getClusterExpansionZoom(feature.properties.cluster_id).then((zoom) => {
+          map.easeTo({ center: feature.geometry.coordinates, zoom: zoom });
+        });
+      });
+
+      for (const layer of ['points', 'clusters']) {
+        map.on('mouseenter', layer, () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = ''; });
+      }
+
+      // Show the map now it's all configured
+      map.getContainer().classList.remove('hide');
+    });
+
+    // Safety net: never leave the map invisible if 'load' is delayed or missed
+    // (e.g. a backgrounded tab throttling requestAnimationFrame).
+    setTimeout(() => map.getContainer().classList.remove('hide'), 4000);
   });
 </script>
