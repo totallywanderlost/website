@@ -4,16 +4,57 @@
 <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js" integrity="sha384-5+cfbwT0iiub6VsQAdn6yz16nr6sDiQoHx6tm4O8OVYXHYOxcffFmCJBL0dgdvGp" crossorigin="anonymous"></script>
 
 <style>
+#map {
+  --popup-bg: #fefefe;
+  --popup-text: #111;
+  --popup-muted: #555;
+  --popup-btn-border: #ccc;
+  --popup-btn-bg: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  #map {
+    --popup-bg: #1c1f24;
+    --popup-text: #e6e6e6;
+    --popup-muted: #9aa0a6;
+    --popup-btn-border: #3a3f47;
+    --popup-btn-bg: #14161a;
+  }
+}
+
 .maplibregl-popup-content {
   border-radius: 0;
-  background-color: #fefefe;
+  background-color: var(--popup-bg);
+  color: var(--popup-text);
   padding: 13px 10px 10px 10px;
   text-align: center;
 }
 
-.maplibregl-popup-tip {
-  border-top-color: #fefefe;
-  border-bottom-color: #fefefe;
+.maplibregl-popup-content a {
+  color: var(--popup-text);
+}
+
+/* The tip is a CSS-border triangle; MapLibre colours one side per anchor with
+   `.maplibregl-popup-anchor-* .maplibregl-popup-tip` rules, so match that
+   specificity to recolour it rather than the bare `.maplibregl-popup-tip`. */
+.maplibregl-popup-anchor-top .maplibregl-popup-tip,
+.maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+.maplibregl-popup-anchor-top-right .maplibregl-popup-tip {
+  border-bottom-color: var(--popup-bg);
+}
+
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+.maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+.maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip {
+  border-top-color: var(--popup-bg);
+}
+
+.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--popup-bg);
+}
+
+.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--popup-bg);
 }
 
 .maplibregl-popup-content img {
@@ -27,16 +68,17 @@
   gap: 8px;
   margin-bottom: 10px;
   font: 12px/1 system-ui, sans-serif;
-  color: #555;
+  color: var(--popup-muted);
 }
 
 .popup-nav button {
   width: 22px;
   height: 22px;
   padding: 0;
-  border: 1px solid #ccc;
+  border: 1px solid var(--popup-btn-border);
   border-radius: 4px;
-  background: #fff;
+  background: var(--popup-btn-bg);
+  color: var(--popup-text);
   font-size: 14px;
   line-height: 1;
   cursor: pointer;
@@ -152,10 +194,16 @@
       return `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
     }
 
+    // Match the map tiles and marker colours to the OS colour scheme. MapLibre
+    // needs the style picked up front, so a later OS theme change only takes
+    // effect on reload.
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const jawgStyle = prefersDark ? 'jawg-dark' : 'jawg-sunny';
+
     // Set up the map and allow for controlling interactivity such as zoom, scroll etc
     const map = new maplibregl.Map({
       container: 'map',
-      style: 'https://api.jawg.io/styles/jawg-sunny.json?access-token=L72TIZSbpN96TpWalLwyaqI1hy1zmrVukmXtLocvpVUN8EWBNqHfI9rTHLAGNE07',
+      style: `https://api.jawg.io/styles/${jawgStyle}.json?access-token=L72TIZSbpN96TpWalLwyaqI1hy1zmrVukmXtLocvpVUN8EWBNqHfI9rTHLAGNE07`,
       center: [0, 20],
       zoom: 1,
       attributionControl: { compact: true },
@@ -233,7 +281,7 @@
       const image = hasImage ? `<a href="/journey/${point['key']}"><img src="${url}" height="auto" width="100%" style="min-width: 200px; object-fit: cover;"></a>` : '';
       const date = new Date(point.arrived * 1000).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' });
 
-      return `${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px;"><b><a style="color: #000" href="/journey/${point['key']}">${point.name}</a></b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`;
+      return `${image}<div style="font-family: Chalkduster, fantasy; font-size: 16px;"><b><a href="/journey/${point['key']}">${point.name}</a></b></div><div style="font-family: Chalkduster, fantasy; font-size: 14px; letter-spacing: 2px; margin-top: 10px">${date}</div>`;
     }
 
     // Turn the points into GeoJSON features, merging any that sit on the same
@@ -286,7 +334,7 @@
           map.addImage('arrow', arrow);
         }
       };
-      arrow.src = arrowIcon('#333333');
+      arrow.src = arrowIcon(prefersDark ? '#cbd0d6' : '#333333');
 
       // Draw the route as two line layers: a faint "wandering" line through every
       // step, and a bold "trunk" through only the big hops so the shape of the
