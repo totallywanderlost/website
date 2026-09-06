@@ -4,26 +4,19 @@ permalink: /journey
 layout: default
 ---
 <style>
-  .journey,
-  .journey ul {
+  .journey {
     list-style: none;
     padding: 0;
   }
 
-  .journey ul {
-    font-size: 0;
-  }
-
-  .journey ul li {
-    display: inline-block;
+  .journey > li {
+    margin-bottom: 3em;
   }
 </style>
 
 <ul class="journey">
   {% assign steps = site.data.journey | where_exp:"step", "step.state != 'planned' and step.photos.size > 0" %}
   {% for step in steps %}
-  {% assign photos = step.photos | size %}
-
   <li class="{{ step.state }}">
     <a id="{{ step.id }}" href="/journey/{{ step.key }}">
       <h2>📌 {{ step.name }}, {{ step.country }}</h2>
@@ -32,15 +25,10 @@ layout: default
 
     {% if step.description %}<p>{{ step.description | markdownify }}</p>{% endif %}
 
-    <ul>
-      {% for photo in step.photos %}
-      <li>
-        <a href="{{ photo.url }}">
-          <img loading="lazy" src="{{ photo.url }}?tr=w-372,h-372,fo-center" height="186" width="186" title="Photo #{{ forloop.index}} from {{ step.name }}, {{ step.country }}">
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+    {% capture stepLabel %}{{ step.name }}, {{ step.country }}{% endcapture %}
+    {% include photo_grid.liquid photos=step.photos label=stepLabel %}
   </li>
   {% endfor %}
 </ul>
+
+{% include photo_lightbox.liquid %}

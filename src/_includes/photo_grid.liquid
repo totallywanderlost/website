@@ -1,0 +1,20 @@
+{%- comment -%}
+  A responsive grid of journey photos wired to the shared lightbox.
+  Params:
+    photos - array of photo objects (each with a `url`)
+    label  - optional text for alt/aria (e.g. "Sydney, Australia")
+  Requires {% include photo_lightbox.liquid %} somewhere on the same page.
+{%- endcomment -%}
+<ul class="photos js-photo-grid">
+  {% for photo in include.photos %}
+  <li>
+    <a href="{{ photo.url }}?tr=w-1600" data-full="{{ photo.url }}?tr=w-1600" aria-label="Open photo {{ forloop.index }} of {{ include.photos | size }}{% if include.label %} from {{ include.label }}{% endif %}">
+      <img loading="lazy" decoding="async"
+           src="{{ photo.url }}?tr=w-400,h-400,fo-center"
+           srcset="{{ photo.url }}?tr=w-400,h-400,fo-center 1x, {{ photo.url }}?tr=w-800,h-800,fo-center 2x"
+           width="400" height="400"
+           alt="Photo {{ forloop.index }}{% if include.label %} from {{ include.label }}{% endif %}">
+    </a>
+  </li>
+  {% endfor %}
+</ul>
