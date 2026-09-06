@@ -1,0 +1,10 @@
+# Country name (as it appears in journey.json) -> flag emoji.
+# Used by the individual journey step pages for the heading.
+"United Kingdom": "🇬🇧"
+"United Arab Emirates": "🇦🇪"
+"Australia": "🇦🇺"
+"Indonesia": "🇮🇩"
+"Singapore": "🇸🇬"
+"Malaysia": "🇲🇾"
+"Thailand": "🇹🇭"
+"Hong Kong S.A.R.": "🇭🇰"

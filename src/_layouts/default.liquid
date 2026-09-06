@@ -21,6 +21,16 @@
   <meta property="og:image" content="{{ page.featured_image | photo_url: width: 1200, height:630, focus: 'auto' }}">
   <meta name="og:image:width" content="1200" />
   <meta name="og:image:height" content="630" />
+  {% elsif page.url contains "/journey/" %}
+  {% assign step_summary = page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 %}
+  <meta name="description" content="{{ step_summary }}">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="{{ step_summary }}">
+  {% if page.photos.first %}
+  <meta property="og:image" content="{{ page.photos.first.url }}?tr=w-1200,h-630,fo-center">
+  <meta name="og:image:width" content="1200" />
+  <meta name="og:image:height" content="630" />
+  {% endif %}
   {% else %}
   <meta name="description" content="{{ site.description }}">
   <meta property="og:description" content="{{ site.description }}">
