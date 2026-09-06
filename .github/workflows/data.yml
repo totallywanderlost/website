@@ -22,7 +22,7 @@ jobs:
           make setup_pipenv
           make pipenv
       - name: Fetch Data
-        run: make fetch trip=5149612 file=src/_data/journey.json
+        run: make fetch
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
@@ -31,6 +31,6 @@ jobs:
         run: |
           git config user.name "🤖"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/_data/journey.json
-          git diff-index --quiet HEAD src/_data/journey.json || git commit -m "Update journey.json"
+          git add src/_data/journeys src/_data/trips.yml
+          git diff-index --quiet HEAD src/_data/journeys src/_data/trips.yml || git commit -m "Update trip data"
           git push

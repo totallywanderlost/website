@@ -6,6 +6,7 @@ from time import time
 
 import boto3
 import requests
+import yaml
 
 r2 = boto3.resource('s3',
     endpoint_url = f"https://{os.environ['CLOUDFLARE_ACCOUNT_ID']}.r2.cloudflarestorage.com",
@@ -15,22 +16,32 @@ r2 = boto3.resource('s3',
 bucket = r2.Bucket('totally-wanderlost')
 
 def load_existing_data(path):
-    # TODO: check exists first and return empty structure if not
+    if not os.path.exists(path):
+        return []
+
     return json.load(open(path, 'rb'))
+
+def load_manifest(path):
+    with open(path, 'rb') as file:
+        return yaml.safe_load(file) or []
 
 def update_data_file(path, data):
     with open(path, 'wb') as file:
         encoded = json.dumps(data, indent=4).encode()
         file.write(encoded)
 
-def fetch_latest_data(trip_id):
+def fetch_latest_data(trip_id, trip_slug):
     data = fetch(trip_id)
 
     visited = [ step for step in parse_steps(data['all_steps']) ]
     visited[-1]['state'] = 'current'
     planned = [ step for step in parse_planned_steps(data['planned_steps']) ]
 
-    return visited + planned
+    steps = visited + planned
+    for step in steps:
+        step['trip_slug'] = trip_slug
+
+    return steps
 
 def fetch(trip_id):
     response = requests.get(f'https://api.polarsteps.com/trips/{trip_id}')
@@ -145,13 +156,20 @@ def sync_images_to_r2(existing, latest):
     return synced
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Fetch data from Polarsteps')
-    parser.add_argument('-t', '--trip', required=True, dest='trip', type=int, help='Polarsteps trip id')
-    parser.add_argument('-f', '--file', required=True, dest='file', help='File path to write data to')
+    parser = argparse.ArgumentParser(description='Fetch data from Polarsteps for every trip in the manifest')
+    parser.add_argument('-m', '--manifest', default='src/_data/trips.yml', dest='manifest', help='Path to the trip manifest')
+    parser.add_argument('-d', '--out-dir', default='src/_data/journeys', dest='out_dir', help='Directory to write per-trip data files to')
     args = parser.parse_args()
 
-    existing = load_existing_data(args.file)
-    latest = fetch_latest_data(args.trip)
-    synced = sync_images_to_r2(existing, latest)
+    os.makedirs(args.out_dir, exist_ok=True)
 
-    update_data_file(args.file, synced)
+    for trip in load_manifest(args.manifest):
+        slug = trip['slug']
+        path = os.path.join(args.out_dir, f'{slug}.json')
+        print(f"Fetching trip slug={slug} id={trip['polarsteps_id']} -> {path}")
+
+        existing = load_existing_data(path)
+        latest = fetch_latest_data(trip['polarsteps_id'], slug)
+        synced = sync_images_to_r2(existing, latest)
+
+        update_data_file(path, synced)

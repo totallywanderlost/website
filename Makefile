@@ -27,8 +27,11 @@ pipenv:
 npm:
 	npm ci
 
+manifest ?= src/_data/trips.yml
+out ?= src/_data/journeys
+
 fetch:
-	@pipenv run python data/fetch.py -t $(trip) -f $(file)
+	@pipenv run python data/fetch.py --manifest $(manifest) --out-dir $(out)
 
 build:
 	@JEKYLL_ENV=$(env) bundle exec jekyll build

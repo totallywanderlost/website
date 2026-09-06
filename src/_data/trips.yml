@@ -1,0 +1,15 @@
+# Trip manifest. List order = display order (newest first).
+# Each entry:
+#   slug          - URL segment and journeys/<slug>.json filename
+#   polarsteps_id - public Polarsteps trip id, fetched by data/fetch.py
+#   title         - display name
+#   summary       - one-line blurb for the /trips cards and trip hero
+#   hero          - optional ImageKit path for the card image; omit to use the
+#                   first step photo
+#   published     - false keeps the trip out of the build (still fetched)
+
+- slug: world-trip-2022
+  polarsteps_id: 5149612
+  title: "The Big Trip"
+  summary: "A year the long way round — London to Dubai, Australia, and back through Southeast Asia."
+  published: true
