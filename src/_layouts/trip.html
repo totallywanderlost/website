@@ -23,6 +23,11 @@ layout: default
 
   .journey > li {
     margin-bottom: 3em;
+    /* Each step is a full photo grid; skip rendering the ones off screen so a
+       long trip scrolls smoothly (esp. on iOS). `auto` keeps the real size
+       once a step has been rendered, so the estimate only matters up front. */
+    content-visibility: auto;
+    contain-intrinsic-size: auto 600px;
   }
 </style>
 
