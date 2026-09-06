@@ -8,8 +8,9 @@
 #                   first step photo
 #   published     - false keeps the trip out of the build (still fetched)
 
-- slug: world-trip-2022
+- slug: the-big-trip
   polarsteps_id: 5149612
   title: "The Big Trip"
   summary: "A year the long way round — London to Dubai, Australia, and back through Southeast Asia."
+  hero: "r2/images/journey/step/B2EDEC67-90E8-4336-8C67-EEC4C206A723/5CD77A5C-744D-4E86-810E-174F49071369"
   published: true

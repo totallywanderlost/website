@@ -1,7 +1,10 @@
 source: src
 include: [_headers, _redirects]
 destination: build
-timezone: Australia/Sydney
+# Dates are formatted in UTC. Trip steps store a UTC `arrived` timestamp plus a
+# per-step `tz_offset` (seconds) that the trip/step layouts add before
+# formatting, so each place shows in its own local time.
+timezone: Etc/UTC
 
 title: "Totally Wanderlost"
 description: "Follow along as Nicole and James get lost and travel the world"

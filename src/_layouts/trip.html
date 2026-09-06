@@ -16,6 +16,14 @@ layout: default
 
   .trip-map { margin: 1.5em 0 2em; }
 
+  .journey-meta {
+    color: var(--text);
+    opacity: 0.7;
+    font-size: 0.95em !important;
+    letter-spacing: 0.04em;
+    margin: 0.2em 0 0 !important;
+  }
+
   .journey {
     list-style: none;
     padding: 0;
@@ -36,12 +44,16 @@ layout: default
 {%- assign last = steps | last -%}
 {%- assign photo_count = 0 -%}
 {%- for step in steps -%}{%- assign photo_count = photo_count | plus: step.photos.size -%}{%- endfor -%}
+{%- assign nights = last.arrived | minus: first.arrived | plus: 43200 | divided_by: 86400 -%}
+{%- assign all = site.data.journeys[page.slug] -%}
 
 <div class="trip-hero">
   <h1>{{ page.title }}</h1>
   {% if page.summary %}<p class="trip-summary">{{ page.summary }}</p>{% endif %}
   <p class="trip-meta">
-    {{ first.arrived | date: "%-d %B %Y" }} &ndash; {{ last.arrived | date: "%-d %B %Y" }}
+    {{ first.arrived | plus: first.tz_offset | date: "%-d %B %Y" }}
+    {%- if last.arrived > first.arrived %} &ndash; {{ last.arrived | plus: last.tz_offset | date: "%-d %B %Y" }}{% endif -%}
+    {%- if nights >= 1 %} &middot; {{ nights }} night{% if nights != 1 %}s{% endif %}{% endif %}
     &middot; {{ steps | size }} stop{% if steps.size != 1 %}s{% endif %}
     &middot; {{ photo_count }} photo{% if photo_count != 1 %}s{% endif %}
   </p>
@@ -53,11 +65,23 @@ layout: default
 
 <ul class="journey">
   {% for step in steps %}
+  {%- assign fullIndex = 0 -%}
+  {%- for s in all -%}{%- if s.id == step.id -%}{%- assign fullIndex = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+  {%- assign departIndex = fullIndex | plus: 1 -%}
+  {%- assign departed = all[departIndex].arrived -%}
   <li class="{{ step.state }}">
     <a id="{{ step.id }}" href="/trips/{{ page.slug }}/{{ step.key }}">
       <h2>📌 {{ step.name }}, {{ step.country }}</h2>
     </a>
-    {% if step.arrived %}<p>{{ step.arrived | date_to_string }}</p>{% endif %}
+    {% if step.arrived %}
+    <p class="journey-meta">
+      {{ step.arrived | plus: step.tz_offset | date: "%-d %B %Y" }}
+      {%- if departed and departed > step.arrived -%}
+        {%- assign stayNights = departed | minus: step.arrived | plus: 43200 | divided_by: 86400 -%}
+        {%- if stayNights >= 1 %} &ndash; {{ departed | plus: step.tz_offset | date: "%-d %B %Y" }} &middot; {{ stayNights }} night{% if stayNights != 1 %}s{% endif %}{% endif -%}
+      {%- endif %}
+    </p>
+    {% endif %}
 
     {% if step.description %}<p>{{ step.description | markdownify }}</p>{% endif %}
 

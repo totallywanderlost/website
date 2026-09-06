@@ -156,10 +156,10 @@ layout: default
   <p class="step-trip"><a href="/trips/{{ page.trip_slug }}">&larr; Part of <b>{{ page.trip_title }}</b></a></p>
   <h1>{% if flag %}<i class="step-flag" aria-hidden="true">{{ flag }}</i> {% endif %}{{ page.title }}{% if showCountry %}, {{ page.country }}{% endif %}</h1>
   <p class="step-meta">
-    {{ page.arrived | date: "%-d %B %Y" }}
+    {{ page.arrived | plus: page.tz_offset | date: "%-d %B %Y" }}
     {%- if departed and departed > page.arrived -%}
-      {%- assign stayNights = departed | minus: page.arrived | divided_by: 86400 -%}
-      {%- if stayNights >= 1 %} &ndash; {{ departed | date: "%-d %B %Y" }} &middot; {{ stayNights }} night{% if stayNights != 1 %}s{% endif %}{% endif -%}
+      {%- assign stayNights = departed | minus: page.arrived | plus: 43200 | divided_by: 86400 -%}
+      {%- if stayNights >= 1 %} &ndash; {{ departed | plus: page.tz_offset | date: "%-d %B %Y" }} &middot; {{ stayNights }} night{% if stayNights != 1 %}s{% endif %}{% endif -%}
     {%- endif %}
     {%- if tripDay >= 1 %} &middot; Day {{ tripDay }} of the journey{% endif -%}
   </p>

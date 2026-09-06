@@ -6,6 +6,7 @@
         "description": "It's lights out and away we go, we're on our way to Sydney with a quick pit stop in Dubai.",
         "country": "United Kingdom",
         "arrived": 1656528600,
+        "tz_offset": 3600,
         "location": [
             51.5073219,
             -0.1276474
@@ -23,7 +24,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B0FFFC28-9BA5-4E86-877C-07E38F9793B0",
@@ -32,6 +33,7 @@
         "description": "To break up the journey (and save some money) we booked a flight with a 20 hour layover in Dubai. Through the Emirates Dubai Connect program we got a night in a hotel for free so we had a short nap and then got ready to explore a bit.\n\nIt was over 40c so even the short 8 minute walk to the Metro station was quite a challenge. We kept things fairly simple and went to the Dubai Mall to check out the aquarium, Burj Khalifa, fountain show and the air conditioning. The scale of everything in Dubai is pretty crazy and while we didn't get to see much of it was nice to experience a new country and culture, albeit briefly.",
         "country": "United Arab Emirates",
         "arrived": 1656528600,
+        "tz_offset": 14400,
         "location": [
             25.265347100000003,
             55.29249139999999
@@ -89,7 +91,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "76790699-D615-4E93-8A68-F738F96C3687",
@@ -98,6 +100,7 @@
         "description": "Our first stop in Oz in s&#822;u&#822;n&#822;n&#822;y&#822; Sydney. It&#8217;s not an exaggeration to say that it rained pretty much non-stop during our stay, so much so that we ran out of dry clothes. Between the rain and the jet lag we probably didn&#8217;t quite get the start to our trip we were expecting but we got out there and saw the main sights, safe in the knowledge we planned to return later in the year.",
         "country": "Australia",
         "arrived": 1656678600,
+        "tz_offset": 36000,
         "location": [
             -33.854815699999975,
             151.21645390000003
@@ -155,7 +158,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5FB07848-F7E2-48A4-9C02-EE73B1A703B1",
@@ -164,6 +167,7 @@
         "description": "Before we could get started on our real adventures we had quite a few things to sort out first. We flew into Adelaide and spent just over 3 weeks staying with Nicole's brother, Jim. \n\nWhile we were there which purchased some of vital things you need for a trip, like a car, and of course, two tennis rackets.Our trusty Nissan X-Trail was christened as Nigel (after Nigel Mansell due to his moustache) and we kitted him out to be our home for the next few months including putting up a very make shift bed in the back.\n\nEven though it was technically Winter the weather was still really nice most of the time we were there so we got to explore the city, did lots of walks along the beach, a few hikes and even saw our first Kangaroos of the trip &#129432;\n\nJames passed his upside down driving theory test and was let loose on the Adelaide suburbs to get some practice in for the long trip ahead.",
         "country": "Australia",
         "arrived": 1657011600,
+        "tz_offset": 34200,
         "location": [
             -34.92818049999998,
             138.59993120000001
@@ -251,7 +255,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DCC113D0-E3A8-497D-A742-73C8CD6056AE",
@@ -260,13 +264,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1658991000,
+        "tz_offset": 34200,
         "location": [
             -33.17912490000001,
             138.00586139999996
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "D06BC772-A9F9-4145-8C95-8DF087BFB55F",
@@ -275,6 +280,7 @@
         "description": "Stop number 1 of our great Australian road trip! A few hours out of Adelaide, we spent a couple of nights camping in a national park. We were greeted with Kangaroos, Emus and Kookaburras wandering around camp, and so many stars in the sky at night!\n\nWe did a nice walk through the park, up to a viewpoint, and enjoyed the peace and quiet after a month or so in cities.",
         "country": "Australia",
         "arrived": 1659022200,
+        "tz_offset": 34200,
         "location": [
             -32.78140379999997,
             138.06865064
@@ -372,7 +378,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1C5A594E-554E-484C-B180-B6F79FC40DB9",
@@ -381,13 +387,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1659150000,
+        "tz_offset": 34200,
         "location": [
             -32.490881900000005,
             137.76398740000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DB34578B-953B-477F-943A-F65573D98C0C",
@@ -396,6 +403,7 @@
         "description": "Our first roadhouse and our first experience of quite how empty parts of the outback are. We met an interesting guy in the van parked next to us who showed us his opal collection, made some dinner on our stove and then had a few drinks inside to stay warm.",
         "country": "Australia",
         "arrived": 1659189600,
+        "tz_offset": 34200,
         "location": [
             -31.255741099999966,
             136.80379020000004
@@ -443,7 +451,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "8995F795-1D6F-4BFF-A310-1A382BF965D8",
@@ -452,13 +460,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1659229228,
+        "tz_offset": 34200,
         "location": [
             -30.837725705781537,
             135.56580168408124
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "60A730D1-AEA0-4254-A1CB-8DDB30FAC27A",
@@ -467,6 +476,7 @@
         "description": "One of the places we were most looking forward to visiting. It was once a busy opal mining town and can get so hot that many locals live in caves to stay cool. We got to have a look around some of the old mines and stayed underground!",
         "country": "Australia",
         "arrived": 1659268856,
+        "tz_offset": 34200,
         "location": [
             -29.03657530999999,
             134.80564879999997
@@ -594,7 +604,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B223AE28-B4CF-4510-84D4-B7C17AE43E3C",
@@ -603,6 +613,7 @@
         "description": "Another night on the road, another roadhouse stopover. To keep these balanced and not only containing the good stuff we were besieged by flies here and learnt to perfect the Aussie wave &#128075;&#127995;",
         "country": "Australia",
         "arrived": 1659409200,
+        "tz_offset": 34200,
         "location": [
             -27.30312000000003,
             133.62179460000004
@@ -640,7 +651,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5AAB9117-FC0D-44AB-8A77-E737B76EB49A",
@@ -649,13 +660,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1659486600,
+        "tz_offset": 34200,
         "location": [
             -25.19889590600958,
             133.20195883065924
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "EA0F6BE0-5FCD-4FF7-83B0-F3FB5CF2352C",
@@ -664,6 +676,7 @@
         "description": "After pretty much a full days driving we finally made it into Yulara, the nearest town to Uluru (Ayers Rock). There's some very fancy accommodation available but we didn't want to leave Nigel alone we stayed with him in a camp site. \n\nThe town had a bit of a strange feel to it as it's quite literally in the middle of nowhere but is full of tourists from all over the world giving it a bit of a Disneyland vibe but you don't come here to visit Yulara itself..\n\nThe next day we drove into the Uluru-Kata Tjuta National Park which takes about 25 minutes and started to catch our first glimpses of Uluru along the way, the scale of it is quite breathtaking and no picture will really do it justice but as you can see I did try my best..\n\nWe visited the museum first to learn about some of the history behind the area and the significance it has to the local Aboriginal tribe, the Anangu. The following day we returned to take on 10km walk around the base of the rock (technically a sandstone monolith) which takes around 3 hours, there's only one water refill site along the route so we took plenty with us as it can get very hot depending on the time of year. We stayed for the sunset which sets behind the rock and something you really can't take your eyes off.\n\nWhile slightly lesser known the other site in the park that Uluru shares the title with is Kata Tjuta. It's a combination of rock formations spread over about 20km that to be fair are equally impressive. We scrambled across lots of the rock in our slightly inadequate footwear where quite often we were completely along, it was a bit of a surreal experience at times as it felt like being on another planet.\n\nOne our final day we headed into the national park one more time to catch the sunrise, one of the rare occasions where getting up at 5am is justified. At that time of day it was actually really cold so we put every layer we had and sat there admiring the view, really quite something.",
         "country": "Australia",
         "arrived": 1659502800,
+        "tz_offset": 34200,
         "location": [
             -25.2410108,
             130.98694049999995
@@ -891,7 +904,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "62BFF6B6-FE52-413B-83A9-333946ED70C0",
@@ -900,6 +913,7 @@
         "description": "Not too much to say about this, it was an overnight stop in Nigel on our way to Alice Springs. They had a camel.",
         "country": "Australia",
         "arrived": 1659754500,
+        "tz_offset": 34200,
         "location": [
             -25.19889603985536,
             133.20196372433043
@@ -927,7 +941,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E12051F5-04C2-4061-9C58-5084944A7CAD",
@@ -936,6 +950,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1659837600,
+        "tz_offset": 34200,
         "location": [
             -23.698388400000006,
             133.88128849999998
@@ -1023,7 +1038,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A1204842-32C3-42D3-A996-31F2A875E3DA",
@@ -1032,6 +1047,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1660185000,
+        "tz_offset": 34200,
         "location": [
             -23.677705099999997,
             132.66957330000002
@@ -1149,7 +1165,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B34266AD-1B89-4D33-AB79-129BEF375EB9",
@@ -1158,13 +1174,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1660438800,
+        "tz_offset": 34200,
         "location": [
             -23.698388400000006,
             133.88128849999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B2EDEC67-90E8-4336-8C67-EEC4C206A723",
@@ -1173,6 +1190,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1660453200,
+        "tz_offset": 34200,
         "location": [
             -20.56618785,
             134.29173196
@@ -1300,7 +1318,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "386D7D63-8F35-4BDA-9CAE-080C674DE01B",
@@ -1309,6 +1327,7 @@
         "description": "A great little camp at a farm homestead. They had an Indian food truck which did a great paneer curry and roti, and music around the camp fire.",
         "country": "Australia",
         "arrived": 1660615200,
+        "tz_offset": 34200,
         "location": [
             -18.691893077250697,
             133.9621905303153
@@ -1326,7 +1345,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "21EAFD9C-F129-4236-9678-E2911BDC4EE6",
@@ -1335,6 +1354,7 @@
         "description": "The Famous Daly Waters pub. We spent 2 nights here in one of the motel rooms to refresh and get a chance to wash off some of the red dust that's accumulating.\n\nIt's a small but fascinating little town with the main attraction being the pub which had some great garlic bread and happy hour deals &#127866;",
         "country": "Australia",
         "arrived": 1660701600,
+        "tz_offset": 34200,
         "location": [
             -16.25415839999999,
             133.36985119999997
@@ -1392,7 +1412,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "505B9F80-3C78-4B82-87E3-E827CBB01B78",
@@ -1401,6 +1421,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1660870800,
+        "tz_offset": 34200,
         "location": [
             -14.927884100000028,
             133.06905800000004
@@ -1468,7 +1489,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "FC87D894-8A12-467F-BA92-568311B5F68F",
@@ -1477,6 +1498,7 @@
         "description": "&#128758;",
         "country": "Australia",
         "arrived": 1661122800,
+        "tz_offset": 34200,
         "location": [
             -14.464615699999992,
             132.2635993
@@ -1614,7 +1636,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "19873FC0-7702-4349-BDF5-8B85F624FDAE",
@@ -1623,6 +1645,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1661574600,
+        "tz_offset": 34200,
         "location": [
             -12.9944,
             131.02279999999996
@@ -1710,7 +1733,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A94472DB-D302-4E07-BDD5-DA3DBD4E4B6F",
@@ -1719,6 +1742,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1661833800,
+        "tz_offset": 34200,
         "location": [
             -13.068755182840345,
             130.7124296602886
@@ -1756,7 +1780,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "26753D83-135D-4017-BE9B-ECD81656B020",
@@ -1765,6 +1789,7 @@
         "description": "Bit of an emergency stop, it was so hot the night before at the camp site we both had a literal meltdown and decided we needed somewhere with air conditioning for the night so we could get some sleep!",
         "country": "Australia",
         "arrived": 1661923800,
+        "tz_offset": 34200,
         "location": [
             -12.765708599999995,
             130.9512168
@@ -1792,7 +1817,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1D89B645-6AE5-4CAE-B426-8455B2B67160",
@@ -1801,6 +1826,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662001200,
+        "tz_offset": 34200,
         "location": [
             -12.460439999999998,
             130.84104690000004
@@ -1948,7 +1974,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "093D2055-032A-4731-A358-E3FDF666D02E",
@@ -1957,13 +1983,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662591600,
+        "tz_offset": 34200,
         "location": [
             -14.464615699999992,
             132.2635993
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4ECF77DD-A9BF-4813-92C2-2C22A4F7B1B3",
@@ -1972,13 +1999,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662595200,
+        "tz_offset": 34200,
         "location": [
             -14.927884100000028,
             133.06905800000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7F72E85D-86C4-4BF5-A149-3BAB31302691",
@@ -1987,6 +2015,7 @@
         "description": "Since we were passing Daly Waters again on our way back down we decided to stop in for more garlic bread and $5 wines. This time we were treated to the eccentric owner on his mobility scooter telling us the history of the pub accompanied by his menagerie of animals.\n\nIt was up to 35 degrees during the day which made for a sweaty night's sleep. We went to bed to news of the Queen's deteriorating health and woke up to news of her death. A very strange place to be hearing the news.",
         "country": "Australia",
         "arrived": 1662606000,
+        "tz_offset": 34200,
         "location": [
             -16.25415839999999,
             133.36985119999997
@@ -2004,7 +2033,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "12127498-AD7A-485F-A801-A2255636E7D1",
@@ -2013,13 +2042,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662692412,
+        "tz_offset": 34200,
         "location": [
             -19.44014686208393,
             134.20814699676924
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F6DC3755-43B8-47E6-9BA2-CA11E1AC93BA",
@@ -2028,6 +2058,7 @@
         "description": "A roadhouse in the middle of the outback. Happy hour wasn&#8217;t as good as Daly Waters but we enjoyed a few stubbies whilst watching the news coverage about the Queen.",
         "country": "Australia",
         "arrived": 1662700945,
+        "tz_offset": 34200,
         "location": [
             -19.711314118485628,
             135.82683250320687
@@ -2045,7 +2076,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7B9BAFDC-C654-40CF-82A5-134012EA81A3",
@@ -2054,13 +2085,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662771618,
+        "tz_offset": 36000,
         "location": [
             -19.921682000000004,
             138.12012830000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A448AE8B-E245-414C-9002-AD8705829CE0",
@@ -2069,13 +2101,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662782412,
+        "tz_offset": 36000,
         "location": [
             -20.728989799999987,
             139.4931522
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F78861EC-09E9-4DF4-89A2-8241B7452A9C",
@@ -2084,6 +2117,7 @@
         "description": "Another night on the road. We pulled up in town with no booking and managed to get an unpowered patch of dirt at a caravan park. It had a pool and a decent kitchen though so we swam, showered, ate, and got an early night ready for more driving in the morning.",
         "country": "Australia",
         "arrived": 1662787800,
+        "tz_offset": 36000,
         "location": [
             -20.705187300000016,
             140.5058305
@@ -2101,7 +2135,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B2A41C92-F47E-46E7-A76D-E4BFD45EF10D",
@@ -2110,13 +2144,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662852640,
+        "tz_offset": 36000,
         "location": [
             -19.223719299999953,
             140.34448380000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4B891225-633E-4239-8603-653158762ABF",
@@ -2125,13 +2160,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662854453,
+        "tz_offset": 36000,
         "location": [
             -17.670915799999996,
             141.07804220000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "8A2DE032-273D-4F46-96C6-9CB19F41B166",
@@ -2140,6 +2176,7 @@
         "description": "We started the day with no plans as to where to spend the night. On the drive James found a holiday park with  a caravan to rent available for the night, so we booked it and headed there. Turned out to be a very picturesque spot. We grabbed some fish and chips and watched the sunset before stopping in for a quick drink at the pub.",
         "country": "Australia",
         "arrived": 1662872383,
+        "tz_offset": 36000,
         "location": [
             -17.46391440277683,
             140.82979210665528
@@ -2177,7 +2214,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "744FFD82-1101-493F-B3BD-B94CE323CBEA",
@@ -2186,13 +2223,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662940811,
+        "tz_offset": 36000,
         "location": [
             -17.674063969193273,
             141.07464213089509
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5E2FCF86-D867-4CD7-A806-FB8DB55206D7",
@@ -2201,13 +2239,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662949807,
+        "tz_offset": 36000,
         "location": [
             -18.204343099999996,
             142.2447977
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "423E3E4E-A7F6-4E28-9F1B-630B74ECEC0A",
@@ -2216,13 +2255,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1662958805,
+        "tz_offset": 36000,
         "location": [
             -18.289804900000014,
             143.54805729999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "604CAE71-F096-4DD7-9A5E-5E78C124940C",
@@ -2231,6 +2271,7 @@
         "description": "SURPRISE! We spent a couple of nights in the forest here. The park had a nice train-themed bar/restaurant and a pool surrounded by the local resident kangaroos. We hiked around an old volcanic crater and spotted our first snake of the year! A little red-bellied black snake crossed the path right in front of us.",
         "country": "Australia",
         "arrived": 1662966243,
+        "tz_offset": 36000,
         "location": [
             -18.200274075835605,
             144.57111573846987
@@ -2288,7 +2329,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "79E93D94-3D11-4E49-AD1E-0FC4E51A08A8",
@@ -2297,13 +2338,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663114626,
+        "tz_offset": 36000,
         "location": [
             -18.096546049999972,
             144.85591983
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4F8F878D-D842-4A5A-8BE7-45407BB4DB76",
@@ -2312,13 +2354,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663119010,
+        "tz_offset": 36000,
         "location": [
             -17.676162900000016,
             145.1127189
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E6D8841C-AA1A-49C2-820C-465E777F5F4E",
@@ -2327,13 +2370,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663122624,
+        "tz_offset": 36000,
         "location": [
             -17.607940399999976,
             145.4819407
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A5663934-6166-4DB3-A6F6-1D2A1B39D17F",
@@ -2342,13 +2386,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663131617,
+        "tz_offset": 36000,
         "location": [
             -17.26740579999997,
             145.4761663
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F4B15E97-DC1A-45DC-9589-CD4395097DFD",
@@ -2357,6 +2402,7 @@
         "description": "After a full on week of driving we finally hit the east coast and now have a few days chilling in port Douglas. It&#8217;s much more of a holiday resort type town than the places we&#8217;ve been recently, lots of fancy hotels and restaurants we can&#8217;t afford!\n\nWe went on a few walks to viewpoints, ate pizza watching the sunset, visited the wildlife park, and Nicole did yoga on the beach one morning.",
         "country": "Australia",
         "arrived": 1663134151,
+        "tz_offset": 36000,
         "location": [
             -16.48453955810496,
             145.46417309710378
@@ -2444,7 +2490,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E3E4E2F8-8BC5-44ED-8E6F-A3FF5FC61C20",
@@ -2453,13 +2499,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663372815,
+        "tz_offset": 36000,
         "location": [
             -16.46144550000005,
             145.37266490000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C5B17632-A3EC-49F9-8FEF-E372A8E9E030",
@@ -2468,13 +2515,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663380007,
+        "tz_offset": 36000,
         "location": [
             -16.165303200000036,
             145.41839146999996
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "0AD47D62-AEF7-4A82-BCCE-0D7B49CDCFD0",
@@ -2483,6 +2531,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663383600,
+        "tz_offset": 36000,
         "location": [
             -16.08878449999997,
             145.46221109999993
@@ -2550,7 +2599,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "216DAA5E-F240-43B3-8679-704E40815A1E",
@@ -2559,13 +2608,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663632000,
+        "tz_offset": 36000,
         "location": [
             -16.165303200000036,
             145.41839146999996
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5850444B-6255-49A4-B4E3-0BD8670AFF0C",
@@ -2574,13 +2624,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663637400,
+        "tz_offset": 36000,
         "location": [
             -16.46144550000005,
             145.37266490000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E248F298-95EC-46B0-98BA-9FBA0BFA671C",
@@ -2589,6 +2640,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663648200,
+        "tz_offset": 36000,
         "location": [
             -16.920665700000022,
             145.7721854
@@ -2636,7 +2688,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "526EE46D-A91E-4EDE-B16D-6820779E36F1",
@@ -2645,13 +2697,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663889400,
+        "tz_offset": 36000,
         "location": [
             -17.093592099999984,
             145.78418290000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "9D8527C3-E59D-4DBD-91B5-8292F57695A3",
@@ -2660,13 +2713,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663890300,
+        "tz_offset": 36000,
         "location": [
             -17.223376099999975,
             145.91582240000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "9F8C6644-7037-40A1-8722-8DD51BD1D38A",
@@ -2675,6 +2729,7 @@
         "description": "As boulders go these are right up there.",
         "country": "Australia",
         "arrived": 1663891200,
+        "tz_offset": 36000,
         "location": [
             -17.344380700000006,
             145.9218985
@@ -2742,7 +2797,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "981CC80C-E892-416A-BFC8-C37F03BD37E3",
@@ -2751,13 +2806,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663977600,
+        "tz_offset": 36000,
         "location": [
             -17.524172100000023,
             146.0311418
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E4B385C7-2397-4DCB-A1F3-8E294B801320",
@@ -2766,13 +2822,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663981200,
+        "tz_offset": 36000,
         "location": [
             -17.805570500000016,
             146.00534400000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3594D042-5331-448F-B889-CF04DD1E7781",
@@ -2781,6 +2838,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1663984800,
+        "tz_offset": 36000,
         "location": [
             -17.86698009999996,
             146.1075583
@@ -2838,7 +2896,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F71FEEA2-90C2-48E7-A0ED-5CD8C89535CB",
@@ -2847,13 +2905,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664067600,
+        "tz_offset": 36000,
         "location": [
             -17.93294979999998,
             145.92726240000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1CEC3FE8-E471-4366-9AD1-954BA97844AF",
@@ -2862,13 +2921,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664071200,
+        "tz_offset": 36000,
         "location": [
             -18.26836809999998,
             146.03002859999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5062C2E6-AE58-4421-AE1D-4E41DA5D3C5A",
@@ -2877,13 +2937,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664074800,
+        "tz_offset": 36000,
         "location": [
             -18.647637399999983,
             146.16034479999996
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "8013B0A2-8E1C-4802-BF09-075043E3E532",
@@ -2892,6 +2953,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664078400,
+        "tz_offset": 36000,
         "location": [
             -19.016340000000007,
             146.40829999999994
@@ -2929,7 +2991,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7FDAC1B6-18F2-4C6A-BB3B-550AF298DBCC",
@@ -2938,6 +3000,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664140500,
+        "tz_offset": 36000,
         "location": [
             -19.350284499999987,
             146.80360469
@@ -2995,7 +3058,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A9523795-E6E1-4DA9-BD57-15BD07DAE0A8",
@@ -3004,13 +3067,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664326845,
+        "tz_offset": 36000,
         "location": [
             -19.575859700000013,
             147.4044626
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B8ACF20F-8CB1-468F-93D0-6EA62C56BE25",
@@ -3019,13 +3083,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664328637,
+        "tz_offset": 36000,
         "location": [
             -19.664174299999996,
             147.4139793
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "ABFB6A05-4906-4C9C-828A-0E65C319E9F9",
@@ -3034,13 +3099,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664371830,
+        "tz_offset": 36000,
         "location": [
             -20.012125000000008,
             148.2462901
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3E4F79CD-FBA2-4CF4-A523-D165AA23AC27",
@@ -3049,6 +3115,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664373600,
+        "tz_offset": 36000,
         "location": [
             -20.269410899999986,
             148.71816400000006
@@ -3146,7 +3213,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "16754B48-72BC-4EB0-93E1-2CA8A5AB5ACE",
@@ -3155,13 +3222,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664582400,
+        "tz_offset": 36000,
         "location": [
             -20.401808499999966,
             148.5832137
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "CCDD4A62-C952-44CB-9081-A9B7F0B41F27",
@@ -3170,13 +3238,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664586000,
+        "tz_offset": 36000,
         "location": [
             -20.704168500000016,
             148.5987081
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "043B55DA-D2A1-4400-B3C5-2B362936FF0F",
@@ -3185,13 +3254,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664589600,
+        "tz_offset": 36000,
         "location": [
             -20.900393400000056,
             148.7722197
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "87E72225-887D-4F22-B4B3-75573521A9A9",
@@ -3200,6 +3270,7 @@
         "description": "Not too much to say about this one, we arrived in town fairly late and stayed in a motel then hit the road early the next morning.",
         "country": "Australia",
         "arrived": 1664683200,
+        "tz_offset": 36000,
         "location": [
             -21.14195599999997,
             149.18651490000002
@@ -3217,7 +3288,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C3AD2CDC-E56A-44EB-B970-8824EC54C87C",
@@ -3226,13 +3297,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664755200,
+        "tz_offset": 36000,
         "location": [
             -21.425795800000014,
             149.2198922
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F558DCE7-E85F-4186-A0B7-A927485039D8",
@@ -3241,13 +3313,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664762400,
+        "tz_offset": 36000,
         "location": [
             -22.348569600000012,
             149.5324225
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7A84F1D1-6EF0-4FD0-A831-90CB95A47EF3",
@@ -3256,6 +3329,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664769600,
+        "tz_offset": 36000,
         "location": [
             -23.378213699999964,
             150.51342269999998
@@ -3333,7 +3407,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5855F668-FE55-4F56-8B15-3C4C5B2DC987",
@@ -3342,13 +3416,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664931600,
+        "tz_offset": 36000,
         "location": [
             -23.134803499999972,
             150.74366250000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "8DF84F19-FFE2-4CD9-A82C-1CB44356797D",
@@ -3357,6 +3432,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1664942400,
+        "tz_offset": 36000,
         "location": [
             -23.173391649999996,
             150.95708117999993
@@ -3444,7 +3520,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B4BAF4AC-5FBF-4DBF-931D-854FE4C6FC4C",
@@ -3453,13 +3529,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665100800,
+        "tz_offset": 36000,
         "location": [
             -23.134803499999972,
             150.74366250000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E6DF4C76-08B5-45F2-BA0E-00A430CDD813",
@@ -3468,13 +3545,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665104400,
+        "tz_offset": 36000,
         "location": [
             -23.378213699999964,
             150.51342269999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "439EBF84-73B5-4D22-B75D-E25C38BAF0E9",
@@ -3483,13 +3561,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665108900,
+        "tz_offset": 36000,
         "location": [
             -23.63854799999999,
             150.64572880000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "D3BC3FEA-D125-436E-A435-A3485FE8F243",
@@ -3498,13 +3577,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665111630,
+        "tz_offset": 36000,
         "location": [
             -24.242421800000006,
             151.49535540000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "46D1CCFF-C2C8-4EE2-B65F-72C65915F84C",
@@ -3513,13 +3593,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665112515,
+        "tz_offset": 36000,
         "location": [
             -24.329408199999996,
             151.5623456
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7B32557F-D08F-4B24-A760-29613B41F495",
@@ -3528,13 +3609,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665113400,
+        "tz_offset": 36000,
         "location": [
             -24.164274200000012,
             151.885128
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "48E4B567-77F8-4B93-A881-EBA4943F219F",
@@ -3543,6 +3625,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665118800,
+        "tz_offset": 36000,
         "location": [
             -24.212329900000025,
             151.90301910000005
@@ -3590,7 +3673,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3337B6C8-EE6E-4B0A-BC68-E3B4DBF29EE2",
@@ -3599,13 +3682,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665187200,
+        "tz_offset": 36000,
         "location": [
             -24.52930549999998,
             151.7529323999999
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "6F001FD8-1224-4A04-B35E-5576BC6D00F0",
@@ -3614,13 +3698,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665190800,
+        "tz_offset": 36000,
         "location": [
             -24.629427700000004,
             151.91444460000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "98899493-1915-4D0D-AD37-E1840AF5AD90",
@@ -3629,13 +3714,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665194400,
+        "tz_offset": 36000,
         "location": [
             -24.741636900000014,
             152.1586474
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1BB1900E-5528-4670-B862-E59C94BD3D69",
@@ -3644,13 +3730,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665198000,
+        "tz_offset": 36000,
         "location": [
             -24.865325300000023,
             152.35167849999996
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F1AC3DB2-4838-4766-A5EF-A253666FBAE4",
@@ -3659,6 +3746,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665201600,
+        "tz_offset": 36000,
         "location": [
             -24.8154799,
             152.4630414
@@ -3726,7 +3814,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DFE2FBBC-CF81-45F9-9339-9987CDFB869F",
@@ -3735,13 +3823,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665532800,
+        "tz_offset": 36000,
         "location": [
             -24.865325300000023,
             152.35167849999996
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C20F5149-EC35-44C2-A833-8D02100911FB",
@@ -3750,6 +3839,7 @@
         "description": "There was a jetty apparently, can&#8217;t remember much else. I&#8217;m writing this 6 months on, cut me some slack.",
         "country": "Australia",
         "arrived": 1665536400,
+        "tz_offset": 36000,
         "location": [
             -25.298578399999997,
             152.85352160000002
@@ -3767,7 +3857,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1CF0EB37-5D37-487B-A731-65162383143D",
@@ -3776,13 +3866,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665792000,
+        "tz_offset": 36000,
         "location": [
             -25.537582999999998,
             152.70191820000005
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5115A96E-FF19-4C67-949C-393236B9D9B8",
@@ -3791,13 +3882,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665795600,
+        "tz_offset": 36000,
         "location": [
             -26.190044700000005,
             152.66002560000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "57CE6E3E-6FD2-4707-B390-DA017BF6E636",
@@ -3806,13 +3898,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1665799200,
+        "tz_offset": 36000,
         "location": [
             -26.5612841,
             152.95761130000005
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C4A27798-62ED-44EE-AA73-99351F5BD66A",
@@ -3821,13 +3914,14 @@
         "description": "Overnight stay in a hotel (pub) before we flew out to Bali early the next morning.",
         "country": "Australia",
         "arrived": 1665802800,
+        "tz_offset": 36000,
         "location": [
             -27.468968200000006,
             153.02349909999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5ABFC3DE-3343-4A43-AB58-B9A1B786B090",
@@ -3836,13 +3930,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1665885366,
+        "tz_offset": 28800,
         "location": [
             -8.727835399999996,
             115.17300489999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B8A95C52-3FA7-4A1F-975A-3144DFCACDEA",
@@ -3851,6 +3946,7 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1665906836,
+        "tz_offset": 28800,
         "location": [
             -8.512643929578841,
             115.26126226421003
@@ -3988,7 +4084,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "D74D740B-A1CF-432F-B8F8-F49CF4B50F35",
@@ -3997,13 +4093,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666472458,
+        "tz_offset": 28800,
         "location": [
             -8.530844300000002,
             115.50747310000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "38C1E66C-518C-4565-B61A-1D0A6EA5E3AD",
@@ -4012,6 +4109,7 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666490400,
+        "tz_offset": 28800,
         "location": [
             -8.35760474999999,
             116.08115279000003
@@ -4079,7 +4177,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "0C393184-16A8-41D6-B491-7A20EE198B83",
@@ -4088,13 +4186,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666746000,
+        "tz_offset": 28800,
         "location": [
             -8.530844300000002,
             115.50747310000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E647CCDE-319A-45A4-8512-D433CE793403",
@@ -4103,13 +4202,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666750500,
+        "tz_offset": 28800,
         "location": [
             -8.5645022,
             115.40984830000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "88CA05AD-9AF0-4886-817A-39836A86BDC1",
@@ -4118,13 +4218,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666752750,
+        "tz_offset": 28800,
         "location": [
             -8.589280700000014,
             115.32747219999993
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7EF04004-5306-4E28-94CF-768AFE9BC48A",
@@ -4133,13 +4234,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666755000,
+        "tz_offset": 28800,
         "location": [
             -8.727835399999996,
             115.17300489999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "9BD8D877-3250-4244-9DF2-929DBF7D2F22",
@@ -4148,13 +4250,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666759500,
+        "tz_offset": 28800,
         "location": [
             -8.77249019999997,
             115.17239440000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E9B94269-ABE1-4974-99CF-AB9FCFED40D6",
@@ -4163,6 +4266,7 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1666764000,
+        "tz_offset": 28800,
         "location": [
             -8.80161219999997,
             115.22398129999999
@@ -4210,7 +4314,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "10DEAD48-C1C9-46A3-8152-D3CD9DD979C9",
@@ -4219,13 +4323,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667005200,
+        "tz_offset": 28800,
         "location": [
             -8.77249019999997,
             115.17239440000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1F72F83F-D7A5-49E4-9C11-B84CC61C5FE9",
@@ -4234,13 +4339,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667007000,
+        "tz_offset": 28800,
         "location": [
             -8.727835399999996,
             115.17300489999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2331B882-8843-46C9-8BD5-3EF9823A54B1",
@@ -4249,13 +4355,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667007900,
+        "tz_offset": 28800,
         "location": [
             -8.690835699999973,
             115.1641975
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DD55B0A3-4349-4031-9572-4485EDE2A3E3",
@@ -4264,6 +4371,7 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667008800,
+        "tz_offset": 28800,
         "location": [
             -8.650617999999998,
             115.13649929999997
@@ -4331,7 +4439,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7B2C6027-8937-4C1D-BE54-49B3EBCBE292",
@@ -4340,6 +4448,7 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667448000,
+        "tz_offset": 28800,
         "location": [
             -8.690835699999973,
             115.1641975
@@ -4407,7 +4516,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E4189B9D-1020-40B9-8EC0-AE17C18D3682",
@@ -4416,13 +4525,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667874722,
+        "tz_offset": 28800,
         "location": [
             -8.727835399999996,
             115.17300489999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "22C044D8-7EE6-414E-B360-8710F60DA3FC",
@@ -4431,13 +4541,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667875683,
+        "tz_offset": 28800,
         "location": [
             -8.77249019999997,
             115.17239440000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DA0D7441-4EF6-4803-984F-BD53C1BB3162",
@@ -4446,6 +4557,7 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1667876645,
+        "tz_offset": 28800,
         "location": [
             -8.817842644647525,
             115.11518589231662
@@ -4543,7 +4655,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DD3F0D13-D7B4-41E8-9B6E-C191A1DFFE56",
@@ -4552,13 +4664,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1668238202,
+        "tz_offset": 28800,
         "location": [
             -8.77249019999997,
             115.17239440000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "25EA1D98-B1F4-4872-A288-2FBAE43B2EAD",
@@ -4567,13 +4680,14 @@
         "description": null,
         "country": "Indonesia",
         "arrived": 1668240000,
+        "tz_offset": 28800,
         "location": [
             -8.727835399999996,
             115.17300489999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "8C804FA9-F15E-4045-935E-5B15E21C0225",
@@ -4582,6 +4696,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1668279600,
+        "tz_offset": 36000,
         "location": [
             -27.468968200000006,
             153.02349909999998
@@ -4649,7 +4764,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "88D2C4CC-0335-4F40-9678-1AE55E358EB2",
@@ -4658,6 +4773,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1668744000,
+        "tz_offset": 36000,
         "location": [
             -28.335390199999992,
             152.29573309999998
@@ -4715,7 +4831,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A8B2F7E7-B5B5-457D-9BDE-EC71C0BE3972",
@@ -4724,6 +4840,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1668913200,
+        "tz_offset": 36000,
         "location": [
             -28.002373100000007,
             153.4145987
@@ -4781,7 +4898,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5649C3AC-A5E1-461B-B9B2-01E58D58DC53",
@@ -4790,6 +4907,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669172400,
+        "tz_offset": 39600,
         "location": [
             -28.64833329999998,
             153.61777779999994
@@ -4867,7 +4985,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "50A78A47-F476-4E98-B402-64ABA696E57B",
@@ -4876,13 +4994,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669258800,
+        "tz_offset": 39600,
         "location": [
             -29.456666700000007,
             153.2011111
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DDD605FF-54CF-4C1C-B98F-3473FAFB363E",
@@ -4891,6 +5010,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669345200,
+        "tz_offset": 39600,
         "location": [
             -30.296240699999988,
             153.11352929999998
@@ -4918,7 +5038,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "0B0403E1-D661-4CCE-AF66-1E26132C2EDB",
@@ -4927,13 +5047,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669516200,
+        "tz_offset": 39600,
         "location": [
             -30.886475699999977,
             153.0709147
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "93B4EA1D-EF71-417E-8A92-AF8D768E6A11",
@@ -4942,13 +5063,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669687200,
+        "tz_offset": 39600,
         "location": [
             -31.079809200000003,
             152.84228899999994
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A4D09188-7E6A-4908-8133-5112DCFA0FE8",
@@ -4957,6 +5079,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669694400,
+        "tz_offset": 39600,
         "location": [
             -31.429883854318437,
             152.9100432827721
@@ -4994,7 +5117,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2C00BB95-467B-4313-8EEA-E627CA8B91E7",
@@ -5003,6 +5126,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669869000,
+        "tz_offset": 39600,
         "location": [
             -32.77790609999999,
             152.08902030000002
@@ -5070,7 +5194,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "245C35AE-13DA-4E8E-9512-01E3AC49C7F9",
@@ -5079,13 +5203,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1669995900,
+        "tz_offset": 39600,
         "location": [
             -32.927288099999984,
             151.78125339999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2464A3B0-6B67-4761-AB12-BAC1C54EFED9",
@@ -5094,13 +5219,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670059350,
+        "tz_offset": 39600,
         "location": [
             -33.42501750000001,
             151.3417318
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3A66D9F7-C3F3-4A75-BB43-9AB930226C42",
@@ -5109,6 +5235,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670122800,
+        "tz_offset": 39600,
         "location": [
             -33.854815699999975,
             151.21645390000003
@@ -5236,7 +5363,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "ACA3EC64-9137-49B8-AACA-13823BC65D47",
@@ -5245,6 +5372,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670468400,
+        "tz_offset": 39600,
         "location": [
             -33.713758999999996,
             150.31216330000004
@@ -5342,7 +5470,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A97B6049-4B38-4229-8684-98240A94A732",
@@ -5351,6 +5479,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670727600,
+        "tz_offset": 39600,
         "location": [
             -33.704149999999984,
             149.85879999999997
@@ -5398,7 +5527,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "62915775-E384-47F9-93B0-DEFD9CCA0D36",
@@ -5407,13 +5536,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670770800,
+        "tz_offset": 39600,
         "location": [
             -34.75238710000001,
             149.71980089999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B4D784B4-653A-4C1C-BC44-04DAA7C024D8",
@@ -5422,6 +5552,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670814000,
+        "tz_offset": 39600,
         "location": [
             -34.6562168,
             150.29970709999998
@@ -5449,7 +5580,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "57A2A61C-4AFD-462D-82D5-82A167426347",
@@ -5458,6 +5589,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670900400,
+        "tz_offset": 39600,
         "location": [
             -34.639467749221254,
             150.65200958689832
@@ -5485,7 +5617,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2446B794-90CE-4B86-B1E8-AF0905097F06",
@@ -5494,6 +5626,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1670986800,
+        "tz_offset": 39600,
         "location": [
             -34.39343640000003,
             150.89362670000003
@@ -5571,7 +5704,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1F668C2C-F79C-4E40-A3EB-2E11A2B5A13D",
@@ -5580,6 +5713,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1672812000,
+        "tz_offset": 39600,
         "location": [
             -34.75238710000001,
             149.71980089999997
@@ -5597,7 +5731,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "AE2F0893-ABD0-404F-BAEF-ED74958373C8",
@@ -5606,6 +5740,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1672875000,
+        "tz_offset": 39600,
         "location": [
             -35.29759059999999,
             149.10126759999997
@@ -5703,7 +5838,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F8F5DF42-0AE4-4189-9256-6AF323DF8A88",
@@ -5712,6 +5847,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673060400,
+        "tz_offset": 39600,
         "location": [
             -36.41708989999998,
             148.61995999999994
@@ -5739,7 +5875,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5CD431A2-4F8C-4E4C-8615-8D4EAA960F48",
@@ -5748,6 +5884,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673154000,
+        "tz_offset": 39600,
         "location": [
             -36.164999999999964,
             148.7511111
@@ -5795,7 +5932,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "EB7D6080-F41B-49CB-B918-E4785DAABA18",
@@ -5804,13 +5941,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673309708,
+        "tz_offset": 39600,
         "location": [
             -36.23563000000002,
             149.1264221
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "6C688062-7FC5-4817-BC3B-8BDB34AF3E58",
@@ -5819,13 +5957,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673314216,
+        "tz_offset": 39600,
         "location": [
             -36.888202700000015,
             149.90984600000007
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1B779709-F55E-435E-A557-FC501428940D",
@@ -5834,13 +5973,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673323233,
+        "tz_offset": 39600,
         "location": [
             -37.06404940000002,
             149.9035118
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "23C82D55-10F4-4717-8769-97E1C058C7A6",
@@ -5849,6 +5989,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673333586,
+        "tz_offset": 39600,
         "location": [
             -37.471857410890486,
             149.5900863224171
@@ -5866,7 +6007,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "10E11F6C-52CF-45C0-819A-91B5DBBCDA27",
@@ -5875,13 +6016,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673401309,
+        "tz_offset": 39600,
         "location": [
             -37.70370610000002,
             148.45547120000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "69E8C013-D91F-406D-ABA1-06EC68B4A381",
@@ -5890,13 +6032,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673411432,
+        "tz_offset": 39600,
         "location": [
             -37.879458200000016,
             147.9943828000001
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1AAF4A84-BD20-429A-8D5D-820B021BFEC6",
@@ -5905,6 +6048,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673415119,
+        "tz_offset": 39600,
         "location": [
             -37.824999690091076,
             147.63783571324092
@@ -5952,7 +6096,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "343EABA2-1ACE-40C9-925F-2B1F0A6464CD",
@@ -5961,6 +6105,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673599563,
+        "tz_offset": 39600,
         "location": [
             -38.83764180846644,
             146.0027427442169
@@ -5978,7 +6123,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1683AEB6-916D-46E0-924E-A683E3D162CD",
@@ -5987,13 +6132,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673657158,
+        "tz_offset": 39600,
         "location": [
             -38.633158200000004,
             145.7279504
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "379163B7-168B-46CF-8CAA-353BD112E1DC",
@@ -6002,6 +6148,7 @@
         "description": "&#128039;",
         "country": "Australia",
         "arrived": 1673671553,
+        "tz_offset": 39600,
         "location": [
             -38.4088723780945,
             145.42096867239607
@@ -6029,7 +6176,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "74063C71-25C3-4091-99FC-F0EA95313B64",
@@ -6038,6 +6185,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1673751600,
+        "tz_offset": 39600,
         "location": [
             -37.812382500000005,
             144.94826487
@@ -6115,7 +6263,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7C89E112-F239-46F6-82CE-42D5D9B30E5E",
@@ -6124,6 +6272,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1674356400,
+        "tz_offset": 39600,
         "location": [
             -37.75011306859911,
             145.1774453722175
@@ -6141,7 +6290,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "6BF00334-8F84-4E7A-A7DF-653039F02A73",
@@ -6150,6 +6299,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1674615600,
+        "tz_offset": 39600,
         "location": [
             -37.6835714,
             144.58284460000004
@@ -6167,7 +6317,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "946AD40A-3BAD-48DB-B8E9-B727F276E361",
@@ -6176,6 +6326,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1675137600,
+        "tz_offset": 39600,
         "location": [
             -37.8877050507527,
             144.99118248115116
@@ -6213,7 +6364,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E82D97C0-A192-40BF-A782-15780A13386D",
@@ -6222,6 +6373,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1675738800,
+        "tz_offset": 39600,
         "location": [
             -37.798122441352874,
             144.94897540569514
@@ -6239,7 +6391,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "BD3F34B7-766F-4ACB-A72B-808D6793ECEE",
@@ -6248,6 +6400,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1675990800,
+        "tz_offset": 39600,
         "location": [
             -37.786592880255036,
             145.13505549352084
@@ -6265,7 +6418,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "39D41CA3-429E-418A-9337-F1769EEEFF9F",
@@ -6274,6 +6427,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1676347200,
+        "tz_offset": 39600,
         "location": [
             -37.814217600000006,
             144.96316079999997
@@ -6311,7 +6465,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "41E61196-9BF5-4035-A3EC-8E09A0D75793",
@@ -6320,6 +6474,7 @@
         "description": "Another house sit, just a short one this weekend with a very lazy goldendoodle called Penny. We dragged (quite literally sometimes) her out for a few walks and played some tennis. Explored South Yarra a little, probably one of the nicest Melbourne suburbs we&#8217;ve seen so far!",
         "country": "Australia",
         "arrived": 1676523600,
+        "tz_offset": 39600,
         "location": [
             -37.84396447454245,
             144.99713650610073
@@ -6347,7 +6502,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7E0B65C4-5B6F-43D0-B0EA-70D54F36B27D",
@@ -6356,6 +6511,7 @@
         "description": "We had a couple of days to fill in-between house sits and managed to find a very reasonably priced BnB south east of Melbourne, it even came with two cats which was a nice bonus.\n\nThe main thing we did was visit the royal botanic gardens in Cranbourne which were very impressive.",
         "country": "Australia",
         "arrived": 1676779200,
+        "tz_offset": 39600,
         "location": [
             -38.047984,
             145.254089
@@ -6393,7 +6549,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "BBCEE589-7F29-4693-AD08-B3E670A470BA",
@@ -6402,6 +6558,7 @@
         "description": "We had a very chilled week doing a house sit and looking after a very excitable young toy poodle called Jasper. We stayed in a really nice apartment that was literally on beach road on the coast south east of Melbourne.\n\nWe took Jasper out for lots of walks along the beach, did a bit of work and tried to plan where we were going next!",
         "country": "Australia",
         "arrived": 1676925000,
+        "tz_offset": 39600,
         "location": [
             -37.97926765672478,
             145.01797012623769
@@ -6419,7 +6576,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "8118D14F-34D6-4759-8539-DC90DFA90733",
@@ -6428,6 +6585,7 @@
         "description": "Back in lynbrook at the same b&b again since it was cheap and very nice. Didn&#8217;t do much this time since it was just a quick overnighted before heading out into the mountains tomorrow.",
         "country": "Australia",
         "arrived": 1677470400,
+        "tz_offset": 39600,
         "location": [
             -38.047983729810866,
             145.25408855478128
@@ -6445,7 +6603,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2B7C86BC-2442-4E75-A1CA-43BB591B4D09",
@@ -6454,13 +6612,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1677543872,
+        "tz_offset": 39600,
         "location": [
             -37.28434430000001,
             142.93062099999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2EA4600E-03EF-4CE7-A551-47D068BDE281",
@@ -6469,6 +6628,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1677574144,
+        "tz_offset": 39600,
         "location": [
             -37.17216028369713,
             142.54358000135286
@@ -6596,7 +6756,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "267E519F-457D-4A68-99C4-B07BD5CBDBF6",
@@ -6605,13 +6765,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1677801600,
+        "tz_offset": 39600,
         "location": [
             -37.05868689999998,
             142.7745476
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E3A0D88A-58A6-4BF0-9C31-84E8708C78BD",
@@ -6620,6 +6781,7 @@
         "description": "We had a couple of nights until we needed to be back in the city and found a cheap holiday cabin in this little town. Turned out to be a great stop - lovely park, nice tennis courts for a hit, and we did a cellar tour at a local winery that was really interesting! They claimed to be the birthplace of sparkling red wine.",
         "country": "Australia",
         "arrived": 1677810875,
+        "tz_offset": 39600,
         "location": [
             -37.28010151073096,
             142.92877597747642
@@ -6657,7 +6819,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B27941B5-A173-4D71-BABB-1FF415DB1E57",
@@ -6666,6 +6828,7 @@
         "description": "Quick stop back in Melbourne to watch Maisie Peters in St Kilda, and see a woman about some cats. We spent a morning wandering Albert park where they&#8217;re currently building the track for next month&#8217;s Grand Prix. That&#8217;s the next time we&#8217;ll be back in the city!",
         "country": "Australia",
         "arrived": 1677982108,
+        "tz_offset": 39600,
         "location": [
             -37.860389148493844,
             144.97799309229742
@@ -6713,7 +6876,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A26EF680-CBE7-492D-A81E-4890414EFFA3",
@@ -6722,13 +6885,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678060856,
+        "tz_offset": 39600,
         "location": [
             -38.02353459999999,
             144.40882940000006
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3DFF9910-CF9E-484C-B906-43DD1ED41C7F",
@@ -6737,13 +6901,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678064424,
+        "tz_offset": 39600,
         "location": [
             -38.14928129999999,
             144.35982690000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "AF398BC0-0A87-49DB-8FE4-20BDE668C4CE",
@@ -6752,6 +6917,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678153341,
+        "tz_offset": 39600,
         "location": [
             -38.33797698378408,
             144.32051908238262
@@ -6799,7 +6965,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7E01EDD3-2011-4A90-A5B2-177B051289E2",
@@ -6808,13 +6974,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678323600,
+        "tz_offset": 39600,
         "location": [
             -38.54116910000002,
             143.9748166
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "BA7AD762-08A3-41E3-A0B4-0E1D66173110",
@@ -6823,6 +6990,7 @@
         "description": "Just one night at a bush campsite but we caught a lovely sunset and watched the wallabies hop around camp. Woke up to one of Nicole&#8217;s sandals halfway across the site and all chewed up - maybe a possum?",
         "country": "Australia",
         "arrived": 1678334400,
+        "tz_offset": 39600,
         "location": [
             -38.60010220369506,
             143.91895230372205
@@ -6860,7 +7028,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "6CA793A3-F0B3-4D3D-A2F3-C3B40FEE528B",
@@ -6869,13 +7037,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678408200,
+        "tz_offset": 39600,
         "location": [
             -38.667695600000016,
             143.85892
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B2F58E03-104F-4C0A-8004-37F7C79DE4F6",
@@ -6884,6 +7053,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678417200,
+        "tz_offset": 39600,
         "location": [
             -38.75474419999998,
             143.6691462999999
@@ -6911,7 +7081,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "880C2768-813B-4385-B2D3-22C7DD90E1E6",
@@ -6920,13 +7090,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678494963,
+        "tz_offset": 39600,
         "location": [
             -38.518642399999976,
             143.71646320000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "FE900E4D-D971-418E-9736-3D8DD9919AFE",
@@ -6935,6 +7106,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678500727,
+        "tz_offset": 39600,
         "location": [
             -38.33919157068676,
             143.58145290843532
@@ -6952,7 +7124,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "65E35D05-2F2B-4EFF-BB1B-5BE698229C2A",
@@ -6961,13 +7133,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678579240,
+        "tz_offset": 39600,
         "location": [
             -38.480374092272015,
             143.58337296837982
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "AD19DA6C-7AFA-4E93-A1A2-1131D455B21E",
@@ -6976,6 +7149,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678600273,
+        "tz_offset": 39600,
         "location": [
             -38.52336654383712,
             143.54095900928576
@@ -6993,7 +7167,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "D4091BF3-01FF-4F09-AF19-7347AEC1AAD0",
@@ -7002,13 +7176,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678676411,
+        "tz_offset": 39600,
         "location": [
             -38.636952596752565,
             143.5718413723107
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "AD092222-F930-4184-B142-3E16DB61A691",
@@ -7017,6 +7192,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678684295,
+        "tz_offset": 39600,
         "location": [
             -38.83442432623248,
             143.51223816177202
@@ -7104,7 +7280,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E1F81D86-7324-4C30-A9F8-D3F4A3291763",
@@ -7113,13 +7289,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678838411,
+        "tz_offset": 39600,
         "location": [
             -38.67928610000002,
             143.3913114
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E8B200E7-F848-4B6F-91FE-24F59DFBDD88",
@@ -7128,13 +7305,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678849247,
+        "tz_offset": 39600,
         "location": [
             -38.619629300000014,
             142.995366
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "56B9B71B-BDD9-491B-A937-9B29A52B0068",
@@ -7143,13 +7321,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678852823,
+        "tz_offset": 39600,
         "location": [
             -38.60611760000001,
             142.8770204
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "D00452CF-98DD-4988-8B73-094C16E5361E",
@@ -7158,13 +7337,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678854611,
+        "tz_offset": 39600,
         "location": [
             -38.38620279999999,
             142.6001551
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "ED1E3525-62D9-4A48-B95E-ABF569069B31",
@@ -7173,6 +7353,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1678856400,
+        "tz_offset": 39600,
         "location": [
             -38.39398497043985,
             142.47358677259632
@@ -7250,7 +7431,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2B3223E9-9B09-4B1D-A425-3B69762C5273",
@@ -7259,13 +7440,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679011211,
+        "tz_offset": 39600,
         "location": [
             -38.328231699999996,
             142.4021826
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "918601D1-522A-48E6-A673-F63851BBADE8",
@@ -7274,13 +7456,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679101222,
+        "tz_offset": 39600,
         "location": [
             -38.385511699999995,
             142.2366722
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "FC00303C-F0C4-4949-B6F7-018D5441AFD2",
@@ -7289,6 +7472,7 @@
         "description": "Just a quick overnight stop in Dartmoor in a free camping spot. The town is very small but had a nice pub and some interesting tree sculptures.",
         "country": "Australia",
         "arrived": 1679117205,
+        "tz_offset": 39600,
         "location": [
             -37.92540160476968,
             141.2835764420603
@@ -7306,7 +7490,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "8772DA3F-D5C8-4D93-9F09-5AE26C937E8C",
@@ -7315,6 +7499,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679196600,
+        "tz_offset": 37800,
         "location": [
             -37.830138600000026,
             140.78426269999994
@@ -7352,7 +7537,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C16D3760-DD99-4855-90E5-2AC0AEEB3260",
@@ -7361,13 +7546,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679362233,
+        "tz_offset": 37800,
         "location": [
             -37.59493789999998,
             140.35265119999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "805317BF-C4A1-4C25-BF28-F8973B16054B",
@@ -7376,13 +7562,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679365822,
+        "tz_offset": 37800,
         "location": [
             -37.481851099999986,
             140.01067890000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E41DA375-81EF-4D5E-AB47-63B1543E93F1",
@@ -7391,6 +7578,7 @@
         "description": "Beautiful little beach town on the limestone coast in south SA. Spent a few days relaxing and recharging after the great ocean road. The highlight of Robe was probably long beach (aptly named at around 12km long) where you can drive right along the sand and bag yourself a quiet spot with no one else around. Sunset over the water was spectacular.",
         "country": "Australia",
         "arrived": 1679371005,
+        "tz_offset": 37800,
         "location": [
             -37.166390139644314,
             139.77024125879612
@@ -7438,7 +7626,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4BEB5B42-2F78-49BF-87EC-69875C03F5C2",
@@ -7447,13 +7635,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679533233,
+        "tz_offset": 37800,
         "location": [
             -37.3761655,
             140.8404168
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1AAA5D97-CA70-41E0-9B57-EB145C879B9F",
@@ -7462,13 +7651,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679716821,
+        "tz_offset": 39600,
         "location": [
             -37.74357439999998,
             142.0243127
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "731D14B0-86EB-4100-B829-A9683EA62C41",
@@ -7477,6 +7667,7 @@
         "description": "Just a quick overnighter on the way back to Melbourne. Free camping in a park in a tiny town. Windy and Cold, but we got a nice sunset, cooked up a curry and did I mention it was FREE?!",
         "country": "Australia",
         "arrived": 1679729638,
+        "tz_offset": 39600,
         "location": [
             -37.588543854688844,
             143.71489933705303
@@ -7494,7 +7685,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "EC652C3A-93F5-447E-A9A1-DB9A1AD8ECAA",
@@ -7503,13 +7694,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1679788814,
+        "tz_offset": 39600,
         "location": [
             -37.562302499999994,
             143.86056489999999
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A8191740-C53C-4F8B-828E-1498F9D2EC73",
@@ -7518,6 +7710,7 @@
         "description": "Back in the city! 2 weeks house sitting, Grand Prix, James' family visiting, then we'll say goodbye to Melbourne for good (for this trip anyway!)",
         "country": "Australia",
         "arrived": 1679817029,
+        "tz_offset": 39600,
         "location": [
             -37.83813137561377,
             144.95777931952676
@@ -7615,7 +7808,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "64072926-6359-482A-90A1-EC516F3F0328",
@@ -7624,6 +7817,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1681283709,
+        "tz_offset": 36000,
         "location": [
             -37.8553080870467,
             145.05231132026384
@@ -7681,7 +7875,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "9B8662F1-4DFA-48E8-904C-DE6DDBEE0DFA",
@@ -7690,6 +7884,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1681887311,
+        "tz_offset": 36000,
         "location": [
             -38.270447719877836,
             144.6231487022197
@@ -7727,7 +7922,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "67126C7F-8547-47B6-8A0B-CB3CDC1A4E57",
@@ -7736,13 +7931,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682042435,
+        "tz_offset": 36000,
         "location": [
             -38.14928129999999,
             144.35982690000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "76C6557F-3865-42D5-A95F-8BCE3976151A",
@@ -7751,6 +7947,7 @@
         "description": null,
         "country": "",
         "arrived": 1682103617,
+        "tz_offset": 36000,
         "location": [
             -39.88108055622585,
             145.31050815763126
@@ -7788,7 +7985,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F8C4F7B8-31B3-492B-AF1F-47783FF917F9",
@@ -7797,13 +7994,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682204400,
+        "tz_offset": 36000,
         "location": [
             -41.17975609999999,
             146.36130110000005
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7DAC59C5-9499-4BBB-8E76-BCBAD9C81BF9",
@@ -7812,13 +8010,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682215200,
+        "tz_offset": 36000,
         "location": [
             -41.23333950000001,
             146.54177507999992
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "87DE03FF-8D87-47E2-B75F-5DA5E6DC710C",
@@ -7827,6 +8026,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682218800,
+        "tz_offset": 36000,
         "location": [
             -41.16048571268037,
             146.5642087871841
@@ -7954,7 +8154,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A9D1B513-3ED5-47A2-82EE-F210314A776D",
@@ -7963,13 +8163,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682290800,
+        "tz_offset": 36000,
         "location": [
             -41.14765961296135,
             146.56476395282436
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "D236369E-D86F-4914-A006-D98A939B29F5",
@@ -7978,13 +8179,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682294400,
+        "tz_offset": 36000,
         "location": [
             -41.339661999999976,
             146.77322479999992
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "02AB4C54-DEF3-4BCC-824F-27FC12116B30",
@@ -7993,13 +8195,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682296200,
+        "tz_offset": 36000,
         "location": [
             -41.21552464023297,
             146.91537716958578
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "716DB616-23E3-4BB4-A8FF-32417AE90DF0",
@@ -8008,13 +8211,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682298000,
+        "tz_offset": 36000,
         "location": [
             -41.198107799999995,
             146.81454689999993
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "BAB594B4-6108-41FB-996F-B8DCEB692EEE",
@@ -8023,13 +8227,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682301600,
+        "tz_offset": 36000,
         "location": [
             -41.23692999999997,
             146.93286700000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1384D5CC-8A57-4DFD-8436-BD0199995750",
@@ -8038,13 +8243,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682305200,
+        "tz_offset": 36000,
         "location": [
             -41.293061382652404,
             146.97454464562287
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "41D1D82A-1445-4DCB-9D4D-B70C30BFD31D",
@@ -8053,13 +8259,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682308800,
+        "tz_offset": 36000,
         "location": [
             -41.351963997026246,
             147.00156144815043
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3A87B46C-D41D-4483-9AE6-EE8415B3C64F",
@@ -8068,13 +8275,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682317800,
+        "tz_offset": 36000,
         "location": [
             -41.43408130000002,
             147.1373496
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "AEE1AC71-ED2F-4E76-AEF2-42D51B4A2523",
@@ -8083,6 +8291,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682319600,
+        "tz_offset": 36000,
         "location": [
             -41.5037389398669,
             147.0702958128407
@@ -8150,7 +8359,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "0E71990B-DF47-49E5-ABCD-F9F61473F7BB",
@@ -8159,13 +8368,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682467200,
+        "tz_offset": 36000,
         "location": [
             -41.43408130000002,
             147.1373496
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "37DA9BF0-93BC-4C9C-8C8F-98DED8F5C958",
@@ -8174,13 +8384,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682472600,
+        "tz_offset": 36000,
         "location": [
             -41.241807599999994,
             146.97787770000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "AA012649-864A-4AA7-9473-805D1DC1663A",
@@ -8189,13 +8400,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682478000,
+        "tz_offset": 36000,
         "location": [
             -41.00227670000002,
             147.39251920000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "E9504B1F-7BC0-4D49-A12B-B57A3B0875C6",
@@ -8204,13 +8416,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682485200,
+        "tz_offset": 36000,
         "location": [
             -40.92779695504255,
             147.81499318841801
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "92110ECF-571D-45A0-9EC7-425042DCCEA6",
@@ -8219,13 +8432,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682488800,
+        "tz_offset": 36000,
         "location": [
             -41.32363060000003,
             148.24938580000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "CDD45099-D41B-41B9-BD0D-D0E20FFFE5E3",
@@ -8234,6 +8448,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682492400,
+        "tz_offset": 36000,
         "location": [
             -41.19744886266422,
             148.2710704283475
@@ -8291,7 +8506,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4A835543-5073-48F6-8F14-50BC3E802D6C",
@@ -8300,13 +8515,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682557238,
+        "tz_offset": 36000,
         "location": [
             -41.32363060000003,
             148.24938580000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "0D6FD94E-E8CE-4E21-9074-9A7BFA68A5A4",
@@ -8315,6 +8531,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682572637,
+        "tz_offset": 36000,
         "location": [
             -41.86091502666647,
             148.2793870010863
@@ -8372,7 +8589,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "CE5E841D-1F4D-4CFB-86FF-742EDDC0B3AD",
@@ -8381,6 +8598,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682730000,
+        "tz_offset": 36000,
         "location": [
             -41.98734619999999,
             148.2872565
@@ -8448,7 +8666,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "BFA85F1D-5AED-42D4-A092-3A3A461EA584",
@@ -8457,6 +8675,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682834400,
+        "tz_offset": 36000,
         "location": [
             -42.125218,
             148.28853809999998
@@ -8524,7 +8743,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "DDAF1BBA-A1E4-4984-8DA8-FBAE27DC3B06",
@@ -8533,13 +8752,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682985600,
+        "tz_offset": 36000,
         "location": [
             -42.0895623,
             148.13159769999993
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "371DB7CA-A153-4050-B25F-223300BB0A29",
@@ -8548,13 +8768,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682987400,
+        "tz_offset": 36000,
         "location": [
             -42.124933000000006,
             148.07573260000004
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "9DD7B2E0-25C0-4DE0-AFE7-9446A82C6BB7",
@@ -8563,13 +8784,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682990100,
+        "tz_offset": 36000,
         "location": [
             -42.23304199999998,
             148.01789569999994
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B90734E4-D3B3-4BB6-A375-6BB2D560B072",
@@ -8578,13 +8800,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1682992830,
+        "tz_offset": 36000,
         "location": [
             -42.56065979999999,
             147.87198569999993
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C03D7DE6-9CD3-4CA8-994D-20FC70E1CF47",
@@ -8593,6 +8816,7 @@
         "description": "We splashed out on an Airbnb with a tennis court for James&#8217; birthday, no regrets, it was amazing.",
         "country": "Australia",
         "arrived": 1683000000,
+        "tz_offset": 36000,
         "location": [
             -42.58981323242188,
             147.9086461198962
@@ -8680,7 +8904,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C687EFC8-3705-447B-A1BF-BE46B3951491",
@@ -8689,13 +8913,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683165600,
+        "tz_offset": 36000,
         "location": [
             -42.78062222616784,
             147.81038978086644
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "BE397254-F936-4518-BEF3-4985DE39CC7A",
@@ -8704,13 +8929,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683167400,
+        "tz_offset": 36000,
         "location": [
             -42.889822799999976,
             147.80452630000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F9F7F5AD-56FD-45DD-A398-1870EB042C77",
@@ -8719,13 +8945,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683169200,
+        "tz_offset": 36000,
         "location": [
             -43.01712080000001,
             147.9254449
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "50A79BD9-3C8D-414A-9EDD-22B8F53C71EA",
@@ -8734,6 +8961,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683172800,
+        "tz_offset": 36000,
         "location": [
             -43.13153076171874,
             147.86018614670988
@@ -8811,7 +9039,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5981065C-D71B-492D-B1AC-6C44D7F944A8",
@@ -8820,6 +9048,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683348122,
+        "tz_offset": 36000,
         "location": [
             -42.88206150293618,
             147.33083057231022
@@ -8957,7 +9186,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "BA07128D-6F98-44E3-8DE5-78B11E92C16F",
@@ -8966,6 +9195,7 @@
         "description": "An overnight stop in a lakeside free camp as we made our way to Western Tas. It was just us, one other van.. and the local feral kitties.",
         "country": "Australia",
         "arrived": 1683617763,
+        "tz_offset": 36000,
         "location": [
             -42.536371029021716,
             146.72977720400945
@@ -8983,7 +9213,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "6CFB77FB-CD2B-42D3-9FAF-D6E1C552F2AA",
@@ -8992,13 +9222,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683684011,
+        "tz_offset": 36000,
         "location": [
             -42.484714200000006,
             146.71095830000002
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "ED94AEC7-BD46-4444-B310-51FA83FBA604",
@@ -9007,13 +9238,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683687614,
+        "tz_offset": 36000,
         "location": [
             -42.30095539999999,
             146.44976570000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5F81D829-715D-4182-B497-22A363E56099",
@@ -9022,6 +9254,7 @@
         "description": "An unscheduled but very picturesque overnight stop. Nigel gave us a bit of a scare during the day so we got him a check up and a few new spark plugs. At first we were sceptical when parts of Australia were referred to as being &#8220;alpine&#8221; but this really did feel like a mountain town.",
         "country": "Australia",
         "arrived": 1683698418,
+        "tz_offset": 36000,
         "location": [
             -42.08060382869288,
             145.5535258726641
@@ -9069,7 +9302,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "D80F9B3C-B8DB-44B9-9D04-B78B0D11173E",
@@ -9078,6 +9311,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683790149,
+        "tz_offset": 36000,
         "location": [
             -41.579229936084666,
             145.9350397146033
@@ -9125,7 +9359,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "796F4413-F151-4172-B7A6-E1067C5FFCB6",
@@ -9134,13 +9368,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683946851,
+        "tz_offset": 36000,
         "location": [
             -40.98754240000001,
             145.72822229999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "CB16D471-2D2F-4E89-8060-D136C6889710",
@@ -9149,13 +9384,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683948600,
+        "tz_offset": 36000,
         "location": [
             -40.81167509832671,
             145.25685306021842
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "22808F74-EE3D-47F0-9D6B-7AEBD400D48C",
@@ -9164,6 +9400,7 @@
         "description": null,
         "country": "Australia",
         "arrived": 1683950434,
+        "tz_offset": 36000,
         "location": [
             -40.7605718,
             145.29451840000002
@@ -9221,7 +9458,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B46CA68E-6F73-4613-AFB8-52AF70BEA9F0",
@@ -9230,13 +9467,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684026017,
+        "tz_offset": 36000,
         "location": [
             -40.81167467210236,
             145.25685308865366
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "5B20FBB8-F8BB-46AD-BED7-408696C4A736",
@@ -9245,13 +9483,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684027808,
+        "tz_offset": 36000,
         "location": [
             -40.98754239999998,
             145.72822229999997
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3C27EF7C-3FE0-41BB-A0EC-98B9C7D62D06",
@@ -9260,13 +9499,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684028712,
+        "tz_offset": 36000,
         "location": [
             -41.040606999999994,
             145.82657319999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "33A27689-1513-432B-A3C8-298346E71D86",
@@ -9275,13 +9515,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684033236,
+        "tz_offset": 36000,
         "location": [
             -41.115103700000006,
             146.0724803
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7CC4C7B3-C607-45E1-8CF7-BA4255F7109C",
@@ -9290,6 +9531,7 @@
         "description": "Not the most exciting stop, we caught up on some life admin and had a wander around the town and along the beach.",
         "country": "Australia",
         "arrived": 1684036800,
+        "tz_offset": 36000,
         "location": [
             -41.15718180000001,
             146.17050570000004
@@ -9307,7 +9549,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "70001E90-ABEB-405E-B1A7-79A023903B35",
@@ -9316,13 +9558,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684215000,
+        "tz_offset": 36000,
         "location": [
             -41.17975609999999,
             146.36130110000005
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "B8B73F43-4DD3-4607-9289-57C6D02D19BE",
@@ -9331,6 +9574,7 @@
         "description": "After an amazing couple of weeks in Tasmania we set sail back to the mainland.",
         "country": "",
         "arrived": 1684220400,
+        "tz_offset": 36000,
         "location": [
             -39.88108017745184,
             145.31050800421184
@@ -9348,7 +9592,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "898F60A1-44DC-4FA4-84E5-348D53AA4DE1",
@@ -9357,13 +9601,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684269000,
+        "tz_offset": 36000,
         "location": [
             -38.14928129999999,
             144.35982690000003
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "839A2BB4-F4A7-4E01-9722-7FC29791ED1B",
@@ -9372,13 +9617,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684288800,
+        "tz_offset": 36000,
         "location": [
             -37.74357439999998,
             142.0243127
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "FB3116EB-BC79-4D45-BA7E-B08AE0EF6A2A",
@@ -9387,13 +9633,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684294200,
+        "tz_offset": 34200,
         "location": [
             -37.3761655,
             140.8404168
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2A2B347C-B1E3-49D3-B90F-0E6D853E999C",
@@ -9402,13 +9649,14 @@
         "description": null,
         "country": "Australia",
         "arrived": 1684297800,
+        "tz_offset": 34200,
         "location": [
             -37.16440850000003,
             139.7623557
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "164DC39A-1E6B-439B-A650-5392D12443DB",
@@ -9417,6 +9665,7 @@
         "description": "One of our longest days of driving, all the way from Geelong after getting off the boat at 7am across to Kingston in SA to stay in the cheapest cabin around, straight from the 1970&#8217;s. The beach was covered in a 30cm thick carpet of seaweed, but the sunset was still pretty good. Visited Larry the big lobster on our way out the next morning.",
         "country": "Australia",
         "arrived": 1684301400,
+        "tz_offset": 34200,
         "location": [
             -36.83916989999999,
             139.84710329999996
@@ -9444,7 +9693,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A567EB65-B03B-4D8B-9567-8127C97E46CC",
@@ -9453,6 +9702,7 @@
         "description": "One final night bush camping in Nigel. We had the entire camp site to ourselves, got to see a lovely sunset while we cooked dinner and in the morning it poured with rain, a fitting send off.",
         "country": "Australia",
         "arrived": 1684397441,
+        "tz_offset": 34200,
         "location": [
             -35.89733806442087,
             139.40130592336823
@@ -9470,7 +9720,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "631C306E-5894-418C-961D-D1E6A778DA3F",
@@ -9479,6 +9729,7 @@
         "description": "Just under a year later and we&#8217;re back to where our road trip began. We had one final stay in a holiday park before a short flat share / pet sit with Alfie the cat. We sold or donated as much of our stuff as we could, including Nigel and did our best to prepare for living out of backpacks again.",
         "country": "Australia",
         "arrived": 1684470600,
+        "tz_offset": 34200,
         "location": [
             -34.9281805,
             138.59993120000001
@@ -9526,7 +9777,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "1B05EEE0-04C7-4F13-A2D9-190FB3C7AE7C",
@@ -9535,6 +9786,7 @@
         "description": "Our final stop in Australia. We weren&#8217;t planning to visit WA initially and this definitely wasn&#8217;t enough time but it was nice to see some of it. Freemantle seemed like it would be a nice place to live with the convenience of a big city nearby but a more laid back feel.",
         "country": "Australia",
         "arrived": 1685263500,
+        "tz_offset": 28800,
         "location": [
             -31.955896399999983,
             115.86058009999999
@@ -9672,7 +9924,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "FB9855E0-A216-428C-A17C-373BD7B33921",
@@ -9681,6 +9933,7 @@
         "description": null,
         "country": "Singapore",
         "arrived": 1685561400,
+        "tz_offset": 28800,
         "location": [
             1.3571069999999774,
             103.8194992
@@ -9868,7 +10121,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4589FF45-233A-414E-9004-D611DF03DDA5",
@@ -9877,6 +10130,7 @@
         "description": "We got a coach up from Singapore for a very hot and sweaty 3 nights in KL. We did our best to get out and explore but it did feel a bit like we were mostly filling time between trips to one of the many shopping centres to cool down &#129397;. The highlight has to be this amazing bar we found on top of a building which used to be a helipad, incredible views.",
         "country": "Malaysia",
         "arrived": 1685865600,
+        "tz_offset": 28800,
         "location": [
             3.1516964000000005,
             101.69423710000001
@@ -10004,7 +10258,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C30B88CE-238F-44A2-BFD7-2AD83832F7AE",
@@ -10013,13 +10267,14 @@
         "description": null,
         "country": "Malaysia",
         "arrived": 1686115800,
+        "tz_offset": 28800,
         "location": [
             4.59868169999998,
             101.0900236
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "2F9C6257-4755-4A3A-B38E-7F98CC79132C",
@@ -10028,13 +10283,14 @@
         "description": null,
         "country": "Malaysia",
         "arrived": 1686121200,
+        "tz_offset": 28800,
         "location": [
             5.408201499999994,
             100.36972079999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "F6CE5E27-B3D8-4F9B-9F40-7FBC167F66AD",
@@ -10043,6 +10299,7 @@
         "description": null,
         "country": "Malaysia",
         "arrived": 1686124800,
+        "tz_offset": 28800,
         "location": [
             5.414161899999978,
             100.32873519999998
@@ -10110,7 +10367,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4650DB4E-E1D7-49A3-84EC-68AB9157B887",
@@ -10119,6 +10376,7 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1686553200,
+        "tz_offset": 25200,
         "location": [
             7.847520000000011,
             98.29811409999996
@@ -10166,7 +10424,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "ADAA053F-F470-4C00-866E-746D28478913",
@@ -10175,13 +10433,14 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1686898842,
+        "tz_offset": 25200,
         "location": [
             7.884790100000026,
             98.38915029999993
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "4EFF2B01-39C4-445E-A12F-2B8E5A4BDB7E",
@@ -10190,6 +10449,7 @@
         "description": "We didn&#8217;t know how much time we&#8217;d end up spending on Phi Phi since we&#8217;d heard it was a bit of a party Island. But in the end we spent a week and didn&#8217;t party at all! It was nice being somewhere you could walk everywhere, no taxis or mopeds, and relaxed Island life.",
         "country": "Thailand",
         "arrived": 1686913524,
+        "tz_offset": 25200,
         "location": [
             7.736454610122961,
             98.77853418298291
@@ -10237,7 +10497,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "EAD61D81-082E-4A1B-AF91-74439DB6E3D8",
@@ -10246,13 +10506,14 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1687428008,
+        "tz_offset": 25200,
         "location": [
             7.884790100000026,
             98.38915029999998
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A40138BC-6DD1-4EBD-AEA4-BFE526465A1B",
@@ -10261,6 +10522,7 @@
         "description": "Not the most eventful week as we were both sick for most of it. We had a nice Airbnb apartment with a pool though and just relaxed and when we could manage it went out for breakfast or dinner. It seemed like a really nice area so it&#8217;s a shame we couldn&#8217;t see more of it.",
         "country": "Thailand",
         "arrived": 1687431651,
+        "tz_offset": 25200,
         "location": [
             7.782604704281433,
             98.31270291212495
@@ -10288,7 +10550,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "459C1A11-018E-4EAD-B194-7FC804A862CC",
@@ -10297,13 +10559,14 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1688292048,
+        "tz_offset": 25200,
         "location": [
             9.140413599999995,
             99.3241347
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "18AC07AE-6AD6-46AB-AA46-F12F563E7736",
@@ -10312,13 +10575,14 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1688313646,
+        "tz_offset": 25200,
         "location": [
             10.496135500000008,
             99.1778731
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "A87C89FC-05AF-4E40-A90C-102E8ADC8F83",
@@ -10327,13 +10591,14 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1688335245,
+        "tz_offset": 25200,
         "location": [
             13.53906700000001,
             99.8197035
         ],
         "photos": [],
         "state": "stopped",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "3AC270D7-95E0-4840-9ADB-3991B05ED4ED",
@@ -10342,6 +10607,7 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1688351445,
+        "tz_offset": 25200,
         "location": [
             13.752493799999991,
             100.4935089
@@ -10399,7 +10665,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "7426702B-FEAC-471E-90E8-ED9D88338041",
@@ -10408,6 +10674,7 @@
         "description": null,
         "country": "Hong Kong S.A.R.",
         "arrived": 1688436000,
+        "tz_offset": 28800,
         "location": [
             22.279327800000008,
             114.16281310000005
@@ -10595,7 +10862,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "C84BB248-B5E5-4382-A119-A16AE2779320",
@@ -10604,6 +10871,7 @@
         "description": null,
         "country": "Thailand",
         "arrived": 1688745600,
+        "tz_offset": 25200,
         "location": [
             13.752493799999991,
             100.4935089
@@ -10641,7 +10909,7 @@
             }
         ],
         "state": "visited",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     },
     {
         "id": "037097F2-5B6E-4563-90B4-F130BB50453F",
@@ -10650,6 +10918,7 @@
         "description": "378 days later and we&#8217;re back &#128517;",
         "country": "United Kingdom",
         "arrived": 1689098400,
+        "tz_offset": 3600,
         "location": [
             51.50733590000003,
             -0.1276499999999885
@@ -10667,6 +10936,6 @@
             }
         ],
         "state": "current",
-        "trip_slug": "world-trip-2022"
+        "trip_slug": "the-big-trip"
     }
 ]

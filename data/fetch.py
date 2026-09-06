@@ -1,12 +1,31 @@
 import argparse
 import json
 import os
+from datetime import datetime
 from math import floor
 from time import time
+from zoneinfo import ZoneInfo
 
 import boto3
 import requests
 import yaml
+from timezonefinder import TimezoneFinder
+
+_timezone_finder = TimezoneFinder()
+
+def tz_offset(lat, lon, when):
+    """Seconds east of UTC for the timezone at (lat, lon) at unix time `when`.
+
+    Polarsteps timestamps are UTC; the layouts add this to render each step in
+    its own local time. Falls back to None (treated as UTC) if the point has no
+    known timezone.
+    """
+    name = _timezone_finder.timezone_at(lat=lat, lng=lon)
+    if name is None:
+        return None
+
+    offset = datetime.fromtimestamp(when, ZoneInfo(name)).utcoffset()
+    return int(offset.total_seconds()) if offset is not None else None
 
 r2 = boto3.resource('s3',
     endpoint_url = f"https://{os.environ['CLOUDFLARE_ACCOUNT_ID']}.r2.cloudflarestorage.com",
@@ -61,6 +80,7 @@ def parse_steps(steps):
                 'description': encode(step['description']) if not empty(step['description']) else None,
                 'country': step['location']['detail'],
                 'arrived': floor(step['start_time']),
+                'tz_offset': tz_offset(step['location']['lat'], step['location']['lon'], floor(step['start_time'])),
                 'location': [step['location']['lat'], step['location']['lon']],
                 'photos': [ get_photo(step, item) for item in step['media'] if 'large_thumbnail_path' in item and not empty(item['large_thumbnail_path']) ],
                 'state': 'visited' if len(step['media']) > 0 else 'stopped'
@@ -85,6 +105,7 @@ def parse_planned_steps(steps):
             'name': encode(step['location']['name']),
             'country': step['location']['detail'],
             'arrived': False,
+            'tz_offset': None,
             'location': [step['location']['lat'], step['location']['lon']],
             'photos': [],
             'state': 'planned'
