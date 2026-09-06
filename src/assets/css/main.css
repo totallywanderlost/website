@@ -315,15 +315,19 @@ header nav a {
   display: block;
   /* Skip layout/paint for rows that aren't on screen, and pause their
      thumbnail spinners - otherwise a page with hundreds of photos keeps
-     hundreds of infinite animations ticking and scroll stutters on iOS. */
+     hundreds of infinite animations ticking and scroll stutters on iOS.
+     The square aspect-ratio gives every cell a definite height from the
+     (known) grid column width, so skipping an off-screen row's render never
+     changes its height - without it the reserved size is a guess and rows
+     jump as they scroll in, which stutters worse on iOS than the spinners. */
+  aspect-ratio: 1;
   content-visibility: auto;
-  contain-intrinsic-size: auto 300px;
 }
 
 .photos a {
   position: relative;
   display: block;
-  aspect-ratio: 1;
+  height: 100%;
   overflow: hidden;
   background: var(--surface);
 }
